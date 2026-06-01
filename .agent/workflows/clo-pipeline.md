@@ -197,7 +197,7 @@ status = "running" | "completed" | "failed"
 /clo-pipeline
 
 **Workflow executes:**
-1. Reader searches web → finds 3 articles
+1. Reader searches web → finds 6 articles
 2. Analyst analyzes → produces assessment (BUY recommendation)
 3. Critic reviews → finds 2 gaps, scores 6/10, says LOOP BACK
 4. Analyst addresses gaps → updated assessment
@@ -224,4 +224,3 @@ User can modify workflow behavior:
 /clo-pipeline --depth=deep    (searches 14 days instead of 7)
 /clo-pipeline --focus=spreads (only spread-related news)
 /clo-pipeline --fast          (max 1 iteration, accept imperfect analysis)
-

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clo-intelligence"
+version = "0.1.0"
+description = "Autonomous CLO market intelligence and risk analysis pipeline."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+    "pydantic",
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
