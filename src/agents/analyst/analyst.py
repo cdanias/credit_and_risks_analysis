@@ -51,8 +51,12 @@ class CLOAnalyst:
             sheet = wb.active
             portfolio = []
             # Start reading from row 5 based on the observed structure
-            for row in sheet.iter_rows(min_row=5, max_row=9, values_only=True):
-                if row[1]:  # Deal Name
+            for row in sheet.iter_rows(min_row=5, values_only=True):
+                if row[1] and row[4]:  # Must have Deal Name and Rating
+                    deal_name = str(row[1])
+                    if "Total" in deal_name or "Legend" in deal_name or "highest credit quality" in str(row[1]):
+                        continue
+                        
                     portfolio.append({
                         "deal":    row[1],
                         "manager": row[3],
