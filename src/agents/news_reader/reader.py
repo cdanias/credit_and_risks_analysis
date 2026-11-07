@@ -23,9 +23,10 @@ class CLONewsReader:
         import urllib.parse
 
         # Base search query for CLO news
-        search_query = "CLO issuance OR CLO pricing OR CLO market"
         if query:
-            search_query = f"{query} ({search_query})"
+            search_query = f"{query} (\"collateralized loan obligations\" OR \"collateralized debt obligations\" OR \"CLO market\") when:7d"
+        else:
+            search_query = "(\"collateralized loan obligations\" OR \"collateralized debt obligations\" OR \"CLO issuance\" OR \"CLO market\") when:7d"
         
         encoded_query = urllib.parse.quote(search_query)
         rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
@@ -34,11 +35,28 @@ class CLONewsReader:
         live_news = []
         
         for entry in feed.entries[:limit * 2]: # Fetch extra to account for filtering
+            import re
+            import html
+            source_name = entry.source.title if 'source' in entry else "Unknown"
+            raw_summary = entry.summary if 'summary' in entry else entry.title
+            
+            # Clean HTML tags and unescape entities
+            clean_summary = re.sub(r'<[^>]*>', '', raw_summary)
+            clean_summary = html.unescape(clean_summary).strip()
+            
+            # Remove trailing source from summary if present
+            if source_name != "Unknown" and clean_summary.endswith(source_name):
+                clean_summary = clean_summary[:-len(source_name)].strip()
+                
+            # Fallback if empty or repeats title
+            if not clean_summary or clean_summary.lower() == entry.title.lower():
+                clean_summary = "Select this news event to run a credit risk audit."
+
             item = {
                 "title": entry.title,
                 "date": entry.published,
-                "summary": entry.summary if 'summary' in entry else entry.title,
-                "source": entry.source.title if 'source' in entry else "Unknown",
+                "summary": clean_summary,
+                "source": source_name,
                 "link": entry.link
             }
             

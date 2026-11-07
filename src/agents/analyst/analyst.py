@@ -193,7 +193,7 @@ class CLOAnalyst:
                     "Monitor OC test levels and CCC bucket migration quarterly."
                 )
 
-        elif "AA" in rating and "AAA" not in rating:
+        elif "AA" in rating and "AAA" not in rating and "BAA" not in rating:
             recommendation = "BUY"
             reason = (
                 f"AA tranches from {manager} currently offer attractive relative value "

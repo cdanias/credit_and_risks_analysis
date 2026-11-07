@@ -447,6 +447,15 @@
             color: #f8fafc;
             line-height: 1.4;
         }
+        .news-title a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        .news-title a:hover {
+            color: #38bdf8;
+            text-decoration: underline;
+        }
 
         .news-meta {
             display: flex;
@@ -459,6 +468,12 @@
         .news-source {
             color: var(--sky-blue);
             font-weight: 500;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        .news-source:hover {
+            color: #7dd3fc;
+            text-decoration: underline;
         }
 
         .news-summary {
@@ -1508,6 +1523,11 @@
 
     <!-- Scripting -->
     <script>
+        function openInNewWindow(url, event) {
+            event.stopPropagation();
+            event.preventDefault();
+            window.open(url, '_blank', 'width=1200,height=800,resizable=yes,scrollbars=yes');
+        }
         // System Clocks
         function updateSystemClocks() {
             const now = new Date();
@@ -1716,12 +1736,18 @@
 
                 card.innerHTML = `
                     <div class="news-header">
-                        <div class="news-title">${escapeHTML(item.title)}</div>
+                        <div class="news-title">
+                            <a href="${item.link}" target="_blank" onclick="openInNewWindow(this.href, event);">
+                                ${escapeHTML(item.title)}
+                            </a>
+                        </div>
                     </div>
                     <p class="news-summary">${escapeHTML(item.summary || 'Click to run audit on this news event.')}</p>
                     <div class="news-meta" style="display: flex; justify-content: space-between; align-items: center;">
                         <div style="display: flex; gap: 0.4rem; align-items: center;">
-                            <span class="news-source">${escapeHTML(item.source)}</span>
+                            <a href="${item.link}" target="_blank" class="news-source" onclick="openInNewWindow(this.href, event);">
+                                ${escapeHTML(item.source)} ↗
+                            </a>
                             <span>•</span>
                             <span>${escapeHTML(item.date)}</span>
                         </div>

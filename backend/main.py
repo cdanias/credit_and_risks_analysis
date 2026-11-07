@@ -14,21 +14,24 @@ skill_path = os.path.abspath(os.path.join(project_path, ".agent", "skills", "clo
 sys.path.append(skill_path)
 
 try:
-    from reader import CLONewsReader
+    from src.agents.news_reader.reader import CLONewsReader
 except ImportError:
-    # Try dynamic import loading fallback
-    import importlib.util
-    reader_file = os.path.join(skill_path, "reader.py")
-    if os.path.exists(reader_file):
-        spec = importlib.util.spec_from_file_location("reader", reader_file)
-        reader_module = importlib.util.module_from_spec(spec)
-        sys.modules["reader"] = reader_module
-        spec.loader.exec_module(reader_module)
+    try:
         from reader import CLONewsReader
-    else:
-        class CLONewsReader:
-            def fetch_news(self, query=None, limit=5):
-                return []
+    except ImportError:
+        # Try dynamic import loading fallback
+        import importlib.util
+        reader_file = os.path.join(skill_path, "reader.py")
+        if os.path.exists(reader_file):
+            spec = importlib.util.spec_from_file_location("reader", reader_file)
+            reader_module = importlib.util.module_from_spec(spec)
+            sys.modules["reader"] = reader_module
+            spec.loader.exec_module(reader_module)
+            from reader import CLONewsReader
+        else:
+            class CLONewsReader:
+                def fetch_news(self, query=None, limit=5):
+                    return []
 
 try:
     from src.agents.analyst.analyst import CLOAnalyst
@@ -238,6 +241,16 @@ async def run_full_pipeline(q: Optional[str] = None, limit: int = 3):
         results.append(analysis)
         
     return {"status": "success", "count": len(results), "data": results}
+
+from fastapi.responses import HTMLResponse
+
+@app.get("/", response_class=HTMLResponse)
+async def get_dashboard():
+    dashboard_path = os.path.join(project_path, "clo-analyst-dashboard.html")
+    if os.path.exists(dashboard_path):
+        with open(dashboard_path, "r") as f:
+            return f.read()
+    return "<h3>Dashboard HTML file not found</h3>"
 
 @app.get("/health")
 async def health_check():
