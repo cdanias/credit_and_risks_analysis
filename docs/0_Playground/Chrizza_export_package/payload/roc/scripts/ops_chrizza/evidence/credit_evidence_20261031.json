@@ -1,0 +1,307 @@
+{
+  "schema": "chrizza.evidence.v1",
+  "dossier_id": "CHZ-CREDIT-20261031",
+  "observed_at_utc": "2026-10-31T19:20:00Z",
+  "method_note": "Each capture is a condensed analyst note from Chrizza's weekend search_web reconnaissance, live statutory/exchange telemetry sweepers (FMP, FRED H.8 & ICE BofA OAS, SEC EDGAR 10-Q XBRL & Form NPORT-P XML, European bond exchange ISIN order books, UK High Court Akoma Ntoso XML & SEC EFTS), and upstream Thufir weekend intelligence on 2026-10-31. SHA-256 seals bind the note text so post-hoc edits are detectable; they attest that Chrizza's recorded note has not changed since capture — they do not prove the publisher's wording.",
+  "items": [
+    {
+      "id": "E01",
+      "title": "Arini Capital Management ($7.0bn AUM) $800m forced liquid debt liquidation on prime-brokerage margin calls (~26% YTD drawdown)",
+      "captured_at_utc": "2026-10-31T19:18:00Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Arini Capital Management 800m forced debt sale margin calls October 2026 PIMCO Oaktree Altice Optimum Virgin Media",
+      "source_ids": [
+        "creditflux_clo_intel",
+        "9fin_levfin_news",
+        "debtwire_restructuring"
+      ],
+      "publisher_domains": [
+        "creditflux.com",
+        "9fin.com",
+        "debtwire.com"
+      ],
+      "excerpt": "London-based credit hedge fund Arini Capital Management (~$7.0bn AUM, founded by Hamza Lemssouguer) was forced to offload roughly $800m of more-liquid corporate loans and high-yield bonds into month-end October 2026 to meet prime-brokerage margin calls and bolster cash buffers after flagship fund YTD losses deepened from >20% mid-October to ~26% by 30 October 2026. Losses were concentrated in illiquid, high-conviction distressed telecom and cyclical bets including Altice International, Optimum Communications (formerly Altice USA), Virgin Media, Brightspeed, Aston Martin, and Ritz-Carlton Yacht Collection, with PIMCO and Oaktree emerging as opportunistic buyers of the discounted BWIC blocks.",
+      "sha256": "8e36b4e883785f23df524f04ce35c7af9cae51447cb8930394c2be063d30879e"
+    },
+    {
+      "id": "E02",
+      "title": "European CLO YTD volume (€94.9bn / 229 deals), late-Oct 126–129 bps AAA prints, Single-B 880–1,015 bps dispersion, and Solvency II Jan 2027 tailwind",
+      "captured_at_utc": "2026-10-31T19:18:10Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "European CLO October 2026 issuance AAA Single-B 880 1015 bps BofA 60bn Solvency II January 2027 Creditflux Trepp",
+      "source_ids": [
+        "creditflux_clo_intel",
+        "trepp_clo_analytics",
+        "pitchbook_lcd"
+      ],
+      "publisher_domains": [
+        "creditflux.com",
+        "trepp.com",
+        "pitchbook.com"
+      ],
+      "excerpt": "European CLO issuance reached €94.9bn across 229 deals through September 2026 (September printed €10.7bn across 24 deals: €7.6bn new issue across 17 deals at 124 bps AAA and €3.1bn refi/resets across 7 deals at 120 bps AAA, a 4 bps refi/reset discount). Entering November 2026 with >100 open European warehouses and Bank of America projecting ~€60bn of FY26 refi/reset volume ahead of January 2027 EU Solvency II securitisation capital-charge relief, late-October European new-issue AAA cleared at 126–129 bps while primary Single-B tranches exhibited extreme manager dispersion from 880 bps to 1,015 bps against 12–16% annualised CLO equity cash-on-cash distributions.",
+      "sha256": "fc0c64f6ecb901e39728a29f839721e720bacfb42205a2ab783a0d7c90e2bbb1"
+    },
+    {
+      "id": "E03",
+      "title": "Fitch European CLO 'triple squeeze' (~350 bps WAS, 10 bps cushion, 10% tail) & US BSL CLO AAA–BB 381.5 bps basis and post-RP 2.1% Jr OC",
+      "captured_at_utc": "2026-10-31T19:18:20Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Fitch European CLO WAS 350 bps 10 bps cushion triple squeeze US BSL CLO BB 500 bps Junior OC 2.1% October 2026",
+      "source_ids": [
+        "fitch_structured_credit",
+        "trepp_clo_analytics",
+        "moodys_clo_tracker"
+      ],
+      "publisher_domains": [
+        "fitchratings.com",
+        "trepp.com",
+        "moodys.com"
+      ],
+      "excerpt": "Fitch European CLO surveillance shows average portfolio Weighted Average Spread (WAS) compressed 36 bps below its 10-year average to ~350 bps, leaving average WAS cushion at ~10 bps alongside ~0.9 pt WARF and ~3.9% WARR cushions, with 10% of low-WAS European CLOs trapped in a 'triple squeeze' driving junior 'F'-note downgrades. In the US ($41.1bn YTD BSL issuance across 92 deals; September $4.4bn across 9 deals), tier-1 AAA held at 118–119 bps while primary BB widened +60 bps in October to ~500 bps (a 381.5 bps AAA–BB basis), reflecting Fitch's bifurcation between reinvesting US BSL CLOs (9.3% Senior OC / 4.5% Junior OC at WARF 2835) and post-reinvestment deals (>68% Senior OC vs just 2.1% Junior OC cushion).",
+      "sha256": "2dce5537ec47f5b582a071785b1b93e865ccf59fffb0125e524adc313dfe088c"
+    },
+    {
+      "id": "E04",
+      "title": "Optimum Communications ($26.0bn CSC Holdings debt) pre-arranged Chapter 11 equitization — Drahi abandons $3.0bn stake ask as Apollo, Oaktree & JPMorgan take control",
+      "captured_at_utc": "2026-10-31T19:18:30Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Optimum Communications Altice USA CSC Holdings 26 billion pre-arranged Chapter 11 Drahi 3 billion Apollo Oaktree JPMorgan October 2026",
+      "source_ids": [
+        "octus_reorg_intel",
+        "9fin_levfin_news",
+        "debtwire_restructuring"
+      ],
+      "publisher_domains": [
+        "octus.com",
+        "9fin.com",
+        "debtwire.com"
+      ],
+      "excerpt": "Weekend restructuring wires report Patrick Drahi is abandoning his prior demand to retain roughly $3.0bn of post-reorganisation equity in Optimum Communications (formerly Altice USA / CSC Holdings LLC, carrying ~$26.0bn of consolidated debt) ahead of an expected pre-arranged Chapter 11 bankruptcy filing that will hand majority equity control to first-lien creditors led by Apollo Global Management, Oaktree Capital Management, and JPMorgan after antitrust litigation fractured out-of-court LME cooperation arrangements.",
+      "sha256": "aba83512d9db3954cd2df807922f7f916ad4f0fb74bffb98bc2c9a0739e7c153"
+    },
+    {
+      "id": "E05",
+      "title": "Altice International (~$9.0bn / ~€8.0bn debt) NY Commercial Division lawsuit, end-of-October NDA cliff, and Arini steering-plaintiff liquidity stress",
+      "captured_at_utc": "2026-10-31T19:18:40Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Altice International NY Supreme Court Commercial Division lawsuit 1.5bn Arini Invesco Sona Diameter Elliott NDA October 2026",
+      "source_ids": [
+        "octus_reorg_intel",
+        "9fin_levfin_news",
+        "debtwire_restructuring"
+      ],
+      "publisher_domains": [
+        "octus.com",
+        "9fin.com",
+        "debtwire.com"
+      ],
+      "excerpt": "Altice International (~$9.0bn / ~€8.0bn total debt, ~€3.1bn 2027 maturity wall, ~€528m cash and undrawn RCF vs ~€346m LTM negative FCF) faces end-of-October 2026 NDA expiry deadlines alongside the 13 October 2026 NY Supreme Court Commercial Division lawsuit filed by a five-manager steering committee (Arini, Invesco, Sona, Diameter, and Elliott, holding >$1.5bn of term loans plus senior secured notes inside a ~90% co-op renewed through March 2027) challenging the November 2025 €750m 12% Portugal/Caribbean unrestricted drop-down. Arini's ~26% YTD drawdown and $800m forced liquidation inject acute secondary-supply and negotiating-cohesion risk directly into the Altice International steering group.",
+      "sha256": "e68663ddffc95392f89bcc8b4b440a7be435f58c7d911360dac065019ec99f8b"
+    },
+    {
+      "id": "E06",
+      "title": "Virgin Media O2 (~£22.0bn debt/leases, B+ >6.1x leverage) mass-redundancy cost overhaul under UK CMA fiber block & VodafoneZiggo 86.0 pts TLB mark",
+      "captured_at_utc": "2026-10-31T19:18:50Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Virgin Media O2 redundancies cost cutting UK CMA nexfibre Netomnia 22bn VodafoneZiggo 86 October 2026",
+      "source_ids": [
+        "9fin_levfin_news",
+        "fitch_structured_credit",
+        "sp_global_ratings_direct",
+        "octus_reorg_intel"
+      ],
+      "publisher_domains": [
+        "9fin.com",
+        "fitchratings.com",
+        "spglobal.com",
+        "octus.com"
+      ],
+      "excerpt": "Following Fitch's downgrade of Virgin Media O2 (~£22.0bn debt and lease stack, >6.1x net leverage) to B+ (aligning with S&P B+ Negative) and the UK Competition and Markets Authority's refusal to grant fast-track clearance to nexfibre's £2.0bn Netomnia acquisition (stalling ~£1.0bn of projected VMO2 cash-deleveraging proceeds), VMO2 prepared sweeping operational cost cuts and workforce redundancies at month-end October 2026 to defend 2027 cash flows, while sister Liberty Global JV VodafoneZiggo's €1.125bn Term Loan B due 2033 remained depressed near 86.0 pts after a 6.7 pts multi-strategy pod sell-off.",
+      "sha256": "37b2c11bbdcce98211f34e4be0d824be355de7efd6e2df88f92ae0ee7b26b5de"
+    },
+    {
+      "id": "E07",
+      "title": "Thames Water downgraded by S&P to CCC- (27 Oct 2026) after 16 Oct Class B TSA, £5.4bn super-senior priming upsize, and £10.0bn L&VW RP2 proposal",
+      "captured_at_utc": "2026-10-31T19:19:00Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Thames Water S&P downgrade CCC- October 2026 Class B TSA 5.4bn super senior London Valley Water 10bn RP2 Ofwat",
+      "source_ids": [
+        "sp_global_ratings_direct",
+        "octus_reorg_intel",
+        "9fin_levfin_news",
+        "debtwire_restructuring"
+      ],
+      "publisher_domains": [
+        "spglobal.com",
+        "octus.com",
+        "9fin.com",
+        "debtwire.com",
+        "creditsights.com"
+      ],
+      "excerpt": "On 27 October 2026, S&P Global Ratings downgraded Thames Water (~£16.0bn WBS debt; ~£20.0bn total group debt) to CCC-, citing near-inevitable default/haircut execution within six months following the binding 16 October 2026 Class B Transaction Support Agreement (>60% of ~£1.0bn Class B written off for ~5.9% post-restructured equity plus £150m equity rights). Thames Water has drawn £2.65bn of its £3.0bn super-senior rescue facility and is seeking a £2.4bn upsize to £5.4bn past the March 2027 Stable Platform expiry, while senior Class A consortium London & Valley Water (Elliott, Silver Point; Akin Gump, Jefferies) awaits formal Ofwat acceptance of its ~£10.0bn Restructuring Plan 2 (RP2).",
+      "sha256": "81abf922ee72509d221fb4efc4afac6849db84244f9c2130169f4e5fa486f10b"
+    },
+    {
+      "id": "E08",
+      "title": "Fitch cuts France (A+) outlook to Negative (30 Oct 2026) as Fitch European loan TTM defaults jump +90 bps to 3.6% on French LBOs (Cerba, Arxada) and US loan defaults hit 3.9%",
+      "captured_at_utc": "2026-10-31T19:19:10Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Fitch France A+ Negative outlook October 30 2026 Fitch European leveraged loan default rate 3.6% Cerba Arxada US 3.9%",
+      "source_ids": [
+        "fitch_structured_credit",
+        "sp_global_ratings_direct",
+        "pitchbook_lcd"
+      ],
+      "publisher_domains": [
+        "fitchratings.com",
+        "spglobal.com",
+        "pitchbook.com"
+      ],
+      "excerpt": "In an unscheduled review on 30 October 2026, Fitch Ratings cut France's (A+) sovereign outlook to Negative from Stable on fiscal gridlock (5.4%–5.5% 2026 deficit, public debt rising from 115.7% to 124.0% of GDP by 2028, Q3 GDP contraction, 0.5% 2026 growth, and 10Y OAT yields near 5.0%). Concurrently, Fitch's October 2026 default monitor reported the European leveraged loan TTM default rate jumped +90 bps MoM from 2.7% to 3.6% (4.0%–4.5% YE26 forecast; EUR HY defaults up to 2.6%), led explicitly by French LBO restructurings including Cerba Healthcare and Arxada alongside Victoria. In the US, Fitch's institutional loan TTM default rate rose to 3.9% ($7.0bn September volume across 9 distressed debt exchanges and 2 Chapter 11 filings), with Top Market Concern loans at 7.8% (>10.3% combined watch list), >55% of defaults structured as LMEs, and ~55% of LME issuers re-defaulting within 18–24 months.",
+      "sha256": "f5b154133762ecbcbb9d80fccc3887b1fe51f784bd0c6c16f35fce05ead0556c"
+    },
+    {
+      "id": "E09",
+      "title": "BDC pre-Q3 10-Q earnings cliff — >33.0% Software share of stressed BDC debt, 8.0% industry PIK, FSK junk BB+ cut, and Friday -3.41% $IGV software slide",
+      "captured_at_utc": "2026-10-31T19:19:15Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "BDC Q3 2026 10-Q earnings November 2026 PIK 8% Software 33% FSK BB+ OBDC BXSL IGV October 30 2026",
+      "source_ids": [
+        "fitch_structured_credit",
+        "pitchbook_lcd",
+        "moodys_clo_tracker"
+      ],
+      "publisher_domains": [
+        "fitchratings.com",
+        "pitchbook.com",
+        "moodys.com"
+      ],
+      "excerpt": "Ahead of the first-two-weeks-of-November Q3 2026 Form 10-Q filing wave across US BDCs (OBDC, BXSL, FSK, GBDC, OCSL, MAIN), Fitch and PitchBook LCD benchmark aggregate BDC PIK income at ~8.0% of investment income, cost non-accruals at 3.0%–4.0%, broader BDC credit pressure at >10.0% of portfolio companies, and public BDC equity discounts at 15%–20% of NAV. Software borrowers represent >20.0% of direct lending books, ~26.0% of distressed BDC marks, and >33.0% of all BDC investments under credit pressure (with Fitch having downgraded FSK to junk BB+ Negative on 16.0% software exposure and elevated PIK/non-accruals), a pressure intensified on Friday 30 October 2026 as the US Software ETF ($IGV) dropped -3.41%.",
+      "sha256": "59b157cd87c80f8136e05a884588da143e355e7cf1f7ceb5339e3477b5249d7e"
+    },
+    {
+      "id": "E10",
+      "title": "Weekend AI capex credit rationing — S&P cuts Meta (AA-) to Negative, OpenAI cuts round -$10bn to $20bn, Anthropic flagged for BB junk rating, Amazon -$42bn FCF & Intel -28.58% OEM memory squeeze",
+      "captured_at_utc": "2026-10-31T19:19:20Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "S&P Meta AA- Negative outlook OpenAI 20bn 10bn cut Anthropic BB junk Blackstone Amazon -42bn FCF Intel -28.58% 5x memory October 30 2026",
+      "source_ids": [
+        "sp_global_ratings_direct",
+        "moodys_clo_tracker",
+        "fitch_structured_credit",
+        "bank_of_england_financial_stability"
+      ],
+      "publisher_domains": [
+        "spglobal.com",
+        "moodys.com",
+        "fitchratings.com",
+        "bankofengland.co.uk"
+      ],
+      "excerpt": "Across the $2.9tn global AI data-centre buildout (~$1.5tn external debt gap through 2028; $30–40bn projected annual data-centre ABS/CMBS issuance alongside Moody's warning on circular vendor-borrower SPVs), late-October 2026 capital markets enforced sharp credit rationing: (1) S&P revised Meta Platforms' (AA-) outlook to Negative as AI CapEx scaled toward $140bn in 2026 and >$225bn in 2027, flipping Meta toward negative free cash flow and heavier bond issuance; (2) OpenAI cut its equity raise target by $10bn from $30bn to $20bn (at a $1.25tn valuation) after securing <50% of commitments; (3) Blackstone warned Anthropic is likely to receive a speculative-grade BB ('high junk') credit rating post-IPO despite Project North Star chip-collateralised debt; (4) Amazon reported -$42bn of trailing 12-month FCF burn against a $578bn AWS backlog; and (5) Intel plunged -28.58% after guiding zero 2027 FCF ($600m Fab 28 outage) and warning of 5x DRAM/NAND memory inflation squeezing working-capital credit lines across server/PC OEMs Dell (-10.82%), HP (-8.90%), HPE (-6.68%), and Super Micro (-6.62%).",
+      "sha256": "95f992b6ca8d854a2e103b61fb100e3aa2fa652ff4b1b6f314c32b3a5913e1a0"
+    },
+    {
+      "id": "E11",
+      "title": "Upstream Thufir weekend macro synthesis (THU-HORIZON-20261031) — Risk Appetite -62.0, MOVE +7.11%, Logan 2+ Fed hikes toward 5.75%, BoE hike pricing & Hormuz $700m fuel shock",
+      "captured_at_utc": "2026-10-31T19:19:25Z",
+      "capture_method": "local SGC Thufir weekend dossier synthesis (roc/scripts/ops_thufir/content/dossier_content_20261031.json)",
+      "query": "THU-HORIZON-20261030 and THU-HORIZON-20261031 weekend macro-to-credit channels",
+      "source_ids": [
+        "federal_reserve_financial_stability",
+        "bank_of_england_financial_stability"
+      ],
+      "publisher_domains": [
+        "federalreserve.gov",
+        "bankofengland.co.uk"
+      ],
+      "excerpt": "Upstream Thufir weekend reconnaissance (THU-HORIZON-20261031) scores macro Risk Appetite at -62.0 (Risk-Off) as Treasury rate volatility (MOVE) surged +7.11% and VIX rose +6.26%: following Wednesday's 10-2 FOMC hawkish hold at 3.75%–4.00%, Dallas Fed President Lorie Logan called for at least 2 additional 25 bps rate hikes (pushing terminal policy risk toward 5.75%) while UK rates priced an expected Bank of England hike next week. Simultaneously, October Strait of Hormuz merchant shipping strikes hit a monthly record (forcing Alaska Air to warn of a $700m Q4 fuel hit, -6.42%) and cross-asset margin calls drove forced precious-metals liquidation (Gold -3.47%, Silver -4.67%).",
+      "sha256": "8d3ad7bbc065a6203d107725cb7e5c058f657baf6aedea10a1cf4b161302eb1c"
+    },
+    {
+      "id": "E12",
+      "title": "Live sealed FMP credit, loan, BDC & US Treasury snapshot (2026-10-31T19:16:26Z) — JAAA $50.44 (+0.03%) vs JBBB $46.54 (-0.37%), OBDC $10.39 (-23.49% DD) & BXSL $23.29 (-18.54% DD)",
+      "captured_at_utc": "2026-10-31T19:16:26Z",
+      "capture_method": "FMP stable batch-quote & treasury-rates API (ops_chrizza_generate_credit_dossier.py sweep)",
+      "query": "roc/scripts/ops_chrizza/evidence/credit_quotes_20261031.json (sha256=1bd1a3f377615e1b7c8850d97cc196b657af39c718b0cbba1a9b88062982353d)",
+      "source_ids": [
+        "lsta_market_intelligence",
+        "federal_reserve_financial_stability"
+      ],
+      "publisher_domains": [
+        "financialmodelingprep.com",
+        "lsta.org",
+        "federalreserve.gov"
+      ],
+      "excerpt": "Sealed FMP weekend close snapshot (2026-10-31T19:16:26Z): JAAA $50.44 (+0.03% 1D, -0.75% vs 52W high), CLOI $52.98 (+0.02% 1D, -0.17% vs 52W high), and LQD $104.27 (+0.05% 1D, -6.95% vs 52W high) held steady while mezzanine/loan/HY and BDC proxies sold off: JBBB $46.54 ($46.535, -0.37% 1D, -4.39% vs 52W high, just $0.115 above its $46.42 52W low), BKLN $20.43 (-0.15% 1D, -3.04% DD), SRLN $40.08 (-0.22% 1D, -3.44% DD), HYG $77.43 (-0.19% 1D, -4.69% DD), ARCC $19.11 (-0.05% 1D, -9.60% DD), BXSL $23.29 (-0.98% 1D, -18.54% DD), and OBDC $10.39 (-1.05% 1D, -23.49% DD). FMP US Treasury curve (2026-10-29): 3M 4.18%, 2Y 4.61%, 5Y 4.78%, 10Y 4.98% (2s10s +37 bps), 30Y 5.32%.",
+      "sha256": "e1e31ff1e85bf62e6eeba9bdcec0a34cbec5090668df86386d3160836bd532e7"
+    },
+    {
+      "id": "E13",
+      "title": "Live sealed European exchange Eurobond ISIN order books (2026-10-31T19:16:41Z) — Thames Water Class A down to 51.99 pts avg mid (48.41 sub-50 2027 bid!) & VMED O2 USD 2031 at 65.61",
+      "captured_at_utc": "2026-10-31T19:16:41Z",
+      "capture_method": "European bond exchange ISIN order-book sweep (ops_chrizza_sweep_bond_isins.py)",
+      "query": "roc/scripts/ops_chrizza/evidence/credit_bond_isins_20261031.json (sha256=d4e81c8ff999b8803c1b294ca73fd369bb0ff0a3f9fd1c7fb6107725e79bb4f0)",
+      "source_ids": [
+        "euro_exchange_isin_quotes"
+      ],
+      "publisher_domains": [
+        "api.onvista.de",
+        "boerse-stuttgart.de",
+        "boerse-frankfurt.de"
+      ],
+      "excerpt": "Sealed weekend European bond exchange ISIN sweep across 12 Eurobonds (2026-10-31T19:16:41Z): Thames Water Utilities Finance plc Class A senior WBS EUR notes (4 ISINs) dropped another -1.01 pts since 29 Oct to 51.99 pts average clean mid (48.41–55.40 bid-ask), with the 2027 Class A note (XS2576550326) breaking below 50 on a 48.41 bid (51.91 mid), 2028s (XS2438026440) at 50.88 mid, 2032s (XS2438026366) at 51.49 mid, and 2031s (XS2576550672) at 53.66 mid. Across distressed European telecoms (52.79 pts 8-ISIN average mid), VMED O2 2031 senior secured notes fell to 65.61 (USD, -29.01% YoY) and 68.08 (GBP), VMO2 VFN 2033 (XS3280365506) marked 40.53, Virgin Media 2030 senior unsecured (XS2189766970) marked 24.68 (19.92 bid / 29.43 ask, -73.73% YoY), Ziggo Bond Co. marked 64.62 (2032) and 72.24 (2030), and Altice Financing senior secured notes marked 44.07 (EUR 2028, 42.85/45.28) and 42.48 (USD 2029).",
+      "sha256": "eb891876113cf35dc6c66f13d1cbeb049e67522fde4d7b8619aea44f990c8b1e"
+    },
+    {
+      "id": "E14",
+      "title": "Live sealed FRED Oct 21 H.8 bank-NDFI record ($2,118.81bn / 14.90% share), ICE BofA OAS jump (+12 bps US HY to 3.26%, CCC 13.25%) & SEC EDGAR BDC 10-Q XBRL PIK (12.04% avg; BAC Q3 10-Q)",
+      "captured_at_utc": "2026-10-31T19:16:39Z",
+      "capture_method": "FRED REST API & SEC EDGAR XBRL CompanyFacts API (ops_chrizza_sweep_nbfi_and_bdc.py)",
+      "query": "roc/scripts/ops_chrizza/evidence/credit_nbfi_bdc_20261031.json (sha256=b197bf68c796d61cc9c5f0f988062a0156a5fd28a99e3e9cbdb17b5e4b7be24e)",
+      "source_ids": [
+        "fred_credit_oas_h8",
+        "sec_edgar_xbrl_nport"
+      ],
+      "publisher_domains": [
+        "api.stlouisfed.org",
+        "data.sec.gov"
+      ],
+      "excerpt": "Sealed weekend FRED H.8 / ICE BofA OAS and SEC EDGAR XBRL sweep (2026-10-31T19:16:39Z): on the newly released 2026-10-21 Fed H.8 table, US commercial bank loans to NDFIs (LNFACBW027SBOG) surged +$13.50bn WoW to an all-time record $2,118.81bn (outpacing the +$13.20bn weekly expansion of all US commercial bank loans TOTLL at $14,217.64bn), lifting the NDFI share of total US bank credit to 14.90% as Bank of America (BAC) filed its Q3 2026 Form 10-Q on 2026-10-30. On 2026-10-29, ICE BofA US HY OAS jumped +12 bps in a single session to 3.26% (Euro HY 3.48%, +22 bps premium), US BB widened +10 bps to 1.94%, US Single-B widened +14 bps to 3.32% (8.06% effective yield), and US CCC & Lower widened +18 bps to 13.25% (+1,131 bps over BB; +999 bps over broad HY). Across 5 XBRL-reporting BDCs, equal-weighted total PIK share of Gross Investment Income stands at 12.04%: ARCC Q3 2026 10-Q at 16.38% (7.60% debt PIK + 8.78% dividend PIK, empirically satisfying call C-20261029-01), FSK Q2 at 14.48% debt PIK, GBDC Q2 at 10.96%, OBDC Q2 at 10.59% (7.87% debt PIK), and OCSL Q2 at 7.77%.",
+      "sha256": "42f9e92bdcab35ea1bc79b6e96286fbda8c431354a1e95ed477eeb3655288c99"
+    },
+    {
+      "id": "E15",
+      "title": "Live sealed SEC EDGAR Form NPORT-P deal-level CLO tranche sweep (2026-10-31T19:16:47Z) — 880 CLO tranches across JAAA (0.0% < 99), AA-A (0.0% < 99) & JBBB (19.75% < 99, min 95.30)",
+      "captured_at_utc": "2026-10-31T19:16:47Z",
+      "capture_method": "SEC EDGAR Form NPORT-P XML deal-level CLO parser (ops_chrizza_sweep_clo_nport.py)",
+      "query": "roc/scripts/ops_chrizza/evidence/credit_clo_tranches_20261031.json (sha256=a0bdbed8ce85d96d0d5b86ea6bcda461a14140a33f9e73f0f8f478d56efdc098)",
+      "source_ids": [
+        "sec_edgar_xbrl_nport"
+      ],
+      "publisher_domains": [
+        "sec.gov",
+        "data.sec.gov"
+      ],
+      "excerpt": "Sealed Form NPORT-P XML sweep across 880 deal-level CLO tranches (2026-10-31T19:16:47Z): JAAA holds 598 AAA tranches ($29,284.59m par, 100.09 par-weighted fair price, 4.99% coupon, 0.0% marked < 99.0, min 99.80); AA-A CLO ETF holds 125 tranches ($1,288.24m par, 100.14 fair price, 5.33% coupon, 0.0% < 99.0); and JBBB holds 157 B-BBB mezzanine tranches ($1,334.78m par, 100.17 fair price, 6.66% coupon, +167 bps coupon pickup over JAAA) with 31 tranches (19.75% of the mezzanine pool) marked below 99.00 clean price down to 95.30 pts (led by Sound Point, Benefit Street, Neuberger Berman, AGL, and Rockland Park shelves).",
+      "sha256": "d57b57f479ea3e791a5338d88842b5675c5eb27b773cf9d2ea614b2be5b2fae8"
+    },
+    {
+      "id": "E16",
+      "title": "Live sealed UK High Court Akoma Ntoso XML & SEC EFTS restructuring docket sweep (2026-10-31T19:16:50Z) — 10 High Court judgments & 13 SEC telecom/utility filings",
+      "captured_at_utc": "2026-10-31T19:16:50Z",
+      "capture_method": "UK National Archives Find Case Law Atom/XML & SEC EFTS REST index (ops_chrizza_sweep_court_dockets.py)",
+      "query": "roc/scripts/ops_chrizza/evidence/credit_court_dockets_20261031.json (sha256=48776c27fabcbd39ec7bc4a4fd715fb4199018ff9c44bc42b9a9d771e63097c4)",
+      "source_ids": [
+        "uk_caselaw_and_efts_dockets"
+      ],
+      "publisher_domains": [
+        "caselaw.nationalarchives.gov.uk",
+        "efts.sec.gov"
+      ],
+      "excerpt": "Sealed court and statutory restructuring docket sweep (2026-10-31T19:16:50Z): ingested 10 UK High Court and Chancery Part 26A Akoma Ntoso XML judgments (including ewhc/kb/2026/2720 Thames Water Utilities Limited v Karen Imber published 2026-10-23, ewhc/ch/2026/1620 Re NFE Global Holdings Limited, and ewhc/ch/2026/1014 Re Waldorf Production UK Plc) alongside 13 SEC EFTS restructuring filings covering Liberty Global Form 8-K/A (0001570585-26-000136, VodafoneZiggo H1 2026 interim and pro-forma financial exhibits) and Altice USA / Optimum CSC Holdings 8-K debt exhibits.",
+      "sha256": "9f68f2e70e5501fc553a2632c2774830462fdf04de7d422fe1bb573c7791f01d"
+    }
+  ],
+  "sealed_at_utc": "2026-10-31T19:23:05Z"
+}

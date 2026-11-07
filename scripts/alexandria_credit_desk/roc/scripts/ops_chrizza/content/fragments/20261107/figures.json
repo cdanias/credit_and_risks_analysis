@@ -1,0 +1,1051 @@
+{
+  "F01": {
+    "label": "Oracle dilutive stock and notes issuance on 2 Nov 2026 (stock priced at $116/sh)",
+    "display": "$20bn",
+    "value": 20.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-02",
+    "evidence": "E02"
+  },
+  "F02": {
+    "label": "Oracle (ORCL) share price decline from peak",
+    "display": "-65%",
+    "value": -65.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E02"
+  },
+  "F04": {
+    "label": "Google commitment to acquire and build out Crusoe's unfinished Wyoming data-centre site (100% power pledge via Black Hills)",
+    "display": "$17bn",
+    "value": 17.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E02"
+  },
+  "F05": {
+    "label": "Crusoe implied valuation at the Google transaction",
+    "display": "$30.9bn",
+    "value": 30.9,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11-06",
+    "evidence": "E02"
+  },
+  "F06": {
+    "label": "Share of chip cost IREN customers now prepay upfront",
+    "display": "90% prepay",
+    "value": 90.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E02"
+  },
+  "F07": {
+    "label": "IREN funding gap plugged by customer chip prepayments",
+    "display": "$6bn gap",
+    "value": 6.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E02"
+  },
+  "F08": {
+    "label": "IREN AI cloud revenue delayed into 2027",
+    "display": "$4bn",
+    "value": 4.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E02"
+  },
+  "F09": {
+    "label": "Anthropic IPO valuation target after a cut of up to 50% from $2.0tn",
+    "display": "$1.0–1.5tn",
+    "value": 1.25,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11-06",
+    "evidence": "E02"
+  },
+  "F10": {
+    "label": "ING data-centre construction loan portfolio auction (about 12 loans, bids due 19 Nov 2026)",
+    "display": "$500m",
+    "value": 500.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E02"
+  },
+  "F11": {
+    "label": "SoftBank Group 5-year CDS spread",
+    "display": "466 bps",
+    "value": 466.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E02"
+  },
+  "F12": {
+    "label": "Global AI and data-centre capex cycle through 2028",
+    "display": "$2.9tn",
+    "value": 2.9,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11-06",
+    "evidence": "E02"
+  },
+  "F13": {
+    "label": "External debt financing gap in the AI data-centre cycle",
+    "display": "~$1.5tn",
+    "value": 1.5,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11-06",
+    "evidence": "E02"
+  },
+  "F14": {
+    "label": "Pacific Power requested California residential rate increase (+$120/month)",
+    "display": "+57%",
+    "value": 57.0,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11-06",
+    "evidence": "E02"
+  },
+  "F16": {
+    "label": "Blue Owl Technology Finance (OTF) Signifyd preferred stock at cost moved to non-accrual",
+    "display": "$158.7m",
+    "value": 158.7,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E01"
+  },
+  "F17": {
+    "label": "Coupon on the Signifyd preferred stock held by OTF (paid in kind)",
+    "display": "11% PIK",
+    "value": 11.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E01"
+  },
+  "F18": {
+    "label": "OTF share price decline preceding the securities class action",
+    "display": "~-44%",
+    "value": -44.0,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11-06",
+    "evidence": "E01"
+  },
+  "F19": {
+    "label": "OTF Q3 2026 PIK income share of total investment income",
+    "display": "11.5% PIK",
+    "value": 11.5,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E01"
+  },
+  "F20": {
+    "label": "OTF Q3 2026 non-accruals at cost (1.1% at fair value, 3 companies)",
+    "display": "1.8% cost",
+    "value": 1.8,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E01"
+  },
+  "F21": {
+    "label": "OTF prior-quarter non-accruals at cost",
+    "display": "0.6%",
+    "value": 0.6,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E01"
+  },
+  "F22": {
+    "label": "Monitored BDCs with Q3 2026 Form 10-Q filed (ARCC, OBDC, BXSL, FSK, MAIN)",
+    "display": "5 of 7",
+    "value": 5,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E01"
+  },
+  "F23": {
+    "label": "Main Street Capital (MAIN) Q3 2026 gross investment income (filed 6 Nov)",
+    "display": "$142.53m",
+    "value": 142.53,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E01"
+  },
+  "F24": {
+    "label": "Equal-weighted XBRL total PIK share across reporting BDCs",
+    "display": "11.98%",
+    "value": 11.98,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E01"
+  },
+  "F25": {
+    "label": "ARCC Q3 2026 XBRL total PIK share (7.60% debt + 8.78% dividend)",
+    "display": "16.38%",
+    "value": 16.38,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-10-27",
+    "evidence": "E01"
+  },
+  "F26": {
+    "label": "FSK Q3 2026 XBRL PIK debt interest share",
+    "display": "15.65%",
+    "value": 15.65,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-05",
+    "evidence": "E01"
+  },
+  "F28": {
+    "label": "Debt of the Outback Steakhouse (BLMN) franchisee that filed for bankruptcy",
+    "display": "$449m",
+    "value": 449.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E15"
+  },
+  "F29": {
+    "label": "Apollo (APO) Q3 fee-related earnings growth YoY on $880bn FGAUM (70% perpetual capital)",
+    "display": "+23% FRE",
+    "value": 23.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E15"
+  },
+  "F31": {
+    "label": "Private credit true stress rate incl. distressed exchanges and PIK switches (vs ~1.8% headline payment default)",
+    "display": "~5.2%",
+    "value": 5.2,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11-05",
+    "evidence": "E10"
+  },
+  "F33": {
+    "label": "ARCC closing price on 6 Nov (-9.51% vs 52W high)",
+    "display": "$19.13",
+    "value": 19.13,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E08"
+  },
+  "F34": {
+    "label": "ARCC one-day move on 6 Nov",
+    "display": "-1.14%",
+    "value": -1.14,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E08"
+  },
+  "F37": {
+    "label": "US October nonfarm payrolls",
+    "display": "+165K",
+    "value": 165.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E13"
+  },
+  "F38": {
+    "label": "Consensus forecast for US October nonfarm payrolls",
+    "display": "+59K",
+    "value": 59.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E13"
+  },
+  "F39": {
+    "label": "Polymarket odds of a +25 bps Fed hike in December (+10.0 pp on the day)",
+    "display": "76.50%",
+    "value": 76.5,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E13"
+  },
+  "F40": {
+    "label": "Polymarket odds of no Fed rate cut in 2026",
+    "display": "97.95%",
+    "value": 97.95,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E13"
+  },
+  "F41": {
+    "label": "US 2-year Treasury yield after payrolls (+5 bps)",
+    "display": "4.51%",
+    "value": 4.51,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E13"
+  },
+  "F42": {
+    "label": "Average US unemployment duration (10-year non-pandemic high)",
+    "display": "27.1 weeks",
+    "value": 27.1,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E13"
+  },
+  "F43": {
+    "label": "ICE BofA US Single-B OAS (FRED BAMLH0A2HYB)",
+    "display": "3.67%",
+    "value": 3.67,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-05",
+    "evidence": "E05"
+  },
+  "F44": {
+    "label": "One-session widening in US Single-B OAS",
+    "display": "+16 bps",
+    "value": 16.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-05",
+    "evidence": "E05"
+  },
+  "F45": {
+    "label": "ICE BofA US Single-B effective yield",
+    "display": "8.28%",
+    "value": 8.28,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-05",
+    "evidence": "E05"
+  },
+  "F46": {
+    "label": "ICE BofA US High Yield OAS",
+    "display": "3.48%",
+    "value": 3.48,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-05",
+    "evidence": "E05"
+  },
+  "F47": {
+    "label": "ICE BofA Euro High Yield OAS",
+    "display": "3.45%",
+    "value": 3.45,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-05",
+    "evidence": "E05"
+  },
+  "F48": {
+    "label": "Euro HY minus US HY OAS (negative = US wider than Europe)",
+    "display": "-3 bps",
+    "value": -0.03,
+    "provenance": "derived",
+    "confidence": "high",
+    "inputs": [
+      "F47",
+      "F46"
+    ],
+    "op": "diff",
+    "rationale": "F47 − F46 in percentage points"
+  },
+  "F49": {
+    "label": "ICE BofA US CCC & Lower OAS",
+    "display": "13.20%",
+    "value": 13.2,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-05",
+    "evidence": "E05"
+  },
+  "F51": {
+    "label": "FRED H.8 US bank loans to non-depository financial institutions (week of 28 Oct)",
+    "display": "$2,111.0bn",
+    "value": 2111.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-10-28",
+    "evidence": "E05"
+  },
+  "F52": {
+    "label": "Week-on-week change in bank loans to NDFIs, first pullback from the $2,118.81bn record",
+    "display": "-$7.8bn",
+    "value": -7.8,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-10-28",
+    "evidence": "E05"
+  },
+  "F53": {
+    "label": "NDFI share of total US bank loans and leases",
+    "display": "14.85%",
+    "value": 14.85,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-10-28",
+    "evidence": "E05"
+  },
+  "F54": {
+    "label": "Fed SLOOS net share of banks tightening C&I standards (Q4 survey)",
+    "display": "+1.7%",
+    "value": 1.7,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-10-01",
+    "evidence": "E05"
+  },
+  "F55": {
+    "label": "Share of trailing speculative-grade defaults driven by distressed LMEs (US / Europe)",
+    "display": "58% / 62%",
+    "value": 58.0,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11-05",
+    "evidence": "E10"
+  },
+  "F57": {
+    "label": "Virgin Media Finance 3.750% EUR 2030 senior unsecured live bid (XS2189766970)",
+    "display": "20.94 bid",
+    "value": 20.94,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-07",
+    "evidence": "E04"
+  },
+  "F58": {
+    "label": "Change in Virgin Media 2030 unsecured bid on the day",
+    "display": "-2.56 pts",
+    "value": -2.56,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-07",
+    "evidence": "E04"
+  },
+  "F59": {
+    "label": "Virgin Media 2030 unsecured clean mid (-72.43% 1Y drawdown)",
+    "display": "25.90 pts",
+    "value": 25.9,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-07",
+    "evidence": "E04"
+  },
+  "F60": {
+    "label": "VMED O2 UK 2031 senior secured USD clean mid",
+    "display": "67.26 pts",
+    "value": 67.26,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E04"
+  },
+  "F61": {
+    "label": "VMO2 Vendor Financing Note 2033 clean mid (XS3280365506)",
+    "display": "43.36 pts",
+    "value": 43.36,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E04"
+  },
+  "F62": {
+    "label": "Ziggo Bond Co. 3.375% EUR 2030 clean mid (XS2116386132)",
+    "display": "74.76 pts",
+    "value": 74.76,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-07",
+    "evidence": "E16"
+  },
+  "F63": {
+    "label": "Change in Ziggo 2030 clean mid on the day",
+    "display": "+1.14 pts",
+    "value": 1.14,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-07",
+    "evidence": "E16"
+  },
+  "F64": {
+    "label": "Ziggo 2030 mid minus Virgin Media 2030 unsecured mid",
+    "display": "+48.86 pts",
+    "value": 48.86,
+    "provenance": "derived",
+    "confidence": "high",
+    "inputs": [
+      "F62",
+      "F59"
+    ],
+    "op": "diff",
+    "rationale": "F62 − F59"
+  },
+  "F65": {
+    "label": "Optimum Communications total debt",
+    "display": "~$26bn",
+    "value": 26.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-07",
+    "evidence": "E11"
+  },
+  "F66": {
+    "label": "Optimum 2027–2028 maturity wall ($1.9bn annual interest)",
+    "display": "$4.5bn",
+    "value": 4.5,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-07",
+    "evidence": "E11"
+  },
+  "F67": {
+    "label": "Altice Financing senior secured EUR 2028 clean mid (44.08 bid)",
+    "display": "45.37 pts",
+    "value": 45.37,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E04"
+  },
+  "F68": {
+    "label": "Altice International net leverage",
+    "display": "9.6x",
+    "value": 9.6,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-07",
+    "evidence": "E11"
+  },
+  "F69": {
+    "label": "Term loans held by NY Commercial Division steering plaintiffs suing Altice International",
+    "display": ">$1.5bn",
+    "value": 1.5,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-10-13",
+    "evidence": "E11"
+  },
+  "F70": {
+    "label": "Virgin Media O2 announced job cuts (about 25% of staff, £800m run-rate savings by 2029)",
+    "display": "~4,000 jobs",
+    "value": 4000.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-05",
+    "evidence": "E04"
+  },
+  "F71": {
+    "label": "Thames Water Class A EUR EMTNs, 4-ISIN average clean mid",
+    "display": "50.52 pts",
+    "value": 50.52,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-07",
+    "evidence": "E03"
+  },
+  "F72": {
+    "label": "Thames Water Class A 0.875% EUR 2028 clean mid, new 1Y low (XS2438026440)",
+    "display": "48.65 pts",
+    "value": 48.65,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E03"
+  },
+  "F73": {
+    "label": "Thames Water Class A 1.250% EUR 2032 clean mid, new 1Y low (XS2438026366, €1.0m bid size)",
+    "display": "49.86 pts",
+    "value": 49.86,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E03"
+  },
+  "F74": {
+    "label": "Lowest live bid across the four Thames Class A ISINs",
+    "display": "47.58",
+    "value": 47.58,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E03"
+  },
+  "F76": {
+    "label": "Bid-ask width on Thames Class A 4.000% EUR 2027 (48.00 bid / 55.25 ask)",
+    "display": "7.25 pts",
+    "value": 7.25,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-07",
+    "evidence": "E03"
+  },
+  "F77": {
+    "label": "Thames Water total super-senior liquidity target through autumn 2027",
+    "display": "£5.4bn",
+    "value": 5.4,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-05",
+    "evidence": "E09"
+  },
+  "F78": {
+    "label": "Additional short-term emergency funding requested by Thames Water",
+    "display": "£2.4bn",
+    "value": 2.4,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-05",
+    "evidence": "E09"
+  },
+  "F79": {
+    "label": "Class B equity recovery under the 16 Oct transaction support agreement",
+    "display": "~5.9%",
+    "value": 5.9,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-10-16",
+    "evidence": "E09"
+  },
+  "F80": {
+    "label": "JAAA closing price on 6 Nov (-0.59% vs 52W high)",
+    "display": "$50.52",
+    "value": 50.52,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E08"
+  },
+  "F81": {
+    "label": "JAAA one-day move on payrolls day",
+    "display": "+0.04%",
+    "value": 0.04,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E08"
+  },
+  "F82": {
+    "label": "LQD closing price on 6 Nov (-6.72% vs 52W high)",
+    "display": "$104.53",
+    "value": 104.53,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E08"
+  },
+  "F83": {
+    "label": "LQD one-day move on payrolls day",
+    "display": "-0.12%",
+    "value": -0.12,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E08"
+  },
+  "F84": {
+    "label": "JBBB closing price on 6 Nov",
+    "display": "$46.81",
+    "value": 46.805,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E08"
+  },
+  "F85": {
+    "label": "JBBB drawdown from 52-week high",
+    "display": "-3.10%",
+    "value": -3.1,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E08"
+  },
+  "F86": {
+    "label": "BKLN one-day reflex bounce on 6 Nov ($20.47)",
+    "display": "+0.24%",
+    "value": 0.24,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-06",
+    "evidence": "E08"
+  },
+  "F87": {
+    "label": "US BSL tier-1 CLO AAA clearing spread mean (135–138 bps band)",
+    "display": "136 bps",
+    "value": 136.0,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11-05",
+    "evidence": "E14"
+  },
+  "F88": {
+    "label": "European CLO AAA new-issue clearing band",
+    "display": "129–133 bps",
+    "value": 130.0,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11-05",
+    "evidence": "E06"
+  },
+  "F89": {
+    "label": "US BSL CLO BB secondary discount margin",
+    "display": "615 bps",
+    "value": 615.0,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11-05",
+    "evidence": "E14"
+  },
+  "F90": {
+    "label": "US CLO BB discount margin minus AAA spread",
+    "display": "479 bps",
+    "value": 479.0,
+    "provenance": "derived",
+    "confidence": "medium",
+    "inputs": [
+      "F89",
+      "F87"
+    ],
+    "op": "diff",
+    "rationale": "F89 − F87"
+  },
+  "F91": {
+    "label": "JBBB NPORT-P tranches marked below 99.00 (lowest 95.30)",
+    "display": "19.75%",
+    "value": 19.75,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-07",
+    "evidence": "E07"
+  },
+  "F92": {
+    "label": "Resets and refinancings as a share of global 2026 YTD CLO activity",
+    "display": "57%",
+    "value": 57.0,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11-05",
+    "evidence": "E14"
+  },
+  "F93": {
+    "label": "US BSL post-reinvestment CLO median Junior OC cushion",
+    "display": "2.1%",
+    "value": 2.1,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11-05",
+    "evidence": "E14"
+  },
+  "F94": {
+    "label": "Fitch European CLO average WAS cushion",
+    "display": "~10 bps",
+    "value": 10.0,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11-05",
+    "evidence": "E06"
+  },
+  "F95": {
+    "label": "Open European CLO warehouses",
+    "display": ">100",
+    "value": 100,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11-05",
+    "evidence": "E06"
+  },
+  "F96": {
+    "label": "US BSL CLO median CCC bucket (Euro median 4.7%)",
+    "display": "6.0%",
+    "value": 6.0,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11-05",
+    "evidence": "E14"
+  },
+  "F97": {
+    "label": "SOD credit regime score (−100 risk-off … +100 risk-on)",
+    "display": "−52",
+    "value": -52,
+    "provenance": "estimate",
+    "confidence": "medium",
+    "rationale": "Chrizza 2026-11-07 composite, 4 pts weaker than 6 Nov (−48): hawkish payrolls repricing, US Single-B +16 bps to 3.67% with US HY now wider than Euro HY, first bank-to-NDFI pullback, hyperscaler lease walk-away at Oracle, and a fresh BDC PIK-preferred non-accrual at OTF; partly offset by the BKLN reflex bounce and steady senior CLO carry."
+  },
+  "F98": {
+    "label": "Estimated Thames Class A recovery band under a consensual RP2",
+    "display": "65–78p",
+    "value": 71.5,
+    "provenance": "estimate",
+    "confidence": "low",
+    "rationale": "Carried Chrizza estimate; live mids near half of par price a much worse SAR or haircut path."
+  },
+  "F99": {
+    "label": "Call threshold: ING data-centre loan auction average clearing price",
+    "display": "95.0 pts",
+    "value": 95.0,
+    "provenance": "estimate",
+    "confidence": "medium",
+    "rationale": "Threshold for call C-20261107-01; a sub-95 clearing level would confirm construction-phase AI loans trade at a discount."
+  },
+  "F100": {
+    "label": "Call threshold: Q3 BDC PIK share of gross investment income",
+    "display": "10.0%",
+    "value": 10.0,
+    "provenance": "estimate",
+    "confidence": "medium",
+    "rationale": "Threshold for calls C-20261029-01, C-20261031-02 and C-20261107-02; GBDC printed 10.96% in Q2."
+  },
+  "F101": {
+    "label": "Call threshold: record H.8 bank loans to NDFIs (week of 21 Oct)",
+    "display": "$2,118.81bn",
+    "value": 2118.81,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-10-28",
+    "evidence": "E05"
+  },
+  "F102": {
+    "label": "Estimated 12-month default hazard for B3/B- floating-rate borrowers under no 2026 cuts",
+    "display": "~35%",
+    "value": 35.0,
+    "provenance": "estimate",
+    "confidence": "low",
+    "rationale": "Chrizza heuristic: 8.28% Single-B yield, SLOOS tightening and LME-led defaults push the weakest B3/B- cohort toward sub-1.0x interest cover."
+  },
+  "F103": {
+    "label": "Typical CLO 2.0 capital stack (share of par)",
+    "display": "illustrative stack",
+    "value": 100.0,
+    "provenance": "illustrative",
+    "confidence": "high",
+    "rationale": "Teaching example of a generic CLO 2.0 structure; not a specific deal.",
+    "tranches": [
+      [
+        "AAA",
+        62.0
+      ],
+      [
+        "AA",
+        11.0
+      ],
+      [
+        "A",
+        6.5
+      ],
+      [
+        "BBB",
+        6.0
+      ],
+      [
+        "BB",
+        5.0
+      ],
+      [
+        "B",
+        1.5
+      ],
+      [
+        "Equity",
+        8.0
+      ]
+    ]
+  },
+  "F104": {
+    "label": "Standard CLO 2.0 equity structural leverage",
+    "display": "9.0x",
+    "value": 9.0,
+    "provenance": "estimate",
+    "confidence": "high",
+    "rationale": "About 10–11% equity beneath a ~62% AAA tranche."
+  },
+  "F105": {
+    "label": "Out West Restaurant Group prepetition term loan principal (Goldman Sachs Specialty Lending-led facility)",
+    "display": "$122.5m",
+    "value": 122.5,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-02",
+    "evidence": "E17"
+  },
+  "F106": {
+    "label": "Out West prepetition revolving loans",
+    "display": "$6.5m",
+    "value": 6.5,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-02",
+    "evidence": "E17"
+  },
+  "F107": {
+    "label": "Out West accumulated interest, fees and other obligations under the facility",
+    "display": ">$190m",
+    "value": 190.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-02",
+    "evidence": "E17"
+  },
+  "F108": {
+    "label": "Stalking-horse bid by the franchisor for substantially all Out West assets",
+    "display": "$26.3m",
+    "value": 26.3,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-02",
+    "evidence": "E17"
+  },
+  "F109": {
+    "label": "Stalking-horse bid as a share of Out West loan principal (term + revolver)",
+    "display": "~20% of principal",
+    "value": 20.4,
+    "provenance": "derived",
+    "confidence": "medium",
+    "inputs": [
+      "F108",
+      "F105",
+      "F106"
+    ],
+    "op": "ratio_pct",
+    "rationale": "F108 / (F105 + F106); excludes the >$190m of other obligations, so recovery on total claims is lower"
+  },
+  "F110": {
+    "label": "Franchisor DIP facility for Out West",
+    "display": "$5.5m DIP",
+    "value": 5.5,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-02",
+    "evidence": "E17"
+  },
+  "F111": {
+    "label": "Karyopharm funded debt equitised under the prepackaged plan (first-lien, 1.5L and 2L)",
+    "display": "~$276m",
+    "value": 276.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-02",
+    "evidence": "E18"
+  },
+  "F112": {
+    "label": "Karyopharm lenders' share of the combined company after the Ayrmid merger",
+    "display": "~55%",
+    "value": 55.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-02",
+    "evidence": "E18"
+  },
+  "F113": {
+    "label": "Karyopharm DIP financing from existing secured lenders",
+    "display": "$55m DIP",
+    "value": 55.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-11-02",
+    "evidence": "E18"
+  },
+  "F114": {
+    "label": "Fitch U.S. Private Credit Default Rate, trailing twelve months (record)",
+    "display": "6.3%",
+    "value": 6.3,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-09-30",
+    "evidence": "E19"
+  },
+  "F115": {
+    "label": "Share of private credit defaults from interest deferrals and PIK introductions",
+    "display": "~50%",
+    "value": 50.0,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-09-30",
+    "evidence": "E19"
+  },
+  "F116": {
+    "label": "Share of private credit defaults from stressed maturity extensions",
+    "display": "~38%",
+    "value": 38.0,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-09-30",
+    "evidence": "E19"
+  },
+  "F117": {
+    "label": "Fitch U.S. leveraged loan default rate",
+    "display": "~3.9%",
+    "value": 3.9,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-09-30",
+    "evidence": "E19"
+  },
+  "F118": {
+    "label": "Fitch full-year 2026 U.S. leveraged loan default forecast",
+    "display": "4.5–5.0%",
+    "value": 4.75,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-09-30",
+    "evidence": "E19"
+  },
+  "F119": {
+    "label": "Quarterly repurchase cap at perpetual non-traded BDCs",
+    "display": "5% cap",
+    "value": 5.0,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11",
+    "evidence": "E20"
+  },
+  "F120": {
+    "label": "Peak single-quarter redemption requests at Blue Owl tech vehicle OTIC",
+    "display": "~40%",
+    "value": 40.0,
+    "provenance": "sourced",
+    "confidence": "medium",
+    "as_of": "2026-11",
+    "evidence": "E20"
+  },
+  "F121": {
+    "label": "Serta uptier remand damages against participating lenders (plus 9% interest)",
+    "display": "$261.13m",
+    "value": 261.13,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-07-07",
+    "evidence": "E21",
+    "historical": true
+  },
+  "F122": {
+    "label": "Share of Atalian debt converted to equity in its lender takeover",
+    "display": "~66%",
+    "value": 66.0,
+    "provenance": "sourced",
+    "confidence": "high",
+    "as_of": "2026-09-22",
+    "evidence": "E21"
+  }
+}

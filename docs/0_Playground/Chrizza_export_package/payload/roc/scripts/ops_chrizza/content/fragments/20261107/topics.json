@@ -1,0 +1,406 @@
+[
+  {
+    "id": "T1",
+    "emoji": "🖥️",
+    "short_title": "AI Lease Walk-Aways",
+    "title": "Microsoft Walks From an Oracle AI Lease as Google Absorbs Crusoe's Stalled Site",
+    "freshness": {
+      "thread": "ai_dc_lease_walkaways",
+      "status": "new",
+      "catalyst_type": "news",
+      "first_reported": "2026-11-06",
+      "latest_catalyst": "2026-11-06",
+      "catalyst_evidence": [
+        "E02",
+        "E13"
+      ]
+    },
+    "thesis": "The AI build-out has reached the stage where hyperscalers choose which capacity to keep. Microsoft is not renewing an Oracle AI cloud lease days after Oracle raised [[F01]], and Google is buying Crusoe's unfinished Wyoming site with a [[F04]] commitment. Credit risk now sits with developers and the banks that funded construction.",
+    "verdict": "VETO GREENFIELD AI DEBT · PRICE-DISCOVERY ONLY ON ING AUCTION",
+    "stance": "Tenant walk-away risk moves to lenders",
+    "risk": {
+      "probability": 4,
+      "impact": 5
+    },
+    "evidence": [
+      "E02",
+      "E13"
+    ],
+    "signal": "Four linked events landed on 6 November. Microsoft is winding down and not renewing its AI cloud capacity rental with Oracle; Oracle shares sit [[F02]] from peak after it raised [[F01]] in dilutive stock and notes on 2 November. Google agreed to take over Crusoe's troubled, unfinished Wyoming project, committing up to [[F04]] and pledging to pay for all of its power, against a Crusoe valuation of [[F05]]. Neocloud IREN said customers now prepay [[F06]] of chip costs to cover a [[F07]], alongside [[F08]] of AI cloud revenue pushed into 2027. Anthropic's IPO valuation target was cut to [[F09]]. ING's auction of [[F10]] of data-centre construction loans (bids due 19 November) and SoftBank's five-year CDS at [[F11]] remain open, inside a [[F12]] capex cycle with a [[F13]] external funding gap. Power costs are spilling into households too: one utility has asked for a [[F14]] rate increase.",
+    "mechanism": "A data-centre loan is only as good as the lease behind it. When a hyperscaler declines to renew, the developer's cash flow disappears before construction debt has amortised, and lenders inherit an asset whose value depends on finding a new tenant and securing power. Google buying a distressed site shows the asset can be rescued, but at a price set by the buyer. The healthy structure is the one IREN now demands: customers prepay [[F06]] of chip costs, so the tenant, not the lender, carries the construction risk.",
+    "latex": "\\text{LTV}_{\\text{post}} = \\frac{D}{V_{\\text{leased}} \\times (1 - p_{\\text{walk}}) + V_{\\text{distressed}} \\times p_{\\text{walk}}}",
+    "latex_status": "framework",
+    "latex_note": "Stylised loan-to-value of a construction loan when the anchor tenant may walk away with probability p_walk. A rising walk-away probability, shown by Microsoft at Oracle, pushes value toward the distressed-sale outcome that Google's [[F04]] Crusoe deal illustrates.",
+    "factors": [
+      "Lease non-renewal: Microsoft not renewing an Oracle AI lease after Oracle's [[F01]] raise shows that tenant demand is now selective.",
+      "Distressed consolidation: Google's [[F04]] takeover of Crusoe's stalled site sets a rescue price for unfinished capacity.",
+      "Funding discipline: IREN's [[F06]] customer prepayment and ING's [[F10]] loan auction show lenders shifting construction risk back to tenants."
+    ],
+    "scenarios": [
+      {
+        "id": "A",
+        "p": 50,
+        "label": "ING auction clears at a discount",
+        "text": "The 19 November auction clears below [[F99]] on average, setting a lower mark for construction-phase AI loans; investment-grade-leased ABS holds up."
+      },
+      {
+        "id": "B",
+        "p": 35,
+        "label": "Prepayments and rescues stabilise the sector",
+        "text": "More tenants adopt [[F06]]-style prepayments and strategic buyers absorb stalled sites, so the auction clears near par."
+      },
+      {
+        "id": "C",
+        "p": 15,
+        "label": "More lease walk-aways and copycat bank sales",
+        "text": "Another hyperscaler declines a renewal and other banks follow ING with loan sales into a thin market.",
+        "kill_switch": "A second hyperscaler publicly cancels or declines to renew an AI capacity lease, or a rated data-centre ABS tranche is placed on downgrade watch, before 30 Nov 2026."
+      }
+    ],
+    "posture": "Keep the hard veto on greenfield AI construction loans, neocloud SPVs and SoftBank-linked credit ([[F11]]). Accept only ABS backed by operating, power-connected, investment-grade leases, and use ING's [[F10]] auction for price discovery only.",
+    "verify": "ING auction clearing reports after 19 November (call C-20261107-01), any further hyperscaler lease decisions, and Oracle's funding plans after its [[F01]] raise.",
+    "gaps": [
+      "G4"
+    ]
+  },
+  {
+    "id": "T2",
+    "emoji": "🧾",
+    "short_title": "OTF PIK Pref Non-Accrual",
+    "title": "Blue Owl Tech Finance Puts a Signifyd PIK Preferred on Non-Accrual as Its Shares Slide Into a Class Action",
+    "freshness": {
+      "thread": "otf_signifyd_pik_preferred",
+      "status": "new",
+      "catalyst_type": "news",
+      "first_reported": "2026-11-06",
+      "latest_catalyst": "2026-11-06",
+      "catalyst_evidence": [
+        "E01",
+        "E15"
+      ]
+    },
+    "thesis": "Blue Owl Technology Finance moved [[F16]] of [[F17]] Signifyd preferred stock to non-accrual, lifting PIK to [[F19]] of income and cost non-accruals to [[F20]]. Its shares fell [[F18]] into a class action. PIK preferreds are where software-lending stress first turns into lost income.",
+    "verdict": "VETO OTF & FSK · WATCH ARCC · FAVOUR PERPETUAL-CAPITAL MANAGERS",
+    "stance": "PIK preferred to non-accrual migration",
+    "risk": {
+      "probability": 4,
+      "impact": 4
+    },
+    "evidence": [
+      "E01",
+      "E10",
+      "E15",
+      "E08"
+    ],
+    "signal": "Blue Owl Technology Finance reported that its [[F16]] (at cost) position in Signifyd preferred stock, carrying a [[F17]] coupon, moved to non-accrual. OTF's PIK income reached [[F19]] of total investment income and non-accruals at cost tripled from [[F21]] to [[F20]]; the shares had fallen [[F18]] and now face a securities class action. Across our sealed SEC XBRL sweep, [[F22]] monitored BDCs have filed Q3 10-Qs, the latest being Main Street Capital with [[F23]] of gross investment income. Equal-weighted PIK stands at [[F24]], led by `ARCC` ([[F25]]) and `FSK` ([[F26]]). `ARCC` fell [[F34]] to [[F33]]. Outside BDCs, an Outback Steakhouse franchisee filed for bankruptcy with [[F28]] of debt, while Apollo grew fee-related earnings [[F29]].",
+    "mechanism": "A PIK preferred pays its coupon in more paper, so the lender books income without receiving cash. While the borrower grows, the position looks healthy; once growth stalls, the accrued paper is written off and the income stops at once. That is why rising PIK shares ([[F24]] across BDCs) tend to come before non-accrual jumps like OTF's move from [[F21]] to [[F20]].",
+    "latex": "D_t = D_0 \\left(1 + r_{\\text{PIK}}\\right)^{t}, \\qquad \\text{LTV}_t = \\frac{D_t}{V_t}",
+    "latex_status": "identity",
+    "latex_note": "Compounding identity: at a [[F17]] PIK coupon the claim grows every period while enterprise value of a stalled software borrower does not, so loan-to-value rises until the position is placed on non-accrual.",
+    "factors": [
+      "PIK preferred exposure: OTF's [[F16]] Signifyd position at [[F17]] shows equity-like risk earning debt-like income.",
+      "Sector PIK level: equal-weighted PIK of [[F24]], led by `ARCC` ([[F25]]) and `FSK` ([[F26]]), with the true stress rate near [[F31]].",
+      "Manager dispersion: perpetual-capital managers keep growing (Apollo [[F29]]) while mid-market franchise borrowers fail ([[F28]])."
+    ],
+    "scenarios": [
+      {
+        "id": "A",
+        "p": 55,
+        "label": "More PIK prints above the threshold",
+        "text": "Remaining Q3 filers (`GBDC`, `OCSL`) show PIK at or above [[F100]], confirming the PIK-to-non-accrual path."
+      },
+      {
+        "id": "B",
+        "p": 30,
+        "label": "Contained to tech-heavy lenders",
+        "text": "Stress stays concentrated in software-focused BDCs like OTF while diversified lenders hold steady."
+      },
+      {
+        "id": "C",
+        "p": 15,
+        "label": "Warehouse banks cut advance rates",
+        "text": "Banks reduce advance rates on PIK-heavy collateral, forcing BDC deleveraging.",
+        "kill_switch": "A second top-10 BDC reports Q3 2026 non-accruals above 4.5% of cost, or a BDC is downgraded to sub-investment grade, before 30 Nov 2026."
+      }
+    ],
+    "posture": "Hard veto on `OTF` and `FSK` ([[F26]]); keep `ARCC` ([[F25]]) on watch; prefer senior bank funding lines and perpetual-capital managers to mid-market BDC equity.",
+    "verify": "`GBDC` and `OCSL` Q3 10-Qs (calls C-20261031-02 and C-20261107-02), OTF's class action docket, and Signifyd recovery disclosures.",
+    "gaps": [
+      "G4"
+    ]
+  },
+  {
+    "id": "T3",
+    "emoji": "📉",
+    "short_title": "Payrolls & Single-B Spreads",
+    "title": "Hot Payrolls Meet Wider Single-B Spreads and the First Pullback in Bank Lending to Non-Banks",
+    "freshness": {
+      "thread": "us_rates_single_b_ndfi_funding",
+      "status": "new",
+      "catalyst_type": "news",
+      "first_reported": "2026-11-06",
+      "latest_catalyst": "2026-11-06",
+      "catalyst_evidence": [
+        "E15",
+        "E13"
+      ]
+    },
+    "thesis": "October payrolls beat at [[F37]] and December hike odds rose to [[F39]]. US Single-B OAS widened [[F44]] to [[F43]], US High Yield now trades wider than Europe ([[F48]]), and bank loans to non-bank lenders fell for the first time ([[F52]]). Floating-rate borrowers get no relief.",
+    "verdict": "TRIM SINGLE-B LOAN BETA · PREFER SENIOR FLOATERS",
+    "stance": "Higher-for-longer meets tighter bank funding",
+    "risk": {
+      "probability": 4,
+      "impact": 4
+    },
+    "evidence": [
+      "E05",
+      "E08",
+      "E13",
+      "E15",
+      "E10"
+    ],
+    "signal": "October nonfarm payrolls came in at [[F37]] against [[F38]] consensus, though average unemployment duration hit [[F42]]. A Fed official warned higher rates may be needed: December hike odds rose to [[F39]], no-cut-in-2026 odds to [[F40]], and the 2-year yield to [[F41]]. FRED data sealed this morning show credit had already moved on Thursday: US Single-B OAS widened [[F44]] in one session to [[F43]] ([[F45]] effective yield), US High Yield OAS reached [[F46]] versus Euro High Yield at [[F47]] (US now [[F48]] relative to Europe), and US CCC OAS hit [[F49]]. Bank loans to non-depository financial institutions fell [[F52]] to [[F51]] ([[F53]] of all bank loans), the first pullback from the [[F101]] record, while the Fed's loan officer survey shows net tightening of [[F54]]. LMEs already drive [[F55]] of speculative-grade defaults.",
+    "mechanism": "B3/B- borrowers pay floating coupons. When markets price out rate cuts and price in a hike, their interest bills stay high just as banks tighten standards and trim lending to the private-credit funds that refinance them. Weak borrowers then turn to coercive out-of-court exchanges, which is why LMEs dominate defaults and why Single-B spreads widen faster than BB.",
+    "latex": "\\text{ICR} = \\frac{\\text{EBITDA}}{D \\times \\left(r_{\\text{base}} + s\\right)}",
+    "latex_status": "standard",
+    "latex_note": "Interest cover for a floating-rate borrower. With the base rate held up by [[F40]] no-cut odds and Single-B yields at [[F45]], the weakest borrowers drift toward interest cover below one times; our hazard estimate for that cohort is [[F102]].",
+    "factors": [
+      "Rates: payrolls at [[F37]] and hike odds at [[F39]] keep floating coupons high.",
+      "Spreads: Single-B OAS at [[F43]] (up [[F44]]) and US HY wider than Euro HY ([[F48]]).",
+      "Bank funding: first pullback in loans to non-banks ([[F52]]) on top of SLOOS tightening ([[F54]])."
+    ],
+    "scenarios": [
+      {
+        "id": "A",
+        "p": 55,
+        "label": "Spreads stay wide into December",
+        "text": "Single-B OAS holds near [[F43]] and the H.8 series stays below [[F101]], keeping refinancing tight for weak borrowers."
+      },
+      {
+        "id": "B",
+        "p": 30,
+        "label": "Soft CPI calms the move",
+        "text": "A benign inflation print pulls hike odds back from [[F39]] and Single-B spreads retrace."
+      },
+      {
+        "id": "C",
+        "p": 15,
+        "label": "December hike triggers a downgrade wave",
+        "text": "A December hike pushes more B3/B- names into CCC and forces CLO overcollateralisation diversions.",
+        "kill_switch": "US Single-B OAS closes above 4.25% or US CCC OAS above 15.00% on FRED before 30 Nov 2026."
+      }
+    ],
+    "posture": "Trim unhedged Single-B loan beta; favour senior floating-rate paper over both leveraged loans and fixed-rate IG; avoid CLO tranches where CCC buckets exceed the median ([[F96]]).",
+    "verify": "Weekly H.8 on 11 November (call C-20261107-03), Single-B OAS through 30 November (call C-20261106-02), and the next CPI print.",
+    "gaps": [
+      "G4"
+    ]
+  },
+  {
+    "id": "T4",
+    "emoji": "⚔️",
+    "short_title": "Drahi & Virgin Media Slide",
+    "title": "Optimum's Anti-Co-Op Drop-Down and a Further Slide in Virgin Media Unsecured Bonds",
+    "watch_themes": [
+      "uk_eu_cable_telecom",
+      "drahi_altice"
+    ],
+    "freshness": {
+      "thread": "drahi_liberty_cable_complex",
+      "status": "running",
+      "catalyst_type": "telemetry",
+      "first_reported": "2026-10-13",
+      "latest_catalyst": "2026-11-07",
+      "catalyst_evidence": [
+        "E04",
+        "E16"
+      ],
+      "delta": "Market-only move today: the Virgin Media 2030 unsecured bid fell [[F58]] to [[F57]] while Ziggo 2030 rose [[F63]], widening the gap to [[F64]]; today's covenant captures add detail on Optimum's anti-co-op TLB-7 terms."
+    },
+    "thesis": "The Drahi and Liberty telecom complex is splitting by structure. Virgin Media 2030 unsecured bonds now bid at [[F57]] while Ziggo 2030 trades at [[F62]]. Optimum ([[F65]] debt) is using an unrestricted-subsidiary drop-down with anti-co-op terms to subordinate existing lenders.",
+    "verdict": "HARD VETO ALTICE & OPTIMUM · CAP UK/EU CABLE IN CLO POOLS",
+    "stance": "Structure-driven recovery dispersion",
+    "risk": {
+      "probability": 5,
+      "impact": 4
+    },
+    "evidence": [
+      "E04",
+      "E11",
+      "E16",
+      "E10"
+    ],
+    "signal": "Sealed exchange quotes show the Virgin Media Finance 2030 senior unsecured bid down [[F58]] to [[F57]] ([[F59]] mid), with VMED O2 2031 senior secured at [[F60]] and the VMO2 2033 vendor financing note at [[F61]], after VMO2 announced [[F70]] of cuts. Ziggo Bond Co. 2030 rose [[F63]] to [[F62]], [[F64]] above Virgin Media's unsecured paper. Octus and 9fin covenant reviews describe Optimum Communications ([[F65]] debt, [[F66]] maturity wall) dropping East-region assets into an unrestricted subsidiary to raise a new TLB-7 with anti-co-op language aimed at legacy TLB-6 lenders. Altice Financing EUR 2028 notes sit at [[F67]] with Altice International at [[F68]] leverage and a lawsuit from steering plaintiffs holding [[F69]]. LMEs drive [[F55]] of speculative-grade defaults.",
+    "mechanism": "An anti-co-op clause is written to break the creditor groups that lenders form to resist coercive exchanges. If enough lenders accept the new TLB-7, the sponsor can move assets out of reach of those who did not join, cutting their recovery. Unsecured holders sit even further back, which is why Virgin Media unsecured paper trades near a quarter of par while Ziggo's holding-company notes hold up.",
+    "latex": "\\mathbb{E}[R] = P_{\\text{join}} \\, R_{\\text{new}} + \\left(1 - P_{\\text{join}}\\right) R_{\\text{stripped}}",
+    "latex_status": "framework",
+    "latex_note": "Recovery for a lender facing a non-pro-rata exchange: joining earns the new-money recovery, staying out risks the stripped recovery. Anti-co-op terms raise the cost of staying out.",
+    "factors": [
+      "Anti-co-op drafting: Optimum's TLB-7 targets legacy TLB-6 lenders across [[F65]] of debt and a [[F66]] wall.",
+      "Unsecured vs secured dispersion: Virgin Media unsecured bids at [[F57]] versus VMED O2 secured at [[F60]].",
+      "Sister-credit gap: Ziggo at [[F62]] trades [[F64]] above Virgin Media unsecured."
+    ],
+    "scenarios": [
+      {
+        "id": "A",
+        "p": 50,
+        "label": "Slow attrition, no resolution",
+        "text": "Altice ([[F67]]) and Optimum grind through litigation and exchanges; Virgin Media unsecured stays near [[F59]]."
+      },
+      {
+        "id": "B",
+        "p": 35,
+        "label": "Downgrades swell CLO CCC buckets",
+        "text": "Rating actions on UK and European cable names push more loans into CLO CCC buckets above the [[F96]] median."
+      },
+      {
+        "id": "C",
+        "p": 15,
+        "label": "Co-op fracture",
+        "text": "Altice's creditor cooperation breaks and forced sellers hit secured paper too.",
+        "kill_switch": "Altice International's creditor cooperation agreement terminates, or VMED O2 2031 senior secured trades below 60.00 pts, before 30 Nov 2026."
+      }
+    ],
+    "posture": "Hard veto on Altice and Optimum outside workout mandates; cap combined UK and EU cable exposure when selecting CLO mezzanine; treat the Ziggo versus Virgin Media gap as research only.",
+    "verify": "NY and SDNY dockets on Altice and Optimum (Gap G2), VodafoneZiggo TLB dealer runs (call C-20261028-01), and any Altice consensual deal (call C-20261026-03).",
+    "gaps": [
+      "G2"
+    ]
+  },
+  {
+    "id": "T5",
+    "emoji": "🚰",
+    "short_title": "Thames Class A Sub-50 Mids",
+    "title": "Thames Water Class A: Two Notes Now Below Half of Par on a Mid Basis",
+    "watch_themes": [
+      "thames_water_wbs"
+    ],
+    "freshness": {
+      "thread": "thames_water_wbs_class_a",
+      "status": "running",
+      "catalyst_type": "telemetry",
+      "first_reported": "2026-10-16",
+      "latest_catalyst": "2026-11-07",
+      "catalyst_evidence": [
+        "E03"
+      ],
+      "delta": "No new creditor, Ofwat or court news since the [[F78]] funding request; the change is market-only: the 2028 and 2032 notes made new one-year lows below half of par on a mid basis ([[F72]], [[F73]]) and the lowest bid is [[F74]]. The basket average ([[F71]]) is flattered by a wide [[F76]] quote on the 2027 note."
+    },
+    "thesis": "This is an open situation with no new fundamental news today. The market keeps marking Class A down: two of the four EUR notes now trade below half of par on a mid basis ([[F72]], [[F73]]) as the super-senior bridge heads toward [[F77]].",
+    "verdict": "HARD VETO CLASS B · DISTRESSED WATCH ON CLASS A",
+    "stance": "Priming dilution, no new catalyst",
+    "risk": {
+      "probability": 4,
+      "impact": 4
+    },
+    "evidence": [
+      "E03",
+      "E09",
+      "E12"
+    ],
+    "signal": "Sealed Frankfurt and Stuttgart order books show the Thames Water Class A January 2028 note at a new one-year low of [[F72]] mid and the January 2032 note at [[F73]], with the lowest bid across the four notes at [[F74]]. The April 2027 note trades with a [[F76]] bid-ask, which lifts the four-note average to [[F71]]. Since our last edition there has been no new creditor vote, Ofwat decision or court filing; the backdrop is unchanged: a request for a further [[F78]] of emergency funding that would take super-senior liquidity toward [[F77]], and Class B holders accepting about [[F79]] in equity.",
+    "mechanism": "Every pound of new super-senior debt sits ahead of Class A in the waterfall, so it reduces Class A recovery pound for pound unless Ofwat allows a higher regulated asset value. Without a new regulatory catalyst the market simply keeps repricing that dilution, and thin exchange books (wide quotes like the [[F76]] on the 2027s) exaggerate daily moves.",
+    "latex": "R_{\\text{Class A}} = \\frac{\\min\\left(D_{\\text{A}},\\; \\max\\left(0,\\; V_{\\text{RCV}} - D_{\\text{super}}\\right)\\right)}{D_{\\text{A}}}",
+    "latex_status": "identity",
+    "latex_note": "Senior recovery after deducting super-senior debt (target [[F77]]) from regulated capital value; live mids near half of par sit well below our consensual estimate of [[F98]].",
+    "factors": [
+      "Priming: the [[F78]] request takes super-senior liquidity toward [[F77]].",
+      "Market-only signal: two notes below half of par on mid ([[F72]], [[F73]]) with no new fundamental news.",
+      "Thin books: a [[F76]] bid-ask on the 2027s means single quotes move the average ([[F71]])."
+    ],
+    "scenarios": [
+      {
+        "id": "A",
+        "p": 50,
+        "label": "Pinned near half of par",
+        "text": "Class A trades around [[F71]] until Ofwat or creditors act, with no change in posture."
+      },
+      {
+        "id": "B",
+        "p": 35,
+        "label": "Ofwat deadlock leads to special administration",
+        "text": "Ofwat rejects the turnaround terms and Class A falls further behind [[F77]] of priming debt."
+      },
+      {
+        "id": "C",
+        "p": 15,
+        "label": "Funding holdout and immediate insolvency",
+        "text": "Creditors block the extra [[F78]] and the government petitions for special administration.",
+        "kill_switch": "Defra or Ofwat petitions the High Court for a Special Administration Order, or creditors vote down the super-senior facility expansion."
+      }
+    ],
+    "posture": "Hard veto on Class B; Class A stays on distressed watch only until there is a binding Ofwat outcome and London voice-desk depth (Gap G5).",
+    "verify": "Ofwat consultation outcomes, the creditor vote on the [[F78]] request, daily Class A quotes (calls C-20261031-01 and C-20261107-04), and special administration risk (call C-20261026-04).",
+    "gaps": [
+      "G5",
+      "G2"
+    ]
+  },
+  {
+    "id": "T6",
+    "emoji": "🔑",
+    "short_title": "Lenders Take the Keys",
+    "title": "Lenders Take the Keys: Out West's Goldman-Led Lenders Face a Deep Loss as Karyopharm Hands Its Debt Holders the Company",
+    "freshness": {
+      "thread": "private_credit_lender_takeovers",
+      "status": "new",
+      "catalyst_type": "news",
+      "first_reported": "2026-11-02",
+      "latest_catalyst": "2026-11-02",
+      "catalyst_evidence": [
+        "E18",
+        "E17"
+      ]
+    },
+    "thesis": "Found by Chrizza's own sweep, not Thufir: two Chapter 11 filings on 2 November show how private credit defaults are now resolved. Karyopharm's lenders swap [[F111]] of debt for about [[F112]] of a merged company, while Out West's Goldman-led lenders face a [[F108]] bid against [[F105]] of term loans. Fitch's private credit default rate sits at a record [[F114]].",
+    "verdict": "PRICE RECOVERY, NOT PAR · AVOID SPONSOR-LIGHT MID-MARKET LOANS",
+    "stance": "Debt-for-equity becomes the default workout",
+    "risk": {
+      "probability": 4,
+      "impact": 4
+    },
+    "evidence": [
+      "E17",
+      "E18",
+      "E19",
+      "E20",
+      "E21"
+    ],
+    "signal": "Chrizza's native sweep (queries carried no names from Thufir's dossier) found two lender-led outcomes filed on 2 November. Karyopharm Therapeutics filed a prepackaged Chapter 11 in which all funded debt, about [[F111]] across first-lien, 1.5L and 2L claims, converts into equity worth about [[F112]] of a company merged with Ayrmid; existing lenders also provide [[F113]]. Out West Restaurant Group, the largest Outback franchisee and owned by H.I.G. since 2015, filed in Delaware: its Goldman Sachs Specialty Lending-led facility carries [[F105]] of term loans, [[F106]] of revolver and [[F107]] of other obligations, against a franchisor stalking-horse bid of [[F108]] (about [[F109]]) and a [[F110]]. Fitch's U.S. private credit default rate is a record [[F114]], with deferrals and PIK about [[F115]] and stressed extensions about [[F116]] of events, while the leveraged loan rate is [[F117]] against a [[F118]] forecast. Non-traded BDCs still enforce a [[F119]] on redemptions, with one Blue Owl tech vehicle seeing requests near [[F120]]. Context: the Atalian takeover converted [[F122]] of debt to equity and the Serta ruling set damages of [[F121]] for non-pro-rata uptiers.",
+    "mechanism": "When a sponsor stops supporting a private credit borrower, there is no liquid bond market to absorb the loss, so the lenders end up owning the business. That works when the asset has strategic value (Karyopharm's drug revenue attracts a merger partner) and fails when it does not (franchise restaurants sold back to the franchisor for a fraction of the loan). The record default rate is mostly soft defaults (PIK and extensions), which delay this choice rather than avoid it.",
+    "latex": "R_{\\text{lender}} = \\frac{V_{\\text{sale or equity}} - D_{\\text{DIP}}}{D_{\\text{pre-petition}}}",
+    "latex_status": "approximation",
+    "latex_note": "Practitioner recovery estimate for a lender-led workout: value received (sale price or equity) after the new-money DIP, divided by pre-petition claims. Out West's [[F108]] bid covers about [[F109]] before counting [[F107]] of other obligations.",
+    "factors": [
+      "Lender-led outcomes: Karyopharm equitises [[F111]] into about [[F112]]; Out West's lenders face a [[F108]] bid against [[F105]] of term loans.",
+      "Soft defaults dominate: Fitch's record [[F114]] private credit default rate is mostly PIK and deferrals ([[F115]]) and extensions ([[F116]]).",
+      "Liquidity gates: non-traded BDCs keep a [[F119]] while some tech-heavy vehicles saw requests near [[F120]], limiting forced selling but trapping investors."
+    ],
+    "scenarios": [
+      {
+        "id": "A",
+        "p": 55,
+        "label": "More quiet takeovers",
+        "text": "Lender takeovers and prepacks keep rising while headline bankruptcies stay low; the private credit default rate holds near [[F114]]."
+      },
+      {
+        "id": "B",
+        "p": 30,
+        "label": "Strategic buyers support recoveries",
+        "text": "Merger partners and asset buyers (as at Karyopharm) keep recoveries reasonable for healthier sectors."
+      },
+      {
+        "id": "C",
+        "p": 15,
+        "label": "Recovery collapse in consumer and franchise credits",
+        "text": "More Out West-style outcomes with recoveries near [[F109]] force markdowns across consumer-exposed private credit books.",
+        "kill_switch": "Fitch's U.S. Private Credit Default Rate exceeds 7.5%, or a top-10 BDC discloses a realised loss above 2% of NAV on a single consumer credit, before 31 Dec 2026."
+      }
+    ],
+    "posture": "Price private credit exposure on expected recovery, not par: avoid sponsor-light consumer and franchise loans; prefer lenders with workout capacity and senior positions; treat the record [[F114]] default rate as a mark-to-reality signal for BDC equity.",
+    "verify": "Out West bidding procedures and any competing bids, the Karyopharm confirmation timeline, Fitch's next private credit default print, and BDC disclosures that name the Out West facility (call C-20261107-05).",
+    "gaps": [
+      "G2"
+    ]
+  }
+]

@@ -1,0 +1,163 @@
+{
+  "schema": "chrizza.evidence.v1",
+  "dossier_id": "CHZ-CREDIT-20261026",
+  "method_note": "Captures are condensed analyst notes of search-grounded summaries (search_web) taken in one research session ending 2026-10-25T20:48:53Z. Primary documents were not opened; every figure citing these captures is therefore rated no higher than medium confidence. Seals prove the stored note has not changed since capture — they do not prove the publisher's wording.",
+  "sealed_at_utc": "2026-10-25T21:12:45Z",
+  "items": [
+    {
+      "id": "E01",
+      "title": "European CLO issuance and AAA spreads — September 2026",
+      "capture_method": "search_web grounded summary (condensed analyst note; primary not opened)",
+      "query": "European CLO issuance September 2026 AAA spread new issue refi reset",
+      "captured_at_utc": "2026-10-25T20:48:53Z",
+      "publisher_domains": [
+        "trepp.com",
+        "dechert.com",
+        "nplconfidential.com"
+      ],
+      "excerpt": "European CLO issuance year-to-date through September 2026 reached €94.9bn across 229 deals. September totalled €10.7bn across 24 deals: new issue €7.6bn (17 deals) versus refi/reset €3.1bn, ending three months of repricing dominance. BofA forecasts full-year refi/reset of about €60bn. AAA new-issue spreads averaged 124 bps in September (128 bps in August); refi/reset AAA averaged 120 bps, the lowest of the year.",
+      "sha256": "f54b7b2bb7a2a12d72a7137aa2db11e54e60004e5a4d13b643d4879661dc9102"
+    },
+    {
+      "id": "E02",
+      "title": "European CLO arbitrage, captive equity and BB dispersion",
+      "capture_method": "search_web grounded summary (condensed analyst note; primary not opened)",
+      "query": "European CLO equity arbitrage 2026 asset spreads captive equity BB tranche dispersion",
+      "captured_at_utc": "2026-10-25T20:48:53Z",
+      "publisher_domains": [
+        "sona-am.com",
+        "valitana.com",
+        "trepp.com",
+        "dechert.com"
+      ],
+      "excerpt": "European leveraged loan asset spreads are around 3.55-3.56%. CLO equity arbitrage is compressed; managers increasingly rely on captive equity funds (e.g. Bain, CVC). BB tranche pricing dispersion by manager is widening and investors are looking to the secondary market.",
+      "sha256": "c238d2c478b4cec199aacc9ab2ee902118ddd35db7ba378c3841e91d83e65ca0"
+    },
+    {
+      "id": "E03",
+      "title": "Altice France — restructuring completed",
+      "capture_method": "search_web grounded summary (condensed analyst note; primary not opened)",
+      "query": "Altice France restructuring completed debt reduction creditors equity stake",
+      "captured_at_utc": "2026-10-25T20:48:53Z",
+      "publisher_domains": [
+        "milbank.com",
+        "elevenflo.com",
+        "octus.com",
+        "mayerbrown.com",
+        "9fin.com",
+        "telcotitans.com"
+      ],
+      "excerpt": "Altice France completed its restructuring: debt reduced by roughly €8.5-8.6bn, leverage around 4.6x, maturities extended to 2028-2033. Creditors received about 45% of the equity; Nick Read joined the board.",
+      "sha256": "4973cde40658a01198f462b9911af19ce7dd554b378b7e5db7081ea3d84108e7"
+    },
+    {
+      "id": "E04",
+      "title": "Altice International — unrestricted subsidiaries, default notice, New York action",
+      "capture_method": "search_web grounded summary (condensed analyst note; primary not opened)",
+      "query": "Altice International 2026 default notice secured creditors unrestricted subsidiaries New York lawsuit",
+      "captured_at_utc": "2026-10-25T20:48:53Z",
+      "publisher_domains": [
+        "eurestructuring.com",
+        "bankruptcydata.com",
+        "spglobal.com",
+        "octus.com",
+        "9fin.com"
+      ],
+      "excerpt": "In November 2025 Altice International designated Altice Portugal and Altice Caribbean as unrestricted subsidiaries and raised €750m at 12% due 2029. On 14 July 2026 the 2028 secured group served a default notice; about €8bn of secured debt is involved. In October 2026 an action was filed in the New York Supreme Court. Roughly €3.1bn matures in 2027; bonds trade in the mid-to-low 60s.",
+      "sha256": "583d9a4968808b55ed9dafa03bf96917136ead88e170c24b9219bfd33bb4b940"
+    },
+    {
+      "id": "E05",
+      "title": "Thames Water — liquidity runway, Class B TSA, consortium",
+      "capture_method": "search_web grounded summary (condensed analyst note; primary not opened)",
+      "query": "Thames Water October 2026 emergency funding Class B creditors transaction support agreement special administration",
+      "captured_at_utc": "2026-10-25T20:48:53Z",
+      "publisher_domains": [
+        "theguardian.com",
+        "thameswater.co.uk",
+        "watermagazine.co.uk",
+        "creditsights.com",
+        "briefs.co",
+        "administrationlist.co.uk"
+      ],
+      "excerpt": "Thames Water has drawn £2.65bn of its £3bn emergency facility; cash runs out late 2026 to early 2027. It is seeking a further £2.4bn to last into autumn 2027, raising dilution concerns among super-senior holders (including PIMCO). A Class B Transaction Support Agreement backed by more than 60% of the roughly £1bn Class B debt provides a full write-off in exchange for about 5.9% recovery via equity plus rights in a £150m equity raise. The London & Valley Water consortium (Elliott, Silver Point) proposes Lord Hutton as chair-designate and Mike McTighe as vice-chair. A deal requires Ofwat concessions; there is political pressure to trigger the Special Administration Regime.",
+      "sha256": "705e3f26819c66f05f299ccd007eb0066fac450b134b461159ec5f30313e8f43"
+    },
+    {
+      "id": "E06",
+      "title": "Fitch — European leveraged loan default rate and Market Concern list",
+      "capture_method": "search_web grounded summary (condensed analyst note; primary not opened)",
+      "query": "Fitch European leveraged loan default rate September 2026 forecast Market Concern list",
+      "captured_at_utc": "2026-10-25T20:48:53Z",
+      "publisher_domains": [
+        "fitchratings.com",
+        "pitchbook.com"
+      ],
+      "excerpt": "Fitch's European leveraged loan trailing-twelve-month default rate rose to 3.6% in September 2026, from 2.7% in August and 2.0% at mid-year. In July Fitch raised its full-year 2026 forecast to 4.0-4.5% from 3.0-3.5%. The Market Concern list stands at 10.3-10.6%, the highest since early 2013. Repeat defaults and liability-management exercises are a driver.",
+      "sha256": "265aac6f918e06e87e2fe1391c6db34e50c864dbb85f7181586531f980eabed7"
+    },
+    {
+      "id": "E07",
+      "title": "Bank of England FPC — private credit, leveraged lending, AI capex financing",
+      "capture_method": "search_web grounded summary (condensed analyst note; primary not opened)",
+      "query": "Bank of England Financial Policy Committee 2026 private credit leveraged lending AI capex financing vulnerabilities",
+      "captured_at_utc": "2026-10-25T20:48:53Z",
+      "publisher_domains": [
+        "bankofengland.co.uk",
+        "fsb.org",
+        "aima.org",
+        "hsfkramer.com",
+        "aoshearman.com"
+      ],
+      "excerpt": "The FPC keeps private credit and leveraged lending on its vulnerability list. AI-related capex is increasingly financed through private credit, leveraged finance and structured finance. Concerns include the maturity wall managed through amend-and-extend, opacity and layered leverage; the system-wide exploratory scenario (SWES) informs the analysis.",
+      "sha256": "92c327a7c7727b3144a5fe1408c764c04bdccb031b6e82ff62503220d4160c35"
+    },
+    {
+      "id": "E08",
+      "title": "Morningstar European Leveraged Loan Index — size and repricing",
+      "capture_method": "search_web grounded summary (condensed analyst note; primary not opened)",
+      "query": "Morningstar European Leveraged Loan Index 2026 size repricing software dispersion",
+      "captured_at_utc": "2026-10-25T20:48:53Z",
+      "publisher_domains": [
+        "morningstar.com",
+        "pitchbook.com",
+        "pimco.com",
+        "goodwinlaw.com"
+      ],
+      "excerpt": "The Morningstar European Leveraged Loan Index exceeds €300bn. The market has seen repricing waves, with dispersion concentrated in software borrowers.",
+      "sha256": "f8a3b904d41c239fd70e8c4b12157ef76e738a79170a0d29161fa05e99c77883"
+    },
+    {
+      "id": "E09",
+      "title": "Private credit PIK — 'bad PIK' as shadow default",
+      "capture_method": "search_web grounded summary (condensed analyst note; primary not opened)",
+      "query": "private credit payment-in-kind 2026 bad PIK shadow default vintages software AI",
+      "captured_at_utc": "2026-10-25T20:48:53Z",
+      "publisher_domains": [
+        "valuationresearch.com",
+        "iflr.com",
+        "spglobal.com",
+        "allianz-trade.com",
+        "europa.eu"
+      ],
+      "excerpt": "Commentators distinguish PIK structured at origination from 'bad PIK' switched on after origination, which they treat as a shadow default. Stress is concentrated in 2021-22 vintages and in software/SaaS borrowers exposed to AI disruption. No quantified public series of bad-PIK incidence was found.",
+      "sha256": "c79160d5474352b923844494480d14aa655b512c069a083686e97522e4f465f1"
+    },
+    {
+      "id": "E10",
+      "title": "Drivers of tight CLO AAA spreads",
+      "capture_method": "search_web grounded summary (condensed analyst note; primary not opened)",
+      "query": "CLO AAA spreads tight 2026 drivers CLO ETF Solvency II institutional demand arbitrage",
+      "captured_at_utc": "2026-10-25T20:48:53Z",
+      "publisher_domains": [
+        "trepp.com",
+        "janushenderson.com",
+        "amundi.com",
+        "allianzgi.com",
+        "mandg.com"
+      ],
+      "excerpt": "CLO AAA spreads sit in the 120-130 bps area, supported by CLO ETF inflows, Solvency II treatment and broad institutional demand, while tight liabilities coexist with pressure on equity arbitrage.",
+      "sha256": "54789a82731ef94c5f92dc3166ff2dd45a99e31ed2adc898c99801e9034eed65"
+    }
+  ]
+}

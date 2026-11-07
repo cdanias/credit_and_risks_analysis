@@ -1,0 +1,905 @@
+{
+  "schema": "chrizza.credit_dossier.v1",
+  "dossier_id": "CHZ-CREDIT-20261026",
+  "title": "Structured Credit & CLO Horizon Dossier — 26 Oct 2026",
+  "author": "Chrizza (structured-credit-agent)",
+  "audience": "CIO · Muad'Dib · Agent Manager",
+  "observed_at_utc": "2026-10-25T20:48:53Z",
+  "session_for": "2026-10-26",
+  "figures": {
+    "F01": {
+      "label": "EUR CLO AAA new-issue average spread, Sep 2026",
+      "display": "124 bps",
+      "value": 124,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-09-30",
+      "evidence": "E01"
+    },
+    "F02": {
+      "label": "EUR CLO AAA refi/reset average spread, Sep 2026 (year's low)",
+      "display": "120 bps",
+      "value": 120,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-09-30",
+      "evidence": "E01"
+    },
+    "F03": {
+      "label": "EUR CLO issuance year-to-date, Sep 2026",
+      "display": "€94.9bn · 229 deals",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-09-30",
+      "evidence": "E01"
+    },
+    "F04": {
+      "label": "EUR CLO new issue, Sep 2026",
+      "display": "€7.6bn (17 deals)",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-09-30",
+      "evidence": "E01"
+    },
+    "F05": {
+      "label": "EUR CLO refi/reset, Sep 2026",
+      "display": "€3.1bn",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-09-30",
+      "evidence": "E01"
+    },
+    "F06": {
+      "label": "BofA full-year 2026 EUR refi/reset forecast",
+      "display": "~€60bn",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-09-30",
+      "evidence": "E01"
+    },
+    "F07": {
+      "label": "European leveraged loan asset spread (approx.)",
+      "display": "~355 bps",
+      "provenance": "sourced",
+      "confidence": "low",
+      "as_of": "2026-09-30",
+      "evidence": "E02"
+    },
+    "F08": {
+      "label": "AAA new-issue minus refi/reset gap, Sep 2026",
+      "display": "~4 bps",
+      "value": 4,
+      "provenance": "derived",
+      "confidence": "medium",
+      "inputs": [
+        "F01",
+        "F02"
+      ],
+      "op": "diff",
+      "rationale": "F01 − F02"
+    },
+    "F10": {
+      "label": "Altice France debt reduction (completed restructuring)",
+      "display": "~€8.5bn",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2025",
+      "historical": true,
+      "evidence": "E03"
+    },
+    "F11": {
+      "label": "Altice France post-restructuring leverage",
+      "display": "~4.6x",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2025",
+      "historical": true,
+      "evidence": "E03"
+    },
+    "F12": {
+      "label": "Altice France equity taken by creditors",
+      "display": "~45%",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2025",
+      "historical": true,
+      "evidence": "E03"
+    },
+    "F13": {
+      "label": "Altice International 2028 secured group default notice",
+      "display": "14 Jul 2026",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-07-14",
+      "historical": true,
+      "evidence": "E04"
+    },
+    "F14": {
+      "label": "Altice International debt maturing in 2027",
+      "display": "~€3.1bn",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10-25",
+      "evidence": "E04"
+    },
+    "F15": {
+      "label": "Altice International secured debt in dispute",
+      "display": "~€8bn",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10-25",
+      "evidence": "E04"
+    },
+    "F16": {
+      "label": "New money raised against unrestricted subsidiaries (Nov 2025)",
+      "display": "€750m at 12% (2029)",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2025-11",
+      "historical": true,
+      "evidence": "E04"
+    },
+    "F17": {
+      "label": "Altice International bond price range",
+      "display": "mid-to-low 60s",
+      "provenance": "sourced",
+      "confidence": "low",
+      "as_of": "2026-10-25",
+      "evidence": "E04"
+    },
+    "F20": {
+      "label": "Thames Water emergency facility drawn",
+      "display": "£2.65bn of £3bn",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10-25",
+      "evidence": "E05"
+    },
+    "F21": {
+      "label": "Thames Water additional funding sought",
+      "display": "£2.4bn",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10-25",
+      "evidence": "E05"
+    },
+    "F22": {
+      "label": "Class B holders backing the TSA",
+      "display": ">60%",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10-25",
+      "evidence": "E05"
+    },
+    "F23": {
+      "label": "Thames Water Class B debt outstanding",
+      "display": "~£1bn",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10-25",
+      "evidence": "E05"
+    },
+    "F24": {
+      "label": "Class B recovery via equity under the TSA",
+      "display": "~5.9%",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10-25",
+      "evidence": "E05"
+    },
+    "F25": {
+      "label": "Equity raise Class B may participate in",
+      "display": "£150m",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10-25",
+      "evidence": "E05"
+    },
+    "F30": {
+      "label": "Fitch European leveraged loan TTM default rate, Sep 2026",
+      "display": "3.6%",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-09-30",
+      "evidence": "E06"
+    },
+    "F31": {
+      "label": "Fitch European leveraged loan TTM default rate, Aug 2026",
+      "display": "2.7%",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-08-31",
+      "evidence": "E06"
+    },
+    "F32": {
+      "label": "Fitch European leveraged loan TTM default rate, mid-2026",
+      "display": "2.0%",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-06-30",
+      "historical": true,
+      "evidence": "E06"
+    },
+    "F33": {
+      "label": "Fitch FY2026 default forecast (raised in July)",
+      "display": "4.0–4.5%",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-07",
+      "historical": true,
+      "evidence": "E06"
+    },
+    "F34": {
+      "label": "Fitch FY2026 default forecast before the July revision",
+      "display": "3.0–3.5%",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026",
+      "historical": true,
+      "evidence": "E06"
+    },
+    "F35": {
+      "label": "Fitch Market Concern list share (highest since early 2013)",
+      "display": "10.3–10.6%",
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-09-30",
+      "evidence": "E06"
+    },
+    "F40": {
+      "label": "Morningstar European Leveraged Loan Index size",
+      "display": ">€300bn",
+      "provenance": "sourced",
+      "confidence": "low",
+      "as_of": "2026-10-25",
+      "evidence": "E08"
+    },
+    "F51": {
+      "label": "Probability Thames Water enters SAR by 31 Jan 2027",
+      "display": "~30%",
+      "provenance": "estimate",
+      "confidence": "low",
+      "rationale": "Chrizza judgement: consensual Class B TSA and an active consortium weigh against SAR; the funding gap and political pressure weigh for it. Registered as call C-20261026-04."
+    },
+    "F52": {
+      "label": "Credit regime score (−100 risk-off … +100 risk-on)",
+      "display": "−28",
+      "value": -28,
+      "provenance": "estimate",
+      "confidence": "low",
+      "rationale": "Chrizza composite: firm senior liability bid (+) outweighed by a rising default rate, a Market Concern list at a thirteen-year high and thin equity arbitrage (−)."
+    },
+    "F60": {
+      "label": "Typical European CLO 2.0 capital stack (share of par)",
+      "display": "illustrative capital stack",
+      "provenance": "illustrative",
+      "confidence": "low",
+      "rationale": "Teaching example of a generic European CLO 2.0 structure; not a specific deal and not market data.",
+      "tranches": [
+        [
+          "AAA",
+          61.0
+        ],
+        [
+          "AA",
+          10.5
+        ],
+        [
+          "A",
+          6.5
+        ],
+        [
+          "BBB",
+          6.5
+        ],
+        [
+          "BB",
+          5.5
+        ],
+        [
+          "B",
+          2.0
+        ],
+        [
+          "Equity",
+          8.0
+        ]
+      ]
+    }
+  },
+  "brief": {
+    "regime_label": "LIABILITY-RICH · COLLATERAL-POOR · DEFAULTS RISING",
+    "regime_score_fig": "F52",
+    "headline": "Funding is cheap, collateral is not: the bill arrives through defaults, not spreads.",
+    "summary": "CLO liabilities are pricing at the year's tights — refi/reset AAA at [[F02]] — while the collateral underneath deteriorates: Fitch's European loan default rate has climbed to [[F30]] and the Market Concern list stands at [[F35]], the highest since early 2013. The market is paying up for safety at the top of the stack and under-charging for loss at the bottom. Two named credits carry the event risk: **Altice International** (litigation-led) and **Thames Water** (runway-led). Our stance: harvest manager selection in seasoned mezzanine, veto the junior event names, and buy the data we lack.",
+    "pulse": [
+      {
+        "fig": "F02",
+        "label": "AAA refi/reset · Sep",
+        "sub": "The year's tightest — the senior bid is firm."
+      },
+      {
+        "fig": "F30",
+        "label": "EUR loan default rate · TTM",
+        "sub": "Up from [[F31]] in August and [[F32]] at mid-year."
+      },
+      {
+        "fig": "F35",
+        "label": "Fitch Market Concern list",
+        "sub": "Highest since early 2013 — the pipeline of future defaults."
+      },
+      {
+        "fig": "F24",
+        "label": "Thames Class B recovery",
+        "sub": "Consensual TSA — full write-off for an equity recovery."
+      }
+    ],
+    "decisions": [
+      {
+        "id": "D1",
+        "ask": "Ratify hard vetoes on the Altice International capital structure and on UK water junior (Class B) WBS paper.",
+        "why": "Both are event situations where recovery is set by courts and regulators, not by credit analysis; we can evidence no edge in either.",
+        "impact": "Removes two tail risks; no expected return forgone on current information."
+      },
+      {
+        "id": "D2",
+        "ask": "Approve procurement of trustee-level CLO data (Intex or Creditflux CLO-i) and BWIC colour.",
+        "why": "CCC buckets, OC cushions and secondary prices decide CLO mezzanine value — today we hold none of them (gaps G1, G2).",
+        "impact": "Unlocks quantified OC stress tests and the evidence needed to lift conviction above the medium cap."
+      },
+      {
+        "id": "D3",
+        "ask": "Grant a research-only mandate for a seasoned secondary CLO mezzanine sleeve (BBB/BB, top-tier managers).",
+        "why": "Manager dispersion is widening while liabilities are tight: secondary mezzanine is where selection is paid.",
+        "impact": "No capital at risk; produces an underwriting pack for the next dossier once D2 data arrives."
+      }
+    ],
+    "opportunities": [
+      {
+        "id": "O1",
+        "label": "Seasoned secondary BBB/BB mezzanine",
+        "thesis": "Buy dispersion, not beta: top-tier managers' seasoned mezzanine in secondary, in preference to primary equity at thin arbitrage.",
+        "why_now": "BB pricing is dispersing by manager while AAA clears at [[F02]] — selection is being paid.",
+        "verify": "BWIC colour and trustee OC headroom (gaps G1, G2)."
+      },
+      {
+        "id": "O2",
+        "label": "Convex hedge — iTraxx Crossover",
+        "thesis": "Protection against the path where defaults outrun the forecast and the senior bid finally breaks.",
+        "why_now": "Default rate rising to [[F30]] while liabilities price at the tights — an asymmetric set-up.",
+        "verify": "Index level and option-implied volatility were not captured this cycle — price before acting."
+      },
+      {
+        "id": "O3",
+        "label": "Altice International litigation optionality",
+        "thesis": "If a consensual term sheet emerges, recovery could re-rate from the [[F17]].",
+        "why_now": "The 2027 wall of [[F14]] forces the sponsor to engage.",
+        "verify": "Watch list only — veto V1 stands until documents are available."
+      }
+    ],
+    "vetoes": [
+      {
+        "id": "V1",
+        "label": "Altice International complex",
+        "rationale": "Recovery is litigation-led; crown-jewel assets have moved outside the restricted group; no primary pricing."
+      },
+      {
+        "id": "V2",
+        "label": "UK water junior WBS paper",
+        "rationale": "The consensual Class B outcome is a near-total write-off, and junior claims sit behind super-senior funding that may still grow."
+      },
+      {
+        "id": "V3",
+        "label": "Primary CLO equity",
+        "rationale": "Arbitrage too thin at current asset spreads; captive equity, not third-party demand, is setting the marginal price."
+      }
+    ],
+    "calendar": [
+      {
+        "when": "Early Nov 2026",
+        "topic": "T1",
+        "event": "October European CLO monthly print",
+        "note": "Resolves call C-20261026-01 on the AAA new-issue average."
+      },
+      {
+        "when": "Mid Nov 2026",
+        "topic": "T4",
+        "event": "Fitch European leveraged loan default update",
+        "note": "Tests the climb toward the full-year forecast range."
+      },
+      {
+        "when": "Late Nov 2026 (expected)",
+        "topic": "T6",
+        "event": "ECB Financial Stability Review",
+        "note": "Read-across on non-bank leverage and private credit."
+      },
+      {
+        "when": "Late 2026 – early 2027",
+        "topic": "T3",
+        "event": "Thames Water liquidity runway",
+        "note": "Decision on the additional funding ask; the SAR risk window."
+      },
+      {
+        "when": "Through 2027",
+        "topic": "T2",
+        "event": "Altice International maturity wall",
+        "note": "Sponsor pressure to reach a consensual deal."
+      },
+      {
+        "when": "Ongoing",
+        "topic": "T2",
+        "event": "New York Supreme Court docket — Altice International",
+        "note": "Interim relief or rulings move recovery expectations."
+      }
+    ],
+    "mermaid": "flowchart LR\n  A[Tight CLO liabilities] --> B[Resets beat new issue]\n  C[Loan repricing waves] --> D[Thin equity arbitrage]\n  B --> D\n  D --> E[Captive equity sets the marginal price]\n  F[Sponsor asset migration] --> G[Rising defaults and LMEs]\n  H[Layered leverage and AI capex debt] --> G\n  G --> I[CCC migration]\n  I --> J[Junior OC pressure]\n  J --> K[Mezzanine and equity cash diverted]\n  G --> L[Court- and regulator-set recoveries]"
+  },
+  "topics": [
+    {
+      "id": "T1",
+      "emoji": "💶",
+      "title": "CLO liabilities vs arbitrage — the market pays managers to refinance, not to buy",
+      "thesis": "Liability spreads sit at the year's tights while asset spreads compress: the arbitrage favours resets of old deals over new equity.",
+      "verdict": "Liabilities rich · equity arb thin",
+      "stance": "Prefer seasoned mezzanine over primary equity",
+      "risk": {
+        "probability": 3,
+        "impact": 3
+      },
+      "evidence": [
+        "E01",
+        "E02",
+        "E10"
+      ],
+      "show_stack": "F60",
+      "stack_note": "Tranche shares are a teaching example; the one market number attached is the AAA price — new issue near [[F01]] in September. Equity owns the residual, so asset-spread compression lands on the bottom tranche first.",
+      "signal": "September broke a three-month run of repricing dominance: new issue printed [[F04]] against [[F05]] of refi/reset, taking year-to-date issuance to [[F03]]. AAA new issue averaged [[F01]] while refi/reset AAA cleared at [[F02]] — the year's tightest — a gap of only [[F08]]. BofA still expects around [[F06]] of refi/reset for the full year.",
+      "mechanism": "Equity is the residual of the asset spread minus the weighted cost of liabilities, fees and expected losses. With loan spreads near [[F07]] and repricing waves still cutting collateral coupons, much of each basis point saved on the AAA is clawed back on the asset side. That is why managers prefer resetting existing liabilities, and why new equity is increasingly captive (manager-sponsored equity funds) rather than third-party. BB pricing is dispersing by manager: tiering, not beta, is the trade.",
+      "latex": "\\text{Arb}_{\\text{equity}} \\approx s_{\\text{assets}} - \\sum_{i} w_i \\, s_i - f_{\\text{mgmt}} - \\ell_{\\text{exp}}",
+      "latex_status": "approximation",
+      "latex_note": "s = spread, w = tranche weight, f = management fees, ℓ = expected credit loss. A practitioner's excess-spread approximation, not a deal model: it ignores reinvestment, OC diversion and timing. When asset spreads fall faster than the weighted liability cost, equity cash-on-cash compresses even at record-tight AAA levels. No liability weights or fee loads were captured this cycle, so it is not evaluated numerically.",
+      "factors": [
+        "Institutional demand for AAA (CLO ETFs, insurers under Solvency II) keeps the senior bid firm.",
+        "Loan repricing waves cut collateral coupons faster than liabilities can be reset.",
+        "Captive equity funds lower the bar for printing marginal new deals.",
+        "Manager tiering widens BB dispersion — selection matters more than the index.",
+        "Rising defaults (T4) erode par and junior OC cushions; trustee data is needed to measure it (gap G1)."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 60,
+          "label": "Grind",
+          "text": "Tight liabilities persist; refi/reset volume continues; equity arbitrage stays thin."
+        },
+        {
+          "id": "B",
+          "p": 28,
+          "label": "Arb reopens",
+          "text": "Loan spreads widen modestly on defaults, arbitrage reopens for new issue and BB tiering sharpens."
+        },
+        {
+          "id": "C",
+          "p": 12,
+          "label": "Senior bid breaks",
+          "text": "A demand shock at the top of the stack (ETF outflows or a regulatory change) widens liabilities sharply.",
+          "kill_switch": "AAA new issue averages above 150 bps for a full month, or CLO ETFs record sustained outflows."
+        }
+      ],
+      "posture": "Do not underwrite primary equity at today's arbitrage. Prefer seasoned BBB/BB mezzanine from top-tier managers bought in secondary, where dispersion pays for selection. Treat the AAA level as a funding-cost signal, not a return source.",
+      "verify": "October CLO print (early November): the new-issue versus refi mix, the AAA average and any widening in BB dispersion. Confirm the asset-spread figure from a primary source — today it is low-confidence at [[F07]].",
+      "gaps": [
+        "G1",
+        "G2"
+      ],
+      "short_title": "CLO Liabilities vs Arbitrage"
+    },
+    {
+      "id": "T2",
+      "emoji": "⚡",
+      "title": "Altice International — same sponsor, same playbook, new battlefield",
+      "thesis": "Altice France is finished; the fight has moved to Altice International, where asset designations and a default notice have put recovery into court.",
+      "verdict": "Adversarial · litigation-led",
+      "stance": "Hard veto — watch list only",
+      "risk": {
+        "probability": 4,
+        "impact": 4
+      },
+      "evidence": [
+        "E03",
+        "E04"
+      ],
+      "signal": "Altice France closed its restructuring: debt cut by roughly [[F10]], leverage to about [[F11]], creditors taking about [[F12]] of the equity. The contest has moved to Altice International. In November 2025 Altice Portugal and Altice Caribbean were designated unrestricted and new money of [[F16]] was raised against them. The 2028 secured group served a default notice on [[F13]]; an action is now before the New York Supreme Court. Roughly [[F15]] of secured debt is in play, about [[F14]] matures in 2027, and the bonds trade in the [[F17]].",
+      "mechanism": "The playbook is value migration: move crown-jewel assets outside the restricted group by unrestricted-subsidiary designation, raise priming new money against them, then negotiate from strength with the creditors left behind. Recovery for the legacy secured group becomes a function of the collateral left in the box, the court's reading of the indenture, and how hard the maturity wall presses the sponsor.",
+      "latex": "\\mathbb{E}[R] = P_{\\text{win}} \\, R_{\\text{restore}} + \\left(1 - P_{\\text{win}}\\right) R_{\\text{residual}} - c_{\\text{lit}}",
+      "latex_status": "framework",
+      "latex_note": "A decision-analysis framing, not a market pricing formula: P_win is the probability the court unwinds or penalises the designations; c_lit is litigation and time cost. None of the inputs is observable today and no price is captured (gap G4), so it structures the question rather than answering it.",
+      "factors": [
+        "Indenture capacity for unrestricted-subsidiary designations and asset-transfer baskets.",
+        "The New York court timetable and any interim relief.",
+        "The 2027 maturity wall forcing the sponsor to the table.",
+        "Cohesion of the secured creditors' cooperation agreement.",
+        "CLO read-across: downgrades into CCC push holdings into the excess-CCC haircut and erode OC tests."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 50,
+          "label": "Standoff",
+          "text": "Litigation drags; episodic headlines; prices range-bound."
+        },
+        {
+          "id": "B",
+          "p": 30,
+          "label": "Consensual deal",
+          "text": "Haircut plus extension before the wall, with creditor equity echoing the Altice France template."
+        },
+        {
+          "id": "C",
+          "p": 20,
+          "label": "Escalation",
+          "text": "Further designations or a ruling against creditors; prices gap lower.",
+          "kill_switch": "A court ruling for the company, or a new unrestricted-subsidiary designation."
+        }
+      ],
+      "posture": "Hard veto on new exposure anywhere in the Altice International capital structure. Track as event-driven optionality only: if a consensual term sheet emerges, re-underwrite from the documents, not the headlines.",
+      "verify": "Docket entries in the New York action; any cooperation-group announcement; rating actions on the secured group; trustee reports for affected CLO holdings (gap G1).",
+      "gaps": [
+        "G4"
+      ],
+      "short_title": "Altice International LME"
+    },
+    {
+      "id": "T3",
+      "emoji": "🏛️",
+      "title": "Thames Water — junior recovery near zero, even by consent",
+      "thesis": "The Class B outcome is now consensual but brutal; the live risk has moved to liquidity runway and political tolerance.",
+      "verdict": "Junior wipe-out · senior runway risk",
+      "stance": "Hard veto on junior WBS paper",
+      "risk": {
+        "probability": 3,
+        "impact": 4
+      },
+      "evidence": [
+        "E05"
+      ],
+      "signal": "The Class B Transaction Support Agreement is backed by holders of [[F22]] of the roughly [[F23]] outstanding: a full write-off in exchange for about [[F24]] recovered via equity, plus rights to join a [[F25]] equity raise. Liquidity is the binding constraint: [[F20]] of the emergency facility is drawn, cash runs out around late 2026 to early 2027, and the company is asking for a further [[F21]] to last into autumn 2027 — a request that worries super-senior holders about dilution. The London & Valley Water consortium (Elliott, Silver Point) proposes Lord Hutton as chair-designate.",
+      "mechanism": "Whole-business securitisation protects senior creditors through ring-fencing and step-in rights, but the regulator's tolerance sets the ceiling. A recapitalisation needs Ofwat concessions on penalties, the investment programme and returns; without them the Special Administration Regime becomes the political default. SAR protects service continuity, not creditor value, and freezes timelines.",
+      "latex": "R_{\\text{junior}} = \\frac{\\max\\left(0,\\; V_{\\text{EV}} - D_{\\text{super-senior}} - D_{\\text{Class A}}\\right)}{D_{\\text{Class B}}}",
+      "latex_status": "identity",
+      "latex_note": "Junior recovery is the residual after super-senior and Class A claims under strict absolute priority. Real outcomes are negotiated: the Class B TSA grants an equity recovery even though the residual may be zero, which is exactly the deviation this identity exposes. No enterprise value was captured this cycle.",
+      "factors": [
+        "Ofwat concessions on penalties and the investment programme.",
+        "Size and seniority of incremental super-senior funding.",
+        "Political appetite for SAR versus a creditor-led recapitalisation.",
+        "Class A holders' acceptance of extension and haircut terms.",
+        "Read-across to other UK water whole-business securitisations."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 55,
+          "label": "Creditor-led recap",
+          "text": "Recapitalisation proceeds with regulatory concessions; Class B written off under the TSA; Class A extended."
+        },
+        {
+          "id": "B",
+          "p": 30,
+          "label": "SAR",
+          "text": "Special administration triggered: timelines freeze and recoveries become politically determined."
+        },
+        {
+          "id": "C",
+          "p": 15,
+          "label": "Disorderly gap",
+          "text": "Emergency liquidity runs out before agreement is reached.",
+          "kill_switch": "Super-senior lenders decline the additional funding ask, or Ofwat rejects the concession package."
+        }
+      ],
+      "posture": "Hard veto on UK water junior WBS paper. Any opportunity lies in Class A at a discount once regulatory terms are visible — no Class A price was captured (gap G5), so there is no value view today. Chrizza's estimate of SAR by end-January 2027 is [[F51]].",
+      "verify": "Ofwat statements on the recapitalisation; the super-senior response to the funding ask; any court timetable for plan sanction; Class A price discovery.",
+      "gaps": [
+        "G5"
+      ],
+      "short_title": "Thames Water Junior Recovery"
+    },
+    {
+      "id": "T4",
+      "emoji": "📉",
+      "title": "The default cycle is turning — quietly, through the back door",
+      "thesis": "Defaults are rising faster than forecasters expected, and the channel is repeat defaults and LMEs rather than headline bankruptcies.",
+      "verdict": "Rising · under-priced in liabilities",
+      "stance": "Raise default assumptions; respect the OC maths",
+      "risk": {
+        "probability": 4,
+        "impact": 4
+      },
+      "evidence": [
+        "E06",
+        "E08"
+      ],
+      "signal": "Fitch's European leveraged loan trailing default rate reached [[F30]] in September, up from [[F31]] in August and [[F32]] at mid-year. In July Fitch raised its full-year forecast to [[F33]] from [[F34]]. The Market Concern list — loans Fitch sees at risk of default — stands at [[F35]], the highest since early 2013. Repeat defaults and liability-management exercises are a material driver across an index of [[F40]].",
+      "mechanism": "LMEs count as defaults when they impose losses, but they often leave the borrower alive and inside CLO portfolios at lower ratings. The damage arrives through CCC buckets and par erosion rather than through a wave of liquidations. When CCC holdings exceed the permitted bucket, the excess is carried at market value in OC tests; failing a junior OC test diverts cash from equity and mezzanine to deleveraging.",
+      "latex": "\\text{OC}_j = \\frac{\\text{Par}_{\\text{perf}} + \\text{MV}_{\\text{def}} - H_{\\text{CCC excess}}}{\\sum_{i \\le j} \\text{Par}_i}",
+      "latex_status": "standard",
+      "latex_note": "The market-standard shape of a CLO overcollateralisation test, simplified: each indenture defines its own haircuts, carrying values and trigger levels. Performing par plus defaulted assets at market value, less the haircut on CCC holdings above the bucket, over the par of tranche j and everything senior to it. Junior OC is where a rising default rate bites first — trustee data is the missing input (gap G1).",
+      "factors": [
+        "Repeat defaults among previously restructured borrowers.",
+        "LME prevalence in sponsor-backed capital structures.",
+        "Software and AI-exposed sectors facing revenue-model pressure.",
+        "Refinancing wall for weaker credits over the next two years.",
+        "Speed of rating migration into CCC."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 55,
+          "label": "Steady climb",
+          "text": "The trailing rate moves into the forecast range by year-end; losses are absorbed by OC cushions."
+        },
+        {
+          "id": "B",
+          "p": 30,
+          "label": "Plateau",
+          "text": "Repricing relief and amend-and-extend hold the rate near current levels."
+        },
+        {
+          "id": "C",
+          "p": 15,
+          "label": "Acceleration",
+          "text": "Market Concern names default in a cluster and junior OC tests trip across vintages.",
+          "kill_switch": "Two consecutive monthly prints each rising by more than half a percentage point."
+        }
+      ],
+      "posture": "Underwrite European loan portfolios at the top of Fitch's forecast range, not at the trailing rate. Favour CLOs with clean collateral and junior OC headroom — which requires trustee data before any commitment (decision D2).",
+      "verify": "Fitch's monthly default update (mid-November); rating migration into CCC; LME announcements among sponsor-backed borrowers.",
+      "gaps": [
+        "G1"
+      ],
+      "short_title": "Default Cycle & LME Turn"
+    },
+    {
+      "id": "T5",
+      "emoji": "⚔️",
+      "title": "Private credit — 'bad PIK' is the shadow default rate",
+      "thesis": "PIK switched on after origination signals cash-flow stress that headline default rates miss — and there is still no reliable public series to measure it.",
+      "verdict": "Opaque · stress in 2021–22 vintages",
+      "stance": "Demand PIK disclosure before any allocation",
+      "risk": {
+        "probability": 3,
+        "impact": 3
+      },
+      "evidence": [
+        "E09"
+      ],
+      "signal": "Advisers and regulators distinguish good PIK, structured at origination, from bad PIK, switched on later to preserve liquidity. Commentary concentrates stress in 2021–22 vintages and in software and SaaS borrowers exposed to AI disruption. No quantified public series of bad-PIK incidence was found this cycle (gap G3).",
+      "mechanism": "A coupon converted to PIK preserves the borrower's cash but grows the claim: loan-to-value drifts up while the loan stays 'performing'. Marks lag, so NAV-based reporting understates stress until a realisation event — refinancing, sale or default — forces price discovery.",
+      "latex": "D_t = D_0 \\left(1 + r_{\\text{PIK}}\\right)^{t}, \\qquad \\text{LTV}_t = \\frac{D_t}{V_t}",
+      "latex_status": "identity",
+      "latex_note": "Compounding arithmetic, exact by construction: under PIK the claim grows while enterprise value may stagnate, so LTV rises without a single missed payment. No PIK rates or valuations were captured (gap G3).",
+      "factors": [
+        "Share of portfolio income received in kind versus in cash.",
+        "Amendment frequency and covenant resets.",
+        "Vintage concentration at 2021–22 entry valuations.",
+        "Sector exposure to AI-driven disruption (software and SaaS).",
+        "Valuation governance: who marks, how often, on what evidence."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 60,
+          "label": "Slow burn",
+          "text": "Bad PIK rises gradually and is absorbed through amendments; markdowns stay selective."
+        },
+        {
+          "id": "B",
+          "p": 25,
+          "label": "Realisation wave",
+          "text": "Refinancings and sales force markdowns on the weakest vintages."
+        },
+        {
+          "id": "C",
+          "p": 15,
+          "label": "Liquidity contagion",
+          "text": "Redemption pressure in semi-liquid vehicles forces asset sales.",
+          "kill_switch": "Gating or redemption limits at a major semi-liquid private credit vehicle."
+        }
+      ],
+      "posture": "No allocation without manager disclosure of the PIK split (origination versus amendment) and vintage concentration. Treat the absence of a series as a risk in itself.",
+      "verify": "Source a quantified PIK series from BDC filings and rating-agency private credit default studies (gap G3); watch redemption data at semi-liquid vehicles.",
+      "gaps": [
+        "G3"
+      ],
+      "short_title": "Private Credit Bad-PIK Rate"
+    },
+    {
+      "id": "T6",
+      "emoji": "🏦",
+      "title": "Bank of England — layered leverage and AI capex debt share the same balance sheets",
+      "thesis": "The FPC keeps private credit and leveraged lending on its vulnerability list, and now links AI capex financing to the same channels.",
+      "verdict": "Systemic watch · no trigger yet",
+      "stance": "Track regulation; hold convexity",
+      "risk": {
+        "probability": 2,
+        "impact": 5
+      },
+      "evidence": [
+        "E07"
+      ],
+      "signal": "The Financial Policy Committee continues to flag private credit and leveraged lending as vulnerabilities: opacity, layered leverage, and a maturity wall managed through amend-and-extend. It highlights that AI-related capex is increasingly financed through private credit, leveraged finance and structured finance. Its system-wide exploratory scenario work is mapping how non-bank stress transmits.",
+      "mechanism": "Leverage multiplies through layers: a fund borrows against its NAV, the portfolio company is itself levered, and the lender may be financed by bank back-leverage. Each layer looks modest; the product does not. Shocks transmit through margin calls and redemptions rather than direct defaults.",
+      "latex": "L_{\\text{eff}} = \\prod_{k=1}^{n} L_k",
+      "latex_status": "framework",
+      "latex_note": "A stylised illustration of how exposure compounds across layers (fund NAV facility × portfolio-company leverage × lender back-leverage). It is not a Bank of England metric and is not calibrated: no layer multiples were captured this cycle.",
+      "factors": [
+        "FPC and PRA supervisory focus on bank lending to non-banks.",
+        "Concentration of AI capex financing in a small set of sponsors and supply chains.",
+        "NAV-facility usage by private equity funds.",
+        "Margin and liquidity terms on back-leverage.",
+        "Coordination with the ECB and FSB on non-bank leverage."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 60,
+          "label": "Supervisory pressure",
+          "text": "More disclosure requests; no binding limits."
+        },
+        {
+          "id": "B",
+          "p": 25,
+          "label": "Targeted measures",
+          "text": "Capital or reporting requirements on bank lending to non-banks."
+        },
+        {
+          "id": "C",
+          "p": 15,
+          "label": "Market event",
+          "text": "Stress at a large AI-capex borrower or fund forces de-leveraging across layers.",
+          "kill_switch": "A disorderly fund wind-down or a margin-call cascade reported by the Bank of England."
+        }
+      ],
+      "posture": "No direct position. Use as the systemic overlay: hold a convex hedge on European high yield (opportunity O2), sized to the portfolio's exposure to layered structures.",
+      "verify": "The next FPC record and the ECB Financial Stability Review (expected late November); published SWES findings.",
+      "gaps": [],
+      "short_title": "BoE Layered Leverage & AI"
+    }
+  ],
+  "calls": [
+    {
+      "id": "C-20261026-01",
+      "topic": "T1",
+      "proposition": "October 2026 EUR CLO AAA new-issue average spread prints at or below 128 bps.",
+      "p": 0.7,
+      "resolve_by": "2026-11-15",
+      "resolution_source": "Monthly European CLO market report (Trepp / Dechert / Creditflux)"
+    },
+    {
+      "id": "C-20261026-02",
+      "topic": "T1",
+      "proposition": "Full-year 2026 EUR CLO refi/reset volume reaches at least €55bn.",
+      "p": 0.65,
+      "resolve_by": "2027-01-31",
+      "resolution_source": "Full-year European CLO market reviews"
+    },
+    {
+      "id": "C-20261026-03",
+      "topic": "T2",
+      "proposition": "Altice International announces a consensual restructuring agreement with its secured creditors by 31 Jan 2027.",
+      "p": 0.3,
+      "resolve_by": "2027-01-31",
+      "resolution_source": "Company or creditor-group announcement; 9fin; Octus"
+    },
+    {
+      "id": "C-20261026-04",
+      "topic": "T3",
+      "proposition": "Thames Water is placed into the Special Administration Regime by 31 Jan 2027.",
+      "p": 0.3,
+      "resolve_by": "2027-01-31",
+      "resolution_source": "Court order / UK government announcement"
+    },
+    {
+      "id": "C-20261026-05",
+      "topic": "T4",
+      "proposition": "Fitch's European leveraged loan TTM default rate is at or above 4.0% in its December 2026 print.",
+      "p": 0.6,
+      "resolve_by": "2027-01-31",
+      "resolution_source": "Fitch Ratings European leveraged loan default insight"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "G1",
+      "label": "Trustee-level CCC share and OC cushions",
+      "impact": "Junior OC headroom cannot be quantified or stress-tested.",
+      "remedy": "Intex or Creditflux CLO-i (decision D2)."
+    },
+    {
+      "id": "G2",
+      "label": "BWIC colour and secondary tranche prices",
+      "impact": "Opportunity O1 cannot be priced.",
+      "remedy": "Creditflux and dealer BWIC feeds (decision D2)."
+    },
+    {
+      "id": "G3",
+      "label": "Quantified bad-PIK series",
+      "impact": "Private credit stress is described, not measured.",
+      "remedy": "BDC filings; rating-agency private credit default studies."
+    },
+    {
+      "id": "G4",
+      "label": "Altice International price known only as a range",
+      "impact": "Recovery scenarios stay qualitative.",
+      "remedy": "Dealer runs or 9fin pricing."
+    },
+    {
+      "id": "G5",
+      "label": "No Thames Water Class A price",
+      "impact": "No value view on the senior opportunity.",
+      "remedy": "Dealer runs or terminal pricing."
+    }
+  ],
+  "bibliography": [
+    {
+      "source_id": "fitch_structured_credit",
+      "used_for": "Default rate, forecast revision and Market Concern list (E06)."
+    },
+    {
+      "source_id": "pitchbook_lcd",
+      "used_for": "Default and index commentary (E06, E08)."
+    },
+    {
+      "source_id": "9fin_levfin_news",
+      "used_for": "Altice France and Altice International (E03, E04)."
+    },
+    {
+      "source_id": "sp_global_ratings_direct",
+      "used_for": "Altice International (E04) and private credit PIK (E09)."
+    },
+    {
+      "source_id": "bank_of_england_financial_stability",
+      "used_for": "FPC vulnerabilities and AI capex financing (E07)."
+    },
+    {
+      "candidate": true,
+      "domain": "trepp.com",
+      "used_for": "Monthly European CLO volumes and spreads (E01, E02, E10) — strongest candidate for promotion."
+    },
+    {
+      "candidate": true,
+      "domain": "octus.com",
+      "used_for": "Restructuring coverage (E03, E04)."
+    },
+    {
+      "candidate": true,
+      "domain": "eurestructuring.com",
+      "used_for": "Altice International chronology (E04)."
+    }
+  ],
+  "heuristics": [
+    {
+      "id": "H1",
+      "text": "A claim that cannot be traced to a capture note is not a figure; it is a gap."
+    },
+    {
+      "id": "H2",
+      "text": "Liability tights are a funding signal, not a return; read the arbitrage from the asset side."
+    },
+    {
+      "id": "H3",
+      "text": "In sponsor situations, follow the assets out of the restricted group before reading the price."
+    },
+    {
+      "id": "H4",
+      "text": "Regulated-utility recoveries are set by the regulator's tolerance, not by the waterfall alone."
+    },
+    {
+      "id": "H5",
+      "text": "LMEs default borrowers into CCC buckets, not into liquidation — watch OC, not headlines."
+    },
+    {
+      "id": "H6",
+      "text": "An estimate without a resolve-by date is an opinion: date it or drop it."
+    }
+  ]
+}

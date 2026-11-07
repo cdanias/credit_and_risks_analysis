@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 316 156" width="316" height="156">
+  <defs>
+    <!-- Base figure of 8 infinity path — UNTOUCHED EXACT HELIX GEOMETRY -->
+    <path id="inf-center" 
+          d="M 158,68 C 190,16 294,16 294,68 C 294,120 190,120 158,68 C 126,16 22,16 22,68 C 22,120 126,120 158,68" 
+          pathLength="320"/>
+
+    <!-- Inner boundary rail -->
+    <path id="inf-inner" 
+          d="M 158,68 C 182,30 274,30 274,68 C 274,106 182,106 158,68 C 134,30 42,30 42,68 C 42,106 134,106 158,68" 
+          pathLength="320"/>
+
+    <!-- Outer boundary rail -->
+    <path id="inf-outer" 
+          d="M 158,68 C 198,2 312,2 312,68 C 312,134 198,134 158,68 C 118,2 4,2 4,68 C 4,134 118,134 158,68" 
+          pathLength="320"/>
+
+    <!-- Gold metallic gradient (Left loop) -->
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCEBA6"/>
+      <stop offset="35%" stop-color="#D4A843"/>
+      <stop offset="70%" stop-color="#A17822"/>
+      <stop offset="100%" stop-color="#694D10"/>
+    </linearGradient>
+
+    <!-- Mauve metallic gradient (Right loop) -->
+    <linearGradient id="mauve-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EACDF7"/>
+      <stop offset="35%" stop-color="#8B6B99"/>
+      <stop offset="70%" stop-color="#5F3F6D"/>
+      <stop offset="100%" stop-color="#3A2244"/>
+    </linearGradient>
+
+    <!-- Mask for 3x dense cross-rungs -->
+    <mask id="dense-rungs-mask">
+      <rect x="0" y="0" width="316" height="156" fill="white" />
+      <use href="#inf-center" fill="none" stroke="black" stroke-width="28" stroke-dasharray="1.2 1.8" />
+    </mask>
+  </defs>
+
+  <!-- Pure White Canvas Background -->
+  <rect width="316" height="156" fill="#ffffff" rx="8"/>
+
+  <!-- Shadow drop for 3D depth -->
+  <use href="#inf-center" fill="none" stroke="rgba(0,0,0,0.06)" stroke-width="32" />
+
+  <!-- Full Ribbon Base Band (28px wide ribbon) -->
+  <g fill="none" stroke-width="28" stroke-linecap="round">
+    <use href="#inf-center" stroke="url(#mauve-grad)" stroke-dasharray="153 320" stroke-dashoffset="-26" />
+    <use href="#inf-center" stroke="url(#gold-grad)" stroke-dasharray="135 320" stroke-dashoffset="-185" />
+    <use href="#inf-center" stroke="url(#gold-grad)" stroke-dasharray="19 320" stroke-dashoffset="0" />
+  </g>
+
+  <!-- DNA Rung Lattice Masking Layer -->
+  <g mask="url(#dense-rungs-mask)" fill="none" stroke-width="28" stroke-linecap="round">
+    <use href="#inf-center" stroke="#ffffff" stroke-dasharray="153 320" stroke-dashoffset="-26" opacity="0.45" />
+    <use href="#inf-center" stroke="#ffffff" stroke-dasharray="153 320" stroke-dashoffset="-185" opacity="0.45" />
+  </g>
+
+  <!-- Solid Outer Boundary Rail Tube (4.5px thick) -->
+  <g fill="none" stroke-width="4.5" stroke-linecap="round">
+    <use href="#inf-outer" stroke="url(#mauve-grad)" stroke-dasharray="153 320" stroke-dashoffset="-26" />
+    <use href="#inf-outer" stroke="url(#gold-grad)" stroke-dasharray="135 320" stroke-dashoffset="-185" />
+    <use href="#inf-outer" stroke="url(#gold-grad)" stroke-dasharray="19 320" stroke-dashoffset="0" />
+  </g>
+
+  <!-- Solid Inner Boundary Rail Tube (4.5px thick) -->
+  <g fill="none" stroke-width="4.5" stroke-linecap="round">
+    <use href="#inf-inner" stroke="url(#mauve-grad)" stroke-dasharray="153 320" stroke-dashoffset="-26" />
+    <use href="#inf-inner" stroke="url(#gold-grad)" stroke-dasharray="135 320" stroke-dashoffset="-185" />
+    <use href="#inf-inner" stroke="url(#gold-grad)" stroke-dasharray="19 320" stroke-dashoffset="0" />
+  </g>
+
+  <!-- High-contrast fine cross-rungs highlights -->
+  <use href="#inf-center" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-dasharray="1.2 1.8" opacity="0.95" />
+
+  <!-- infinix typography — Scaled +40% (Font Size 61.6px, stroke 11.2px, centred at x=158, same floor y=148) -->
+  <!-- Layer 1: White halo cutout stroke around characters -->
+  <text x="158" y="148" 
+        text-anchor="middle" 
+        font-family="'Segoe UI', system-ui, -apple-system, sans-serif" 
+        font-size="61.6" 
+        font-weight="900" 
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="11.2"
+        stroke-linejoin="round"
+        stroke-linecap="round"
+        letter-spacing="0.7">infinix</text>
+
+  <!-- Layer 2: Deep navy blue (#003b70) foreground text fill -->
+  <text x="158" y="148" 
+        text-anchor="middle" 
+        font-family="'Segoe UI', system-ui, -apple-system, sans-serif" 
+        font-size="61.6" 
+        font-weight="900" 
+        fill="#003b70"
+        letter-spacing="0.7">infinix</text>
+</svg>

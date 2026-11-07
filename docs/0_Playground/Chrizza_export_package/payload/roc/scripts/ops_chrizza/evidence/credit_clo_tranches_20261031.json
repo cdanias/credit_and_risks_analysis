@@ -1,0 +1,395 @@
+{
+  "schema": "chrizza.clo_tranches.v1",
+  "date": "20261031",
+  "captured_at_utc": "2026-10-31T19:16:47Z",
+  "source": "sec_edgar_xbrl_nport",
+  "summary": {
+    "etf_series_ingested": 3,
+    "total_deal_tranches_parsed": 880,
+    "aaa_vs_b_bbb_clean_price_diff_pts": -0.08,
+    "b_bbb_vs_aaa_coupon_pickup_bp": 167.0,
+    "european_trustee_inbox_files": 0
+  },
+  "etf_tranche_pools": [
+    {
+      "symbol": "JAAA",
+      "series_name": "Janus Henderson AAA CLO ETF",
+      "filing_date": "2026-09-25",
+      "report_period_date": "2026-07-31",
+      "accession": "0002071691-26-023379",
+      "archive_url": "https://www.sec.gov/Archives/edgar/data/1500604/000207169126023379/primary_doc.xml",
+      "net_assets_usd_m": 29209.71,
+      "clo_tranche_count": 598,
+      "clo_par_usd_m": 29284.59,
+      "par_weighted_fair_price": 100.09,
+      "par_weighted_coupon_pct": 4.99,
+      "tranches_below_99_count": 0,
+      "tranches_below_99_pct": 0.0,
+      "tranches_below_98_count": 0,
+      "min_tranche_price": 99.8,
+      "max_tranche_price": 115.26,
+      "top_manager_shelves": [
+        {
+          "shelf": "CIFC",
+          "par_usd_m": 1626.79
+        },
+        {
+          "shelf": "Elmwood",
+          "par_usd_m": 1357.46
+        },
+        {
+          "shelf": "Madison Park",
+          "par_usd_m": 1223.84
+        },
+        {
+          "shelf": "Neuberger Berman",
+          "par_usd_m": 1048.77
+        },
+        {
+          "shelf": "AGL",
+          "par_usd_m": 843.84
+        }
+      ],
+      "representative_tranches": [
+        {
+          "issuer": "KKR CLO 35 Ltd.",
+          "tranche": "KKR CLO 35 Ltd., Series 35A, Class AR",
+          "shelf": "KKR",
+          "cusip": "48254LAN5",
+          "isin": "US48254LAN55",
+          "par_usd_m": 249.0,
+          "fair_val_usd_m": 248.88,
+          "clean_fair_price": 99.95,
+          "coupon_pct": 4.93,
+          "maturity": "2038-01-20"
+        },
+        {
+          "issuer": "AB BSL CLO 1 Ltd.",
+          "tranche": "AB BSL CLO 1 Ltd., Series 2020-1A, Class A1R2",
+          "shelf": "AB",
+          "cusip": "00038KBA8",
+          "isin": "US00038KBA88",
+          "par_usd_m": 229.0,
+          "fair_val_usd_m": 229.29,
+          "clean_fair_price": 100.13,
+          "coupon_pct": 5.0,
+          "maturity": "2038-10-15"
+        },
+        {
+          "issuer": "Anchorage Capital CLO 16 Ltd.",
+          "tranche": "Anchorage Capital CLO 16 Ltd., Series 2020-16A, Class A1R2",
+          "shelf": "Anchorage Capital",
+          "cusip": "03330WAU8",
+          "isin": "US03330WAU80",
+          "par_usd_m": 211.88,
+          "fair_val_usd_m": 212.11,
+          "clean_fair_price": 100.11,
+          "coupon_pct": 4.98,
+          "maturity": "2038-01-19"
+        },
+        {
+          "issuer": "Palmer Square CLO Ltd.",
+          "tranche": "Palmer Square CLO Ltd., Series 2018-2A, Class A1R2",
+          "shelf": "Palmer Square",
+          "cusip": "69688MAY1",
+          "isin": "US69688MAY12",
+          "par_usd_m": 200.0,
+          "fair_val_usd_m": 199.98,
+          "clean_fair_price": 99.99,
+          "coupon_pct": 5.0,
+          "maturity": "2037-04-16"
+        },
+        {
+          "issuer": "Madison Park Funding LXXI Ltd.",
+          "tranche": "Madison Park Funding LXXI Ltd., Series 2025-71A, Class A1",
+          "shelf": "Madison Park",
+          "cusip": "55817DAA6",
+          "isin": "US55817DAA63",
+          "par_usd_m": 125.58,
+          "fair_val_usd_m": 125.33,
+          "clean_fair_price": 99.8,
+          "coupon_pct": 4.89,
+          "maturity": "2038-04-23"
+        },
+        {
+          "issuer": "Octagon 74 Ltd.",
+          "tranche": "Octagon 74 Ltd., Series 2025-2A, Class A1",
+          "shelf": "Octagon 74",
+          "cusip": "675942AA4",
+          "isin": "US675942AA40",
+          "par_usd_m": 31.0,
+          "fair_val_usd_m": 30.94,
+          "clean_fair_price": 99.81,
+          "coupon_pct": 4.86,
+          "maturity": "2038-04-22"
+        },
+        {
+          "issuer": "Barings CLO Ltd.",
+          "tranche": "Barings CLO Ltd., Series 2025-1A, Class A",
+          "shelf": "Barings",
+          "cusip": "067927AA1",
+          "isin": "US067927AA15",
+          "par_usd_m": 53.0,
+          "fair_val_usd_m": 52.9,
+          "clean_fair_price": 99.81,
+          "coupon_pct": 4.86,
+          "maturity": "2038-04-20"
+        }
+      ]
+    },
+    {
+      "symbol": "JAA_A",
+      "series_name": "Janus Henderson AA-A CLO ETF",
+      "filing_date": "2026-09-25",
+      "report_period_date": "2026-07-31",
+      "accession": "0002071691-26-023377",
+      "archive_url": "https://www.sec.gov/Archives/edgar/data/1500604/000207169126023377/primary_doc.xml",
+      "net_assets_usd_m": 147.48,
+      "clo_tranche_count": 44,
+      "clo_par_usd_m": 136.88,
+      "par_weighted_fair_price": 100.1,
+      "par_weighted_coupon_pct": 5.42,
+      "tranches_below_99_count": 0,
+      "tranches_below_99_pct": 0.0,
+      "tranches_below_98_count": 0,
+      "min_tranche_price": 99.8,
+      "max_tranche_price": 100.45,
+      "top_manager_shelves": [
+        {
+          "shelf": "Symphony",
+          "par_usd_m": 8.9
+        },
+        {
+          "shelf": "Neuberger Berman",
+          "par_usd_m": 7.65
+        },
+        {
+          "shelf": "Magnetite XXIII",
+          "par_usd_m": 7.25
+        },
+        {
+          "shelf": "OCP",
+          "par_usd_m": 7.25
+        },
+        {
+          "shelf": "Ares XXXIV",
+          "par_usd_m": 7.22
+        }
+      ],
+      "representative_tranches": [
+        {
+          "issuer": "Magnetite XXIII Ltd.",
+          "tranche": "Magnetite XXIII Ltd., Series 2019-23A, Class BR2",
+          "shelf": "Magnetite XXIII",
+          "cusip": "55954NAU3",
+          "isin": "US55954NAU37",
+          "par_usd_m": 5.0,
+          "fair_val_usd_m": 5.0,
+          "clean_fair_price": 100.05,
+          "coupon_pct": 5.16,
+          "maturity": "2035-01-25"
+        },
+        {
+          "issuer": "Sixth Street CLO XVI Ltd.",
+          "tranche": "Sixth Street CLO XVI Ltd., Series 2020-16A, Class CR2",
+          "shelf": "Sixth Street",
+          "cusip": "83012DBW2",
+          "isin": "US83012DBW20",
+          "par_usd_m": 5.0,
+          "fair_val_usd_m": 5.0,
+          "clean_fair_price": 99.97,
+          "coupon_pct": 5.43,
+          "maturity": "2039-01-21"
+        },
+        {
+          "issuer": "Venture 49 CLO Ltd.",
+          "tranche": "Venture 49 CLO Ltd., Series 2024-49A, Class BR",
+          "shelf": "Venture 49",
+          "cusip": "922972AY0",
+          "isin": "US922972AY09",
+          "par_usd_m": 5.0,
+          "fair_val_usd_m": 5.01,
+          "clean_fair_price": 100.15,
+          "coupon_pct": 5.48,
+          "maturity": "2037-04-20"
+        },
+        {
+          "issuer": "Whitebox CLO IV Ltd.",
+          "tranche": "Whitebox CLO IV Ltd., Series 2023-4A, Class CR2",
+          "shelf": "Whitebox",
+          "cusip": "96467KBJ7",
+          "isin": "US96467KBJ79",
+          "par_usd_m": 5.0,
+          "fair_val_usd_m": 5.0,
+          "clean_fair_price": 100.01,
+          "coupon_pct": 5.51,
+          "maturity": "2039-07-20"
+        },
+        {
+          "issuer": "Symphony CLO 37 Ltd.",
+          "tranche": "Symphony CLO 37 Ltd., Series 2022-37A, Class CR2",
+          "shelf": "Symphony",
+          "cusip": "87169VBL8",
+          "isin": "US87169VBL80",
+          "par_usd_m": 4.0,
+          "fair_val_usd_m": 3.99,
+          "clean_fair_price": 99.8,
+          "coupon_pct": 5.48,
+          "maturity": "2037-01-20"
+        },
+        {
+          "issuer": "Symphony CLO XXVIII Ltd.",
+          "tranche": "Symphony CLO XXVIII Ltd., Series 2021-28A, Class CR",
+          "shelf": "Symphony",
+          "cusip": "87168BAS9",
+          "isin": "US87168BAS97",
+          "par_usd_m": 4.9,
+          "fair_val_usd_m": 4.89,
+          "clean_fair_price": 99.85,
+          "coupon_pct": 5.55,
+          "maturity": "2036-01-23"
+        },
+        {
+          "issuer": "Magnetite XXIII Ltd.",
+          "tranche": "Magnetite XXIII Ltd., Series 2019-23A, Class CR2",
+          "shelf": "Magnetite XXIII",
+          "cusip": "55954NAW9",
+          "isin": "US55954NAW92",
+          "par_usd_m": 2.25,
+          "fair_val_usd_m": 2.25,
+          "clean_fair_price": 99.91,
+          "coupon_pct": 5.41,
+          "maturity": "2035-01-25"
+        }
+      ]
+    },
+    {
+      "symbol": "JBBB",
+      "series_name": "Janus Henderson B-BBB CLO ETF",
+      "filing_date": "2026-09-25",
+      "report_period_date": "2026-07-31",
+      "accession": "0002071691-26-023363",
+      "archive_url": "https://www.sec.gov/Archives/edgar/data/1500604/000207169126023363/primary_doc.xml",
+      "net_assets_usd_m": 1404.92,
+      "clo_tranche_count": 238,
+      "clo_par_usd_m": 1334.53,
+      "par_weighted_fair_price": 100.17,
+      "par_weighted_coupon_pct": 6.66,
+      "tranches_below_99_count": 47,
+      "tranches_below_99_pct": 19.75,
+      "tranches_below_98_count": 13,
+      "min_tranche_price": 95.3,
+      "max_tranche_price": 116.27,
+      "top_manager_shelves": [
+        {
+          "shelf": "AGL",
+          "par_usd_m": 70.28
+        },
+        {
+          "shelf": "Palmer Square",
+          "par_usd_m": 61.13
+        },
+        {
+          "shelf": "CIFC",
+          "par_usd_m": 60.05
+        },
+        {
+          "shelf": "Benefit Street",
+          "par_usd_m": 54.86
+        },
+        {
+          "shelf": "Elmwood",
+          "par_usd_m": 51.2
+        }
+      ],
+      "representative_tranches": [
+        {
+          "issuer": "Tikehau US CLO VII Ltd.",
+          "tranche": "Tikehau US CLO VII Ltd., Series 2025-1A, Class D1",
+          "shelf": "Tikehau US",
+          "cusip": "88677FAG8",
+          "isin": "US88677FAG81",
+          "par_usd_m": 25.0,
+          "fair_val_usd_m": 25.1,
+          "clean_fair_price": 100.4,
+          "coupon_pct": 6.91,
+          "maturity": "2038-02-25"
+        },
+        {
+          "issuer": "Regatta XVIII Funding Ltd.",
+          "tranche": "Regatta XVIII Funding Ltd., Series 2021-1A, Class D1R",
+          "shelf": "Regatta XVIII",
+          "cusip": "75884EAW2",
+          "isin": "US75884EAW21",
+          "par_usd_m": 23.4,
+          "fair_val_usd_m": 22.96,
+          "clean_fair_price": 98.13,
+          "coupon_pct": 6.35,
+          "maturity": "2038-04-15"
+        },
+        {
+          "issuer": "Palmer Square CLO Ltd.",
+          "tranche": "Palmer Square CLO Ltd., Series 2024-2A, Class D1R",
+          "shelf": "Palmer Square",
+          "cusip": "69703LAY4",
+          "isin": "US69703LAY48",
+          "par_usd_m": 20.0,
+          "fair_val_usd_m": 20.0,
+          "clean_fair_price": 100.0,
+          "coupon_pct": 6.5,
+          "maturity": "2038-07-20"
+        },
+        {
+          "issuer": "Tikehau US CLO VI Ltd.",
+          "tranche": "Tikehau US CLO VI Ltd., Series 2024-1A, Class D1",
+          "shelf": "Tikehau US",
+          "cusip": "88676PAJ1",
+          "isin": "US88676PAJ12",
+          "par_usd_m": 20.0,
+          "fair_val_usd_m": 19.83,
+          "clean_fair_price": 99.17,
+          "coupon_pct": 7.03,
+          "maturity": "2037-07-18"
+        },
+        {
+          "issuer": "AGL CLO 21 Ltd.",
+          "tranche": "AGL CLO 21 Ltd., Series 2022-21A, Class D2R",
+          "shelf": "AGL",
+          "cusip": "00119FAW4",
+          "isin": "US00119FAW41",
+          "par_usd_m": 2.2,
+          "fair_val_usd_m": 2.1,
+          "clean_fair_price": 95.3,
+          "coupon_pct": 8.13,
+          "maturity": "2037-10-21"
+        },
+        {
+          "issuer": "RAD CLO 26 Ltd.",
+          "tranche": "RAD CLO 26 Ltd., Series 2024-26A, Class D2",
+          "shelf": "RAD",
+          "cusip": "75009VAL8",
+          "isin": "US75009VAL80",
+          "par_usd_m": 2.25,
+          "fair_val_usd_m": 2.15,
+          "clean_fair_price": 95.66,
+          "coupon_pct": 7.98,
+          "maturity": "2037-10-20"
+        },
+        {
+          "issuer": "Rockford Tower CLO Ltd.",
+          "tranche": "Rockford Tower CLO Ltd., Series 2025-1A, Class D2",
+          "shelf": "Rockford Tower",
+          "cusip": "77341AAL7",
+          "isin": "US77341AAL70",
+          "par_usd_m": 4.0,
+          "fair_val_usd_m": 3.85,
+          "clean_fair_price": 96.26,
+          "coupon_pct": 7.7,
+          "maturity": "2038-03-31"
+        }
+      ]
+    }
+  ],
+  "european_trustee_inbox": [],
+  "sha256": "a0bdbed8ce85d96d75e861feb3e1679ef6f121e93c52fdcba9e34c72eee36f1d"
+}

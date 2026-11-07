@@ -1,0 +1,147 @@
+{
+  "regime_label": "HAWKISH PAYROLLS · LENDERS TAKE THE KEYS · BDC PIK-PREFERRED NON-ACCRUAL",
+  "regime_score_fig": "F97",
+  "headline": "Four new credit catalysts: hot payrolls ([[F37]]) pushed US Single-B OAS to [[F43]], Microsoft walked away from an Oracle AI lease, Blue Owl Tech Finance put a [[F16]] PIK preferred on non-accrual, and, from Chrizza's own sweep, two 2 November filings show private credit lenders taking the keys at very different recoveries.",
+  "summary": "Saturday Start of Day, rebuilt under the v5 independence protocol: every evidence item now states who found it (Chrizza-native search, Thufir-seeded lead, or sweeper telemetry), and at least one NEW topic must be Chrizza's own find. Four topics are new. Chrizza-native: two Chapter 11 filings on 2 November show the private credit endgame. Karyopharm's lenders convert [[F111]] of debt into about [[F112]] of a merged company, while Out West Restaurant Group's Goldman-led lenders face a [[F108]] stalking-horse bid against [[F105]] of term loans (about [[F109]]), as Fitch's private credit default rate hits a record [[F114]]. Thufir-seeded and independently checked: payrolls at [[F37]] against [[F38]] lifted December hike odds to [[F39]], US Single-B OAS widened [[F44]] to [[F43]] and bank loans to non-banks fell [[F52]]; Microsoft is not renewing an Oracle AI lease after Oracle raised [[F01]] while Google takes over Crusoe's stalled site ([[F04]]); and Blue Owl Technology Finance moved [[F16]] of [[F17]] Signifyd preferred to non-accrual. Running situations carry market-only deltas: Thames Class A has two notes below half of par on mid ([[F72]], [[F73]]) and the Virgin Media 2030 unsecured bid slid [[F58]] to [[F57]]. The senior CLO carry topic was retired from the tabs today; its view (`JAAA` [[F81]] versus `LQD` [[F83]]) stays in decision D1.",
+  "pulse": [
+    {
+      "fig": "F43",
+      "label": "US Single-B OAS",
+      "sub": "Up [[F44]] in one session; US HY [[F46]] now wider than Euro HY ([[F48]]) after [[F37]] payrolls."
+    },
+    {
+      "fig": "F04",
+      "label": "Google takes Crusoe site",
+      "sub": "Microsoft exits an Oracle AI lease after Oracle's [[F01]] raise; IREN needs [[F06]] to close a [[F07]]."
+    },
+    {
+      "fig": "F16",
+      "label": "OTF PIK pref non-accrual",
+      "sub": "[[F17]] Signifyd preferred; OTF PIK [[F19]], cost non-accruals [[F20]] from [[F21]]."
+    },
+    {
+      "fig": "F108",
+      "label": "Out West stalking horse",
+      "sub": "Against [[F105]] of Goldman-led term loans (about [[F109]]); Karyopharm lenders take [[F112]]. Chrizza-native."
+    }
+  ],
+  "thufir_bridge": [
+    {
+      "thufir_topic": "Hot October Payrolls & Fed Hike Warning",
+      "macro_signal": "Thufir's tape shows payrolls at [[F37]] against [[F38]], December hike odds at [[F39]] and the 2-year yield at [[F41]], with unemployment duration at [[F42]].",
+      "credit_channel": "Floating-rate borrowers lose hope of relief: Single-B OAS [[F43]] and yield [[F45]] lift the B3/B- hazard toward [[F102]] while senior floaters (`JAAA` [[F81]]) beat fixed-rate `LQD` ([[F83]]).",
+      "target_topic": "T3"
+    },
+    {
+      "thufir_topic": "Microsoft Exits Oracle Lease; Google Buys Crusoe Site",
+      "macro_signal": "Hyperscalers are now choosing which AI capacity to keep: Oracle sits [[F02]] from peak after a [[F01]] raise and Anthropic's IPO target fell to [[F09]].",
+      "credit_channel": "Lease walk-aways move risk from tenants back onto developers and their lenders, the exact exposure ING is auctioning ([[F10]], bids due 19 November).",
+      "target_topic": "T1"
+    },
+    {
+      "thufir_topic": "OTF Class Action & Outback Franchisee Bankruptcy",
+      "macro_signal": "Blue Owl Technology Finance fell [[F18]] into a class action while an Outback franchisee filed with [[F28]] of debt; Apollo grew fee earnings [[F29]].",
+      "credit_channel": "Mid-market stress is surfacing through PIK preferreds and franchise borrowers, while perpetual-capital managers keep compounding: dispersion, not a uniform private-credit trade.",
+      "target_topic": "T2"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D1",
+      "ask": "Keep senior floating carry (`JAAA` [[F80]]) as the core credit sleeve and do not add fixed-rate IG duration (`LQD` [[F82]]) until December hike odds ([[F39]]) fall back.",
+      "why": "Payrolls at [[F37]] flipped the curve into a bear-flattener: `JAAA` gained [[F81]] while `LQD` lost [[F83]].",
+      "impact": "Keeps carry without taking the rate risk the market has just repriced."
+    },
+    {
+      "id": "D2",
+      "ask": "Extend the BDC veto to PIK-preferred-heavy tech lenders (`OTF`, `FSK` [[F26]]) and mark private credit on expected recovery, not par, given the record [[F114]] default rate.",
+      "why": "OTF's [[F16]] Signifyd preferred ([[F17]]) went to non-accrual and its PIK share reached [[F19]].",
+      "impact": "Avoids the next leg of PIK-to-non-accrual migration as Q3 filings finish ([[F22]] filed)."
+    },
+    {
+      "id": "D3",
+      "ask": "Keep the veto on greenfield AI construction debt and approve price-discovery-only monitoring of ING's [[F10]] auction.",
+      "why": "A hyperscaler not renewing a lease (Microsoft at Oracle) and a distressed site sale (Crusoe, [[F04]]) show where the losses fall: developers and their lenders.",
+      "impact": "Lets the 19 November auction set a market price before any exposure is taken."
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "O1",
+      "label": "Senior CLO carry over IG duration",
+      "thesis": "Hold `JAAA` ([[F80]]) over `LQD` ([[F82]]) while US AAA clears at [[F87]] and EUR AAA at [[F88]].",
+      "why_now": "Hawkish repricing ([[F39]]) favours floating coupons; `JAAA` rose [[F81]] as `LQD` fell [[F83]].",
+      "verify": "Confirm `JAAA` holds within its 52-week range after the next CPI print."
+    },
+    {
+      "id": "O2",
+      "label": "ING AI loan auction price discovery",
+      "thesis": "Use the [[F10]] auction (bids due 19 November) as the first market price for construction-phase AI loans.",
+      "why_now": "Lease walk-aways and Crusoe's sale make bank holders motivated sellers.",
+      "verify": "Only loans backed by operating, power-connected, investment-grade leases qualify."
+    },
+    {
+      "id": "O3",
+      "label": "Ziggo vs Virgin Media relative value watch",
+      "thesis": "Ziggo 2030 at [[F62]] sits [[F64]] above Virgin Media 2030 unsecured ([[F59]]); the gap reflects structure, not just sentiment.",
+      "why_now": "Ziggo rose [[F63]] while the Virgin Media bid fell [[F58]], widening the gap on the day.",
+      "verify": "Research only: confirm recovery waterfalls from the Liberty Global filings before any view."
+    }
+  ],
+  "vetoes": [
+    {
+      "id": "V1",
+      "label": "PIK-heavy BDCs (`OTF`, `FSK`)",
+      "rationale": "`OTF` moved [[F16]] of PIK preferred to non-accrual ([[F19]] PIK) and `FSK` reports [[F26]] PIK interest, against a [[F31]] true private-credit stress rate."
+    },
+    {
+      "id": "V2",
+      "label": "Greenfield AI construction debt & neocloud SPVs",
+      "rationale": "Hyperscaler lease non-renewal, a distressed site sale ([[F04]]), [[F06]] customer prepay requirements and SoftBank CDS at [[F11]]."
+    },
+    {
+      "id": "V3",
+      "label": "Drahi complex & Thames Class B",
+      "rationale": "Optimum ([[F65]] debt, [[F66]] wall) and Altice ([[F67]], [[F68]] leverage) face coercive LMEs; Thames Class B recovers only [[F79]] in equity behind [[F77]] of super-senior debt."
+    }
+  ],
+  "calendar": [
+    {
+      "when": "Mon 9 – Fri 13 Nov 2026",
+      "topic": "T2",
+      "event": "Remaining BDC Q3 Form 10-Q filings (`GBDC`, `OCSL`)",
+      "note": "Tests calls on PIK above [[F100]] after [[F22]] have filed."
+    },
+    {
+      "when": "Nov 2026",
+      "topic": "T6",
+      "event": "Out West bidding procedures and Karyopharm plan timeline",
+      "note": "Tests whether any bid beats the [[F108]] stalking horse; Fitch's next private credit default print versus [[F114]]."
+    },
+    {
+      "when": "Wed 11 Nov 2026",
+      "topic": "T3",
+      "event": "Next weekly H.8 release",
+      "note": "Shows whether the [[F52]] pullback in bank-to-NDFI loans continues below [[F101]]."
+    },
+    {
+      "when": "15 Nov 2026",
+      "topic": "T6",
+      "event": "October European CLO monthly print",
+      "note": "Resolves call C-20261026-01 on EUR AAA spreads ([[F88]] recent band)."
+    },
+    {
+      "when": "19 Nov 2026",
+      "topic": "T1",
+      "event": "Bid deadline for ING's AI data-centre loan auction",
+      "note": "First clearing price for [[F10]] of construction loans (call C-20261107-01)."
+    },
+    {
+      "when": "30 Nov 2026",
+      "topic": "T5",
+      "event": "Thames Class A and JAAA-vs-LQD call resolution",
+      "note": "Scores the Class A basket ([[F71]] today) and senior CLO vs IG duration."
+    }
+  ],
+  "mermaid": "flowchart LR\n  A[Hot payrolls +165K and Fed hike warning] --> B[Single-B OAS 3.67% and US HY wider than Euro HY]\n  A --> C[Senior floaters beat fixed-rate IG]\n  D[Microsoft exits Oracle lease and Google buys Crusoe site] --> E[Developer and lender risk rises]\n  E --> F[ING AI loan auction becomes price test]\n  G[OTF Signifyd PIK preferred non-accrual] --> H[BDC veto widened to OTF and FSK]\n  B --> I[B3 and B- refinancing stress and LME defaults]\n  C --> J[Hold JAAA over LQD]\n  I --> K[Running situations: Thames Class A and Drahi complex]\n  L[Native sweep: Out West and Karyopharm lender takeovers] --> M[Price private credit on recovery, not par]"
+}

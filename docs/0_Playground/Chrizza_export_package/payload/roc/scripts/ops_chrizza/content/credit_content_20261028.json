@@ -1,0 +1,1648 @@
+{
+  "schema": "chrizza.credit_dossier.v1",
+  "dossier_id": "CHZ-CREDIT-20261028",
+  "title": "Structured Credit & CLO Horizon Dossier — 28 Oct 2026",
+  "author": "Chrizza (structured-credit-agent)",
+  "audience": "CIO · Muad'Dib · Agent Manager",
+  "observed_at_utc": "2026-10-28T06:35:00Z",
+  "session_for": "2026-10-28",
+  "figures": {
+    "F01": {
+      "label": "European CLO YTD issuance (Jan–Sep 2026)",
+      "display": "€94.9bn",
+      "value": 94.9,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-09-30",
+      "evidence": "E01"
+    },
+    "F02": {
+      "label": "European CLO YTD deal count (Jan–Sep 2026)",
+      "display": "229 deals",
+      "value": 229,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-09-30",
+      "evidence": "E01"
+    },
+    "F03": {
+      "label": "European CLO September 2026 total issuance",
+      "display": "€10.7bn",
+      "value": 10.7,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-09-30",
+      "evidence": "E01"
+    },
+    "F04": {
+      "label": "European CLO September 2026 total deal count",
+      "display": "24 deals",
+      "value": 24,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-09-30",
+      "evidence": "E01"
+    },
+    "F05": {
+      "label": "European CLO September 2026 new-issue volume",
+      "display": "€7.6bn",
+      "value": 7.6,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-09-30",
+      "evidence": "E01"
+    },
+    "F06": {
+      "label": "European CLO September 2026 new-issue deal count",
+      "display": "17 deals",
+      "value": 17,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-09-30",
+      "evidence": "E01"
+    },
+    "F07": {
+      "label": "European CLO September 2026 new-issue AAA spread",
+      "display": "124 bps",
+      "value": 124,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-09-30",
+      "evidence": "E01"
+    },
+    "F08": {
+      "label": "European CLO September 2026 refi/reset volume",
+      "display": "€3.1bn",
+      "value": 3.1,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-09-30",
+      "evidence": "E01"
+    },
+    "F09": {
+      "label": "European CLO September 2026 refi/reset deal count",
+      "display": "7 deals",
+      "value": 7,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-09-30",
+      "evidence": "E01"
+    },
+    "F10": {
+      "label": "European CLO September 2026 refi/reset AAA spread",
+      "display": "120 bps",
+      "value": 120,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-09-30",
+      "evidence": "E01"
+    },
+    "F11": {
+      "label": "New-issue minus refi/reset AAA spread gap (Sep 2026)",
+      "display": "4 bps",
+      "value": 4,
+      "provenance": "derived",
+      "confidence": "high",
+      "inputs": [
+        "F07",
+        "F10"
+      ],
+      "op": "diff",
+      "rationale": "F07 − F10"
+    },
+    "F12": {
+      "label": "Open European CLO warehouses entering Q4 2026",
+      "display": ">100 warehouses",
+      "value": 100,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E02"
+    },
+    "F13": {
+      "label": "BofA FY26 European CLO refi/reset forecast",
+      "display": "~€60bn",
+      "value": 60.0,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E02"
+    },
+    "F14": {
+      "label": "European leveraged loan average asset spread",
+      "display": "~355 bps",
+      "value": 355,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E02"
+    },
+    "F15": {
+      "label": "European CLO equity annualised cash-on-cash distribution band",
+      "display": "12–16%",
+      "value": 14.0,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E02"
+    },
+    "F16": {
+      "label": "Q4 2026 European AAA clearing spread estimate",
+      "display": "118–126 bps",
+      "value": 122,
+      "provenance": "estimate",
+      "confidence": "medium",
+      "rationale": "Chrizza Q4 2026 clearing range anchored on Sep 120–124 bps prints and warehouse supply."
+    },
+    "F17": {
+      "label": "Altice International financing raised against unrestricted subsidiaries (Nov 2025)",
+      "display": "€750m",
+      "value": 750,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2025-11",
+      "historical": true,
+      "evidence": "E03"
+    },
+    "F18": {
+      "label": "Coupon on Altice International unrestricted-sub financing",
+      "display": "12%",
+      "value": 12.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2025-11",
+      "historical": true,
+      "evidence": "E03"
+    },
+    "F19": {
+      "label": "Altice International total debt (USD equivalent)",
+      "display": "~$9.0bn",
+      "value": 9.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E03"
+    },
+    "F20": {
+      "label": "Altice International total debt (EUR equivalent)",
+      "display": "~€8.0bn",
+      "value": 8.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E03"
+    },
+    "F21": {
+      "label": "Altice International 2027 debt maturity wall",
+      "display": "~€3.1bn",
+      "value": 3.1,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E03"
+    },
+    "F22": {
+      "label": "Altice International creditor cooperation agreement coverage",
+      "display": "~90%",
+      "value": 90,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E04"
+    },
+    "F23": {
+      "label": "Altice International senior secured bond secondary price area",
+      "display": "mid-to-low 60s",
+      "value": 63,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E04"
+    },
+    "F24": {
+      "label": "Altice International cash plus undrawn RCF",
+      "display": "~€528m",
+      "value": 528,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E03"
+    },
+    "F25": {
+      "label": "Altice International LTM negative free cash flow burn",
+      "display": "~€346m",
+      "value": -346,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E03"
+    },
+    "F26": {
+      "label": "Estimated recovery gap between steering-group and stripped lenders",
+      "display": "20–30 pts",
+      "value": 25,
+      "provenance": "estimate",
+      "confidence": "low",
+      "rationale": "Chrizza recovery-gap heuristic between participating co-op steering-group paper and stripped non-steering paper in dual-track LMEs."
+    },
+    "F27": {
+      "label": "Thames Water super-senior emergency liquidity facility drawn",
+      "display": "£2.65bn",
+      "value": 2.65,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E05"
+    },
+    "F28": {
+      "label": "Thames Water super-senior emergency liquidity facility commitment",
+      "display": "£3.0bn",
+      "value": 3.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E05"
+    },
+    "F29": {
+      "label": "Thames Water additional liquidity sought to autumn 2027",
+      "display": "£2.4bn",
+      "value": 2.4,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E05"
+    },
+    "F30": {
+      "label": "Thames Water Whole Business Securitisation (WBS) debt stack",
+      "display": "~£16.0bn",
+      "value": 16.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E05"
+    },
+    "F31": {
+      "label": "Thames Water Class B bondholder TSA sign-up share",
+      "display": ">60%",
+      "value": 60,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E05"
+    },
+    "F32": {
+      "label": "Thames Water Class B nominal debt subject to write-off",
+      "display": "~£1.0bn",
+      "value": 1.0,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E05"
+    },
+    "F33": {
+      "label": "Thames Water Class B equity share in recapitalised group under TSA",
+      "display": "~5.9%",
+      "value": 5.9,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E05"
+    },
+    "F34": {
+      "label": "Thames Water Class B optional new equity participation",
+      "display": "£150m",
+      "value": 150,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E05"
+    },
+    "F35": {
+      "label": "Estimated Thames Water Class A recovery range (consensual vs SAR)",
+      "display": "65–78p",
+      "value": 71.5,
+      "provenance": "estimate",
+      "confidence": "low",
+      "rationale": "Chrizza recovery range on Class A senior WBS notes under consensual Ofwat determination vs SAR haircut."
+    },
+    "F36": {
+      "label": "Fitch US & European institutional leveraged loan TTM default rate",
+      "display": "3.6%",
+      "value": 3.6,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E06"
+    },
+    "F37": {
+      "label": "Fitch Top Market Concern + Tier 2 share of leveraged loan market",
+      "display": "10.3–10.6%",
+      "value": 10.45,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E06"
+    },
+    "F38": {
+      "label": "Share of leveraged loan default events executed as distressed debt exchanges (LMEs)",
+      "display": ">55%",
+      "value": 55,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E06"
+    },
+    "F39": {
+      "label": "Share of out-of-court LME borrowers re-defaulting within 18–24 months",
+      "display": "~55%",
+      "value": 55,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E06"
+    },
+    "F40": {
+      "label": "European leveraged loan 2026 default forecast (issuer-weighted)",
+      "display": "~3.8%",
+      "value": 3.8,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E06"
+    },
+    "F41": {
+      "label": "European leveraged loan default forecast (par-weighted incl. LMEs)",
+      "display": "~4.8%",
+      "value": 4.8,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E06"
+    },
+    "F42": {
+      "label": "Standard CLO indenture CCC/Caa concentration threshold",
+      "display": "7.5%",
+      "value": 7.5,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E06"
+    },
+    "F43": {
+      "label": "Standard secondary market-value mark applied to excess CCC loans in OC numerator",
+      "display": "70%",
+      "value": 70,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E06"
+    },
+    "F44": {
+      "label": "Fitch aggregate BDC PIK share of interest and dividend income",
+      "display": "~8.0%",
+      "value": 8.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E07"
+    },
+    "F45": {
+      "label": "BDC median headline non-accrual rate at cost",
+      "display": "3.0–4.0%",
+      "value": 3.5,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E07"
+    },
+    "F46": {
+      "label": "Software & SaaS share of typical direct lending / BDC portfolios",
+      "display": ">20%",
+      "value": 20,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E07"
+    },
+    "F47": {
+      "label": "Publicly traded BDC equity discount to NAV for software-heavy vehicles",
+      "display": "15–20%",
+      "value": 17.5,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E07"
+    },
+    "F48": {
+      "label": "BoE FPC-cited cumulative AI/data-centre capex requiring debt financing through 2028",
+      "display": "~$1.5tn",
+      "value": 1.5,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E08"
+    },
+    "F49": {
+      "label": "US 10Y Treasury yield (FMP treasury-rates)",
+      "display": "5.00%",
+      "value": 5.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-26",
+      "evidence": "E09"
+    },
+    "F50": {
+      "label": "US 2s10s Treasury curve slope (10Y 5.00% minus 2Y 4.68%)",
+      "display": "+32 bps",
+      "value": 32,
+      "provenance": "derived",
+      "confidence": "high",
+      "inputs": [
+        "F49",
+        "F53"
+      ],
+      "op": "diff_bp",
+      "rationale": "F49 − F53 in bps"
+    },
+    "F51": {
+      "label": "Chrizza subjective probability of Thames Water SAR before 31 Jan 2027",
+      "display": "30%",
+      "value": 30,
+      "provenance": "estimate",
+      "confidence": "medium",
+      "rationale": "Chrizza subjective probability of Thames Water entering SAR by 2027-01-31 (registered call C-20261026-04)."
+    },
+    "F52": {
+      "label": "US 3M Treasury yield (FMP treasury-rates)",
+      "display": "4.22%",
+      "value": 4.22,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-26",
+      "evidence": "E09"
+    },
+    "F53": {
+      "label": "US 2Y Treasury yield (FMP treasury-rates)",
+      "display": "4.68%",
+      "value": 4.68,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-26",
+      "evidence": "E09"
+    },
+    "F54": {
+      "label": "US 5Y Treasury yield (FMP treasury-rates)",
+      "display": "4.84%",
+      "value": 4.84,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-26",
+      "evidence": "E09"
+    },
+    "F55": {
+      "label": "US 30Y Treasury yield (FMP treasury-rates)",
+      "display": "5.31%",
+      "value": 5.31,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-26",
+      "evidence": "E09"
+    },
+    "F56": {
+      "label": "Standard CLO 2.0 equity leverage multiple",
+      "display": "9.0x",
+      "value": 9.0,
+      "provenance": "estimate",
+      "confidence": "high",
+      "rationale": "Standard CLO 2.0 structural leverage multiple (~10–11% equity subordination beneath a ~61–62% AAA tranche)."
+    },
+    "F57": {
+      "label": "Interest-coverage red-zone threshold (EBITDA / cash interest)",
+      "display": "1.5x",
+      "value": 1.5,
+      "provenance": "estimate",
+      "confidence": "medium",
+      "rationale": "Chrizza credit-surveillance heuristic: cash-flow red-zone threshold on EBITDA / cash interest."
+    },
+    "F58": {
+      "label": "Interest-coverage PIK-amendment threshold",
+      "display": "1.2x",
+      "value": 1.2,
+      "provenance": "estimate",
+      "confidence": "medium",
+      "rationale": "Chrizza credit-surveillance heuristic: threshold below which direct-lending borrowers seek PIK amendments."
+    },
+    "F59": {
+      "label": "Interest-coverage cash-shortfall / LME threshold",
+      "display": "1.0x",
+      "value": 1.0,
+      "provenance": "estimate",
+      "confidence": "high",
+      "rationale": "Chrizza credit-surveillance heuristic: cash-interest shortfall threshold triggering RCF draw or LME."
+    },
+    "F60": {
+      "label": "Typical European CLO 2.0 capital stack (share of par)",
+      "display": "illustrative capital stack",
+      "value": 100.0,
+      "provenance": "illustrative",
+      "confidence": "high",
+      "rationale": "Teaching example of a generic European CLO 2.0 structure; not a specific deal and not market data.",
+      "tranches": [
+        [
+          "AAA",
+          62.0
+        ],
+        [
+          "AA",
+          11.0
+        ],
+        [
+          "A",
+          6.5
+        ],
+        [
+          "BBB",
+          6.0
+        ],
+        [
+          "BB",
+          5.0
+        ],
+        [
+          "B",
+          1.5
+        ],
+        [
+          "Equity",
+          8.0
+        ]
+      ]
+    },
+    "F61": {
+      "label": "Credit regime score (−100 risk-off … +100 risk-on)",
+      "display": "−34",
+      "value": -34,
+      "provenance": "estimate",
+      "confidence": "medium",
+      "rationale": "Chrizza composite (−34, down 6 pts from 26 Oct): firm AAA demand (+) outweighed by US BB widening to ~500 bps, VMO2/VodafoneZiggo telecom contagion, Altice NY Commercial Division lawsuit, and 8.0% BDC PIK share (−)."
+    },
+    "F62": {
+      "label": "US BSL CLO September 2026 total issuance volume",
+      "display": "$41.1bn",
+      "value": 41.1,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-09-30",
+      "evidence": "E10"
+    },
+    "F63": {
+      "label": "US BSL CLO September 2026 deal count",
+      "display": "92 deals",
+      "value": 92,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-09-30",
+      "evidence": "E10"
+    },
+    "F64": {
+      "label": "US BSL CLO tier-1 AAA clearing spread midpoint (118–125 bps)",
+      "display": "~121 bps",
+      "value": 121,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E10"
+    },
+    "F65": {
+      "label": "US BSL CLO BB mezzanine spread area (mid-October 2026)",
+      "display": "~500 bps",
+      "value": 500,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E10"
+    },
+    "F66": {
+      "label": "US BSL CLO BB-to-AAA spread basis (500 bps minus 121 bps)",
+      "display": "379 bps",
+      "value": 379,
+      "provenance": "derived",
+      "confidence": "medium",
+      "inputs": [
+        "F65",
+        "F64"
+      ],
+      "op": "diff",
+      "rationale": "F65 − F64"
+    },
+    "F67": {
+      "label": "Fitch US BSL reinvesting CLO average Senior OC cushion",
+      "display": "9.3% (930 bps)",
+      "value": 9.3,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E11"
+    },
+    "F68": {
+      "label": "Fitch US BSL reinvesting CLO average Junior OC cushion",
+      "display": "4.5% (450 bps)",
+      "value": 4.5,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E11"
+    },
+    "F69": {
+      "label": "Fitch US BSL reinvesting CLO average WARF score",
+      "display": "~2750 (B+/B)",
+      "value": 2750,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E11"
+    },
+    "F70": {
+      "label": "Fitch US BSL post-reinvestment CLO average Senior OC cushion",
+      "display": ">68.0%",
+      "value": 68.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E11"
+    },
+    "F71": {
+      "label": "Fitch US BSL post-reinvestment CLO average Junior OC cushion",
+      "display": "2.1% (210 bps)",
+      "value": 2.1,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E11"
+    },
+    "F72": {
+      "label": "Altice International term loan holdings of NY Commercial Division plaintiff steering group",
+      "display": ">$1.5bn",
+      "value": 1.5,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-13",
+      "evidence": "E13"
+    },
+    "F73": {
+      "label": "Virgin Media O2 (VMO2) total debt and lease obligations",
+      "display": "~£22.5bn",
+      "value": 22.5,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E12"
+    },
+    "F74": {
+      "label": "Fitch-calculated Virgin Media O2 net leverage at B+ downgrade",
+      "display": ">6.1x",
+      "value": 6.1,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E12"
+    },
+    "F75": {
+      "label": "Virgin Media O2 2031 bond secondary price area",
+      "display": "high-60s (~68 pts)",
+      "value": 68.0,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-10",
+      "evidence": "E12"
+    },
+    "F76": {
+      "label": "VodafoneZiggo Term Loan B due 2033 tranche size",
+      "display": "€1.125bn",
+      "value": 1.125,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E12"
+    },
+    "F77": {
+      "label": "VodafoneZiggo 2033 Term Loan B secondary price drop (from 92.7 to 86.0)",
+      "display": "6.7 pts",
+      "value": 6.7,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E12"
+    },
+    "F78": {
+      "label": "VodafoneZiggo 2033 Term Loan B post-selloff secondary mark",
+      "display": "86.0 pts",
+      "value": 86.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E12"
+    },
+    "F79": {
+      "label": "JAAA (Janus Henderson AAA CLO ETF) live price",
+      "display": "$50.63",
+      "value": 50.63,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-28",
+      "evidence": "E14"
+    },
+    "F80": {
+      "label": "JAAA drawdown from 52-week high ($50.82)",
+      "display": "-0.37%",
+      "value": -0.37,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-28",
+      "evidence": "E14"
+    },
+    "F81": {
+      "label": "JBBB (Janus Henderson B-BBB CLO ETF) live price",
+      "display": "$46.95",
+      "value": 46.95,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-28",
+      "evidence": "E14"
+    },
+    "F82": {
+      "label": "JBBB drawdown from 52-week high ($48.30)",
+      "display": "-2.80%",
+      "value": -2.8,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-28",
+      "evidence": "E14"
+    },
+    "F83": {
+      "label": "PitchBook LCD share of BDC portfolio companies showing credit-pressure warnings",
+      "display": ">10.0%",
+      "value": 10.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E07"
+    },
+    "F84": {
+      "label": "Software & SaaS share of BDC distressed fair-value investments",
+      "display": "~26.0%",
+      "value": 26.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E07"
+    },
+    "F85": {
+      "label": "OBDC (Blue Owl Capital Corp) live price",
+      "display": "$10.16",
+      "value": 10.16,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-28",
+      "evidence": "E14"
+    },
+    "F86": {
+      "label": "OBDC drawdown from 52-week high ($13.58)",
+      "display": "-25.18%",
+      "value": -25.18,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-28",
+      "evidence": "E14"
+    },
+    "F87": {
+      "label": "BXSL (Blackstone Secured Lending Fund) live price",
+      "display": "$23.11",
+      "value": 23.11,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-28",
+      "evidence": "E14"
+    },
+    "F88": {
+      "label": "BXSL drawdown from 52-week high ($28.59)",
+      "display": "-19.17%",
+      "value": -19.17,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-28",
+      "evidence": "E14"
+    },
+    "F89": {
+      "label": "ARCC (Ares Capital Corp) live price",
+      "display": "$18.51",
+      "value": 18.51,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-28",
+      "evidence": "E14"
+    },
+    "F90": {
+      "label": "ARCC drawdown from 52-week high ($21.14)",
+      "display": "-12.44%",
+      "value": -12.44,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-28",
+      "evidence": "E14"
+    },
+    "F91": {
+      "label": "Consensus FOMC Oct 28–29 policy rate cut",
+      "display": "25 bps",
+      "value": 25,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-28",
+      "evidence": "E15"
+    },
+    "F92": {
+      "label": "Tariff-pushed US core PCE inflation floor",
+      "display": "~3.0%",
+      "value": 3.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-28",
+      "evidence": "E15"
+    },
+    "F93": {
+      "label": "Gold spot price after 5D correction (Thufir SOD tape)",
+      "display": "$4,104.70/oz",
+      "value": 4104.7,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-28",
+      "evidence": "E15"
+    },
+    "F94": {
+      "label": "Gold 5-day price correction (Thufir SOD tape)",
+      "display": "-6.25%",
+      "value": -6.25,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-28",
+      "evidence": "E15"
+    },
+    "F95": {
+      "label": "Brent crude front-month price (Thufir SOD tape)",
+      "display": "$65.94/bbl",
+      "value": 65.94,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-28",
+      "evidence": "E15"
+    },
+    "F96": {
+      "label": "Estimated 12-month default/LME rate for sub-1.0x coverage B3/B- cohort",
+      "display": "40%",
+      "value": 40,
+      "provenance": "estimate",
+      "confidence": "medium",
+      "rationale": "Chrizza 12-month default/LME probability for B3/B- borrowers operating below 1.0x cash interest coverage at 5.00% 10Y rates."
+    },
+    "F97": {
+      "label": "All-in floating-rate coupon band for B3/B- leveraged borrowers",
+      "display": "8.0–9.5%",
+      "value": 8.75,
+      "provenance": "estimate",
+      "confidence": "high",
+      "rationale": "SOFR/EURIBOR base rates plus 355–500 bps loan margins and OID amortisation."
+    }
+  },
+  "brief": {
+    "regime_label": "SENIOR-TIGHT · MEZZ-DISPERSING · TELECOM-AND-PIK-STRESS",
+    "regime_score_fig": "F61",
+    "headline": "AAA liabilities remain anchored at the tights, but the mezzanine and single-name tail has cracked across US BB spreads, European telecoms, and software BDCs.",
+    "summary": "Senior CLO funding remains firm — European AAA cleared at [[F10]]–[[F07]] and US tier-1 AAA at [[F64]], keeping `JAAA` at [[F79]] ([[F80]] vs 52-week high). Beneath the senior stack, dispersion accelerated sharply this week: US BB spreads widened toward [[F65]] (a [[F66]] AAA–BB basis), Fitch data confirmed post-reinvestment US BSL Junior OC cushions average just [[F71]] versus [[F68]] for reinvesting deals, Virgin Media O2's downgrade to B+ ([[F74]] leverage on [[F73]] debt) sparked a [[F77]] fire sale in sister JV VodafoneZiggo's [[F76]] Term Loan B to [[F78]], Altice International's steering group holding [[F72]] sued in the NY Supreme Court Commercial Division, and newly harvested Fitch/PitchBook series (resolving Gap G3) show BDC PIK income at [[F44]] and Software at [[F84]] of distressed BDC marks (`OBDC` down [[F86]] from its 52-week high).",
+    "pulse": [
+      {
+        "fig": "F65",
+        "label": "US CLO BB spread · Oct",
+        "sub": "Widened to [[F66]] over AAA ([[F64]]) as post-RP Junior OC compresses to [[F71]]."
+      },
+      {
+        "fig": "F78",
+        "label": "VodafoneZiggo 2033 TLB",
+        "sub": "Dropped [[F77]] in hedge-fund fire sales after sister JV VMO2 ([[F73]]) was cut to B+."
+      },
+      {
+        "fig": "F72",
+        "label": "Altice Intl NY lawsuit",
+        "sub": "Steering group filed 13 Oct in NY Commercial Division over the [[F17]] drop-down."
+      },
+      {
+        "fig": "F44",
+        "label": "Fitch BDC PIK share",
+        "sub": "Gap G3 resolved: [[F83]] BDC credit pressure and [[F84]] Software distress (`OBDC` [[F86]])."
+      }
+    ],
+    "thufir_bridge": [
+      {
+        "thufir_topic": "FOMC Oct 28–29 Cut vs Long-End Term-Premium Floor",
+        "macro_signal": "Thufir tracks an expected [[F91]] FOMC cut against sticky [[F92]] core PCE and a [[F49]] US 10Y Treasury yield ([[F55]] 30Y, [[F50]] 2s10s slope).",
+        "credit_channel": "A shallow front-end cut leaves all-in floating-rate coupons near [[F97]] for B3/B- borrowers, keeping sub-[[F59]] coverage issuers in a [[F96]] 12-month LME/default trap.",
+        "target_topic": "T1 · T4 · T5"
+      },
+      {
+        "thufir_topic": "Big Tech AI Capex Surge vs Enterprise SaaS Seat Compression",
+        "macro_signal": "Hyperscaler AI infrastructure spend accelerates toward [[F48]] of cumulative debt financing through 2028 while legacy enterprise SaaS faces seat-count rationalisation.",
+        "credit_channel": "Legacy 2021–2022 LBO software borrowers make up [[F46]] of direct lending books and [[F84]] of BDC distressed fair-value marks, driving [[F44]] BDC PIK share and `OBDC`'s [[F86]] drawdown.",
+        "target_topic": "T5 · T6"
+      },
+      {
+        "thufir_topic": "Gold De-Grossing & Multi-Strategy Pod Deleveraging",
+        "macro_signal": "Gold corrected [[F94]] over five sessions to [[F93]] as cross-asset macro pods reduced gross leverage ahead of FOMC and month-end.",
+        "credit_channel": "Multi-strategy and credit hedge fund de-grossing spilled directly into European high-beta telecom loans, knocking VodafoneZiggo's [[F76]] TLB down [[F77]] to [[F78]] alongside VMO2 at [[F75]].",
+        "target_topic": "T1 · T2 · T6"
+      },
+      {
+        "thufir_topic": "Brent Crude Surplus & UK Regulated Utility Stagflation",
+        "macro_signal": "Brent crude slumped to [[F95]] on global supply surplus projections while UK service and capex inflation keeps gilt and SONIA funding costs elevated.",
+        "credit_channel": "Energy disinflation cushions industrial borrowers, but UK regulated capex inflation worsens Thames Water's [[F30]] WBS cash burn as Class A bondholders mobilize against a [[F51]] SAR tail.",
+        "target_topic": "T3 · T4"
+      }
+    ],
+    "decisions": [
+      {
+        "id": "D1",
+        "ask": "Ratify hard vetoes on non-steering Altice International debt, UK water junior (Class B) WBS paper, and software-heavy BDC equity (`OBDC`, `BXSL`).",
+        "why": "Altice is now in active NY Commercial Division litigation ([[F72]] steering group), Thames Class B is capped at [[F33]] equity recovery, and BDC software distress ([[F84]]) is driving [[F86]] equity drawdowns.",
+        "impact": "Eliminates uncompensated priming, regulatory, and PIK-conversion tail risks across all three sub-sectors."
+      },
+      {
+        "id": "D2",
+        "ask": "Restrict European CLO mezzanine allocations where combined Virgin Media O2 and VodafoneZiggo concentration is elevated, or where deals have exited reinvestment with thin Junior OC cushions.",
+        "why": "VMO2 ([[F73]] debt, [[F74]] leverage) and VodafoneZiggo ([[F78]] TLB mark) are top-5 European CLO obligors, and post-RP Junior OC cushions average just [[F71]].",
+        "impact": "Protects the mezzanine book from single-name telecom WARF spikes and post-RP interest diversion."
+      },
+      {
+        "id": "D3",
+        "ask": "Authorize procurement of deal-level European trustee feeds (Creditflux CLO-i / Alter Domus) to complement Fitch's US BSL OC cushion series (E11).",
+        "why": "E11 resolved US BSL aggregate OC cushions ([[F67]]/[[F68]] reinvesting vs [[F70]]/[[F71]] post-RP), leaving European deal-by-deal dispersion as our primary remaining blind spot (Gap G1).",
+        "impact": "Completes quantitative mezzanine screening across both US and European shelves."
+      }
+    ],
+    "opportunities": [
+      {
+        "id": "O1",
+        "label": "Post-RP Senior AAA/AA ('Deleveraging Windfall') & Liquid AAA (`JAAA`)",
+        "thesis": "Harvest sequential AAA paydown protection in post-RP senior tranches ([[F70]] average Senior OC cushion) and liquid `JAAA` at [[F79]] ([[F80]] vs 52W high).",
+        "why_now": "Sequential amortisation enriches senior tranches just as post-RP Junior OC compresses to [[F71]].",
+        "verify": "Check call/redemption schedules and portfolio factor on seasoned 2020–2022 vintage CLOs."
+      },
+      {
+        "id": "O2",
+        "label": "Reinvesting Tier-1 BBB/BB Mezzanine Sleeve",
+        "thesis": "Buy mid-October BB widening ([[F65]] US spread, `JBBB` at [[F81]] / [[F82]]) strictly in clean 2024–2026 reinvesting shelves carrying at least [[F68]] Junior OC cushion.",
+        "why_now": "Index-wide BB widening has punished clean reinvesting managers alongside telecom-heavy pools.",
+        "verify": "Verify zero Altice International exposure and low combined VMO2/VodafoneZiggo obligor weight."
+      },
+      {
+        "id": "O3",
+        "label": "Thames Water Class A Senior WBS Distressed Optionality",
+        "thesis": "Monitor Akin Gump / Jefferies Class A mobilization across the [[F30]] WBS stack for entry below the [[F35]] consensual recovery band.",
+        "why_now": "Class B's [[F33]] TSA write-off clarifies the post-recap balance sheet ahead of Ofwat's Final Determination.",
+        "verify": "Require primary dealer runs on Class A notes (Gap G5) and super-senior bridge terms on the [[F29]] ask."
+      }
+    ],
+    "vetoes": [
+      {
+        "id": "V1",
+        "label": "Altice International Non-Steering Debt",
+        "rationale": "Active 13 Oct 2026 NY Commercial Division lawsuit over the [[F17]] unrestricted drop-down; non-steering lenders face an estimated [[F26]] priming haircut."
+      },
+      {
+        "id": "V2",
+        "label": "Thames Water Class B & Subordinated Utility Paper",
+        "rationale": "Consensual TSA locks in a near-total principal write-off ([[F33]] equity recovery) behind [[F28]] of priming rescue liquidity."
+      },
+      {
+        "id": "V3",
+        "label": "Post-RP CLO BB/B Mezzanine & Software-Heavy BDC Equity",
+        "rationale": "Post-RP Junior OC averages just [[F71]], and software accounts for [[F84]] of distressed BDC marks alongside [[F44]] BDC PIK income."
+      }
+    ],
+    "calendar": [
+      {
+        "when": "28–29 Oct 2026",
+        "topic": "T6",
+        "event": "FOMC Rate Decision & Powell Press Conference",
+        "note": "Tests the expected [[F91]] cut against the [[F49]] 10Y Treasury floor."
+      },
+      {
+        "when": "Early Nov 2026",
+        "topic": "T1",
+        "event": "October European & US CLO Monthly Issuance Print",
+        "note": "Resolves call C-20261026-01 on EUR AAA spreads and tests US BB widening ([[F65]])."
+      },
+      {
+        "when": "Nov 2026",
+        "topic": "T5",
+        "event": "US BDC Q3 2026 Form 10-Q Filings (ARCC, OBDC, BXSL)",
+        "note": "Tests call C-20261026-05 on non-accrual migration and audits the [[F44]] PIK share."
+      },
+      {
+        "when": "30 Nov 2026",
+        "topic": "T2",
+        "event": "VodafoneZiggo 2033 TLB Secondary Pricing Window",
+        "note": "Resolves new call C-20261028-01 following the [[F77]] fire sale to [[F78]]."
+      },
+      {
+        "when": "Late 2026 – Jan 2027",
+        "topic": "T2",
+        "event": "NY County Supreme Court Commercial Division — Altice International",
+        "note": "Motion practice on the 13 Oct complaint by the [[F72]] steering committee."
+      },
+      {
+        "when": "By 31 Jan 2027",
+        "topic": "T3",
+        "event": "Thames Water Ofwat Determination & SAR Window",
+        "note": "Resolves call C-20261026-04 on Special Administration Regime entry ([[F51]])."
+      }
+    ],
+    "mermaid": "flowchart LR\n  A[AAA tight: EUR 120-124 bps / US 121 bps] --> B[Reinvesting Sr OC 9.3% vs Post-RP Sr OC >68%]\n  C[Loan spreads ~355 bps + US 10Y 5.00%] --> D[Sub-1.0x ICR B3/B- tail + Post-RP Jr OC 2.1%]\n  D --> E[Telecom & WBS stress: Altice NY suit / VMO2 / Ziggo 86 / Thames]\n  D --> F[Fitch 3.6% default + 10.3-10.6% concern + 8.0% BDC PIK]\n  E --> G[Co-op steering litigation vs stripped lenders]\n  F --> H[US BB widens to ~500 bps + OBDC -25.2% vs 52W high]"
+  },
+  "credit_vectors": [
+    {
+      "deal_or_loan_id": "EUR_BSL_CLO_2.0_REINV_BENCH",
+      "topic": "T1",
+      "market_jurisdiction": "EUR_BSL",
+      "ccc_bucket_percentage": 5.4,
+      "junior_oc_cushion_bp": 410.0,
+      "warf_score": 2820.0,
+      "was_spread_bp": 355.0,
+      "lme_priming_risk_index": 0.34,
+      "equity_nav_mark": 58.5,
+      "default_intensity_forecast": 0.038,
+      "half_life_days": 45.0,
+      "action_gate": "ALLOW",
+      "evidence": "E01",
+      "rationale": "AAA/AA and clean reinvesting mezzanine backed by 120-124 bps AAA liabilities and >400 bps Jr OC cushion."
+    },
+    {
+      "deal_or_loan_id": "US_BSL_CLO_POST_RP_TAIL",
+      "topic": "T4",
+      "market_jurisdiction": "US_BSL",
+      "ccc_bucket_percentage": 9.8,
+      "junior_oc_cushion_bp": 210.0,
+      "warf_score": 3180.0,
+      "was_spread_bp": 365.0,
+      "lme_priming_risk_index": 0.62,
+      "equity_nav_mark": 34.0,
+      "default_intensity_forecast": 0.048,
+      "half_life_days": 30.0,
+      "action_gate": "WATCH",
+      "evidence": "E11",
+      "rationale": "Fitch post-RP US BSL cohort: Senior OC >6800 bps ('deleveraging windfall' for AAA), but Junior OC compressed to 210 bps with >7.5% CCC haircut exposure."
+    },
+    {
+      "deal_or_loan_id": "ALTICE_INTL_LUX_SECURED",
+      "topic": "T2",
+      "market_jurisdiction": "EUR_BSL",
+      "ccc_bucket_percentage": 100.0,
+      "junior_oc_cushion_bp": -350.0,
+      "warf_score": 6500.0,
+      "was_spread_bp": 750.0,
+      "lme_priming_risk_index": 0.94,
+      "equity_nav_mark": 12.0,
+      "default_intensity_forecast": 0.68,
+      "half_life_days": 21.0,
+      "action_gate": "HARD_VETO",
+      "evidence": "E13",
+      "rationale": "Active 13 Oct 2026 NY Supreme Court Commercial Division lawsuit over €750m unrestricted drop-down and €3.1bn 2027 maturity wall; extreme non-steering priming risk."
+    },
+    {
+      "deal_or_loan_id": "VMO2_VODAFONEZIGGO_TELECOM",
+      "topic": "T2",
+      "market_jurisdiction": "EUR_BSL",
+      "ccc_bucket_percentage": 18.0,
+      "junior_oc_cushion_bp": 185.0,
+      "warf_score": 3490.0,
+      "was_spread_bp": 475.0,
+      "lme_priming_risk_index": 0.72,
+      "equity_nav_mark": 42.0,
+      "default_intensity_forecast": 0.14,
+      "half_life_days": 25.0,
+      "action_gate": "WATCH",
+      "evidence": "E12",
+      "rationale": "VMO2 downgraded to B+ (>6.1x leverage, CMA nexfibre review) and VodafoneZiggo €1.125bn 2033 TLB sold down 6.7 pts to 86.0; top European CLO obligor concentration risk."
+    },
+    {
+      "deal_or_loan_id": "THAMES_WATER_WBS_CLASS_A",
+      "topic": "T3",
+      "market_jurisdiction": "UK_WBS",
+      "ccc_bucket_percentage": 85.0,
+      "junior_oc_cushion_bp": -120.0,
+      "warf_score": 5800.0,
+      "was_spread_bp": 620.0,
+      "lme_priming_risk_index": 0.78,
+      "equity_nav_mark": 5.9,
+      "default_intensity_forecast": 0.3,
+      "half_life_days": 35.0,
+      "action_gate": "WATCH",
+      "evidence": "E05",
+      "rationale": "Class B written down to 5.9% equity under TSA; Class A organized under Akin Gump/Jefferies at 65–78p expected recovery vs 30% SAR tail."
+    },
+    {
+      "deal_or_loan_id": "US_MM_BDC_SOFTWARE_COHORT",
+      "topic": "T5",
+      "market_jurisdiction": "US_MM_PRIVATE",
+      "ccc_bucket_percentage": 14.5,
+      "junior_oc_cushion_bp": 160.0,
+      "warf_score": 3620.0,
+      "was_spread_bp": 550.0,
+      "lme_priming_risk_index": 0.66,
+      "equity_nav_mark": 78.0,
+      "default_intensity_forecast": 0.105,
+      "half_life_days": 60.0,
+      "action_gate": "HARD_VETO",
+      "evidence": "E07",
+      "rationale": "Fitch 8.0% BDC PIK income share, >10.0% PitchBook credit-pressure rate, 26.0% Software share of distressed BDC marks, and OBDC trading -25.18% below 52W high."
+    }
+  ],
+  "topics": [
+    {
+      "id": "T1",
+      "emoji": "🏛️",
+      "title": "CLO Liability Compression, Mezzanine Widening & Post-RP Cushion Bifurcation",
+      "thesis": "European AAA liabilities cleared at [[F10]]–[[F07]] in September and US tier-1 AAA at [[F64]], but mid-October tail-risk dispersion widened US BB spreads toward [[F65]] (a [[F66]] AAA–BB basis) while Fitch data exposes a stark split between reinvesting Junior OC cushions ([[F68]]) and post-reinvestment Junior OC cushions ([[F71]]).",
+      "verdict": "LONG AAA/AA & POST-RP SENIOR · UNDERWEIGHT POST-RP BB",
+      "stance": "Constructive senior · selective reinvesting mezz",
+      "risk": {
+        "probability": 3,
+        "impact": 3
+      },
+      "evidence": [
+        "E01",
+        "E02",
+        "E10",
+        "E11",
+        "E14"
+      ],
+      "show_stack": "F60",
+      "stack_note": "Tranche shares are an illustrative CLO 2.0 capital stack; the live market anchors attached are European AAA at [[F10]]–[[F07]], US AAA at [[F64]], and US BB near [[F65]]. Use the interactive stress simulator below to test how default rates and CCC buckets above [[F42]] erode the Equity and B tranches while leaving the AAA subordination buffer intact.",
+      "signal": "European CLO issuance reached [[F01]] across [[F02]] year-to-date through September 2026; September alone printed [[F03]] across [[F04]], split between [[F05]] of new issue ([[F06]]) at [[F07]] AAA and [[F08]] of refinancings and resets ([[F09]]) at [[F10]] AAA — a [[F11]] refi/reset discount. Over [[F12]] remained open entering Q4 against a [[F13]] full-year refi/reset forecast, while European loan spreads compressed toward [[F14]] and equity cash-on-cash distributions printed [[F15]]. In the US, September BSL issuance totaled [[F62]] across [[F63]] with tier-1 AAA near [[F64]], but mid-October secondary and primary BB spreads widened toward [[F65]] ([[F66]] above AAA). Crucially, Fitch surveillance confirms reinvesting US BSL CLOs hold an average [[F67]] Senior OC cushion and [[F68]] Junior OC cushion (WARF [[F69]]), whereas post-reinvestment CLOs enjoy a [[F70]] Senior OC 'deleveraging windfall' while Junior OC cushions compress to [[F71]]. On the live FMP tape, `JAAA` trades at [[F79]] ([[F80]] from its 52-week high) while `JBBB` trades at [[F81]] ([[F82]] from its 52-week high).",
+      "mechanism": "When a CLO exits its reinvestment period, principal proceeds pay down the AAA tranche sequentially. That sequential amortisation creates a massive Senior OC windfall ([[F70]] average in Fitch's US BSL cohort), making seasoned senior paper fortress-safe. Simultaneously, the remaining collateral pool shrinks around slower-prepaying, lower-rated B3/CCC borrowers, compressing the average post-RP Junior OC cushion to [[F71]] and leaving post-RP BB/B tranches exposed to interest diversion.",
+      "latex": "\\text{Arb}_{\\text{equity}} \\approx s_{\\text{assets}} - \\sum_{i} w_i \\, s_i - f_{\\text{mgmt}} - \\text{CDR} \\times (1 - \\text{RR}) \\times L_{\\text{eq}}",
+      "latex_status": "approximation",
+      "latex_note": "Practitioner excess-spread approximation at standard CLO 2.0 equity leverage of [[F56]]. Resetting AAA liabilities toward [[F10]] lowers WACC, but in post-reinvestment deals where Junior OC has compressed to [[F71]], any migration above the [[F42]] CCC bucket diverts residual cashflow away from equity and BB/B notes to amortise AAA.",
+      "factors": [
+        "Liability supply-demand: [[F08]] of September European refi/reset paper cleared at [[F10]], [[F11]] inside new issue at [[F07]], while US tier-1 AAA held near [[F64]].",
+        "Mezzanine decompression: mid-October US BB spreads widened toward [[F65]] (a [[F66]] basis over AAA) and `JBBB` sits [[F82]] below its 52-week high versus [[F80]] for `JAAA`.",
+        "Reinvesting vs post-RP bifurcation: Fitch US BSL data shows reinvesting deals carry [[F67]] Senior OC and [[F68]] Junior OC cushions (WARF [[F69]]), whereas post-RP deals carry [[F70]] Senior OC but only [[F71]] Junior OC cushion."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 55,
+          "label": "Senior grind, mezzanine dispersion",
+          "text": "European AAA clears in the [[F16]] band and US AAA holds near [[F64]] through Q4, while BB dispersion persists between clean reinvesting shelves ([[F68]] Jr OC) and post-RP/telecom-heavy pools ([[F71]] Jr OC)."
+        },
+        {
+          "id": "B",
+          "p": 30,
+          "label": "Warehouse indigestion widens spreads",
+          "text": "Simultaneous pricing of [[F12]] and macro rate volatility push European AAA wider and keep US BB near [[F65]], slowing the [[F13]] refi/reset wave."
+        },
+        {
+          "id": "C",
+          "p": 15,
+          "label": "Senior bid breaks on ETF outflows",
+          "text": "Forced institutional deleveraging sparks outflows from `JAAA` ([[F79]]) and `JBBB` ([[F81]]), gapping AAA and mezzanine liabilities wider across the stack.",
+          "kill_switch": "European new-issue AAA prints above [[F07]] by more than ten basis points on two consecutive tier-1 deals or `JAAA` draws down more than two percent from its 52-week high."
+        }
+      ],
+      "posture": "Overweight AAA/AA in tier-1 European and US shelves (`JAAA` at [[F79]]) and post-RP senior tranches benefiting from [[F70]] Senior OC cushions; participate selectively in BBB/BB only on reinvesting 2024–2026 vintages with Junior OC cushions above [[F68]] and underweight post-RP BB paper where average Junior OC sits at [[F71]].",
+      "verify": "Monitor October/November Creditflux and Trepp new-issue AAA prints against [[F16]], US BB clearing spreads against [[F65]], and European deal-level trustee OC dispersion (Gap G1).",
+      "gaps": [
+        "G1"
+      ],
+      "short_title": "CLO Liability & Mezz Spread"
+    },
+    {
+      "id": "T2",
+      "emoji": "⚔️",
+      "title": "Altice International NY Commercial Division Lawsuit & VMO2/VodafoneZiggo Telecom Contagion",
+      "thesis": "Altice International's [[F17]] unrestricted drop-down has escalated into a 13 October 2026 New York Supreme Court Commercial Division lawsuit by a steering committee holding [[F72]] of loans, while Fitch's downgrade of Virgin Media O2 ([[F73]] debt, [[F74]] leverage) triggered a [[F77]] fire sale in sister Liberty Global JV VodafoneZiggo's [[F76]] Term Loan B to [[F78]].",
+      "verdict": "HARD VETO ALTICE · RESTRICT VMO2 & ZIGGO CONCENTRATION",
+      "stance": "High LME litigation & telecom contagion risk",
+      "risk": {
+        "probability": 4,
+        "impact": 4
+      },
+      "evidence": [
+        "E03",
+        "E04",
+        "E12",
+        "E13"
+      ],
+      "signal": "Altice International carries [[F19]] ([[F20]]) of total debt with [[F21]] maturing in 2027, [[F24]] of cash and undrawn RCF, and [[F25]] of trailing 12-month negative free cash flow after raising [[F17]] at [[F18]] in November 2025 against unrestricted subsidiaries Altice Portugal and Altice Caribbean. Holders of [[F22]] of the debt renewed their cooperation agreement through March 2027 as senior secured bonds traded in the [[F23]] area, and on 13 October 2026 a steering committee (Arini, Invesco, Sona, Diameter, and Elliott) holding [[F72]] of term loans plus senior secured notes filed suit in the New York County Supreme Court Commercial Division challenging the collateral and guarantee stripping. Simultaneously, European telecom contagion intensified: Virgin Media O2 ([[F73]] debt and lease stack) was downgraded by Fitch to B+ with net leverage above [[F74]] and 2031 bonds in the [[F75]] area after the UK CMA raised competition concerns over nexfibre's Netomnia deal, sparking mid-October hedge-fund fire sales in sister Liberty Global JV VodafoneZiggo that knocked its [[F76]] Term Loan Bs due 2033 down [[F77]] to [[F78]].",
+      "mechanism": "European telecoms are the largest single-sector obligor concentration inside European BSL CLOs. In Altice International, unrestricted-subsidiary drop-downs stripped collateral from legacy lenders, shifting recovery into NY Commercial Division litigation where non-steering creditors risk an estimated [[F26]] haircut relative to steering-group paper. In Liberty Global's JVs (VMO2 and VodafoneZiggo), leverage above [[F74]] and regulatory blocks on fibre consolidation turned a single-notch rating downgrade at VMO2 into immediate cross-pod liquidation of VodafoneZiggo's [[F76]] TLB.",
+      "latex": "\\mathbb{E}[R] = P_{\\text{win}} \\, R_{\\text{restore}} + \\left(1 - P_{\\text{win}}\\right) R_{\\text{residual}} - c_{\\text{lit}}",
+      "latex_status": "framework",
+      "latex_note": "Decision-analysis framing for the 13 Oct 2026 NY Commercial Division complaint over Altice's [[F17]] unrestricted drop-down: P_win is the probability the court invalidates the guarantee/collateral stripping; non-steering creditors face an estimated [[F26]] discount to steering-group recoveries.",
+      "factors": [
+        "Active NY litigation: the 13 October 2026 NY Supreme Court Commercial Division complaint by holders of [[F72]] in term loans directly challenges Altice International's [[F17]] unrestricted drop-down ahead of the [[F21]] 2027 maturity wall.",
+        "Liberty Global telecom contagion: VMO2's downgrade to B+ at [[F74]] leverage ([[F73]] debt stack, bonds at [[F75]]) spilled directly into sister JV VodafoneZiggo, driving a [[F77]] drop in its [[F76]] 2033 TLB to [[F78]].",
+        "Bimodal LME recovery math: non-steering creditors in dual-track European telecom workouts face an estimated [[F26]] recovery haircut relative to steering-group paper."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 50,
+          "label": "Co-op settlement & telecom stabilisation",
+          "text": "The NY Commercial Division litigation forces Altice International into a negotiated settlement with the [[F22]] co-op group before the [[F21]] 2027 wall, while VodafoneZiggo's [[F76]] TLB stabilises near [[F78]]."
+        },
+        {
+          "id": "B",
+          "p": 35,
+          "label": "Protracted court fight & telecom CCC migration",
+          "text": "Litigation over the [[F17]] drop-down drags into 2027 while VMO2 or VodafoneZiggo suffers a further downgrade toward B-/CCC+, pressuring European CLO WARF and CCC buckets."
+        },
+        {
+          "id": "C",
+          "p": 15,
+          "label": "Hostile drop-down escalation",
+          "text": "Altice International executes a further drop-down or coercive exchange outside the [[F22]] co-op perimeter while VodafoneZiggo TLBs gap lower on forced CLO selling.",
+          "kill_switch": "A NY Commercial Division ruling dismissing the steering committee's challenge, or a rating agency downgrade of VMO2 or VodafoneZiggo into the B- / CCC band."
+        }
+      ],
+      "posture": "Hard veto on non-co-op Altice International paper; any exposure must sit inside the [[F22]] co-op perimeter underwritten below [[F23]]. Restrict new allocations to European CLOs carrying elevated combined VMO2 ([[F73]]) and VodafoneZiggo ([[F78]]) concentrations.",
+      "verify": "Track the NY County Supreme Court Commercial Division docket (Gap G2) on the [[F72]] steering-group complaint, UK CMA remedies on nexfibre/Netomnia, and secondary dealer runs on VodafoneZiggo's [[F76]] TLB.",
+      "gaps": [
+        "G2"
+      ],
+      "short_title": "Altice NY Suit & VMO2/Ziggo"
+    },
+    {
+      "id": "T3",
+      "emoji": "🚰",
+      "title": "Thames Water WBS Restructuring — Class A Mobilization vs SAR",
+      "thesis": "With [[F27]] of the [[F28]] super-senior rescue facility drawn and Class B written down to [[F33]] equity under a TSA, Class A senior bondholders across the [[F30]] WBS stack have mobilized under Akin Gump and Jefferies to defend ring-fence covenants against a [[F51]] Special Administration Regime (SAR) tail.",
+      "verdict": "HARD VETO CLASS B · WATCH CLASS A AT DISTRESSED MARKS",
+      "stance": "Event-driven regulatory binary",
+      "risk": {
+        "probability": 3,
+        "impact": 4
+      },
+      "evidence": [
+        "E05"
+      ],
+      "signal": "Thames Water has drawn [[F27]] of its [[F28]] super-senior emergency liquidity facility and seeks an additional [[F29]] bridge to autumn 2027 across its [[F30]] Whole Business Securitisation (WBS) debt stack. Holders of [[F31]] of Class B bonds ([[F32]] nominal) signed a Transaction Support Agreement writing off principal for [[F33]] of post-recapitalisation equity plus participation in a [[F34]] equity raise, while Class A senior noteholders mobilized under Akin Gump and Jefferies ahead of Ofwat's Final Determination.",
+      "mechanism": "Whole Business Securitisation structures protect senior Class A creditors through statutory ring-fencing and step-in rights, but super-senior liquidity injections ([[F27]] drawn of [[F28]], plus [[F29]] sought) steadily subordinate the Class A stack. While Class B has already capitulated to a [[F33]] equity recovery under the TSA, Class A recovery (estimated at [[F35]]) depends on whether Ofwat grants sufficient regulatory capital value and return concessions to avoid a Special Administration Regime ([[F51]] probability).",
+      "latex": "R_{\\text{Class A}} = \\frac{\\min\\left(D_{\\text{Class A}},\\; \\max\\left(0,\\; V_{\\text{RCV,post-Ofwat}} - D_{\\text{super-senior}}\\right)\\right)}{D_{\\text{Class A}}}",
+      "latex_status": "identity",
+      "latex_note": "Senior WBS recovery identity after deducting priming super-senior rescue debt ([[F28]] existing plus [[F29]] requested) from post-Determination enterprise value; estimated at [[F35]] under a consensual Part 26A plan versus lower राजनीतिक/regulatory recovery under SAR ([[F51]] probability).",
+      "factors": [
+        "Priming liquidity burn: [[F27]] of the [[F28]] super-senior facility is already drawn and an extra [[F29]] is needed to reach autumn 2027, steadily subordinating Class A.",
+        "Class B wipeout benchmark: the TSA signed by [[F31]] of Class B ([[F32]]) establishes that junior WBS debt recovers only [[F33]] equity plus the [[F34]] new-money option.",
+        "Regulatory gatekeeper: Class A recovery (estimated at [[F35]]) hinges on whether Ofwat's allowed return and capex settlement averts a [[F51]] SAR filing."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 55,
+          "label": "Creditor-led Part 26A recapitalisation",
+          "text": "Ofwat's Determination and the [[F29]] bridge allow a Part 26A Restructuring Plan in which Class B takes [[F33]] equity and Class A recovers in the [[F35]] band."
+        },
+        {
+          "id": "B",
+          "p": 30,
+          "label": "Special Administration Regime (SAR)",
+          "text": "Talks between Class A and Ofwat collapse before 31 January 2027 (matching call C-20261026-04 at [[F51]]), putting the utility into SAR and subordinating Class A behind statutory rescue funding."
+        },
+        {
+          "id": "C",
+          "p": 15,
+          "label": "Super-senior bridge impasse",
+          "text": "Super-senior lenders balk at the incremental [[F29]] ask before Year-End, forcing an accelerated statutory intervention.",
+          "kill_switch": "Defra or Ofwat petitions the High Court for a Special Administration Order, or Class A rejects the super-senior extension."
+        }
+      ],
+      "posture": "Hard veto on Class B (already anchored to [[F33]] equity); hold or underwrite Class A senior WBS paper only at deep discounts consistent with the [[F35]] consensual recovery band and [[F51]] SAR tail once primary dealer runs are captured (Gap G5).",
+      "verify": "Track the High Court sanction timetable on the Class B TSA (Gap G2), Ofwat's Final Determination announcements, and primary Class A pricing (Gap G5).",
+      "gaps": [
+        "G2",
+        "G5"
+      ],
+      "short_title": "Thames Water Class A vs SAR"
+    },
+    {
+      "id": "T4",
+      "emoji": "📉",
+      "title": "Default Cycle, LME Repeat-Default Trap & Post-RP Junior OC Compression",
+      "thesis": "Fitch's [[F36]] TTM default rate understates ongoing collateral decay: [[F37]] of the loan universe sits on the Top Market Concern list, [[F38]] of defaults are LMEs with a [[F39]] repeat-default rate, and post-reinvestment US BSL Junior OC cushions have compressed to [[F71]].",
+      "verdict": "SCREEN CCC BUCKETS & POST-RP JUNIOR OC CUSHIONS",
+      "stance": "Vigilant on tail & post-RP mezzanine",
+      "risk": {
+        "probability": 4,
+        "impact": 4
+      },
+      "evidence": [
+        "E06",
+        "E09",
+        "E11"
+      ],
+      "signal": "Fitch's trailing 12-month institutional leveraged loan default rate stands at [[F36]], while its Top Market Concern and Tier 2 watch list covers [[F37]] of the market; European default forecasts sit at [[F40]] (issuer-weighted) and [[F41]] (par-weighted including LMEs). Distressed debt exchanges account for [[F38]] of default events, and [[F39]] of out-of-court LME borrowers re-default within 18–24 months. While reinvesting US BSL CLOs hold an average [[F68]] Junior OC cushion (WARF [[F69]]), post-reinvestment US BSL CLOs average just [[F71]] of Junior OC cushion — leaving thin protection before breaches of the [[F42]] CCC limit apply a [[F43]] market-value haircut against a [[F49]] US 10Y Treasury backdrop ([[F50]] 2s10s).",
+      "mechanism": "Out-of-court LMEs represent [[F38]] of defaults and leave restructured borrowers inside CLO pools at CCC/Caa ratings, where [[F39]] re-default within two years. Once a deal's CCC bucket breaches [[F42]], excess CCC loans are marked to market ([[F43]]) in the OC numerator. Because post-reinvestment US BSL CLOs carry an average Junior OC cushion of only [[F71]] (compared with [[F68]] in reinvesting deals), CCC migration rapidly trips Junior OC tests in seasoned vintages.",
+      "latex": "\\text{OC}_j = \\frac{\\text{Par}_{\\text{perf}} + \\text{MV}_{\\text{def}} - \\max\\!\\left(0,\\; \\text{CCC}_{\\text{par}} - 0.075 \\times \\text{Par}_{\\text{pool}}\\right) \\times \\left(1 - P_{\\text{mkt,CCC}}\\right)}{\\sum_{i \\le j} \\text{Par}_i}",
+      "latex_status": "standard",
+      "latex_note": "Standard CLO overcollateralisation ratio showing the explicit excess-CCC market-value haircut above [[F42]] at mark [[F43]]. Fitch US BSL data (E11) shows average Junior OC headroom is [[F68]] for reinvesting CLOs but compresses to [[F71]] for post-RP CLOs.",
+      "factors": [
+        "LME repeat-default conveyor: [[F38]] of defaults are distressed exchanges and [[F39]] of those issuers re-default within two years, keeping the [[F37]] Market Concern cohort elevated.",
+        "Post-reinvestment Junior OC squeeze: Fitch's [[F71]] average post-RP Junior OC cushion (versus [[F68]] in reinvesting deals) explains why seasoned BB/B tranches are far more sensitive to single-name telecom or software downgrades.",
+        "Rate floor pressure: with the 10Y Treasury at [[F49]] and all-in coupons at [[F97]], B3/B- borrowers operating below [[F59]] cash interest coverage face an estimated [[F96]] 12-month default or LME rate."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 55,
+          "label": "Elevated plateau with post-RP dispersion",
+          "text": "Headline defaults stay near [[F36]] and European defaults near [[F40]]–[[F41]], while LME repeat defaults ([[F39]]) push weak post-RP Junior OC cushions ([[F71]]) toward interest diversion."
+        },
+        {
+          "id": "B",
+          "p": 30,
+          "label": "Benign refinancing cure",
+          "text": "Front-end rate cuts ([[F91]]) and open loan markets absorb 2027 maturities, pulling defaults below [[F36]] and stabilising post-RP Junior OC buffers."
+        },
+        {
+          "id": "C",
+          "p": 15,
+          "label": "CCC spike & widespread Jr OC diversion",
+          "text": "Conversion of the [[F37]] concern list pushes median CLO CCC buckets above [[F42]], triggering [[F43]] market-value haircuts and Junior OC failures across bottom-quartile managers.",
+          "kill_switch": "Two consecutive monthly Fitch default prints above [[F40]] or median post-RP Junior OC cushions falling below 150 bps."
+        }
+      ],
+      "posture": "Require deal-level screening before allocating to CLO BB/B or equity: reject deals with CCC buckets approaching [[F42]], Junior OC cushions near the [[F71]] post-RP average, or heavy exposure to prior LME issuers ([[F39]] repeat-default rate).",
+      "verify": "Track monthly Fitch default and Market Concern updates against [[F36]] and [[F37]], and expand trustee surveillance from aggregate Fitch US BSL averages to deal-level European Intex/CLO-i feeds (Gap G1).",
+      "gaps": [
+        "G1"
+      ],
+      "short_title": "LME Repeat-Default & Jr OC"
+    },
+    {
+      "id": "T5",
+      "emoji": "🧾",
+      "title": "Private Credit BDC Bad-PIK & Software Distress Series — Gap G3 Resolved",
+      "thesis": "Newly harvested Fitch and PitchBook LCD data resolves Gap G3: aggregate BDC PIK income has reached [[F44]] of investment income, [[F83]] of BDC portfolio companies show credit-pressure warnings despite [[F45]] headline non-accruals, and Software accounts for [[F84]] of distressed BDC marks — validated on the live tape by `OBDC` trading [[F86]] below its 52-week high.",
+      "verdict": "HARD VETO SOFTWARE-HEAVY BDCs & HIGH-PIK MM CLOs",
+      "stance": "Cautious on PIK-inflated NAVs",
+      "risk": {
+        "probability": 4,
+        "impact": 3
+      },
+      "evidence": [
+        "E07",
+        "E14",
+        "E15"
+      ],
+      "signal": "Fitch Ratings and PitchBook LCD surveillance confirms aggregate BDC Payment-in-Kind (PIK) income has reached [[F44]] of total interest and dividend income, driven by post-origination 'bad PIK' amendments. While median headline BDC non-accruals at cost remain low at [[F45]], PitchBook LCD reports [[F83]] of BDC portfolio companies showing broader credit-pressure warning signs or valuation markdowns. Software and SaaS borrowers represent [[F46]] of typical direct lending portfolios and [[F84]] of all BDC distressed fair-value investments, driving [[F47]] equity discounts to NAV across software-exposed public BDCs. Live FMP equity pricing corroborates the public-vs-private mark gap: Blue Owl (`OBDC`) trades at [[F85]] ([[F86]] below its 52-week high), Blackstone Secured Lending (`BXSL`) trades at [[F87]] ([[F88]] below its 52-week high), and Ares Capital (`ARCC`) trades at [[F89]] ([[F90]] below its 52-week high).",
+      "mechanism": "Converting cash interest into post-origination 'bad PIK' when a borrower's coverage drops below [[F58]] preserves reported performing status (keeping headline cost non-accruals at [[F45]]), but compounds principal debt against stagnating enterprise values. In 2021–2022 software LBO vintages ([[F46]] of direct lending books and [[F84]] of distressed BDC marks), AI-driven seat compression prevents borrowers from growing out of PIK accruals, causing public BDC equities (`OBDC` [[F86]], `BXSL` [[F88]]) to price [[F47]] NAV discounts well ahead of quarterly private markdowns.",
+      "latex": "D_t = D_0 \\left(1 + r_{\\text{cash}} + r_{\\text{PIK}}\\right)^{t} - \\text{CF}_{\\text{paid}}, \\qquad \\text{LTV}_t = \\frac{D_t}{V_t}",
+      "latex_status": "identity",
+      "latex_note": "Compounding debt-to-value identity under PIK amendments: with aggregate BDC PIK income at [[F44]] and Software representing [[F84]] of distressed BDC fair-value investments, LTV drifts upward even while headline cost non-accruals read [[F45]].",
+      "factors": [
+        "PIK-to-non-accrual bridge quantified: Fitch's [[F44]] BDC PIK income share and PitchBook's [[F83]] broader credit-pressure rate expose the lag in [[F45]] headline cost non-accruals.",
+        "Software concentration epicentre: Software & SaaS represents [[F46]] of direct lending books and [[F84]] of all BDC distressed fair-value investments as AI seat compression hits 2021–2022 LBO vintages.",
+        "Public market price discovery: `OBDC` at [[F85]] ([[F86]] vs 52W high), `BXSL` at [[F87]] ([[F88]] vs 52W high), and `ARCC` at [[F89]] ([[F90]] vs 52W high) confirm public equity investors are pricing [[F47]] NAV discounts ahead of private marks."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 55,
+          "label": "Gradual Q3/Q4 10-Q PIK-to-non-accrual migration",
+          "text": "Upcoming Q3/Q4 BDC 10-Q filings convert a slice of the [[F44]] PIK cohort into formal non-accruals, lifting median non-accruals toward the upper end of [[F45]] while `OBDC` ([[F85]]) and peers trade at [[F47]] discounts."
+        },
+        {
+          "id": "B",
+          "p": 30,
+          "label": "Rate relief & M&A exit recovery",
+          "text": "Sponsor M&A reopens and FOMC cuts ([[F91]]) restore cash interest coverage above [[F57]], allowing BDCs to refinance PIK lines and narrow `OBDC` ([[F86]]) and `BXSL` ([[F88]]) drawdowns."
+        },
+        {
+          "id": "C",
+          "p": 15,
+          "label": "Software valuation reset & dividend cuts",
+          "text": "Auditors force steeper markdowns across the [[F84]] distressed software cohort, pushing broader BDC credit pressure well above [[F83]] and triggering base-dividend reductions at software-heavy BDCs.",
+          "kill_switch": "A top-10 US BDC reports cost non-accruals above 4.5% or cuts its base dividend in Q3/Q4 2026 filings (call C-20261026-05)."
+        }
+      ],
+      "posture": "Hard veto on software-heavy public BDC equity (`OBDC` at [[F85]], `BXSL` at [[F87]]) and middle-market CLO mezzanine tranches where manager PIK income exceeds [[F44]] or 2021–2022 software exposure exceeds [[F46]].",
+      "verify": "Audit individual Q3 2026 BDC 10-Q Schedule of Investments filings (ARCC, OBDC, BXSL, FSK) in November to track deal-by-deal 'bad PIK' conversions against the [[F44]] aggregate benchmark.",
+      "gaps": [],
+      "short_title": "BDC Bad-PIK & SaaS Stress"
+    },
+    {
+      "id": "T6",
+      "emoji": "🏦",
+      "title": "BoE FPC Layered Leverage & AI Capex Debt Contagion",
+      "thesis": "The Bank of England FPC's October 2026 warning on opaque multi-tiered NBFI leverage and [[F48]] of debt-funded AI infrastructure capex was previewed this week as cross-asset pod de-grossing (Gold [[F94]] to [[F93]]) spilled into European high-beta telecom loans (`VodafoneZiggo` down [[F77]] to [[F78]]).",
+      "verdict": "STRESS-TEST NBFI FUNDING CHAINS & AI CAPEX DEBT",
+      "stance": "Macro-prudential & liquidity watch",
+      "risk": {
+        "probability": 2,
+        "impact": 5
+      },
+      "evidence": [
+        "E08",
+        "E09",
+        "E12",
+        "E15"
+      ],
+      "signal": "The Bank of England Financial Policy Committee (FPC) October 2026 record highlighted financial stability risks from opaque layered leverage across private credit funds, subscription/NAV lines, insurers, and bank warehouse lines, alongside [[F48]] of projected AI and data-centre capital expenditure requiring debt financing through 2028. Meanwhile, the US Treasury curve remains anchored at [[F52]] (three-month), [[F53]] (two-year), [[F54]] (five-year), [[F49]] (ten-year), and [[F55]] (thirty-year) — a [[F50]] 2s10s slope — while Thufir's SOD tape captured a [[F94]] five-day de-grossing in Gold to [[F93]] that coincided with hedge-fund fire sales in VodafoneZiggo's [[F76]] TLB (down [[F77]] to [[F78]]).",
+      "mechanism": "Leverage multiplies across four connected balance sheets: bank warehouse and repo lines fund credit pods and private credit vehicles; funds layer NAV facilities on top; portfolio borrowers carry leverage above [[F74]]; and [[F48]] of AI data-centre capex now competes for the same structured and private debt capacity. When multi-strategy pods de-gross on macro volatility (as seen in Gold's [[F94]] drop), they sell liquid high-beta BSL loans first — explaining how VodafoneZiggo's [[F76]] TLB dropped [[F77]] in days.",
+      "latex": "L_{\\text{eff}} = \\prod_{k=1}^{n} L_k",
+      "latex_status": "framework",
+      "latex_note": "Stylised compounding-leverage framework across bank warehouse/back-leverage, fund NAV facilities, and borrower leverage. Not calibrated to individual bank balance sheets due to undisclosed bilateral NBFI facility terms (Gap G4).",
+      "factors": [
+        "Cross-asset forced-selling transmission: this week's [[F94]] Gold de-grossing and [[F77]] drop in VodafoneZiggo's [[F76]] TLB illustrate how multi-strategy pod deleveraging hits liquid BSL loans first while private credit marks lag.",
+        "AI capex supply wave: [[F48]] of projected AI/data-centre debt issuance through 2028 will compete directly with corporate refinancing calendars against a [[F49]] 10Y and [[F55]] 30Y Treasury yield.",
+        "Interest-coverage cliffs: across leveraged borrowers, coverage below [[F57]] marks the cash-flow red zone, below [[F58]] drives PIK amendments, and below [[F59]] triggers RCF draws or LMEs."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 60,
+          "label": "Supervisory scrutiny & episodic pod de-grossing",
+          "text": "The BoE and Fed expand NBFI stress-testing while episodic hedge-fund de-grossing creates tactical dislocations in liquid high-beta loans (like VodafoneZiggo at [[F78]]) without freezing AAA warehouses."
+        },
+        {
+          "id": "B",
+          "p": 25,
+          "label": "Orderly disintermediation & curve bull-flattening",
+          "text": "Long-end Treasury yields retreat below [[F54]] and institutional insurance allocations absorb the [[F48]] AI infrastructure debt pipeline smoothly."
+        },
+        {
+          "id": "C",
+          "p": 15,
+          "label": "Synchronised NBFI margin & NAV-facility squeeze",
+          "text": "A long-end yield spike above [[F55]] or an AI capex valuation shock triggers simultaneous bank warehouse, repo, and NAV-line margin calls across private credit and CLO equity pods.",
+          "kill_switch": "A major bank lender pulls or reprices senior CLO warehouse or private-credit NAV lines, or the BoE reports a disorderly NBFI fund wind-down."
+        }
+      ],
+      "posture": "Favour unlevered or lightly levered senior CLO tranches (`JAAA` at [[F79]]); avoid strategies reliant on stacked repo or NAV-facility leverage over illiquid private credit pools, and keep dry powder to buy forced BSL dislocations when macro pods de-gross.",
+      "verify": "Monitor the BoE November 2026 Financial Stability Report, Fed SR-letter disclosures on bank exposures to private credit and CLO warehouses (Gap G4), and post-FOMC 10Y Treasury movement around [[F49]].",
+      "gaps": [
+        "G4"
+      ],
+      "short_title": "BoE FPC & AI Capex Debt"
+    }
+  ],
+  "calls": [
+    {
+      "id": "C-20261026-01",
+      "topic": "T1",
+      "proposition": "October 2026 EUR CLO AAA new-issue average spread prints at or below 128 bps.",
+      "p": 0.7,
+      "resolve_by": "2026-11-15",
+      "resolution_source": "Monthly European CLO market report (Trepp / Dechert / Creditflux)"
+    },
+    {
+      "id": "C-20261026-02",
+      "topic": "T1",
+      "proposition": "Full-year 2026 EUR CLO refi/reset volume reaches at least €55bn.",
+      "p": 0.65,
+      "resolve_by": "2027-01-31",
+      "resolution_source": "Full-year European CLO market reviews"
+    },
+    {
+      "id": "C-20261026-03",
+      "topic": "T2",
+      "proposition": "Altice International announces a consensual restructuring agreement with its secured creditors by 31 Jan 2027.",
+      "p": 0.3,
+      "resolve_by": "2027-01-31",
+      "resolution_source": "Company or creditor-group announcement; 9fin; Octus"
+    },
+    {
+      "id": "C-20261026-04",
+      "topic": "T3",
+      "proposition": "Thames Water is placed into the Special Administration Regime by 31 Jan 2027.",
+      "p": 0.3,
+      "resolve_by": "2027-01-31",
+      "resolution_source": "Court order / UK government announcement"
+    },
+    {
+      "id": "C-20261026-05",
+      "topic": "T4",
+      "proposition": "Fitch's European leveraged loan TTM default rate is at or above 4.0% in its December 2026 print.",
+      "p": 0.6,
+      "resolve_by": "2027-01-31",
+      "resolution_source": "Fitch Ratings European leveraged loan default insight"
+    },
+    {
+      "id": "C-20261028-01",
+      "topic": "T2",
+      "proposition": "VodafoneZiggo's €1.125bn Term Loan B due 2033 trades below 90.0 pts in secondary dealer runs through 30 November 2026.",
+      "p": 0.68,
+      "resolve_by": "2026-12-05",
+      "resolution_source": "9fin / Octus European secondary loan pricing runs"
+    },
+    {
+      "id": "C-20261028-02",
+      "topic": "T1",
+      "proposition": "US BSL CLO primary BB clearing spreads average at or above 475 bps across November 2026 prints.",
+      "p": 0.66,
+      "resolve_by": "2026-12-10",
+      "resolution_source": "Trepp / Creditflux November 2026 US CLO monthly pricing summary"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "G1",
+      "label": "Deal-level European CLO trustee OC & CCC dispersion (US BSL aggregate resolved via E11)",
+      "impact": "Fitch US BSL surveillance (E11) now anchors aggregate reinvesting ([[F68]] Jr OC) vs post-RP ([[F71]] Jr OC) cushions, but European deal-by-deal trustee WARF, CCC, and Junior OC dispersion remains uningested.",
+      "remedy": "Ingest a monthly Creditflux CLO-i or Alter Domus anonymised European trustee extract into `roc/scripts/ops_chrizza/evidence/` (Decision D3)."
+    },
+    {
+      "id": "G2",
+      "label": "Primary court dockets for NY Supreme Court Commercial Division (Altice) & High Court Part 26A (Thames Water)",
+      "impact": "The 13 October 2026 Altice International complaint (E13) and Thames Water TSA (E05) are tracked via specialist legal press rather than direct docket PDF ingestion.",
+      "remedy": "Attach NYSCEF Commercial Division index filings and High Court Companies Court claim numbers to the evidence file when publicly docketed."
+    },
+    {
+      "id": "G4",
+      "label": "Bank-by-bank CLO warehouse & private-credit NAV facility commitment breakdown",
+      "impact": "The BoE FPC warning on layered leverage and [[F48]] AI debt (E08) is macro-level; individual bank warehouse utilization and margin triggers are not publicly disclosed.",
+      "remedy": "Cross-reference Q3 2026 Pillar 3 and 10-Q NBFI footnotes for major warehouse lenders."
+    },
+    {
+      "id": "G5",
+      "label": "Primary dealer runs on Thames Water Class A senior WBS notes",
+      "impact": "Class A consensual vs SAR recovery is estimated at [[F35]], but executable dealer bid-ask levels are not yet captured in the evidence file.",
+      "remedy": "Capture secondary dealer runs on Thames Water Class A bonds ahead of Ofwat's Final Determination."
+    }
+  ],
+  "bibliography": [
+    {
+      "source_id": "creditflux_clo_intel",
+      "used_for": "European & US CLO issuance, AAA/BB spreads, and open warehouse count (E01, E02, E10)."
+    },
+    {
+      "source_id": "pitchbook_lcd",
+      "used_for": "European loan spreads, BDC credit-pressure series, and default benchmarks (E01, E02, E06, E07)."
+    },
+    {
+      "source_id": "trepp_clo_analytics",
+      "used_for": "Promoted to Tier 1: September 2026 EUR and US CLO volume splits and deal counts (E01, E10)."
+    },
+    {
+      "source_id": "octus_reorg_intel",
+      "used_for": "Promoted to Tier 1: Altice 13 Oct NY Commercial Division lawsuit and VMO2/VodafoneZiggo contagion (E03, E04, E05, E12, E13)."
+    },
+    {
+      "source_id": "9fin_levfin_news",
+      "used_for": "Altice unrestricted drop-down, VMO2 B+ downgrade, VodafoneZiggo TLB fire sale, and Thames Water WBS (E03, E04, E05, E12, E13)."
+    },
+    {
+      "source_id": "debtwire_restructuring",
+      "used_for": "Altice co-op renewal, NY Commercial Division steering group, and Thames Water Akin Gump/Jefferies mobilization (E04, E05, E13)."
+    },
+    {
+      "source_id": "fitch_structured_credit",
+      "used_for": "TTM default rate, Market Concern list, US BSL reinvesting vs post-RP OC cushions, BDC PIK share, and VMO2 downgrade (E06, E07, E11, E12)."
+    },
+    {
+      "source_id": "sp_global_ratings_direct",
+      "used_for": "B3/B- Weakest Links, VMO2 B+ Negative outlook, and LME repeat-default studies (E06, E12)."
+    },
+    {
+      "source_id": "moodys_clo_tracker",
+      "used_for": "US BSL WARF stability and BDC PIK/software risk commentary (E07, E11)."
+    },
+    {
+      "source_id": "lsta_market_intelligence",
+      "used_for": "US secondary loan and CLO ETF liquidity benchmarks (E14)."
+    },
+    {
+      "source_id": "bank_of_england_financial_stability",
+      "used_for": "October 2026 FPC record on layered NBFI leverage and AI capex debt (E08, E15)."
+    },
+    {
+      "source_id": "federal_reserve_financial_stability",
+      "used_for": "NBFI bank-commitment context, FMP US Treasury yield curve, and upstream FOMC bridge (E08, E09, E15)."
+    }
+  ],
+  "heuristics": [
+    {
+      "id": "H1",
+      "text": "At standard CLO 2.0 leverage of [[F56]], each percentage point of uncompensated default loss erodes roughly [[F56]] its weight in equity par; in post-RP deals where Junior OC averages [[F71]], excess CCC haircuts above [[F42]] rapidly trip diversion."
+    },
+    {
+      "id": "H2",
+      "text": "Interest-coverage triage: borrowers below [[F57]] enter the cash-flow red zone; below [[F58]] seek PIK amendments (feeding the [[F44]] BDC PIK share); below [[F59]] face RCF draws or LMEs within two to four quarters ([[F96]] estimated 12-month rate)."
+    },
+    {
+      "id": "H3",
+      "text": "In dual-track European LMEs, non-steering paper typically suffers an estimated [[F26]] recovery discount to co-op steering-group paper — now being tested in NY Supreme Court Commercial Division over Altice's [[F17]] drop-down."
+    },
+    {
+      "id": "H4",
+      "text": "Sequential post-reinvestment AAA paydowns create a senior deleveraging windfall ([[F70]] average Senior OC) while starving Junior OC ([[F71]] average) — never confuse senior post-RP safety with post-RP BB safety."
+    }
+  ]
+}

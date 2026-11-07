@@ -1,0 +1,224 @@
+{
+  "schema": "chrizza.court_dockets.v1",
+  "date": "20261106",
+  "captured_at_utc": "2026-11-06T14:29:08Z",
+  "source": "uk_caselaw_and_efts_dockets",
+  "summary": {
+    "uk_judgments_count": 10,
+    "sec_efts_filings_count": 13,
+    "local_sealed_dockets_count": 0
+  },
+  "uk_high_court_judgments": [
+    {
+      "query_label": "Thames Water High Court Judgments",
+      "case_title": "THAMES WATER UTILITIES LIMITED v KAREN IMBER",
+      "court_path": "ewhc/kb/2026/2720",
+      "published_utc": "2026-10-23T00:00:00+00:00",
+      "updated_utc": "2026-10-23T09:14:09+00:00",
+      "judgment_url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2026/2720",
+      "akoma_ntoso_xml_url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2026/2720/data.xml"
+    },
+    {
+      "query_label": "Thames Water High Court Judgments",
+      "case_title": "CASTLE WATER LIMITED v MR FARID NABIZADA",
+      "court_path": "ewcc/2026/65",
+      "published_utc": "2026-10-23T00:00:00+00:00",
+      "updated_utc": "2026-10-23T10:57:44+00:00",
+      "judgment_url": "https://caselaw.nationalarchives.gov.uk/ewcc/2026/65",
+      "akoma_ntoso_xml_url": "https://caselaw.nationalarchives.gov.uk/ewcc/2026/65/data.xml"
+    },
+    {
+      "query_label": "Thames Water High Court Judgments",
+      "case_title": "Del Bosque Limited v Amir Shafie & Ors",
+      "court_path": "ewhc/comm/2026/2292",
+      "published_utc": "2026-09-04T00:00:00+00:00",
+      "updated_utc": "2026-09-04T12:39:30+00:00",
+      "judgment_url": "https://caselaw.nationalarchives.gov.uk/ewhc/comm/2026/2292",
+      "akoma_ntoso_xml_url": "https://caselaw.nationalarchives.gov.uk/ewhc/comm/2026/2292/data.xml"
+    },
+    {
+      "query_label": "Thames Water High Court Judgments",
+      "case_title": "Paul William Little Sallis v The London Borough of Barking and Dagenham",
+      "court_path": "ukftt/pc/2026/1188",
+      "published_utc": "2026-08-12T00:00:00+00:00",
+      "updated_utc": "2026-09-08T15:14:44+00:00",
+      "judgment_url": "https://caselaw.nationalarchives.gov.uk/ukftt/pc/2026/1188",
+      "akoma_ntoso_xml_url": "https://caselaw.nationalarchives.gov.uk/ukftt/pc/2026/1188/data.xml"
+    },
+    {
+      "query_label": "Thames Water High Court Judgments",
+      "case_title": "TG Jones High Street Limited, Re",
+      "court_path": "ewhc/ch/2026/2079",
+      "published_utc": "2026-08-05T00:00:00+00:00",
+      "updated_utc": "2026-08-05T09:36:47+00:00",
+      "judgment_url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2026/2079",
+      "akoma_ntoso_xml_url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2026/2079/data.xml"
+    },
+    {
+      "query_label": "Chancery Part 26A Restructuring Plans",
+      "case_title": "NFE Global Holdings Limited & Anor, Re",
+      "court_path": "ewhc/ch/2026/1620",
+      "published_utc": "2026-06-18T00:00:00+00:00",
+      "updated_utc": "2026-07-02T11:06:40+00:00",
+      "judgment_url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2026/1620",
+      "akoma_ntoso_xml_url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2026/1620/data.xml"
+    },
+    {
+      "query_label": "Chancery Part 26A Restructuring Plans",
+      "case_title": "Poundstretcher Limited, Re",
+      "court_path": "ewhc/ch/2026/1438",
+      "published_utc": "2026-06-12T00:00:00+00:00",
+      "updated_utc": "2026-06-12T09:39:24+00:00",
+      "judgment_url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2026/1438",
+      "akoma_ntoso_xml_url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2026/1438/data.xml"
+    },
+    {
+      "query_label": "Chancery Part 26A Restructuring Plans",
+      "case_title": "Waldorf Production UK Plc, Re",
+      "court_path": "ewhc/ch/2026/1014",
+      "published_utc": "2026-05-05T00:00:00+00:00",
+      "updated_utc": "2026-05-05T09:04:10+00:00",
+      "judgment_url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2026/1014",
+      "akoma_ntoso_xml_url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2026/1014/data.xml"
+    },
+    {
+      "query_label": "Chancery Part 26A Restructuring Plans",
+      "case_title": "Argo Blockchain plc, Re",
+      "court_path": "ewhc/ch/2025/3395",
+      "published_utc": "2025-12-23T00:00:00+00:00",
+      "updated_utc": "2026-06-25T13:36:45+00:00",
+      "judgment_url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/3395",
+      "akoma_ntoso_xml_url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/3395/data.xml"
+    },
+    {
+      "query_label": "Chancery Part 26A Restructuring Plans",
+      "case_title": "Poundland Limited, Re",
+      "court_path": "ewhc/ch/2025/2755",
+      "published_utc": "2025-10-24T00:00:00+00:00",
+      "updated_utc": "2025-10-24T10:22:54+00:00",
+      "judgment_url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/2755",
+      "akoma_ntoso_xml_url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/2755/data.xml"
+    }
+  ],
+  "sec_restructuring_filings": [
+    {
+      "query_label": "VodafoneZiggo & Liberty Global SEC Filings",
+      "entity": "Liberty Global Ltd.  (LBTYA, LBTYB, LBTYK)  (CIK 0001570585)",
+      "form": "8-K/A",
+      "file_date": "2026-10-13",
+      "accession": "0001570585-26-000136",
+      "document": "ex993-lgproformafinancials.htm",
+      "archive_url": "https://www.sec.gov/Archives/edgar/data/1570585/000157058526000136/ex993-lgproformafinancials.htm"
+    },
+    {
+      "query_label": "VodafoneZiggo & Liberty Global SEC Filings",
+      "entity": "Liberty Global Ltd.  (LBTYA, LBTYB, LBTYK)  (CIK 0001570585)",
+      "form": "8-K/A",
+      "file_date": "2026-10-13",
+      "accession": "0001570585-26-000136",
+      "document": "ex992-vzgh2026interimfinan.htm",
+      "archive_url": "https://www.sec.gov/Archives/edgar/data/1570585/000157058526000136/ex992-vzgh2026interimfinan.htm"
+    },
+    {
+      "query_label": "VodafoneZiggo & Liberty Global SEC Filings",
+      "entity": "Liberty Global Ltd.  (LBTYA, LBTYB, LBTYK)  (CIK 0001570585)",
+      "form": "8-K/A",
+      "file_date": "2026-10-13",
+      "accession": "0001570585-26-000136",
+      "document": "lbtya-20260731.htm",
+      "archive_url": "https://www.sec.gov/Archives/edgar/data/1570585/000157058526000136/lbtya-20260731.htm"
+    },
+    {
+      "query_label": "VodafoneZiggo & Liberty Global SEC Filings",
+      "entity": "Liberty Global Ltd.  (LBTYA, LBTYB, LBTYK)  (CIK 0001570585)",
+      "form": "8-K/A",
+      "file_date": "2026-10-13",
+      "accession": "0001570585-26-000136",
+      "document": "ex991-vzgh2025annualreport.htm",
+      "archive_url": "https://www.sec.gov/Archives/edgar/data/1570585/000157058526000136/ex991-vzgh2025annualreport.htm"
+    },
+    {
+      "query_label": "VodafoneZiggo & Liberty Global SEC Filings",
+      "entity": "Liberty Global Ltd.  (LBTYA, LBTYB, LBTYK)  (CIK 0001570585)",
+      "form": "8-K/A",
+      "file_date": "2026-10-13",
+      "accession": "0001570585-26-000136",
+      "document": "ex231-kpmgconsentforprojec.htm",
+      "archive_url": "https://www.sec.gov/Archives/edgar/data/1570585/000157058526000136/ex231-kpmgconsentforprojec.htm"
+    },
+    {
+      "query_label": "Altice Restructuring & Credit Filings",
+      "entity": "VIRTUS ASSET TRUST  (CIK 0001018593)",
+      "form": "NPORT-P",
+      "file_date": "2026-08-28",
+      "accession": "0000940400-26-035566",
+      "document": "primary_doc.xml",
+      "archive_url": "https://www.sec.gov/Archives/edgar/data/1018593/000094040026035566/primary_doc.xml"
+    },
+    {
+      "query_label": "Altice Restructuring & Credit Filings",
+      "entity": "PGIM ETF TRUST  (CIK 0001727074)",
+      "form": "NPORT-P",
+      "file_date": "2026-10-29",
+      "accession": "0000940400-26-041860",
+      "document": "primary_doc.xml",
+      "archive_url": "https://www.sec.gov/Archives/edgar/data/1727074/000094040026041860/primary_doc.xml"
+    },
+    {
+      "query_label": "Altice Restructuring & Credit Filings",
+      "entity": "PRUDENTIAL INVESTMENT PORTFOLIOS, INC. 15  (CIK 0000278187)",
+      "form": "NPORT-P",
+      "file_date": "2026-10-29",
+      "accession": "0000940400-26-041832",
+      "document": "primary_doc.xml",
+      "archive_url": "https://www.sec.gov/Archives/edgar/data/278187/000094040026041832/primary_doc.xml"
+    },
+    {
+      "query_label": "Altice Restructuring & Credit Filings",
+      "entity": "PGIM Short Duration High Yield Opportunities Fund  (SDHY)  (CIK 0001812923)",
+      "form": "NPORT-P",
+      "file_date": "2026-09-29",
+      "accession": "0000940400-26-039046",
+      "document": "primary_doc.xml",
+      "archive_url": "https://www.sec.gov/Archives/edgar/data/1812923/000094040026039046/primary_doc.xml"
+    },
+    {
+      "query_label": "Thames Water Institutional Fund Filings",
+      "entity": "iShares, Inc.  (CIK 0000930667)",
+      "form": "NPORT-P",
+      "file_date": "2026-09-25",
+      "accession": "0001410368-26-099796",
+      "document": "primary_doc.xml",
+      "archive_url": "https://www.sec.gov/Archives/edgar/data/930667/000141036826099796/primary_doc.xml"
+    },
+    {
+      "query_label": "Thames Water Institutional Fund Filings",
+      "entity": "GoldenTree Opportunistic Credit Fund  (CIK 0002052250)",
+      "form": "NPORT-P",
+      "file_date": "2026-08-25",
+      "accession": "0001410368-26-085367",
+      "document": "primary_doc.xml",
+      "archive_url": "https://www.sec.gov/Archives/edgar/data/2052250/000141036826085367/primary_doc.xml"
+    },
+    {
+      "query_label": "Thames Water Institutional Fund Filings",
+      "entity": "IHS Holding Ltd  (IHS)  (CIK 0001876183)",
+      "form": "6-K",
+      "file_date": "2026-09-01",
+      "accession": "0001104659-26-104293",
+      "document": "tm2623994d1_exh99x1.htm",
+      "archive_url": "https://www.sec.gov/Archives/edgar/data/1876183/000110465926104293/tm2623994d1_exh99x1.htm"
+    },
+    {
+      "query_label": "Thames Water Institutional Fund Filings",
+      "entity": "ASSURED GUARANTY LTD  (AGO)  (CIK 0001273813)",
+      "form": "8-K",
+      "file_date": "2026-11-05",
+      "accession": "0001273813-26-000082",
+      "document": "agl3q26supplement.htm",
+      "archive_url": "https://www.sec.gov/Archives/edgar/data/1273813/000127381326000082/agl3q26supplement.htm"
+    }
+  ],
+  "local_docket_seals": [],
+  "sha256": "007069d9781275597faa27f0daea0de1e02b6d24ecec61964328fa3d362034f9"
+}

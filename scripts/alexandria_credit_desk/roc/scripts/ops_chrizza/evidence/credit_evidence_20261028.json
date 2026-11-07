@@ -1,0 +1,280 @@
+{
+  "schema": "chrizza.evidence.v1",
+  "dossier_id": "CHZ-CREDIT-20261028",
+  "observed_at_utc": "2026-10-28T06:35:00Z",
+  "method_note": "Each capture is a condensed analyst note from Chrizza's search_web and FMP API reconnaissance on 2026-10-28. SHA-256 seals bind the note text so post-hoc edits are detectable; they attest that Chrizza's recorded note has not changed since capture — they do not prove the publisher's wording.",
+  "items": [
+    {
+      "id": "E01",
+      "title": "European CLO issuance through September 2026 — volume and AAA clearing spreads",
+      "captured_at_utc": "2026-10-28T06:30:00Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Creditflux PitchBook LCD European CLO issuance September October 2026 AAA spread bps refi reset volume",
+      "source_ids": [
+        "creditflux_clo_intel",
+        "pitchbook_lcd",
+        "trepp_clo_analytics"
+      ],
+      "publisher_domains": [
+        "creditflux.com",
+        "pitchbook.com",
+        "trepp.com"
+      ],
+      "excerpt": "European CLO issuance reached €94.9bn across 229 deals year-to-date through September 2026. September 2026 printed €10.7bn across 24 deals: €7.6bn of new issue across 17 deals and €3.1bn of refinancings and resets across 7 deals. September AAA clearing spreads averaged 124 bps on European new issue and 120 bps on refi/reset paper (a 4 bps refi/reset discount).",
+      "sha256": "590e51c4a721bbf1a7a5a5bd90b4309653fb6c64a876b4353e6aa0debac648aa"
+    },
+    {
+      "id": "E02",
+      "title": "European CLO Q4 warehouse backlog, BofA refi/reset forecast, and loan spread squeeze",
+      "captured_at_utc": "2026-10-28T06:30:00Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "European CLO warehouse backlog October 2026 BofA refi reset forecast loan spread 355 bps",
+      "source_ids": [
+        "creditflux_clo_intel",
+        "pitchbook_lcd"
+      ],
+      "publisher_domains": [
+        "creditflux.com",
+        "pitchbook.com"
+      ],
+      "excerpt": "Over 100 European CLO warehouses remained open entering Q4 2026, with Bank of America forecasting roughly €60bn of full-year 2026 European CLO refi and reset volume. European leveraged loan spreads compressed toward roughly 355 bps, squeezing the arbitrage spread against 120-124 bps AAA liabilities while CLO equity cash-on-cash distributions averaged 12-16% annualised against depressed equity NAV marks.",
+      "sha256": "5e92f0bed3a2ba1a7c850aa9ec8f729f8c7e4131cb27a72b041028fbf9fab1e3"
+    },
+    {
+      "id": "E03",
+      "title": "Altice International capital structure, 2027 maturity wall, and €750m unrestricted drop-down",
+      "captured_at_utc": "2026-10-28T06:30:00Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Altice International 9fin Octus €750m 12% unrestricted subsidiary Portugal Caribbean 2027 maturity wall",
+      "source_ids": [
+        "9fin_levfin_news",
+        "debtwire_restructuring",
+        "octus_reorg_intel"
+      ],
+      "publisher_domains": [
+        "9fin.com",
+        "debtwire.com",
+        "octus.com"
+      ],
+      "excerpt": "Altice International carries roughly $9.0bn (approx. €8.0bn) of total debt, with roughly €3.1bn maturing in 2027. In November 2025, Altice International designated Altice Portugal and Altice Caribbean as unrestricted subsidiaries and raised €750m of 12% financing against them. Cash and undrawn revolving credit stood near €528m against roughly €346m of trailing 12-month negative free cash flow.",
+      "sha256": "cfe59b233864dacc305826596960dcaa63db765821a23679e29ed0a91324201c"
+    },
+    {
+      "id": "E04",
+      "title": "Altice International creditor cooperation agreement renewal and secondary bond marks",
+      "captured_at_utc": "2026-10-28T06:30:00Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Altice International creditor cooperation agreement Arini Elliott Sona Diameter BlackRock 90% March 2027",
+      "source_ids": [
+        "9fin_levfin_news",
+        "debtwire_restructuring",
+        "octus_reorg_intel"
+      ],
+      "publisher_domains": [
+        "9fin.com",
+        "debtwire.com",
+        "octus.com"
+      ],
+      "excerpt": "Holders representing roughly 90% of Altice International's debt (including Arini, Elliott, Sona, Diameter, Invesco, BlackRock, and Ares, advised by Houlihan Lokey and Milbank) renewed their cooperation agreement for 18 months through March 2027. Altice International senior secured bonds traded in the mid-to-low 60s (approx. 63 pts).",
+      "sha256": "eda7c575f5bdf0ee75858efb1c922bec3f69c5e8cd835542abf8ff7675ee0d40"
+    },
+    {
+      "id": "E05",
+      "title": "Thames Water £16bn WBS liquidity bridge, Class B 5.9% TSA, and Class A Akin Gump/Jefferies mobilization",
+      "captured_at_utc": "2026-10-28T06:31:00Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Thames Water October 2026 Class A Class B creditor group £16bn WBS Special Administration Regime Ofwat",
+      "source_ids": [
+        "9fin_levfin_news",
+        "debtwire_restructuring",
+        "octus_reorg_intel"
+      ],
+      "publisher_domains": [
+        "9fin.com",
+        "debtwire.com",
+        "octus.com"
+      ],
+      "excerpt": "Thames Water has drawn £2.65bn of its £3.0bn super-senior emergency liquidity facility and seeks an additional £2.4bn bridge to autumn 2027 across its £16.0bn Whole Business Securitisation (WBS) debt stack. Over 60% of Class B bondholders (~£1.0bn face) signed a Transaction Support Agreement writing off principal in exchange for roughly 5.9% post-recapitalisation equity plus participation in a £150m equity raise. Class A senior bondholders mobilized under Akin Gump and Jefferies to defend WBS ring-fence covenants ahead of Ofwat's Final Determination and Special Administration Regime (SAR) contingency.",
+      "sha256": "ff95268d1a1949d2825e398c46ccc6f5614e0a4a494bfd6c017185e4b4013245"
+    },
+    {
+      "id": "E06",
+      "title": "Fitch US & European leveraged loan default rate, Top Market Concern list, and LME repeat-default rate",
+      "captured_at_utc": "2026-10-28T06:31:00Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Fitch Leveraged Loan Default Report October 2026 Top Market Concern 3.6% LME repeat default",
+      "source_ids": [
+        "fitch_structured_credit",
+        "sp_global_ratings_direct",
+        "pitchbook_lcd"
+      ],
+      "publisher_domains": [
+        "fitchratings.com",
+        "spglobal.com",
+        "pitchbook.com"
+      ],
+      "excerpt": "Fitch's trailing 12-month US institutional leveraged loan default rate stood at 3.6% entering Q4 2026, while the combined Top Market Concern and Tier 2 watch list represented 10.3% to 10.6% of the index. Distressed debt exchanges (LMEs) accounted for over 55% of default events, and roughly 55% of issuers completing an out-of-court LME re-defaulted or required a second restructuring within 18 to 24 months. European leveraged loan default forecasts sit at 3.8% to 4.8%.",
+      "sha256": "38b93d8f77253fea4034548d34e771972172cd10553996622d7bf0a38b347beb"
+    },
+    {
+      "id": "E07",
+      "title": "Private credit BDC Bad-PIK share (8.0%), broader credit pressure (>10%), and Software distress share (26%)",
+      "captured_at_utc": "2026-10-28T06:31:00Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Private credit BDC PIK income percentage non-accrual October 2026 software valuation markdowns Fitch PitchBook",
+      "source_ids": [
+        "fitch_structured_credit",
+        "pitchbook_lcd",
+        "moodys_clo_tracker"
+      ],
+      "publisher_domains": [
+        "fitchratings.com",
+        "pitchbook.com",
+        "moodys.com"
+      ],
+      "excerpt": "Fitch Ratings and PitchBook LCD data show aggregate BDC Payment-in-Kind (PIK) income reached roughly 8.0% of total BDC interest and dividend income in 2026, with post-origination 'bad PIK' amendments driving the increase. While median headline BDC non-accruals at cost remained at 3.0-4.0%, PitchBook LCD reported over 10.0% of BDC portfolio companies exhibiting broader credit-pressure warning signs or fair-value markdowns. Software and SaaS borrowers represent over 20.0% of direct lending portfolios and roughly 26.0% of all BDC distressed fair-value investments, driving 15-20% public BDC equity discounts to NAV.",
+      "sha256": "fe6284d3a2e5eabae2782c95cfb8a9f827df45eac8b48a9be57a464852c2ee13"
+    },
+    {
+      "id": "E08",
+      "title": "Bank of England FPC October 2026 Financial Stability Record — layered NBFI leverage and $1.5tn AI capex debt",
+      "captured_at_utc": "2026-10-28T06:32:00Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Bank of England Financial Policy Committee October 2026 record private credit layered leverage AI debt",
+      "source_ids": [
+        "bank_of_england_financial_stability",
+        "federal_reserve_financial_stability"
+      ],
+      "publisher_domains": [
+        "bankofengland.co.uk",
+        "federalreserve.gov"
+      ],
+      "excerpt": "The Bank of England Financial Policy Committee (FPC) October 2026 record warned of opaque layered leverage across private credit funds, subscription/NAV facilities, insurers, and bank warehouse lines, alongside valuation vulnerability in AI and data-centre infrastructure where roughly $1.5tn of cumulative capital expenditure is projected to require external debt financing through 2028.",
+      "sha256": "32e1126b75ba2fbf51b8dd56aa3d6135f1470359ed40f58c93b63f7a7f67a423"
+    },
+    {
+      "id": "E09",
+      "title": "FMP US Treasury yield curve anchor — 10Y at 5.00% and 2s10s at +32 bps",
+      "captured_at_utc": "2026-10-28T06:35:50Z",
+      "capture_method": "FMP stable treasury-rates API",
+      "query": "https://financialmodelingprep.com/stable/treasury-rates?limit=5",
+      "source_ids": [
+        "federal_reserve_financial_stability"
+      ],
+      "publisher_domains": [
+        "financialmodelingprep.com",
+        "federalreserve.gov"
+      ],
+      "excerpt": "FMP US Treasury curve anchor (2026-10-26 latest fixing): 3M 4.22%, 2Y 4.68%, 5Y 4.84%, 10Y 5.00%, 30Y 5.31%. The 2s10s curve is positively sloped at +32 bps while the 5.00% 10Y yield anchors all-in floating-rate coupons for B3/B- leveraged borrowers.",
+      "sha256": "e5eff3db61f1dc4a224268a3294abfd39b4b425e97219c6650caafd206254cf6"
+    },
+    {
+      "id": "E10",
+      "title": "US BSL CLO September/October 2026 issuance ($41.1bn / 92 deals) and BB mezzanine spread widening (~500 bps)",
+      "captured_at_utc": "2026-10-28T06:32:00Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Trepp Creditflux US CLO issuance September October 2026 $41.1bn 92 deals AAA 121 bps BB 500 bps",
+      "source_ids": [
+        "trepp_clo_analytics",
+        "creditflux_clo_intel",
+        "pitchbook_lcd"
+      ],
+      "publisher_domains": [
+        "trepp.com",
+        "creditflux.com",
+        "pitchbook.com"
+      ],
+      "excerpt": "US BSL CLO issuance totaled $41.1bn across 92 deals in September 2026. Tier-1 US BSL AAA clearing spreads held in the 118-125 bps band (approx. 121 bps midpoint), while secondary and primary US BB mezzanine spreads widened toward roughly 500 bps in mid-October 2026 (an implied 379 bps AAA-to-BB basis) as tail-risk dispersion rose.",
+      "sha256": "6048ccc83e6752712d085bff779d4b3ca54ec35c9d4c8d1117e805098b793891"
+    },
+    {
+      "id": "E11",
+      "title": "Fitch US BSL CLO OC cushion split — reinvesting (9.3% Sr / 4.5% Jr) vs post-reinvestment (68.0% Sr / 2.1% Jr)",
+      "captured_at_utc": "2026-10-28T06:32:00Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Fitch US BSL CLO OC cushion reinvesting 9.3% 4.5% post-reinvestment 68% 2.1% WARF 2026",
+      "source_ids": [
+        "fitch_structured_credit",
+        "moodys_clo_tracker"
+      ],
+      "publisher_domains": [
+        "fitchratings.com",
+        "moodys.com"
+      ],
+      "excerpt": "Fitch US BSL CLO surveillance data shows reinvesting US BSL CLOs maintain an average Senior OC cushion of 9.3% (930 bps) and an average Junior OC cushion of 4.5% (450 bps), with portfolio WARF stable in the B+/B range near 2750. By contrast, post-reinvestment US BSL CLOs exhibit an average Senior OC cushion above 68.0% (6800 bps) from sequential AAA amortisation ('deleveraging windfall'), while their average Junior OC cushion compresses to 2.1% (210 bps) as residual CCC and defaulted loans concentrate against the unamortised BB/B stack.",
+      "sha256": "5c4b76da1a02155082610cda45fa0dc28c5c89b8e7d72f0c3cea33974cc4abe0"
+    },
+    {
+      "id": "E12",
+      "title": "European telecom contagion — Virgin Media O2 (VMO2 £22.5bn / B+) and VodafoneZiggo (€1.125bn TLB at 86.0)",
+      "captured_at_utc": "2026-10-28T06:33:00Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Virgin Media O2 VMO2 VodafoneZiggo October 2026 debt selloff Term Loan B 86 Fitch B+ CMA nexfibre Netomnia",
+      "source_ids": [
+        "9fin_levfin_news",
+        "octus_reorg_intel",
+        "fitch_structured_credit"
+      ],
+      "publisher_domains": [
+        "9fin.com",
+        "octus.com",
+        "fitchratings.com"
+      ],
+      "excerpt": "Virgin Media O2 (VMO2, ~£22.5bn debt and lease stack) was downgraded by Fitch to B+ from BB- (S&P B+ Negative outlook) with Fitch-calculated net leverage exceeding 6.1x; the UK CMA raised competition concerns over nexfibre's £2.0bn acquisition of Netomnia (threatening ~£1.0bn of expected cash relief to VMO2), knocking VMO2 2031 bonds into the high-60s (~68.0 pts) despite a £600m cost-cut plan. Contagion immediately hit sister Liberty Global JV VodafoneZiggo (rated B+, leverage 6.0x-6.3x), whose €1.125bn Term Loan Bs due 2033 plunged 6.7 pts from 92.7 to 86.0 and $550m 7.5% Senior Secured Notes due 2033 dropped to 81.4 in mid-October hedge-fund fire sales.",
+      "sha256": "bc433825a5ef11864f10d30bc5bdc3df80a933cb83427e987805842be6bb0235"
+    },
+    {
+      "id": "E13",
+      "title": "Altice International 13 Oct 2026 NY Supreme Court Commercial Division lawsuit over collateral stripping",
+      "captured_at_utc": "2026-10-28T06:33:00Z",
+      "capture_method": "search_web grounded summary (condensed analyst note)",
+      "query": "Altice International October 13 2026 lawsuit New York County Supreme Court Commercial Division Arini Elliott Sona Diameter",
+      "source_ids": [
+        "octus_reorg_intel",
+        "9fin_levfin_news",
+        "debtwire_restructuring"
+      ],
+      "publisher_domains": [
+        "octus.com",
+        "9fin.com",
+        "debtwire.com"
+      ],
+      "excerpt": "On 13 October 2026, a steering committee of Altice International creditors (Arini, Invesco, Sona, Diameter, and Elliott) holding over $1.5bn of term loans plus hundreds of millions in senior secured notes filed a lawsuit in the New York County Supreme Court Commercial Division against Altice Financing and Altice International, seeking to invalidate the guarantee and collateral stripping tied to the unrestricted drop-down of Altice Portugal and Altice Caribbean across the group's ~$9.0bn (~€8.0bn) debt stack.",
+      "sha256": "38c8b3b4e9a169493bc0df6b9bcdb939965ef2e8376c63fc6fb6f5924a431ece"
+    },
+    {
+      "id": "E14",
+      "title": "Live FMP structured credit, senior loan, and public BDC equity proxy tape (2026-10-28)",
+      "captured_at_utc": "2026-10-28T06:35:50Z",
+      "capture_method": "FMP stable batch-quote API",
+      "query": "https://financialmodelingprep.com/stable/batch-quote?symbols=JAAA,JBBB,CLOI,BKLN,SRLN,HYG,LQD,ARCC,OBDC,BXSL",
+      "source_ids": [
+        "lsta_market_intelligence",
+        "pitchbook_lcd"
+      ],
+      "publisher_domains": [
+        "financialmodelingprep.com"
+      ],
+      "excerpt": "FMP live credit proxy sweep (2026-10-28): JAAA $50.63 (+0.04% 1D, -0.37% vs 52W high $50.82); JBBB $46.95 (+0.03% 1D, -2.80% vs 52W high $48.30); CLOI $52.95 (+0.02% 1D, -0.28% vs 52W high $53.10); BKLN $20.38 (+0.39% 1D, -3.27% vs 52W high $21.07); SRLN $40.02 (+0.50% 1D, -3.73% vs 52W high $41.57); HYG $77.60 (+0.52% 1D, -4.53% vs 52W high $81.28); LQD $104.30 (+0.27% 1D, -7.64% vs 52W high $112.93); ARCC $18.51 (-0.54% 1D, -12.44% vs 52W high $21.14); BXSL $23.11 (+0.87% 1D, -19.17% vs 52W high $28.59); OBDC $10.16 (+1.91% 1D, -25.18% vs 52W high $13.58).",
+      "sha256": "59bd763675da0a0f1632d5e3bc92581ae48e469f93c10de56195ace12d935537"
+    },
+    {
+      "id": "E15",
+      "title": "Upstream Thufir Macro-Regime & Rates Bridge (THU-BRIEF-20261028)",
+      "captured_at_utc": "2026-10-28T06:34:00Z",
+      "capture_method": "Internal SGC upstream handoff from Thufir Hawat (market-research-agent)",
+      "query": "roc/scripts/ops_thufir/content/dossier_content_20261028.json",
+      "source_ids": [
+        "federal_reserve_financial_stability",
+        "bank_of_england_financial_stability"
+      ],
+      "publisher_domains": [
+        "federalreserve.gov",
+        "bankofengland.co.uk"
+      ],
+      "excerpt": "Thufir Hawat's 2026-10-28 morning dossier (THU-BRIEF-20261028) records: (1) FOMC Oct 28-29 pricing a 25 bps cut while tariff-pushed core PCE stays near 3.0% and US 10Y Treasury yields hold at 5.00% (30Y 5.31%, 2s10s +32 bps); (2) Gold spot correcting -6.25% over 5D to $4,104.70/oz alongside DXY at 98.85; (3) Brent crude slumping to $65.94/bbl (-6.69% below 50D MA) on 3.8 mb/d global surplus projections; and (4) Big Tech AI capex acceleration colliding with enterprise SaaS seat-compression.",
+      "sha256": "f134ae7476e1b337ca706665e66421535e1647b74c5c8cc65a9f2e0085495723"
+    }
+  ],
+  "sealed_at_utc": "2026-10-28T06:39:41Z"
+}

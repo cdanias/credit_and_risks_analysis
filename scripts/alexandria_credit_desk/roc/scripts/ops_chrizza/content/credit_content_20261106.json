@@ -1,0 +1,2027 @@
+{
+  "schema": "chrizza.credit_dossier.v1",
+  "dossier_id": "CHZ-CREDIT-20261106",
+  "title": "Structured Credit & CLO Horizon Dossier — Start of Day · 06 Nov 2026",
+  "author": "Chrizza (structured-credit-agent)",
+  "audience": "CIO · Muad'Dib · Agent Manager",
+  "observed_at_utc": "2026-11-06T14:35:00Z",
+  "session_for": "2026-11-06",
+  "figures": {
+    "F01": {
+      "label": "ING data-centre construction & project loan portfolio auction size (bids due 19 Nov 2026)",
+      "display": "$500m",
+      "value": 500.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E02"
+    },
+    "F02": {
+      "label": "Stargate New Mexico data-centre loan slice inside ING's ~12-loan portfolio auction",
+      "display": "$25m slice",
+      "value": 25.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E02"
+    },
+    "F03": {
+      "label": "SoftBank Group 5-year CDS spread (4-year high since October 2022)",
+      "display": "466 bps",
+      "value": 466.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E02"
+    },
+    "F04": {
+      "label": "IREN annualized AI cloud revenue delayed into 2027 (& 90% upfront GPU CapEx prepayment term)",
+      "display": "$4.0bn",
+      "value": 4.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E02"
+    },
+    "F05": {
+      "label": "European CLO YTD issuance (Jan–Sep 2026)",
+      "display": "€94.9bn",
+      "value": 94.9,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-09-30",
+      "evidence": "E14"
+    },
+    "F06": {
+      "label": "European CLO YTD deal count (Jan–Sep 2026)",
+      "display": "229 deals",
+      "value": 229,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-09-30",
+      "evidence": "E14"
+    },
+    "F07": {
+      "label": "European CLO YTD new-issue volume through early November 2026",
+      "display": "€46.2bn",
+      "value": 46.2,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E14"
+    },
+    "F08": {
+      "label": "European CLO September 2026 new-issue AAA spread",
+      "display": "124 bps",
+      "value": 124.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-09-30",
+      "evidence": "E06"
+    },
+    "F09": {
+      "label": "European CLO September 2026 refi/reset AAA spread",
+      "display": "120 bps",
+      "value": 120.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-09-30",
+      "evidence": "E06"
+    },
+    "F10": {
+      "label": "New-issue minus refi/reset European AAA spread gap (Sep 2026)",
+      "display": "4 bps",
+      "value": 4.0,
+      "provenance": "derived",
+      "confidence": "high",
+      "inputs": [
+        "F08",
+        "F09"
+      ],
+      "op": "diff",
+      "rationale": "F08 − F09"
+    },
+    "F11": {
+      "label": "Early-November 2026 European new-issue AAA clearing band",
+      "display": "129–133 bps",
+      "value": 130.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E06"
+    },
+    "F12": {
+      "label": "Open European CLO warehouses active in November 2026",
+      "display": ">100 warehouses",
+      "value": 100,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-11-05",
+      "evidence": "E06"
+    },
+    "F13": {
+      "label": "Refinancing and reset share of global 2026 YTD CLO issuance (~$445bn+ total)",
+      "display": "57% (~$445bn+ total)",
+      "value": 57.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E14"
+    },
+    "F14": {
+      "label": "European CLO primary Single-B clearing spread dispersion band",
+      "display": "880–1,015 bps",
+      "value": 947.5,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E06"
+    },
+    "F15": {
+      "label": "European CLO equity annualised cash-on-cash distribution band",
+      "display": "12–16%",
+      "value": 14.0,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-11-05",
+      "evidence": "E06"
+    },
+    "F16": {
+      "label": "Fitch European CLO average portfolio Weighted Average Spread (WAS)",
+      "display": "~350 bps",
+      "value": 350.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11",
+      "evidence": "E06"
+    },
+    "F17": {
+      "label": "Fitch European CLO WAS compression below 10-year historical average",
+      "display": "36 bps",
+      "value": 36.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11",
+      "evidence": "E06"
+    },
+    "F18": {
+      "label": "Fitch European CLO average WAS cushion",
+      "display": "~10 bps",
+      "value": 10.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11",
+      "evidence": "E06"
+    },
+    "F19": {
+      "label": "Fitch European CLO average WARF cushion",
+      "display": "~0.9 pts",
+      "value": 0.9,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11",
+      "evidence": "E06"
+    },
+    "F20": {
+      "label": "Fitch European CLO average WARR cushion",
+      "display": "~3.9%",
+      "value": 3.9,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11",
+      "evidence": "E06"
+    },
+    "F21": {
+      "label": "Share of low-WAS European CLOs trapped in Fitch's 'triple squeeze'",
+      "display": "10%",
+      "value": 10.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11",
+      "evidence": "E06"
+    },
+    "F22": {
+      "label": "US BSL + Middle-Market new-issue CLO YTD volume through early November 2026",
+      "display": "$168.0bn",
+      "value": 168.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E14"
+    },
+    "F23": {
+      "label": "US BSL CLO tier-1 AAA clearing spread mean (135–138 bps band)",
+      "display": "136.0 bps",
+      "value": 136.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E14"
+    },
+    "F24": {
+      "label": "US BSL CLO BB secondary discount-margin widening on Thursday's AI/loan sell-off",
+      "display": "+10 bps (to 615 bps DM)",
+      "value": 10.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E14"
+    },
+    "F25": {
+      "label": "US BSL CLO BB secondary discount margin (early November 2026)",
+      "display": "615.0 bps",
+      "value": 615.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E14"
+    },
+    "F26": {
+      "label": "US BSL CLO AAA–BB secondary discount-margin basis",
+      "display": "479.0 bps",
+      "value": 479.0,
+      "provenance": "derived",
+      "confidence": "high",
+      "inputs": [
+        "F25",
+        "F23"
+      ],
+      "op": "diff",
+      "rationale": "F25 − F23"
+    },
+    "F27": {
+      "label": "Fitch US BSL reinvesting CLO Senior OC cushion",
+      "display": "9.3%",
+      "value": 9.3,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11",
+      "evidence": "E14"
+    },
+    "F28": {
+      "label": "US BSL reinvesting CLO median Junior OC cushion (+390 bps)",
+      "display": "3.9% (+390 bps)",
+      "value": 3.9,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E14"
+    },
+    "F29": {
+      "label": "Fitch US BSL post-reinvestment CLO Senior OC cushion",
+      "display": ">68%",
+      "value": 68.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11",
+      "evidence": "E14"
+    },
+    "F30": {
+      "label": "Fitch US BSL post-reinvestment CLO Junior OC cushion",
+      "display": "2.1%",
+      "value": 2.1,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11",
+      "evidence": "E14"
+    },
+    "F31": {
+      "label": "Optimum Communications (CSC Holdings / ex-Altice USA) consolidated debt load",
+      "display": "~$26.0bn",
+      "value": 26.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E11"
+    },
+    "F32": {
+      "label": "Optimum Communications 2027–2028 maturity wall (& $1.9bn annual interest expense)",
+      "display": "$4.5bn ($1.9bn/yr interest)",
+      "value": 4.5,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E11"
+    },
+    "F33": {
+      "label": "Altice International total debt & net leverage multiple",
+      "display": "~$9.0bn (9.6x leverage)",
+      "value": 9.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E11"
+    },
+    "F34": {
+      "label": "Altice International total debt (EUR equivalent)",
+      "display": "~€8.0bn",
+      "value": 8.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E11"
+    },
+    "F35": {
+      "label": "Altice International 2027 debt maturity wall",
+      "display": "~€3.1bn",
+      "value": 3.1,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E11"
+    },
+    "F36": {
+      "label": "Altice International November 2025 Portugal/Caribbean unrestricted drop-down financing",
+      "display": "€750m",
+      "value": 750.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2025-11",
+      "historical": true,
+      "evidence": "E11"
+    },
+    "F37": {
+      "label": "Coupon on Altice International unrestricted-subsidiary financing",
+      "display": "12%",
+      "value": 12.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2025-11",
+      "historical": true,
+      "evidence": "E11"
+    },
+    "F38": {
+      "label": "Altice International NY Commercial Division steering-plaintiff term-loan holdings",
+      "display": ">$1.5bn",
+      "value": 1.5,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-13",
+      "evidence": "E11"
+    },
+    "F39": {
+      "label": "Altice International creditor cooperation agreement coverage through March 2027",
+      "display": "~90%",
+      "value": 90.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11",
+      "evidence": "E11"
+    },
+    "F40": {
+      "label": "Virgin Media O2 consolidated debt and lease stack",
+      "display": "~£22.0bn",
+      "value": 22.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E04"
+    },
+    "F41": {
+      "label": "Virgin Media O2 Fitch/S&P net leverage at B+ downgrade",
+      "display": ">6.1x",
+      "value": 6.1,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11",
+      "evidence": "E04"
+    },
+    "F42": {
+      "label": "Virgin Media O2 workforce restructuring job cuts (~25% of headcount)",
+      "display": "~4,000 jobs (~25%)",
+      "value": 4000.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E04"
+    },
+    "F43": {
+      "label": "Virgin Media O2 annual run-rate cost-savings target by 2029 (£400m slated for 2027)",
+      "display": "£800m (£400m in 2027)",
+      "value": 800.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E04"
+    },
+    "F44": {
+      "label": "VodafoneZiggo Term Loan B due 2033 tranche size",
+      "display": "€1.125bn",
+      "value": 1.125,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11",
+      "evidence": "E16"
+    },
+    "F45": {
+      "label": "VodafoneZiggo 2033 Term Loan B secondary mark after pod sell-off",
+      "display": "86.0 pts",
+      "value": 86.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11",
+      "evidence": "E16"
+    },
+    "F46": {
+      "label": "Thames Water Whole Business Securitisation (WBS) debt stack",
+      "display": "~£16.0bn",
+      "value": 16.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E09"
+    },
+    "F47": {
+      "label": "Thames Water total consolidated group debt load",
+      "display": "~£20.0bn",
+      "value": 20.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E09"
+    },
+    "F48": {
+      "label": "Thames Water Class B 16 Oct 2026 TSA sign-up share",
+      "display": ">60%",
+      "value": 60.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-16",
+      "evidence": "E09"
+    },
+    "F49": {
+      "label": "Thames Water Class B nominal debt written off under 16 Oct TSA",
+      "display": "~£1.0bn",
+      "value": 1.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-16",
+      "evidence": "E09"
+    },
+    "F50": {
+      "label": "Thames Water Class B post-restructured equity allocation under 16 Oct TSA",
+      "display": "~5.9%",
+      "value": 5.9,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-16",
+      "evidence": "E09"
+    },
+    "F51": {
+      "label": "Thames Water super-senior emergency credit facility drawn amount",
+      "display": "£2.65bn",
+      "value": 2.65,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E09"
+    },
+    "F52": {
+      "label": "Thames Water initial super-senior emergency credit facility commitment",
+      "display": "£3.0bn",
+      "value": 3.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E09"
+    },
+    "F53": {
+      "label": "Thames Water incremental short-term emergency funding sought through autumn 2027",
+      "display": "£2.4bn",
+      "value": 2.4,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E09"
+    },
+    "F54": {
+      "label": "Thames Water upsized super-senior priming facility target",
+      "display": "£5.4bn",
+      "value": 5.4,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E09"
+    },
+    "F55": {
+      "label": "London & Valley Water Restructuring Plan 2 (RP2) recapitalisation proposal",
+      "display": "~£10.0bn",
+      "value": 10.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E09"
+    },
+    "F56": {
+      "label": "Q4 2026 Fed SLOOS net share of US banks tightening C&I loans to large/middle-market firms (DRTSCILM)",
+      "display": "+1.7% (up from 0.0%)",
+      "value": 1.7,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-01",
+      "evidence": "E05"
+    },
+    "F57": {
+      "label": "Share of US & European trailing 12-month speculative-grade defaults driven by distressed LMEs",
+      "display": "58% US / 62% EUR",
+      "value": 58.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E10"
+    },
+    "F58": {
+      "label": "Post-LME first-lien loan recovery average vs historical norm",
+      "display": "44% (vs 66% norm)",
+      "value": 44.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E10"
+    },
+    "F59": {
+      "label": "Fitch European leveraged loan TTM default rate (October 2026 monitor)",
+      "display": "3.6%",
+      "value": 3.6,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E10"
+    },
+    "F60": {
+      "label": "European speculative-grade composite trailing default + LME rate",
+      "display": "4.25%",
+      "value": 4.25,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E10"
+    },
+    "F61": {
+      "label": "Month-over-month jump in Fitch European leveraged loan TTM default rate",
+      "display": "+90 bps",
+      "value": 90.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10",
+      "evidence": "E10"
+    },
+    "F62": {
+      "label": "True private credit default + distressed PIK modification rate (vs 1.8% headline payment default)",
+      "display": "5.2% (vs 1.8% headline)",
+      "value": 5.2,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E10"
+    },
+    "F63": {
+      "label": "US speculative-grade composite trailing default rate (vs 1.6% traditional bankruptcy)",
+      "display": "3.8% (vs 1.6% Ch.11)",
+      "value": 3.8,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E10"
+    },
+    "F64": {
+      "label": "US BSL CLO median CCC bucket share (18% of managers >7.5% threshold) & Euro CCC median",
+      "display": "6.0% US / 4.7% EUR",
+      "value": 6.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E14"
+    },
+    "F65": {
+      "label": "Share of US BSL CLO managers exceeding the 7.5% CCC haircut threshold",
+      "display": "18%",
+      "value": 18.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E14"
+    },
+    "F66": {
+      "label": "Goldman Sachs Prime Services stock-picking hedge-fund de-grossing pace on Thursday",
+      "display": "10-year high",
+      "value": 10.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E15"
+    },
+    "F67": {
+      "label": "FS KKR Capital Corp (FSK) Q3 2026 10-Q XBRL PIK Debt Interest ($46.0m of $294.0m Gross Income, up +117 bps QoQ)",
+      "display": "15.65% PIK",
+      "value": 15.65,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E01"
+    },
+    "F68": {
+      "label": "FSK Q3 2026 non-accruals (3.4% FV / 6.4% cost) & new Q3 non-accrual additions ($142m: Medallia, New Era Tech)",
+      "display": "3.4% FV / 6.4% cost",
+      "value": 6.4,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E01"
+    },
+    "F69": {
+      "label": "Blue Owl (OBDC) Q3 2026 10-Q XBRL total PIK ($35.89m of $392.06m Gross Income; 0.8% FV / 2.9% cost non-accruals)",
+      "display": "9.16% PIK",
+      "value": 9.16,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-04",
+      "evidence": "E01"
+    },
+    "F70": {
+      "label": "Goldman Sachs BDC (GSBD) Q3 NII miss ($0.32 vs $0.37 est) & 4 new non-accrual borrowers",
+      "display": "$0.32 vs $0.37 est",
+      "value": 0.32,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E01"
+    },
+    "F71": {
+      "label": "Carlyle Secured Lending (CGBD) Q3 NII miss vs consensus",
+      "display": "$0.36 vs $0.37 est",
+      "value": 0.36,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E01"
+    },
+    "F72": {
+      "label": "Blackstone Secured Lending (BXSL) Q3 2026 10-Q Gross Investment Income (filed 2026-11-04)",
+      "display": "$315.18m",
+      "value": 315.18,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-04",
+      "evidence": "E01"
+    },
+    "F73": {
+      "label": "Bank of America (BAC) NII growth guidance through 2027 vs First Horizon (FHN) $4.5bn mortgage sale (+4% 2027 EPS)",
+      "display": "+8% BAC NII ($4.5bn FHN)",
+      "value": 8.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E15"
+    },
+    "F74": {
+      "label": "Monitored US BDCs that have filed Q3 2026 Form 10-Qs through 6 Nov 2026 (ARCC, OBDC, BXSL, FSK)",
+      "display": "4 of 7 BDCs",
+      "value": 4,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E01"
+    },
+    "F75": {
+      "label": "Global AI & data-centre CapEx cycle through 2028",
+      "display": "$2.9tn",
+      "value": 2.9,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11",
+      "evidence": "E02"
+    },
+    "F76": {
+      "label": "BoE FPC-cited cumulative external AI data-centre debt gap through 2028",
+      "display": "~$1.5tn",
+      "value": 1.5,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11",
+      "evidence": "E02"
+    },
+    "F77": {
+      "label": "Projected annual data-centre ABS and CMBS issuance run-rate",
+      "display": "$30–40bn",
+      "value": 35.0,
+      "provenance": "sourced",
+      "confidence": "medium",
+      "as_of": "2026-11",
+      "evidence": "E02"
+    },
+    "F78": {
+      "label": "SoftBank Group OpenAI investment commitment & ~90% Arm stake driving 466 bps 5Y CDS",
+      "display": "$64.6bn (~90% Arm)",
+      "value": 64.6,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E02"
+    },
+    "F79": {
+      "label": "IREN Q1 FY27 AI Cloud revenue & total contracted revenue backlog",
+      "display": "$200m (>$20bn backlog)",
+      "value": 200.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E02"
+    },
+    "F80": {
+      "label": "Wall Street Thursday single-day AI equity market-cap wipeout & S&P 500 drop (-4.36%)",
+      "display": "$2.5tn (-4.36% S&P 500)",
+      "value": 2.5,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E13"
+    },
+    "F81": {
+      "label": "Semiconductor ETF (SMH) Thursday crash (-11.21% to $447.73) & Micron (MU) plunge (-17.5%)",
+      "display": "-11.21% SMH (-17.5% MU)",
+      "value": -11.21,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E13"
+    },
+    "F82": {
+      "label": "CBOE VIX Thursday surge (+69.66% to 28.18) on AI infrastructure credit & grid crunch",
+      "display": "28.18 (+69.66%)",
+      "value": 28.18,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E13"
+    },
+    "F83": {
+      "label": "Apple IG bond issuance tap ($7.0bn) alongside 99.85% NO on OpenAI 2026 IPO",
+      "display": "$7.0bn AAPL IG tap",
+      "value": 7.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E13"
+    },
+    "F84": {
+      "label": "Asian AI memory & chip leader drops (SK Hynix -11.71%, Samsung -9.98%) alongside SoftBank CDS spike",
+      "display": "-11.71% / -9.98%",
+      "value": -11.71,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E13"
+    },
+    "F85": {
+      "label": "Upstream Thufir 20261106 SOD Risk Appetite Score & 4 cross-tier divergences",
+      "display": "-37.7 (4 divergences)",
+      "value": -37.7,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E13"
+    },
+    "F86": {
+      "label": "Polymarket 616902 'No Fed rate cuts in 2026' probability ($9.50m cumulative volume)",
+      "display": "97.25% YES ($9.50m vol)",
+      "value": 97.25,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E13"
+    },
+    "F87": {
+      "label": "Polymarket 3215008 Dec 2026 FOMC +25 bps rate hike odds (-11.0 pp overnight ahead of +59K NFP consensus)",
+      "display": "66.50% YES (-11.0 pp)",
+      "value": 66.5,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E13"
+    },
+    "F88": {
+      "label": "Rapidan Energy lame-duck US–Iran military action probability (80%) & Polymarket 6282802 Nov 15 blockade end NO (92.50%)",
+      "display": "80% strike risk",
+      "value": 80.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E13"
+    },
+    "F89": {
+      "label": "Seaborne Brent crude ($99.73, +5.76%) & Brent–WTI spread (+$8.23/bbl)",
+      "display": "$99.73 (+$8.23 BZ-CL)",
+      "value": 99.73,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E13"
+    },
+    "F90": {
+      "label": "JAAA SOD price & daily move (FMP sealed 2026-11-06; CLOI $52.79 +0.02%)",
+      "display": "$50.50 (0.00% 1D)",
+      "value": 50.5,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E08"
+    },
+    "F91": {
+      "label": "JAAA drawdown from 52-week high ($50.82)",
+      "display": "-0.63%",
+      "value": -0.63,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E08"
+    },
+    "F92": {
+      "label": "JBBB SOD price & Thursday move (FMP sealed 2026-11-06)",
+      "display": "$46.82 (-0.16% 1D)",
+      "value": 46.815,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E08"
+    },
+    "F93": {
+      "label": "JBBB drawdown from 52-week high ($48.30)",
+      "display": "-3.06%",
+      "value": -3.06,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E08"
+    },
+    "F94": {
+      "label": "LQD SOD price (+0.15% on Japanese bond buying) & drawdown vs 52-week high ($112.06, -6.60% DD)",
+      "display": "$104.66 (+0.15% 1D)",
+      "value": 104.66,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E08"
+    },
+    "F95": {
+      "label": "BKLN ($20.42, -0.68%), SRLN ($39.87, -0.52%) & HYG ($77.28, -0.31%) Thursday sell-off",
+      "display": "-0.68% BKLN / -0.52% SRLN",
+      "value": -0.68,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E08"
+    },
+    "F96": {
+      "label": "OBDC SOD price (+0.46% post-10-Q) & drawdown vs 52-week high ($13.58)",
+      "display": "$10.81 (-20.40% DD)",
+      "value": 10.81,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E08"
+    },
+    "F97": {
+      "label": "BXSL SOD price (+1.05% post-10-Q) & drawdown vs 52-week high ($28.59)",
+      "display": "$24.17 (-15.46% DD)",
+      "value": 24.17,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E08"
+    },
+    "F98": {
+      "label": "ARCC SOD price (-0.57% 1D, -8.47% DD) & BIZD ETF ($13.38, -14.56% DD)",
+      "display": "$19.35 (-8.47% DD)",
+      "value": 19.35,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E08"
+    },
+    "F99": {
+      "label": "FMP US Treasury bull-steepener (2026-11-04): 2Y 4.58% / 5Y 4.69% / 10Y 4.90% / 30Y 5.28% (+32 bps 2s10s, +69 bps 3m10y)",
+      "display": "4.90% 10Y (+32 bps 2s10s)",
+      "value": 4.9,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-04",
+      "evidence": "E08"
+    },
+    "F100": {
+      "label": "Thames Water Class A senior WBS EUR notes (4 ISINs) live clean mid average (-1.63 pts vs Oct 31)",
+      "display": "50.36 pts",
+      "value": 50.36,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E03"
+    },
+    "F101": {
+      "label": "Thames Water Class A 0.875% EUR 2028 (XS2438026440) sub-50 clean mid (49.03) & all-4-ISIN sub-50 bid band (48.55–48.97)",
+      "display": "49.03 pts (sub-50 bids)",
+      "value": 49.03,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E03"
+    },
+    "F102": {
+      "label": "VMED O2 2031 senior secured notes clean mid (USD 68.31 / GBP 69.97) & VMO2 VFN 2033 mark (42.60 mid / 41.41 bid)",
+      "display": "68.31 USD / 42.60 VFN",
+      "value": 68.31,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E04"
+    },
+    "F103": {
+      "label": "Virgin Media 2030 senior unsecured EUR note (XS2189766970) clean mid & bid (-72.21% YoY)",
+      "display": "26.30 pts (23.50 bid)",
+      "value": 26.3,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E04"
+    },
+    "F104": {
+      "label": "Ziggo Bond Co. HoldCo notes (2032 USD / 2030 EUR) live Frankfurt/Stuttgart clean mids",
+      "display": "70.08 / 73.62 pts",
+      "value": 70.08,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E16"
+    },
+    "F105": {
+      "label": "Altice Financing senior secured notes live Frankfurt/Stuttgart clean mids (EUR 2028 / USD 2029; 42.68 EUR bid)",
+      "display": "45.32 / 46.13 pts",
+      "value": 45.32,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E04"
+    },
+    "F106": {
+      "label": "FRED H.8 US commercial bank loans to NDFIs (LNFACBW027SBOG)",
+      "display": "$2,118.81bn",
+      "value": 2118.81,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-21",
+      "evidence": "E05"
+    },
+    "F107": {
+      "label": "All 5 major CLO warehouse banks (JPM, BAC, C, GS, MS) Q3 2026 Form 10-Q filings sealed through 5 Nov 2026",
+      "display": "5 of 5 bank 10-Qs",
+      "value": 5.0,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-05",
+      "evidence": "E05"
+    },
+    "F108": {
+      "label": "NDFI share of total US commercial bank loans and leases ($14,217.64bn TOTLL)",
+      "display": "14.90%",
+      "value": 14.9,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-21",
+      "evidence": "E05"
+    },
+    "F109": {
+      "label": "ICE BofA US High Yield OAS (2026-11-04, after 3.40% Nov 3 peak) & US BB OAS (1.99%)",
+      "display": "3.32% HY / 1.99% BB",
+      "value": 3.32,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-04",
+      "evidence": "E05"
+    },
+    "F110": {
+      "label": "ICE BofA Euro High Yield OAS (2026-11-04, after 3.54% Nov 3 peak) & EUR-over-US HY spread differential",
+      "display": "3.45% (+13 bps vs US)",
+      "value": 3.45,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-04",
+      "evidence": "E05"
+    },
+    "F111": {
+      "label": "ICE BofA US Single-B OAS (+19 bps since Oct 29 to 3.51%; 3.62% Nov 3 peak) & Single-B effective yield (8.19%)",
+      "display": "3.51% OAS",
+      "value": 3.51,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-04",
+      "evidence": "E05"
+    },
+    "F112": {
+      "label": "ICE BofA US CCC & Lower OAS (12.97%, after 13.16% Nov 3 peak) & CCC-over-BB distress dispersion",
+      "display": "12.97% (+1,098 bps vs BB)",
+      "value": 12.97,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-04",
+      "evidence": "E05"
+    },
+    "F113": {
+      "label": "Equal-weighted SEC EDGAR Form 10-Q XBRL total PIK share across 5 reporting BDCs (2026-11-06)",
+      "display": "11.98%",
+      "value": 11.98,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E01"
+    },
+    "F114": {
+      "label": "ARCC Q3 2026 Form 10-Q XBRL total PIK share ($125.0m of $763.0m Gross Income: 7.60% debt + 8.78% dividend PIK)",
+      "display": "16.38% PIK",
+      "value": 16.38,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-10-27",
+      "evidence": "E01"
+    },
+    "F115": {
+      "label": "GBDC (10.96%) & OCSL (7.77%) Q2 XBRL total PIK shares awaiting remaining Q3 10-Q filings",
+      "display": "10.96% GBDC / 7.77% OCSL",
+      "value": 10.96,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E01"
+    },
+    "F116": {
+      "label": "SEC Form NPORT-P deal-level CLO tranches ingested ($1,653.20m total across JAAA, JBBB, CLOI & SDHY)",
+      "display": "880 tranches",
+      "value": 880,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E07"
+    },
+    "F117": {
+      "label": "JBBB Form NPORT-P mezzanine CLO tranches marked below 99.00 clean price & Euro tail discounts (Sound Point IV 85.00, Trinitas VI 89.51)",
+      "display": "19.75% (<99.0 marks)",
+      "value": 19.75,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11-06",
+      "evidence": "E07"
+    },
+    "F118": {
+      "label": "Standard CLO indenture CCC/Caa bucket threshold & excess-CCC market-value mark",
+      "display": "7.5% (70% MV mark)",
+      "value": 7.5,
+      "provenance": "sourced",
+      "confidence": "high",
+      "as_of": "2026-11",
+      "evidence": "E14"
+    },
+    "F119": {
+      "label": "Standard CLO 2.0 equity structural leverage multiple",
+      "display": "9.0x",
+      "value": 9.0,
+      "provenance": "estimate",
+      "confidence": "high",
+      "rationale": "Standard CLO 2.0 structural leverage multiple (~10–11% equity subordination beneath a ~61–62% AAA tranche)."
+    },
+    "F120": {
+      "label": "Interest-coverage triage thresholds (red zone / PIK toggle / LME cash shortfall)",
+      "display": "1.5x / 1.2x / 1.0x",
+      "value": 1.0,
+      "provenance": "estimate",
+      "confidence": "high",
+      "rationale": "Chrizza credit-surveillance heuristic on EBITDA / cash interest thresholds for red-zone (1.5x), PIK toggle (1.2x), and LME/RCF shortfall (1.0x)."
+    },
+    "F121": {
+      "label": "Estimated recovery gap between steering-group and stripped non-steering creditors",
+      "display": "20–30 pts",
+      "value": 25.0,
+      "provenance": "estimate",
+      "confidence": "low",
+      "rationale": "Chrizza dual-track LME recovery-gap heuristic between participating steering-group paper and stripped non-co-op paper."
+    },
+    "F122": {
+      "label": "Estimated Thames Water Class A recovery band (consensual L&VW RP2 vs SAR)",
+      "display": "65–78p",
+      "value": 71.5,
+      "provenance": "estimate",
+      "confidence": "low",
+      "rationale": "Chrizza consensual RP2 recovery estimate for Class A WBS notes; 6 Nov exchange mids at 50.36 pts (all 4 ISINs bidding 48.55–48.97 sub-50) price severe SAR/haircut tail risk."
+    },
+    "F123": {
+      "label": "Chrizza active call probability on Thames Water SAR filing by 31 Jan 2027 (C-20261026-04)",
+      "display": "30%",
+      "value": 30.0,
+      "provenance": "estimate",
+      "confidence": "medium",
+      "rationale": "Probability assigned in active call C-20261026-04 as all four Class A EUR notes bid below 50.00 ahead of Ofwat's RP2 decision."
+    },
+    "F124": {
+      "label": "Estimated B3/B- all-in floating coupon band & 12m sub-1.0x LME/default hazard",
+      "display": "8.0–9.5% (~35% hazard)",
+      "value": 8.75,
+      "provenance": "estimate",
+      "confidence": "medium",
+      "rationale": "SOFR/EURIBOR under 97.25% zero-2026-cut lock and 66.50% Dec hike odds plus 425–550 bps B3/B- loan margins (matching 8.19% Single-B effective yield)."
+    },
+    "F125": {
+      "label": "Q4 2026 European new-issue AAA clearing spread estimate",
+      "display": "126–134 bps",
+      "value": 130.0,
+      "provenance": "estimate",
+      "confidence": "medium",
+      "rationale": "Chrizza Q4 clearing band incorporating >100 open European warehouses and sticky 129–133 bps early-Nov AAA prints against Jan 2027 Solvency II demand."
+    },
+    "F126": {
+      "label": "European AAA indigestion upside scenario threshold",
+      "display": "135 bps",
+      "value": 135.0,
+      "provenance": "estimate",
+      "confidence": "medium",
+      "rationale": "Scenario B threshold if >100 open European warehouses and hedge-fund de-grossing widen primary AAA past early-Nov 129–133 bps prints."
+    },
+    "F127": {
+      "label": "VodafoneZiggo 2033 TLB Scenario C forced-selling downside threshold",
+      "display": "80.0 pts",
+      "value": 80.0,
+      "provenance": "estimate",
+      "confidence": "low",
+      "rationale": "Scenario C air-pocket threshold below current 86.0 pts mark if further hedge-fund de-grossing forces CLO CCC-bucket sales."
+    },
+    "F128": {
+      "label": "Call C-20261026-05 target threshold for Fitch Dec 2026 European loan TTM default rate",
+      "display": "4.0%",
+      "value": 4.0,
+      "provenance": "estimate",
+      "confidence": "medium",
+      "rationale": "Scoreable threshold for call C-20261026-05 following October's +90 bps jump to 3.6% and 4.25% composite LME rate."
+    },
+    "F129": {
+      "label": "Call C-20261029-01 & C-20261031-02 Q3 BDC PIK income threshold (10.0%, already exceeded by ARCC 16.38% & FSK 15.65%)",
+      "display": "10.0%",
+      "value": 10.0,
+      "provenance": "estimate",
+      "confidence": "medium",
+      "rationale": "10.0% PIK share threshold already exceeded by ARCC Q3 (16.38%) and FSK Q3 (15.65%) in November Q3 10-Q XBRL filings."
+    },
+    "F130": {
+      "label": "Typical European CLO 2.0 capital stack (share of par)",
+      "display": "illustrative capital stack",
+      "value": 100.0,
+      "provenance": "illustrative",
+      "confidence": "high",
+      "rationale": "Teaching example of a generic European CLO 2.0 structure; not a specific deal and not market data.",
+      "tranches": [
+        [
+          "AAA",
+          62.0
+        ],
+        [
+          "AA",
+          11.0
+        ],
+        [
+          "A",
+          6.5
+        ],
+        [
+          "BBB",
+          6.0
+        ],
+        [
+          "BB",
+          5.0
+        ],
+        [
+          "B",
+          1.5
+        ],
+        [
+          "Equity",
+          8.0
+        ]
+      ]
+    },
+    "F131": {
+      "label": "SOD credit regime score (−100 risk-off … +100 risk-on)",
+      "display": "−48",
+      "value": -48,
+      "provenance": "estimate",
+      "confidence": "medium",
+      "rationale": "Chrizza 2026-11-06 SOD composite (−48, down 2 pts from 31 Oct −46): ING's $500m data-centre loan auction (incl. $25m Stargate slice), SoftBank 5Y CDS at 4-year high (466 bps), IREN's $4bn delayed AI revenue, FSK's Q3 10-Q XBRL PIK jumping to 15.65% ($142m new non-accruals) alongside GSBD/CGBD Q3 NII misses, Thames Water Class A breaking below 50 across all 4 ISIN bids (49.03 mid on 2028s; 50.36 avg mid), VMO2 cutting 4,000 jobs (£800m target), US Single-B OAS widening +19 bps to 3.51% (BKLN -0.68%, SRLN -0.52%), and Fed SLOOS flipping back to +1.7% tightening."
+    }
+  },
+  "brief": {
+    "regime_label": "AI PROJECT LOAN AUCTION · FSK PIK SURGE & BDC MISSES · THAMES SUB-PAR-HALF",
+    "regime_score_fig": "F131",
+    "headline": "ING's [[F01]] data-centre loan auction and SoftBank's [[F03]] CDS spike, `FSK`'s [[F67]] XBRL PIK jump alongside `GSBD`/`CGBD` NII misses, and Thames Water Class A breaking below par-half across all four ISIN bids ([[F101]]) punish loan beta ([[F95]]) while `JAAA` ([[F90]]) and `LQD` ([[F94]]) hold firm.",
+    "summary": "Friday Start of Day structured-credit reconnaissance following Thursday's [[F80]] AI equity wipeout (`SMH` [[F81]], `VIX` [[F82]]) exposes five acute credit fractures. First, post-midterm state permitting and grid delays have triggered a syndicated AI project-credit reckoning: Dutch lender ING launched a competitive auction for [[F01]] of data-centre construction loans (bids due 19 November, including a [[F02]] Stargate New Mexico slice plus Vantage and CyrusOne debt), SoftBank Group's five-year CDS surged to a four-year high of [[F03]] on [[F78]] OpenAI commitments, and Neocloud IREN delayed [[F04]] of annualized AI cloud revenue into 2027. Second, our newly sealed SEC EDGAR Form 10-Q XBRL sweep across [[F74]] confirms `FSK`'s Q3 PIK debt interest jumped to [[F67]] (with [[F68]] non-accruals on Medallia and New Era Tech) — becoming the second BDC after `ARCC` ([[F114]]) to breach our [[F129]] threshold — while `OBDC` reported [[F69]] XBRL PIK and middle-market peers `GSBD` ([[F70]]) and `CGBD` ([[F71]]) missed Q3 NII estimates during a [[F66]] hedge-fund de-grossing wave. Third, live European exchange order books show Thames Water Class A senior WBS notes sinking to [[F100]] average mid, with all four Class A ISINs now bidding sub-par-half and the 2028 note clean mid breaking below par-half at [[F101]] behind the [[F54]] super-senior bridge target. Fourth, Virgin Media O2 ([[F40]] stack) announced [[F42]] cuts targeting [[F43]] run-rate savings as VMO2 VFN 2033s trade at [[F102]] and Altice Financing sits at [[F105]]. Fifth, ICE BofA US Single-B OAS widened to [[F111]] and Q4 Fed SLOOS flipped back to net tightening at [[F56]] alongside [[F106]] of bank-to-NDFI loans ([[F107]] sealed), driving leveraged loans down ([[F95]]) while Japanese foreign bond buying and a Treasury bull-steepener ([[F99]]) lifted `LQD` to [[F94]] and kept `JAAA` rock-solid at [[F90]] ([[F91]] vs 52W high).",
+    "pulse": [
+      {
+        "fig": "F01",
+        "label": "ING AI DC loan auction",
+        "sub": "Includes [[F02]] Stargate slice; SoftBank 5Y CDS at [[F03]] & IREN [[F04]] revenue delayed."
+      },
+      {
+        "fig": "F67",
+        "label": "FSK Q3 XBRL PIK surge",
+        "sub": "Second BDC >[[F129]] after `ARCC` ([[F114]]); [[F113]] 5-BDC mean as `GSBD` ([[F70]]) & `CGBD` ([[F71]]) miss."
+      },
+      {
+        "fig": "F100",
+        "label": "Thames Class A live mid",
+        "sub": "All four Class A ISINs bid sub-par-half ([[F101]]) behind [[F53]] emergency request toward [[F54]]."
+      },
+      {
+        "fig": "F111",
+        "label": "US Single-B OAS & SLOOS",
+        "sub": "Single-B OAS at [[F111]] (`BKLN`/`SRLN` [[F95]]) as Fed SLOOS flipped to [[F56]] tightening."
+      }
+    ],
+    "thufir_bridge": [
+      {
+        "thufir_topic": "Wall Street $2.5T AI Reality Check: ING $500M Loan Auction, SoftBank 4Y-High CDS & IREN $4B Delay",
+        "macro_signal": "Thufir's SOD tape (`THUFIR-20261106-SOD`, Risk Appetite [[F85]]) captures Thursday's [[F80]] tech rout (`SMH` [[F81]], `VIX` [[F82]], Asian memory [[F84]]) as ING auctioned [[F01]] of data-centre loans, SoftBank CDS hit [[F03]], and IREN delayed [[F04]] of AI cloud revenue.",
+        "credit_channel": "Confirms Mentat Bottleneck Law Stage 2 inside project and structured credit: bank syndication desks are shedding unpermitted greenfield AI construction loans ([[F02]] Stargate slice) while enforcing [[F04]] upfront GPU CapEx prepayments on neoclouds.",
+        "target_topic": "T6 · T1"
+      },
+      {
+        "thufir_topic": "10Y-High Hedge-Fund De-Grossing & GSBD / CGBD Q3 NII Misses vs BAC +8% NII & FHN $4.5B Sale",
+        "macro_signal": "Under a [[F86]] 'No 2026 Fed cuts' lock, stock-picking hedge funds de-grossed at a [[F66]] pace and `GSBD` ([[F70]]) / `CGBD` ([[F71]]) missed Q3 EPS, whereas deposit banks `BAC` and `FHN` posted [[F73]].",
+        "credit_channel": "Sealed SEC Form 10-Q XBRL across [[F74]] proves the private-credit squeeze: `FSK` PIK jumped to [[F67]] ([[F68]] non-accruals) and `ARCC` hit [[F114]] ([[F113]] 5-BDC average) just as all [[F107]] warehouse banks sealed Q3 10-Qs against [[F106]] NDFI loans.",
+        "target_topic": "T5 · T4"
+      },
+      {
+        "thufir_topic": "Japanese Foreign Bond Buying & Treasury Bull-Steepener (LQD +0.15%, Dec Hike Odds -11pp to 66.50%)",
+        "macro_signal": "December Fed hike odds fell to [[F87]] ahead of October payrolls while Japanese institutions bought foreign long-term bonds, driving a [[F99]] Treasury bull-steepener that lifted `LQD` ([[F94]]).",
+        "credit_channel": "Quality duration (`LQD` [[F94]]) and senior `AAAsf` CLOs (`JAAA` [[F90]]) decoupled cleanly from floating-rate loan beta (`BKLN` and `SRLN` [[F95]], `JBBB` [[F92]]) as US Single-B OAS widened to [[F111]] and SLOOS flipped to [[F56]].",
+        "target_topic": "T1 · T4"
+      },
+      {
+        "thufir_topic": "Rapidan 80% Lame-Duck Iran Strike Warning, Brent $99.73 (+$8.23 BZ-CL) & 92.50% Hormuz Blockade Lock",
+        "macro_signal": "Rapidan warned of [[F88]] US–Iran strike risk during the lame-duck window, lifting seaborne Brent to [[F89]].",
+        "credit_channel": "Persistent seaborne energy inflation and European industrial strain pressure UK/Euro restructurings as Thames Water Class A broke below par-half across all four bids ([[F101]], [[F100]] avg mid) and VMO2 slashed [[F42]] targeting [[F43]] savings.",
+        "target_topic": "T2 · T3"
+      }
+    ],
+    "decisions": [
+      {
+        "id": "D1",
+        "ask": "Pair overweight senior `JAAA` ([[F90]], [[F91]] DD) with tactical quality duration (`LQD` [[F94]]) while trimming unhedged leveraged-loan beta (`BKLN`/`SRLN` [[F95]]) and seasoned post-RP CLO mezzanine (`JBBB` [[F92]]).",
+        "why": "Thursday's [[F80]] AI crash and [[F66]] hedge-fund de-grossing knocked `BKLN` and `SRLN` down ([[F95]]) and widened US Single-B OAS to [[F111]] as Fed SLOOS flipped to [[F56]] tightening, whereas `JAAA` held [[F90]] and Japanese buying lifted `LQD` ([[F94]]).",
+        "impact": "Captures senior floating carry and bull-steepener duration resilience while avoiding loan ETF outflows and [[F30]] post-RP Junior OC erosion."
+      },
+      {
+        "id": "D2",
+        "ask": "Maintain hard vetoes on `FSK` ([[F67]] Q3 XBRL PIK, [[F68]] non-accruals), `GSBD` ([[F70]]), and software-heavy middle-market BDCs (`OBDC` [[F96]]) while favouring deposit-funded warehouse bank senior credit (`BAC`/`FHN` [[F73]], [[F107]]).",
+        "why": "Sealed Q3 Form 10-Q XBRL confirms `FSK` ([[F67]]) and `ARCC` ([[F114]]) both exceed [[F129]] PIK ([[F113]] five-BDC mean) and `GSBD` added four new non-accruals ([[F70]]) under [[F86]] zero-cut rate pressure.",
+        "impact": "Insulates private-credit sleeves from compounding PIK LTV migration ([[F62]] true stress rate) and Q3 NII dividend-coverage misses."
+      },
+      {
+        "id": "D3",
+        "ask": "Veto greenfield AI data-centre construction loans and neocloud debt following ING's [[F01]] portfolio auction ([[F02]] Stargate slice) and SoftBank's [[F03]] CDS blowout; keep Thames Water Class A ([[F100]] mid, [[F101]] sub-par-half bids) on distressed watch only.",
+        "why": "ING's [[F01]] loan dump and IREN's [[F04]] revenue deferral prove greenfield AI project debt faces syndication repricing, while Thames Water Class A broke sub-par-half across all four bids ([[F101]]) behind the [[F54]] super-senior bridge.",
+        "impact": "Prevents markdowns ahead of the 19 November ING loan auction deadline and Ofwat's early-November RP2 consultation window."
+      }
+    ],
+    "opportunities": [
+      {
+        "id": "O1",
+        "label": "Senior `JAAA` ([[F90]]) & `CLOI` Anchor Against Loan ETF Outflows ([[F95]])",
+        "thesis": "Hold core liquidity in `JAAA` at [[F90]] ([[F91]] vs 52W high) and `CLOI` as leveraged-loan ETFs (`BKLN`, `SRLN` [[F95]]) and Single-B OAS ([[F111]]) absorb [[F66]] hedge-fund de-grossing.",
+        "why_now": "Sticky CLO AAA liabilities ([[F11]] EUR, [[F23]] US) and [[F29]] post-RP Senior OC insulate top tranches while loan asset repricings stall on Thursday's [[F95]] loan sell-off.",
+        "verify": "Confirm zero exposure to European tail discounts (`Sound Point IV` / `Trinitas VI` [[F117]]) across [[F116]] NPORT-P holdings."
+      },
+      {
+        "id": "O2",
+        "label": "Secondary CLO Reset & Tier-1 Reinvesting A/BBB Dispersion ([[F26]] US Basis)",
+        "thesis": "Target 2024–2026 tier-1 reinvesting A/BBB tranches carrying >[[F28]] US Junior OC cushion and >[[F18]] EUR WAS cushion as primary CLO equity arbitrage squeezes [[F12]] toward secondary resets ([[F13]] share).",
+        "why_now": "US BB secondary DM widened [[F24]] to [[F25]] ([[F26]] over AAA) and `JBBB` sits at [[F92]] ([[F93]] DD), creating entry points in clean pools screened free of French LBOs and telecoms.",
+        "verify": "Require WAS above [[F16]], CCC buckets below [[F64]], and zero Altice/Optimum/VMO2 obligor overlap."
+      },
+      {
+        "id": "O3",
+        "label": "ING [[F01]] AI Data-Centre Loan Auction Price-Discovery & Thames Class A Sub-Par-Half Watch",
+        "thesis": "Monitor clearing bids due 19 November on ING's [[F01]] data-centre loan package ([[F02]] Stargate slice, Vantage, CyrusOne) for secondary senior secured discounts, alongside Thames Water Class A at [[F100]] ([[F101]] sub-par-half bids vs [[F122]] consensual RP2 recovery).",
+        "why_now": "Forced bank portfolio rebalancing (ING [[F01]]) and S&P's CCC- cut on Thames Water (2028 Class A mid at [[F101]]) offer institutional price discovery ahead of November catalysts.",
+        "verify": "Require binding IG hyperscaler lease recourse on any data-centre loan bid and formal Ofwat RP2 sign-off before lifting Thames Class A from WATCH."
+      }
+    ],
+    "vetoes": [
+      {
+        "id": "V1",
+        "label": "Greenfield AI Construction Debt, Unhedged Neocloud SPVs & SoftBank-Linked Credit ([[F03]] CDS)",
+        "rationale": "ING's [[F01]] data-centre loan auction ([[F02]] Stargate slice), SoftBank's [[F03]] 5Y CDS (on [[F78]] OpenAI exposure), and IREN's [[F04]] delayed revenue confirm acute construction, power-grid, and tenant deferral risk."
+      },
+      {
+        "id": "V2",
+        "label": "PIK-Heavy & NII-Missing Middle-Market BDCs (`FSK` [[F67]], `GSBD` [[F70]], `CGBD` [[F71]], `OBDC` [[F96]])",
+        "rationale": "`FSK` Q3 XBRL PIK jumped to [[F67]] with [[F68]] non-accruals, `GSBD` ([[F70]]) added four non-accruals, `CGBD` missed at [[F71]], and five-BDC XBRL PIK averages [[F113]] against [[F62]] true private-credit stress."
+      },
+      {
+        "id": "V3",
+        "label": "Altice / Optimum Coercive LME Stacks ([[F31]], [[F105]]), Thames Class B ([[F50]]) & Thin-OC Post-RP Mezz ([[F30]])",
+        "rationale": "Optimum ([[F31]] debt, [[F32]] wall) and Altice ([[F33]], [[F105]] marks) face courtroom/LME attrition ([[F58]] recovery norm), Thames Class B is wiped to [[F50]] equity behind [[F54]] super-senior debt, and post-RP Junior OC sits at [[F30]]."
+      }
+    ],
+    "calendar": [
+      {
+        "when": "Fri 06 Nov 2026",
+        "topic": "T4",
+        "event": "US October Nonfarm Payrolls (+59K Consensus) & `CGBD` Q3 Earnings Call",
+        "note": "Tests the [[F99]] Treasury bull-steepener, [[F87]] Dec Fed hike odds, `LQD` ([[F94]]) vs `BKLN` ([[F95]]), and `CGBD`'s [[F71]] Q3 NII miss."
+      },
+      {
+        "when": "06–16 Nov 2026",
+        "topic": "T5",
+        "event": "Remaining US BDC Q3 Form 10-Q XBRL Filings (`GBDC`, `OCSL`, `MAIN`)",
+        "note": "Follows [[F74]] already sealed (`ARCC` [[F114]], `FSK` [[F67]], `OBDC` [[F69]], `BXSL` [[F72]]); tests `GBDC`/`OCSL` ([[F115]]) against call C-20261031-02 ([[F129]])."
+      },
+      {
+        "when": "Early–Mid Nov 2026",
+        "topic": "T3",
+        "event": "Ofwat In-Period Adjustment Consultation Deadlines & Thames Water [[F53]] Emergency Funding Vote",
+        "note": "Determines whether Thames Water Class A ([[F100]] avg mid, [[F101]] sub-par-half bids) stabilises or slides toward SAR ([[F123]])."
+      },
+      {
+        "when": "15 Nov 2026",
+        "topic": "T1",
+        "event": "October European CLO Final Monthly Print & Call C-20261026-01 Resolution",
+        "note": "First Chrizza call resolution date; scores October EUR new-issue AAA average against [[F08]]–[[F11]] clearing prints."
+      },
+      {
+        "when": "19 Nov 2026",
+        "topic": "T6",
+        "event": "Bid Deadline for ING's [[F01]] Data-Centre Construction Loan Portfolio Auction",
+        "note": "Crucial secondary clearing test for ~12 AI data-centre loans including the [[F02]] Stargate New Mexico slice, Vantage, and CyrusOne."
+      },
+      {
+        "when": "30 Nov 2026",
+        "topic": "T3",
+        "event": "Resolution Window for `JAAA` vs `LQD` (C-20261029-02) & Thames Class A Sub-Par-Half Watch (C-20261031-01)",
+        "note": "Scores `JAAA` ([[F90]]) vs `LQD` ([[F94]]) and Thames Class A 4-ISIN average mid ([[F100]])."
+      }
+    ],
+    "mermaid": "flowchart LR\n  A[$2.5tn AI Crash + 10Y-High HF De-Grossing + Fed SLOOS +1.7% Tightening] --> B[ING $500m DC Loan Auction + SoftBank CDS 466bp + IREN $4bn Delay]\n  A --> C[Loan & Single-B Sell-Off: BKLN -0.68% / SRLN -0.52% / 1B OAS 3.51% vs JAAA $50.50 & LQD +0.15%]\n  A --> D[BDC Q3 10-Q Wave: FSK 15.65% PIK & $142m Non-Accrual / ARCC 16.38% / GSBD & CGBD Misses]\n  A --> E[Euro Restructurings: Thames Class A 50.36 Mid & All 4 Bids <50 / VMO2 4,000 Job Cuts]\n  B --> F[Hard Veto Greenfield AI Loans & Neocloud SPVs · Bid IG ABS Only]\n  C --> G[Overweight JAAA & CLOI · Pair Tactical LQD · Trim Post-RP Mezz]\n  D --> H[Hard Veto FSK, GSBD & OBDC · Favour Warehouse Banks BAC/JPM]\n  E --> I[Hard Veto Altice/Optimum & Thames Class B · Watch Class A Sub-50]"
+  },
+  "credit_vectors": [
+    {
+      "deal_or_loan_id": "EUR_BSL_CLO_2.0_REINV_BENCH",
+      "topic": "T1",
+      "market_jurisdiction": "EUR_BSL",
+      "ccc_bucket_percentage": 4.7,
+      "junior_oc_cushion_bp": 390.0,
+      "warf_score": 2860.0,
+      "was_spread_bp": 350.0,
+      "lme_priming_risk_index": 0.39,
+      "equity_nav_mark": 54.8,
+      "default_intensity_forecast": 0.0425,
+      "half_life_days": 45.0,
+      "action_gate": "ALLOW",
+      "evidence": "E06",
+      "rationale": "Tier-1 reinvesting EUR CLO senior/clean-mezz shelf: €46.2bn YTD new-issue (57% global reset share) with AAA at 129–133 bps, screened strictly outside Fitch's 10% triple-squeeze cohort (10 bps WAS cushion) and Euro tail discounts (85.00–89.51)."
+    },
+    {
+      "deal_or_loan_id": "US_BSL_CLO_POST_RP_TAIL",
+      "topic": "T4",
+      "market_jurisdiction": "US_BSL",
+      "ccc_bucket_percentage": 10.4,
+      "junior_oc_cushion_bp": 200.0,
+      "warf_score": 3230.0,
+      "was_spread_bp": 365.0,
+      "lme_priming_risk_index": 0.68,
+      "equity_nav_mark": 31.0,
+      "default_intensity_forecast": 0.05,
+      "half_life_days": 30.0,
+      "action_gate": "WATCH",
+      "evidence": "E14",
+      "rationale": "Post-RP US BSL cohort: >68% Senior OC protects AAA ('JAAA' $50.50), but 2.1% Junior OC and 18% of managers >7.5% CCC face +19 bps Single-B OAS widening to 3.51%, BKLN -0.68% / SRLN -0.52%, and US BB DM widening +10 bps to 615 bps."
+    },
+    {
+      "deal_or_loan_id": "ALTICE_OPTIMUM_DRAHI_COMPLEX",
+      "topic": "T2",
+      "market_jurisdiction": "EUR_BSL",
+      "ccc_bucket_percentage": 100.0,
+      "junior_oc_cushion_bp": -385.0,
+      "warf_score": 6500.0,
+      "was_spread_bp": 790.0,
+      "lme_priming_risk_index": 0.96,
+      "equity_nav_mark": 9.2,
+      "default_intensity_forecast": 0.75,
+      "half_life_days": 18.0,
+      "action_gate": "HARD_VETO",
+      "evidence": "E11",
+      "rationale": "Optimum ($26bn debt, $4.5bn 2027–28 wall) and Altice International ($9bn debt at 9.6x leverage; secured bonds at 45.32–46.13 pts, 42.68 EUR bid) remain trapped in non-pro-rata LME and SDNY/NY court battles with 44% post-LME first-lien recovery norms."
+    },
+    {
+      "deal_or_loan_id": "VMO2_VODAFONEZIGGO_TELECOM",
+      "topic": "T2",
+      "market_jurisdiction": "EUR_BSL",
+      "ccc_bucket_percentage": 20.0,
+      "junior_oc_cushion_bp": 160.0,
+      "warf_score": 3580.0,
+      "was_spread_bp": 485.0,
+      "lme_priming_risk_index": 0.76,
+      "equity_nav_mark": 38.5,
+      "default_intensity_forecast": 0.165,
+      "half_life_days": 21.0,
+      "action_gate": "WATCH",
+      "evidence": "E04",
+      "rationale": "VMO2 (£22bn debt, >6.1x leverage) launched 4,000 job cuts (~25% of staff) targeting £800m savings by 2029 as VMO2 VFN 2033 trades at 42.60 mid (41.41 bid) and 2030 unsecured at 26.30, while Ziggo Bond Co. holds 70.08–73.62 pts."
+    },
+    {
+      "deal_or_loan_id": "THAMES_WATER_WBS_CLASS_A",
+      "topic": "T3",
+      "market_jurisdiction": "UK_WBS",
+      "ccc_bucket_percentage": 100.0,
+      "junior_oc_cushion_bp": -190.0,
+      "warf_score": 6250.0,
+      "was_spread_bp": 665.0,
+      "lme_priming_risk_index": 0.85,
+      "equity_nav_mark": 5.9,
+      "default_intensity_forecast": 0.38,
+      "half_life_days": 25.0,
+      "action_gate": "WATCH",
+      "evidence": "E03",
+      "rationale": "Live 6 Nov Frankfurt/Stuttgart order books show Thames Water Class A 4-ISIN average mid down -1.63 pts to 50.36 pts, with ALL FOUR Class A ISINs bidding sub-50 (48.55–48.97) and 2028 clean mid at 49.03 behind the £2.4bn emergency request (to £5.4bn)."
+    },
+    {
+      "deal_or_loan_id": "US_MM_BDC_SOFTWARE_AI_COHORT",
+      "topic": "T5",
+      "market_jurisdiction": "US_MM_PRIVATE",
+      "ccc_bucket_percentage": 17.5,
+      "junior_oc_cushion_bp": 130.0,
+      "warf_score": 3790.0,
+      "was_spread_bp": 575.0,
+      "lme_priming_risk_index": 0.74,
+      "equity_nav_mark": 73.0,
+      "default_intensity_forecast": 0.135,
+      "half_life_days": 40.0,
+      "action_gate": "HARD_VETO",
+      "evidence": "E01",
+      "rationale": "Q3 10-Q XBRL confirms FSK PIK jumped to 15.65% ($46m/$294m; $142m new non-accruals, 6.4% cost) joining ARCC (16.38%) above 15%, while GSBD ($0.32, 4 new non-accruals) and CGBD ($0.36) missed Q3 NII and ING dumped $500m of AI DC loans."
+    }
+  ],
+  "topics": [
+    {
+      "id": "T1",
+      "emoji": "🏛️",
+      "short_title": "CLO Arbitrage & Loan Flows",
+      "title": "CLO Asset-Liability Asymmetry, Senior Resilience & Loan ETF De-Grossing",
+      "thesis": "Thursday's [[F80]] AI crash and [[F66]] hedge-fund de-grossing knocked leveraged-loan ETFs down (`BKLN` and `SRLN` [[F95]]) and widened US BB secondary DM [[F24]] to [[F25]] ([[F26]] basis), whereas senior `JAAA` ([[F90]], [[F91]] DD) and `LQD` ([[F94]]) held firm amid sticky CLO non-call liabilities and a pivot toward secondary resets ([[F13]]).",
+      "verdict": "LONG JAAA & CLOI · FAVOUR SECONDARY RESETS · VETO TRIPLE-SQUEEZE MEZZ",
+      "stance": "Senior carry & secondary reset arbitrage",
+      "risk": {
+        "probability": 4,
+        "impact": 3
+      },
+      "evidence": [
+        "E06",
+        "E07",
+        "E08",
+        "E14",
+        "E15"
+      ],
+      "show_stack": "F130",
+      "stack_note": "Tranche shares show an illustrative European CLO 2.0 stack; live anchors are EUR AAA at [[F09]]–[[F11]], EUR Single-B at [[F14]], US AAA at [[F23]], and US BB DM at [[F25]] ([[F26]] basis). Use the stress simulator below to test how CCC buckets above [[F118]] hit mezzanine and equity while leaving AAA subordination intact.",
+      "signal": "Friday SOD telemetry captures a textbook quality-over-beta bifurcation across structured credit after Thursday's [[F80]] equity rout (`VIX` [[F82]]) and [[F66]] stock-picking hedge-fund unwind. On the sealed 6 November FMP tape, floating-rate senior `JAAA` held flat at [[F90]] ([[F91]] vs 52-week high) and `CLOI` edged up, while Japanese institutional buying of foreign long-term bonds and a [[F99]] US Treasury bull-steepener lifted fixed-rate IG `LQD` to [[F94]]. Conversely, floating-rate loan and mezzanine beta sold off sharply: `BKLN`, `SRLN`, and `HYG` dropped [[F95]], `JBBB` slipped to [[F92]] ([[F93]] DD), and US BSL BB secondary discount margins widened [[F24]] to [[F25]] against [[F23]] tier-1 AAA (a [[F26]] AAA–BB basis across [[F22]] YTD US new-issue supply). In Europe ([[F05]] across [[F06]] Jan–Sep; [[F07]] YTD new-issue; [[F13]] global reset/refi share), Creditflux and Trepp highlight acute asset-liability decoupling: six-month loan soft-call repricings have compressed portfolio WAS to [[F16]] ([[F17]] below ten-year mean, [[F18]] WAS cushion, [[F19]] WARF cushion, [[F20]] WARR cushion, trapping [[F21]] of low-WAS deals in Fitch's triple squeeze), whereas one-to-two-year CLO non-call periods keep European new-issue AAA sticky at [[F11]] (vs September's [[F08]] new-issue and [[F09]] reset prints, a [[F10]] gap) and Single-B wide at [[F14]] across [[F12]] and [[F15]] equity distributions. Direct SEC Form NPORT-P parsing across [[F116]] confirms zero sub-par-cushion tranches in `JAAA` versus [[F117]] in `JBBB` and European tail discounts (`Sound Point Euro CLO IV` and `Trinitas Euro CLO VI` at [[F117]]), alongside Fitch's US OC split ([[F27]] Senior / [[F28]] Junior OC reinvesting vs [[F29]] Senior / [[F30]] Junior OC post-RP).",
+      "mechanism": "Why are CLO equity allocators pivoting from primary warehouses ([[F12]]) into secondary market tranches and resets ([[F13]])? Because leveraged loans carry six-month soft-call windows that allowed borrowers to reprice asset spreads down to [[F16]], while CLO liabilities are locked behind one-to-two-year non-call periods at [[F11]] (EUR) and [[F23]] (US). When an equity shock ([[F80]]) triggers [[F66]] hedge-fund de-grossing and loan ETF outflows ([[F95]]), primary arbitrage tightens further and secondary BB discount margins widen [[F24]] to [[F25]], rewarding senior `JAAA` ([[F90]]) and secondary reset buyers while punishing [[F21]] triple-squeeze and [[F30]] post-RP mezzanine.",
+      "latex": "\\text{Arb}_{\\text{equity}} \\approx s_{\\text{assets}} - \\sum_{i} w_i \\, s_i - f_{\\text{mgmt}} - \\text{CDR} \\times (1 - \\text{RR}) \\times L_{\\text{eq}}",
+      "latex_status": "approximation",
+      "latex_note": "Practitioner excess-spread approximation at standard CLO 2.0 equity leverage of [[F119]]. With European WAS compressed to [[F16]] ([[F18]] cushion) against sticky [[F11]] AAA and [[F14]] Single-B liabilities, primary equity arbitrage is squeezed, driving [[F13]] of global volume into resets and secondary tranches.",
+      "factors": [
+        "Asset-liability non-call asymmetry: six-month loan soft-calls compressed European WAS to [[F16]] ([[F18]] cushion) while one-to-two-year CLO liability non-calls hold EUR AAA at [[F11]] and US AAA at [[F23]], steering equity capital into secondary resets ([[F13]]).",
+        "Quality-over-beta tape split: Thursday's [[F80]] crash pushed `BKLN` and `SRLN` down ([[F95]]) and widened US BB DM [[F24]] to [[F25]] (`JBBB` [[F92]]), while `JAAA` held [[F90]] and Japanese bond buying lifted `LQD` ([[F94]]).",
+        "Deal-level NPORT-P & OC bifurcation: [[F116]] sealed holdings show `JAAA` above par while [[F117]] of `JBBB` tranches sit below 99.00 and US post-RP Junior OC averages [[F30]] (vs [[F28]] reinvesting)."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 55,
+          "label": "Secondary reset pivot dominates; JAAA holds firm",
+          "text": "European AAA clears inside [[F125]] as resets drive [[F13]] of volume; `JAAA` ([[F90]]) and `CLOI` stay anchored while US BB DM ([[F25]]) and EUR Single-B ([[F14]]) penalise [[F21]] triple-squeeze and [[F30]] post-RP cohorts."
+        },
+        {
+          "id": "B",
+          "p": 30,
+          "label": "Warehouse backlog & loan ETF outflows widen EUR AAA to [[F126]]",
+          "text": "Continued loan ETF selling ([[F95]]) and [[F12]] push European new-issue AAA toward [[F126]] while US BB DM stays elevated above [[F25]]."
+        },
+        {
+          "id": "C",
+          "p": 15,
+          "label": "Hot payrolls reverse bull-steepener & hit all credit",
+          "text": "An upside surprise on Friday's October payrolls reverses the [[F87]] Dec hike repricing and [[F99]] bull-steepener, triggering simultaneous outflows across `LQD` ([[F94]]), `JBBB` ([[F92]]), and `JAAA` ([[F90]]).",
+          "kill_switch": "European tier-1 new-issue AAA prints above 135 bps on two consecutive deals or `JAAA` closes more than 2.0% below its $50.82 52-week high."
+        }
+      ],
+      "posture": "Anchor defensive floating carry in `JAAA` ([[F90]]) and `CLOI`, paired with tactical quality duration (`LQD` [[F94]]); restrict mezzanine allocations to tier-1 secondary resets and 2024–2026 reinvesting shelves carrying >[[F28]] US Junior OC and >[[F18]] EUR WAS cushion.",
+      "verify": "Track Friday post-NFP loan ETF flows (`BKLN`, `SRLN` [[F95]]), October final European AAA averages ahead of 15 November resolution (call C-20261026-01), and November US BB clearing spreads (call C-20261028-02).",
+      "gaps": [
+        "G1"
+      ]
+    },
+    {
+      "id": "T2",
+      "emoji": "⚔️",
+      "short_title": "VMO2 Cuts & Altice/Optimum",
+      "title": "Virgin Media O2 Cuts Four Thousand Jobs as Optimum & Altice LMEs Grind On",
+      "thesis": "Virgin Media O2 ([[F40]] debt stack, [[F41]] leverage) launched a major restructuring cutting [[F42]] to capture [[F43]] in annual run-rate savings as VMO2 VFN 2033s trade at [[F102]] and 2030 unsecured notes sit at [[F103]], while Optimum ([[F31]] debt, [[F32]] wall) and Altice International ([[F33]], [[F105]] marks) remain mired in non-pro-rata LME and courtroom battles.",
+      "verdict": "HARD VETO ALTICE & OPTIMUM · CAP VMO2 / ZIGGO CLO OVERLAP",
+      "stance": "Operational retrenchment & LME attrition",
+      "risk": {
+        "probability": 5,
+        "impact": 4
+      },
+      "evidence": [
+        "E04",
+        "E10",
+        "E11",
+        "E16"
+      ],
+      "signal": "Early-November European and US telecom restructuring desks are defined by deep operational cost-cutting and creditor litigation. In the UK, Virgin Media O2 (backed by Liberty Global and Telefónica, carrying a [[F40]] debt and lease burden at [[F41]] net leverage) initiated a major restructuring program cutting [[F42]] across non-customer-facing and senior management roles to achieve [[F43]] in annual run-rate savings by 2029. On our sealed 6 November European exchange order-book sweep, VMED O2 2031 senior secured notes trade at [[F102]] (with VMO2 Vendor Financing Notes 2033 at [[F102]]) and Virgin Media Finance 2030 senior unsecured notes sit at [[F103]], whereas Dutch sister JV VodafoneZiggo (sealed via Liberty Global's SEC Form 8-K/A interim financials, with its [[F44]] 2033 Term Loan B marked at [[F45]]) trades at [[F104]] on Ziggo Bond Co. notes. Across the Patrick Drahi complex, Optimum Communications ([[F31]] total debt, facing a [[F32]] 2027–2028 maturity wall and annual interest bill) continues high-stakes restructuring negotiations against an SDNY antitrust appeal of its creditor co-op, while Altice International ([[F33]] / [[F34]] debt, [[F35]] 2027 maturity wall, [[F36]] at [[F37]] unrestricted drop-down contested by [[F38]] NY Commercial Division plaintiffs inside its [[F39]] co-op) explores Portugal fiber and Teads asset disposals with Altice Financing senior secured notes marked at [[F105]] against [[F58]] post-LME first-lien recovery norms.",
+      "mechanism": "VMO2's decision to eliminate [[F42]] targeting [[F43]] of run-rate cost savings is a direct operational response to [[F41]] leverage and blocked UK fiber-consolidation deleveraging: when capital markets price vendor-financing and unsecured notes at [[F102]] and [[F103]], management must extract EBITDA internally through headcount reductions to defend senior secured covenants before 2028–2031 refinancing walls. Meanwhile, at Optimum ([[F31]]) and Altice International ([[F33]]), coercive LMEs (which now drive [[F57]] of all defaults and compress first-lien recoveries to [[F58]]) pit steering-group holdouts ([[F38]]) against stripped creditors facing an estimated [[F121]] recovery gap.",
+      "latex": "\\mathbb{E}[R] = P_{\\text{win}} \\, R_{\\text{restore}} + \\left(1 - P_{\\text{win}}\\right) R_{\\text{residual}} - c_{\\text{lit}}",
+      "latex_status": "framework",
+      "latex_note": "Litigation-adjusted recovery framing for Altice International's [[F36]] drop-down lawsuit and Optimum's [[F31]] restructuring: legal attrition c_lit and [[F58]] post-LME recovery norms anchor Altice Financing secured bonds at [[F105]] and impose an estimated [[F121]] non-steering discount.",
+      "factors": [
+        "VMO2 workforce restructuring vs junior bond distress: cutting [[F42]] to capture [[F43]] in annual savings aims to stabilise VMO2's [[F40]] stack ([[F41]] leverage) while VFN 2033s trade at [[F102]] and 2030 unsecured notes sit at [[F103]].",
+        "VodafoneZiggo vs VMO2 credit divergence: sealed SEC Form 8-K/A financials and Frankfurt quotes show Ziggo Bond Co. notes at [[F104]] (and 2033 TLB at [[F45]] on [[F44]] par), substantially outperforming VMO2 VFN and unsecured paper ([[F102]], [[F103]]).",
+        "Optimum & Altice LME attrition: Optimum's [[F32]] maturity wall across [[F31]] debt and Altice International's [[F35]] 2027 wall (at [[F33]], [[F105]] bond marks) exemplify the [[F58]] post-LME recovery erosion."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 50,
+          "label": "VMO2 savings defend senior secureds; Altice/Optimum grind lower",
+          "text": "VMO2's [[F43]] savings plan keeps senior secured 2031s near [[F102]] and VodafoneZiggo TLB below par near [[F45]] (validating C-20261028-01), while Altice ([[F105]]) and Optimum ([[F31]]) remain bogged down in court/LME restructurings."
+        },
+        {
+          "id": "B",
+          "p": 35,
+          "label": "European telecom rating downgrades swell CLO CCC buckets",
+          "text": "Execution friction on VMO2's [[F42]] cuts or Altice asset sales triggers rating downgrades toward B-/CCC+, eroding European CLO WARF cushions ([[F19]])."
+        },
+        {
+          "id": "C",
+          "p": 15,
+          "label": "Co-op fracture & pod liquidations gap Ziggo TLB below [[F127]]",
+          "text": "Further [[F66]] hedge-fund de-grossing and co-op fractures force distressed pods to dump Altice ([[F105]]), VMO2 ([[F102]]), and VodafoneZiggo (gapping below [[F127]]), breaching [[F118]] CCC limits.",
+          "kill_switch": "Fracture or termination of Altice International's ~90% cooperation agreement, or a rating downgrade of VMO2 or VodafoneZiggo into the B- / CCC category."
+        }
+      ],
+      "posture": "Maintain a hard veto on Altice International ([[F105]]) and Optimum Communications ([[F31]]) across all non-workout sleeves; cap combined VMO2 ([[F40]]), VodafoneZiggo ([[F45]]), and European cable/telecom weights when selecting CLO mezzanine.",
+      "verify": "Track VMO2 Q4 restructuring charges and union consultations on the [[F42]] cuts, VodafoneZiggo [[F44]] TLB secondary dealer runs through 30 November (call C-20261028-01), and NY/SDNY docket filings on Altice and Optimum (Gap G2).",
+      "gaps": [
+        "G2"
+      ]
+    },
+    {
+      "id": "T3",
+      "emoji": "🚰",
+      "short_title": "Thames Class A Sub-50 Bids",
+      "title": "Thames Water Class A Breaks Below Par-Half Across All Four Exchange Bids",
+      "thesis": "Live 6 November European exchange order books show Thames Water Class A senior WBS EUR notes falling another leg to [[F100]] average mid — with all four Class A ISINs now bidding sub-par-half and the 2028 note clean mid breaking below par-half at [[F101]] — as the utility seeks [[F53]] in additional short-term funding (toward [[F54]]) and hits early-November Ofwat consultation deadlines.",
+      "verdict": "HARD VETO CLASS B · DISTRESSED WATCH CLASS A AT 50.36 MID",
+      "stance": "Sub-50 exchange bids & priming dilution",
+      "risk": {
+        "probability": 4,
+        "impact": 4
+      },
+      "evidence": [
+        "E03",
+        "E09",
+        "E12",
+        "E13"
+      ],
+      "signal": "Our sealed 6 November European exchange order-book sweep (`credit_bond_isins_20261106.json`) records a historic technical milestone for UK regulated utility credit: Thames Water Utilities Finance plc's four Class A senior secured EUR EMTNs dropped to a [[F100]] average clean mid, with all four Class A ISINs now bidding below par-half and the January 2028 note (`XS2438026440`) breaking below par-half on a clean mid basis at [[F101]]. This new leg lower across the [[F46]] WBS stack ([[F47]] total group debt) follows S&P's downgrade to CCC-, the 16 October Class B Transaction Support Agreement ([[F48]] of [[F49]] Class B debt written off for [[F50]] equity), and Thames Water's warning that cash will run out by late 2026 or early 2027 without an additional [[F53]] of short-term emergency funding on top of its [[F52]] super-senior bridge ([[F51]] drawn), taking total priming liquidity toward [[F54]] through autumn 2027. Simultaneously, Ofwat's in-period adjustment consultations hit early-November 2026 deadlines as London & Valley Water seeks regulatory sign-off on its [[F55]] Restructuring Plan 2 (governed by UK High Court Part 26A precedents sealed in our 10-judgment caselaw harvest), monoline insurer Assured Guaranty (`AGO`) filed its Q3 Form 8-K supplement on 5 November, and Rapidan's [[F88]] US–Iran strike warning lifted Brent crude to [[F89]].",
+      "mechanism": "Why did all four Thames Water Class A senior secured Eurobonds break below par-half on the bid side ([[F101]], [[F100]] average mid) this morning? Because every incremental pound of the requested [[F53]] emergency facility (expanding super-senior priming debt from [[F52]] to [[F54]]) sits directly ahead of Class A in the WBS waterfall, deducting pound-for-pound from post-Ofwat Regulatory Capital Value (`V_RCV,post-Ofwat`). With S&P at CCC- and Ofwat's early-November consultation deadlines testing whether L&VW's [[F55]] RP2 can avoid Special Administration, live exchange quotes price a deep discount to consensual [[F122]] RP2 recovery models and reflect our [[F123]] SAR tail probability.",
+      "latex": "R_{\\text{Class A}} = \\frac{\\min\\left(D_{\\text{Class A}},\\; \\max\\left(0,\\; V_{\\text{RCV,post-Ofwat}} - D_{\\text{super-senior}}\\right)\\right)}{D_{\\text{Class A}}}",
+      "latex_status": "identity",
+      "latex_note": "Senior WBS recovery identity after deducting upsized priming super-senior debt ([[F54]] target, up [[F53]] from [[F52]]) from post-Ofwat Regulatory Capital Value; live [[F100]] Class A mids ([[F101]] sub-par-half bids across all four ISINs) price severe haircut/SAR risk below consensual [[F122]] RP2 estimates.",
+      "factors": [
+        "All four Class A ISINs bid below par-half: live Frankfurt/Stuttgart quotes sank to [[F100]] average mid with the 2028 clean mid at [[F101]], strongly validating call C-20261031-01 through 30 November.",
+        "Emergency [[F53]] liquidity request compounds priming dilution: expanding super-senior rescue debt from [[F52]] ([[F51]] drawn) by [[F53]] to [[F54]] through autumn 2027 subordinates Class A recoveries while Class B is already locked at [[F50]] equity on [[F49]] debt.",
+        "Early-November Ofwat consultation & monoline surveillance: Ofwat's November deadlines on L&VW's [[F55]] RP2 and Assured Guaranty's 5 November Form 8-K supplement spotlight wrapped vs unwrapped Class A recovery dispersion."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 50,
+          "label": "Class A stays pinned near [[F100]] into Ofwat RP2 talks",
+          "text": "Creditors approve the [[F53]] super-senior extension (to [[F54]]) and Ofwat advances L&VW's [[F55]] RP2 consultation; Class A trades between [[F101]] and [[F122]] while validating call C-20261031-01 through 30 November."
+        },
+        {
+          "id": "B",
+          "p": 35,
+          "label": "Ofwat deadlock triggers SAR filing by Jan 2027",
+          "text": "Ofwat rejects L&VW's regulatory turnaround terms before 31 January 2027 (call C-20261026-04, [[F123]] baseline), forcing Special Administration behind [[F54]] of priming debt and driving Class A into the low-40s."
+        },
+        {
+          "id": "C",
+          "p": 15,
+          "label": "Emergency funding holdout & immediate insolvency",
+          "text": "Creditor holdouts block the [[F53]] short-term liquidity upsize ahead of winter cash depletion, forcing an immediate government SAR petition.",
+          "kill_switch": "Defra or Ofwat petitions the High Court for a Special Administration Order, or creditors vote down the £5.4bn super-senior facility expansion."
+        }
+      ],
+      "posture": "Maintain a hard veto on Class B (locked at [[F50]] equity); keep Class A senior WBS notes on distressed watch at [[F100]] ([[F101]] sub-par-half bids) — requiring binding Ofwat RP2 regulatory concessions and London voice-desk block verification (Gap G5) before moving from WATCH to ALLOW.",
+      "verify": "Track early-November Ofwat consultation outcomes, creditor voting on the [[F53]] emergency facility upsize, Assured Guaranty (`AGO`) Q3 supplement disclosures, and daily Class A ISIN quotes (calls C-20261031-01 and C-20261106-02).",
+      "gaps": [
+        "G2",
+        "G5"
+      ]
+    },
+    {
+      "id": "T4",
+      "emoji": "📉",
+      "short_title": "Single-B OAS & Fed SLOOS",
+      "title": "US Single-B OAS Widens & Fed SLOOS Flips to Tightening as LMEs Dominate Defaults",
+      "thesis": "ICE BofA US Single-B OAS widened to [[F111]] (with US HY at [[F109]], Euro HY at [[F110]], and CCC at [[F112]]) right as the Q4 2026 Fed SLOOS survey flipped back into net C&I loan tightening at [[F56]] and distressed LMEs drove [[F57]] of speculative-grade defaults ([[F63]] US, [[F60]] EUR composite).",
+      "verdict": "TRIM SINGLE-B LOAN BETA · VETO THIN-OC POST-RP MEZZANINE",
+      "stance": "SLOOS tightening & Single-B decompression",
+      "risk": {
+        "probability": 4,
+        "impact": 4
+      },
+      "evidence": [
+        "E05",
+        "E08",
+        "E10",
+        "E13",
+        "E14"
+      ],
+      "signal": "Sealed 6 November FRED telemetry (`credit_nbfi_bdc_20261106.json`) reveals a simultaneous tightening in bank lending standards and secondary speculative-grade credit spreads. First, the newly updated Q4 2026 Federal Reserve Senior Loan Officer Opinion Survey (`DRTSCILM`, as of 2026-10-01) flipped back into net tightening at [[F56]] of domestic banks tightening C&I loans to large and middle-market firms. Second, ICE BofA US Single-B OAS (`BAMLH0A2HYB`) widened to [[F111]] — lifting Single-B effective yields to [[F111]] — while US High Yield OAS widened to [[F109]], Euro High Yield OAS stood at [[F110]], and US CCC & Lower OAS printed at [[F112]]. On Thursday's [[F80]] AI equity crash (`VIX` [[F82]]), leveraged-loan ETFs `BKLN` and `SRLN` fell [[F95]] even as December Fed hike odds eased to [[F87]] (while 'No 2026 Fed rate cuts' stays locked at [[F86]]) and seaborne Brent rose to [[F89]] on [[F88]] Iran strike risk. Across default monitors, S&P, Fitch, and Moody's confirm distressed LMEs now account for [[F57]] of trailing defaults — pushing composite speculative-grade default rates to [[F63]] in the US and [[F60]] in Europe (with Fitch's European loan TTM gauge up [[F61]] to [[F59]]) and slashing post-LME first-lien recoveries to [[F58]] — while median CLO CCC buckets sit at [[F64]] with [[F65]] of US managers already breaching the [[F118]] threshold.",
+      "mechanism": "When commercial banks flip back to net C&I tightening ([[F56]] on Fed SLOOS) while [[F86]] locks in zero 2026 Fed rate cuts, B3/B- borrowers paying [[F124]] floating coupons lose their bank revolver liquidity buffer right as cash coverage tests [[F120]]. That forces stressed sponsors into coercive out-of-court LMEs ([[F57]] of defaults, [[F58]] first-lien recovery), widening Single-B OAS to [[F111]] and pushing [[F65]] of US BSL CLO managers above the [[F118]] CCC haircut threshold — directly threatening seasoned post-RP deals with only [[F30]] Junior OC cushion.",
+      "latex": "\\text{OC}_j = \\frac{\\text{Par}_{\\text{perf}} + \\text{MV}_{\\text{def}} - \\max\\!\\left(0,\\; \\text{CCC}_{\\text{par}} - 0.075 \\times \\text{Par}_{\\text{pool}}\\right) \\times \\left(1 - P_{\\text{mkt,CCC}}\\right)}{\\sum_{i \\le j} \\text{Par}_i}",
+      "latex_status": "standard",
+      "latex_note": "Standard CLO overcollateralisation ratio incorporating the excess-CCC market-value haircut above [[F118]]. With [[F65]] of US managers above [[F118]], Single-B OAS at [[F111]], and CCC OAS at [[F112]], post-RP pools carrying [[F30]] Junior OC face acute diversion risk.",
+      "factors": [
+        "Q4 Fed SLOOS tightening flip + Single-B widening: US banks flipped back to [[F56]] net C&I tightening just as US Single-B OAS widened to [[F111]] and loan ETFs (`BKLN`, `SRLN`) dropped [[F95]].",
+        "LME default dominance & recovery erosion: out-of-court LMEs drive [[F57]] of defaults ([[F63]] US, [[F60]] EUR composite; Fitch EUR loan TTM up [[F61]] to [[F59]]), cutting first-lien recoveries to [[F58]].",
+        "CLO CCC threshold pressure: median CCC buckets stand at [[F64]] with [[F65]] of US managers exceeding [[F118]], squeezing [[F30]] US post-RP Junior OC and [[F21]] European triple-squeeze cohorts."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 55,
+          "label": "Single-B OAS stays elevated; EUR defaults cross [[F128]]",
+          "text": "SLOOS tightening ([[F56]]) and [[F86]] zero-cut rate pressure keep US Single-B OAS elevated near [[F111]] through November (new call C-20261106-02) while Fitch's European loan TTM default rate crosses [[F128]] by December (call C-20261026-05)."
+        },
+        {
+          "id": "B",
+          "p": 25,
+          "label": "Soft payrolls & bull-steepener calm loan outflows",
+          "text": "A benign October payrolls print extends the [[F99]] Treasury rally and moderates [[F87]] Dec hike odds, stabilising `BKLN`/`SRLN` ([[F95]]) and Single-B OAS below [[F111]]."
+        },
+        {
+          "id": "C",
+          "p": 20,
+          "label": "Dec Fed hike + Brent oil shock spike CCC buckets",
+          "text": "A December Fed hike ([[F87]]) combined with a Hormuz crude spike above [[F89]] ([[F88]] strike risk) accelerates downgrades across the [[F65]] manager tail, triggering widespread [[F30]] post-RP OC diversions.",
+          "kill_switch": "Fitch US or European leveraged loan TTM defaults exceed 4.8% for two consecutive months, or median US post-RP Junior OC falls below 150 bps."
+        }
+      ],
+      "posture": "Trim unhedged Single-B loan beta (`BKLN`, `SRLN` [[F95]]) and reject US/EUR CLO BB and Single-B tranches where manager CCC buckets exceed [[F64]] or Junior OC sits near [[F30]].",
+      "verify": "Monitor ICE BofA Single-B OAS (`BAMLH0A2HYB` [[F111]]) through 30 November (new call C-20261106-02), Fitch's December European default monitor against [[F128]] (call C-20261026-05), and European trustee obligor reports (Gap G1).",
+      "gaps": [
+        "G1"
+      ]
+    },
+    {
+      "id": "T5",
+      "emoji": "🧾",
+      "short_title": "BDC Q3 10-Q PIK & Misses",
+      "title": "BDC Q3 Filing Wave Lands: FSK PIK Jumps to Fifteen Percent as GSBD & CGBD Miss",
+      "thesis": "With [[F74]] now sealed in SEC EDGAR XBRL, `FSK`'s Q3 PIK debt interest surged to [[F67]] (with [[F68]] non-accruals) — joining `ARCC` ([[F114]]) above [[F129]] and keeping five-BDC XBRL PIK at [[F113]] — while `GSBD` ([[F70]]) and `CGBD` ([[F71]]) missed Q3 NII and all [[F107]] warehouse banks sealed Q3 10-Qs against [[F106]] of NDFI loans.",
+      "verdict": "HARD VETO FSK, GSBD & OBDC · FAVOUR WAREHOUSE BANK SENIOR DEBT",
+      "stance": "Empirical Q3 XBRL PIK & NII dispersion",
+      "risk": {
+        "probability": 4,
+        "impact": 4
+      },
+      "evidence": [
+        "E01",
+        "E05",
+        "E08",
+        "E10",
+        "E15"
+      ],
+      "signal": "Our automated SEC EDGAR CompanyFacts XBRL sweep (`credit_nbfi_bdc_20261106.json`) has captured the heart of the Q3 2026 BDC filing wave across [[F74]]. First, FS KKR Capital Corp. (`FSK`, Form 10-Q filed 5 November) reported Q3 Gross Investment Income and XBRL PIK Debt Interest at [[F67]] — a sequential jump from Q2 that makes `FSK` the second monitored BDC alongside `ARCC` ([[F114]]) to exceed our call threshold (`C-20261029-01`) — while adding Medallia Global and New Era Technology to non-accrual ([[F68]]). Second, Blue Owl Capital Corp. (`OBDC`, Form 10-Q filed 4 November) posted [[F69]] in Q3 XBRL total PIK ([[F96]]), and Blackstone Secured Lending (`BXSL`, filed 4 November) reported [[F72]] Gross Investment Income ([[F97]]; `ARCC` at [[F98]]), placing the equal-weighted five-BDC XBRL total PIK share at [[F113]] ahead of `GBDC` and `OCSL` ([[F115]]) and matching the [[F62]] true private-credit default plus PIK modification rate. Third, Q3 earnings wire releases confirmed middle-market NII compression under [[F86]] zero-cut rate pressure: Goldman Sachs BDC (`GSBD`) missed Q3 NII at [[F70]] (placing CFS Management, HungerRush, ATX Networks, and Streamland Media on non-accrual) and Carlyle Secured Lending (`CGBD`) missed at [[F71]]. By contrast, deposit-funded banks outperformed (`BAC` and `FHN` at [[F73]]) as all [[F107]] major CLO/NDFI warehouse banks (`JPM`, `BAC`, `C`, `GS`, `MS`) sealed their Q3 Form 10-Qs against [[F106]] ([[F108]] of total US bank loans) in commercial bank loans to NDFIs.",
+      "mechanism": "The Q3 2026 Form 10-Q wave provides hard statutory proof of Chrizza's PIK-compounding thesis: when middle-market SaaS and healthcare borrowers (Medallia Global, New Era Tech at `FSK` [[F68]]; HungerRush and CFS Management at `GSBD` [[F70]]) exhaust cash interest coverage under [[F86]] Fed policy, managers toggle interest into PIK (`ARCC` [[F114]], `FSK` [[F67]], five-BDC mean [[F113]]) until late-stage credits tip into non-accrual and trigger NII misses (`GSBD` [[F70]], `CGBD` [[F71]]). Meanwhile, money-center and regional banks (`BAC` and `FHN` [[F73]], [[F107]] Q3 10-Qs) sit senior in the capital structure via [[F106]] of secured NDFI warehouse and subscription facilities.",
+      "latex": "D_t = D_0 \\left(1 + r_{\\text{cash}} + r_{\\text{PIK}}\\right)^{t} - \\text{CF}_{\\text{paid}}, \\qquad \\text{LTV}_t = \\frac{D_t}{V_t}",
+      "latex_status": "identity",
+      "latex_note": "Compounding PIK debt-to-value identity: at [[F67]] (`FSK`) and [[F114]] (`ARCC`) XBRL PIK shares ([[F113]] 5-BDC average), debt principal D_t compounds faster than enterprise value V_t, driving the [[F62]] true private-credit stress rate and forcing Q3 non-accrual additions ([[F68]], [[F70]]).",
+      "factors": [
+        "Double empirical confirmation on Q3 XBRL PIK: both `ARCC` ([[F114]]) and newly filed `FSK` ([[F67]]) now exceed [[F129]] XBRL PIK, while `GBDC` ([[F115]]) needs only hold above [[F129]] in its upcoming Q3 10-Q to satisfy call C-20261031-02.",
+        "Middle-market NII misses & non-accrual migration: `GSBD` missed Q3 NII at [[F70]] with four new non-accruals, `CGBD` missed at [[F71]], and `FSK` added Medallia and New Era Tech ([[F68]]), keeping BDC equity deeply discounted (`OBDC` [[F96]], `BXSL` [[F97]], `ARCC` [[F98]]).",
+        "Bank warehouse seniority vs BDC equity: all [[F107]] major warehouse banks (`JPM`, `BAC`, `C`, `GS`, `MS`) have now sealed Q3 10-Qs overseeing [[F106]] ([[F108]] of bank loans) in NDFI facilities, while `BAC` and `FHN` deliver [[F73]]."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 60,
+          "label": "GBDC/OCSL confirm >=3 BDCs above [[F129]] PIK",
+          "text": "Upcoming Q3 10-Q filings from `GBDC` or `OCSL` ([[F115]] Q2 baseline) join `ARCC` ([[F114]]) and `FSK` ([[F67]]) at or above [[F129]] total PIK (resolving C-20261031-02 and C-20261029-01 as hits) while `OBDC` ([[F96]]) lags senior credit."
+        },
+        {
+          "id": "B",
+          "p": 25,
+          "label": "Selective Q4 refinancing stabilises top-tier BDCs",
+          "text": "`BXSL` ([[F72]], [[F97]]) and `OBDC` ([[F69]]) contain new non-accruals, allowing tier-1 BDC equity to stabilise while tail managers (`FSK`, `GSBD`) absorb software/services write-downs."
+        },
+        {
+          "id": "C",
+          "p": 15,
+          "label": "Bank NDFI margin tightening & second BDC junk cut",
+          "text": "Following the [[F56]] SLOOS tightening flip, warehouse banks ([[F107]], [[F106]] NDFI exposure) raise advance-rate haircuts on PIK-heavy BDC collateral and rating agencies cut a second BDC to junk alongside `FSK`.",
+          "kill_switch": "A second top-10 US BDC is downgraded to sub-investment-grade junk or reports cost non-accruals above 4.5% in Q3 2026 Form 10-Q filings."
+        }
+      ],
+      "posture": "Hard veto on `FSK` ([[F67]] PIK, [[F68]] non-accruals), `GSBD` ([[F70]]), `CGBD` ([[F71]]), and software-exposed `OBDC` ([[F96]]); prefer senior debt of deposit-funded warehouse banks (`JPM`, `BAC` [[F73]], [[F107]]) over middle-market BDC equity and junior notes.",
+      "verify": "Run `ops_chrizza_sweep_nbfi_and_bdc.py` as `GBDC`, `OCSL`, and `MAIN` file Q3 Form 10-Qs through mid-November (resolving C-20261031-02 on 25 Nov and C-20261029-01 on 15 Dec) and audit Q3 bank 10-Q NDFI footnotes (Gap G4).",
+      "gaps": [
+        "G4"
+      ]
+    },
+    {
+      "id": "T6",
+      "emoji": "🏦",
+      "short_title": "ING $500M AI Loan Auction",
+      "title": "AI Project Credit Reckoning: ING Auctions Five Hundred Million in Data-Centre Loans & SoftBank CDS Spikes",
+      "thesis": "Wall Street's [[F80]] AI equity crash (`SMH` [[F81]], `VIX` [[F82]]) spilled directly into syndicated project credit as ING put [[F01]] of data-centre construction loans up for auction (including a [[F02]] Stargate New Mexico slice), SoftBank's 5Y CDS surged to a four-year high of [[F03]] on [[F78]] OpenAI commitments, and IREN delayed [[F04]] of AI cloud revenue into 2027.",
+      "verdict": "VETO GREENFIELD AI LOANS & NEOCLOUD SPVS · LONG JAAA & IG ABS",
+      "stance": "Project-loan syndication test & CDS blowout",
+      "risk": {
+        "probability": 4,
+        "impact": 5
+      },
+      "evidence": [
+        "E02",
+        "E05",
+        "E08",
+        "E13"
+      ],
+      "signal": "Thursday's [[F80]] AI equity rout (`SMH` [[F81]], Asian memory leaders [[F84]], `VIX` [[F82]]) marked the moment post-midterm permitting and electrical-grid bottlenecks hit bank loan syndication desks across the [[F75]] global data-centre cycle ([[F76]] external debt gap; [[F77]] annual data-centre ABS/CMBS run-rate). First, Bloomberg and Reuters reported that Dutch lender ING launched a rare one-time competitive auction for [[F01]] of data-centre construction and project loans (with bids due 19 November 2026), comprising roughly a dozen facilities including a [[F02]] debt slice tied to a New Mexico Stargate data centre as well as loans linked to Vantage Data Centers and CyrusOne. Second, SoftBank Group's five-year CDS spread blew out to [[F03]] — its highest level since October 2022 — as credit desks repriced its [[F78]] exposure to OpenAI and Arm. Third, Neocloud IREN (despite [[F79]] Q1 AI Cloud revenue and backlog) disclosed that [[F04]] in annualized AI cloud revenue is delayed into 2027 due to Microsoft-backed network/supply timing adjustments, while structuring a new five-year contract requiring a [[F04]] upfront customer GPU CapEx prepayment. Meanwhile, Apple tapped the IG bond market for [[F83]], and Japanese institutional bond buying drove a [[F99]] US Treasury bull-steepener that lifted `LQD` to [[F94]] and kept `JAAA` at [[F90]] while leveraged-loan ETFs `BKLN` and `SRLN` fell [[F95]].",
+      "mechanism": "ING's decision to auction [[F01]] of data-centre project loans (including the [[F02]] Stargate slice) in a single competitive package is a watershed event for digital-infrastructure finance: commercial banks (already carrying a record [[F106]] or [[F108]] of total loans in NDFI facilities across [[F107]] warehouse banks and tightening C&I standards by [[F56]]) are actively de-risking construction-phase AI exposure before power-grid bottlenecks delay tenant rent commencement (`IREN` [[F04]] delay). Simultaneously, IREN requiring [[F04]] upfront GPU CapEx prepayments and SoftBank's 5Y CDS hitting [[F03]] prove that debt markets now refuse to fund unamortised GPU/neocloud CapEx without near-total hyperscaler cash pre-funding or binding investment-grade lease guarantees.",
+      "latex": "L_{\\text{eff}} = \\prod_{k=1}^{n} L_k",
+      "latex_status": "framework",
+      "latex_note": "Compounding leverage framework across bank NDFI warehouse lines ([[F106]], [[F108]] of US bank loans), syndicated project loans (ING [[F01]] auction), and leveraged AI equity/CDS stacks (`SoftBank` [[F03]] CDS on [[F78]] OpenAI commitment); uncalibrated at bilateral facility haircuts (Gap G4).",
+      "factors": [
+        "ING [[F01]] data-centre loan auction (bids due 19 Nov): offloading ~12 construction/project loans including a [[F02]] Stargate New Mexico slice, Vantage, and CyrusOne provides the first transparent secondary clearing mark for AI project debt.",
+        "SoftBank [[F03]] 5Y CDS & IREN prepayment shift: SoftBank's CDS hitting a four-year high of [[F03]] (on [[F78]] OpenAI/Arm exposure) and IREN's [[F04]] revenue deferral and upfront CapEx prepayment requirement confirm severe credit rationing for leveraged AI builders.",
+        "Senior `JAAA` & `LQD` resilience vs loan beta: while `BKLN` and `SRLN` dropped [[F95]] on Thursday's [[F80]] tech crash, `JAAA` held [[F90]] ([[F91]] DD) and Japanese foreign bond buying lifted `LQD` to [[F94]] across the [[F99]] bull-steepener."
+      ],
+      "scenarios": [
+        {
+          "id": "A",
+          "p": 55,
+          "label": "ING auction clears at a discount; JAAA beats BKLN",
+          "text": "ING's [[F01]] loan portfolio clears at a wider project-spread concession on 19 November while `JAAA` ([[F90]]) outperforms `BKLN` ([[F95]]) through 30 November (new call C-20261106-01) and `AAAsf` IG-leased ABS ([[F77]]) bifurcates cleanly from neocloud debt."
+        },
+        {
+          "id": "B",
+          "p": 30,
+          "label": "Hyperscaler upfront prepayments stabilise project loans",
+          "text": "Widespread adoption of IREN-style [[F04]] upfront hyperscaler CapEx prepayments absorbs construction risk, allowing ING's [[F01]] package to clear near par and tightening SoftBank CDS below [[F03]]."
+        },
+        {
+          "id": "C",
+          "p": 15,
+          "label": "Copycat bank DC loan sales trigger warehouse freeze",
+          "text": "Additional European and US project banks follow ING ([[F01]]) by dumping greenfield data-centre loans into a thin secondary market, forcing markdowns across [[F106]] of bank NDFI lines.",
+          "kill_switch": "ING's $500m data-centre loan auction fails to clear above 92.0 pts average bid on 19 November, or S&P/Moody's places a rated data-centre ABS tranche on downgrade watch."
+        }
+      ],
+      "posture": "Hard veto on greenfield AI data-centre construction loans, unhedged neocloud SPVs, and SoftBank-linked credit ([[F03]] CDS); anchor floating carry in `JAAA` ([[F90]]) over `BKLN` ([[F95]]) and restrict digital-infrastructure debt strictly to `AAAsf` ABS backed by operating, power-connected IG hyperscaler leases ([[F77]]).",
+      "verify": "Track clearing prices on ING's [[F01]] data-centre loan auction (bids due 19 November), SoftBank 5Y CDS ([[F03]]), `JAAA` vs `BKLN` through 30 November (new call C-20261106-01), and `JAAA` vs `LQD` (call C-20261029-02).",
+      "gaps": [
+        "G4"
+      ]
+    }
+  ],
+  "calls": [
+    {
+      "id": "C-20261026-01",
+      "topic": "T1",
+      "proposition": "October 2026 EUR CLO AAA new-issue average spread prints at or below 128 bps.",
+      "p": 0.7,
+      "resolve_by": "2026-11-15",
+      "resolution_source": "Monthly European CLO market report (Trepp / Dechert / Creditflux)"
+    },
+    {
+      "id": "C-20261026-02",
+      "topic": "T1",
+      "proposition": "Full-year 2026 EUR CLO refi/reset volume reaches at least €55bn.",
+      "p": 0.65,
+      "resolve_by": "2027-01-31",
+      "resolution_source": "Full-year European CLO market reviews"
+    },
+    {
+      "id": "C-20261026-03",
+      "topic": "T2",
+      "proposition": "Altice International announces a consensual restructuring agreement with its secured creditors by 31 Jan 2027.",
+      "p": 0.3,
+      "resolve_by": "2027-01-31",
+      "resolution_source": "Company or creditor-group announcement; 9fin; Octus"
+    },
+    {
+      "id": "C-20261026-04",
+      "topic": "T3",
+      "proposition": "Thames Water is placed into the Special Administration Regime by 31 Jan 2027.",
+      "p": 0.3,
+      "resolve_by": "2027-01-31",
+      "resolution_source": "Court order / UK government announcement"
+    },
+    {
+      "id": "C-20261026-05",
+      "topic": "T4",
+      "proposition": "Fitch's European leveraged loan TTM default rate is at or above 4.0% in its December 2026 print.",
+      "p": 0.6,
+      "resolve_by": "2027-01-31",
+      "resolution_source": "Fitch Ratings European leveraged loan default insight"
+    },
+    {
+      "id": "C-20261028-01",
+      "topic": "T2",
+      "proposition": "VodafoneZiggo's €1.125bn Term Loan B due 2033 trades below 90.0 pts in secondary dealer runs through 30 November 2026.",
+      "p": 0.68,
+      "resolve_by": "2026-12-05",
+      "resolution_source": "9fin / Octus European secondary loan pricing runs"
+    },
+    {
+      "id": "C-20261028-02",
+      "topic": "T1",
+      "proposition": "US BSL CLO primary BB clearing spreads average at or above 475 bps across November 2026 prints.",
+      "p": 0.66,
+      "resolve_by": "2026-12-10",
+      "resolution_source": "Trepp / Creditflux November 2026 US CLO monthly pricing summary"
+    },
+    {
+      "id": "C-20261029-01",
+      "topic": "T5",
+      "proposition": "At least one top-10 publicly traded US BDC (by total assets, including ARCC, OBDC, BXSL, or FSK) reports Q3 2026 PIK income at or above 10.0% of total investment income in its Q3 2026 Form 10-Q filing.",
+      "p": 0.68,
+      "resolve_by": "2026-12-15",
+      "resolution_source": "SEC EDGAR Q3 2026 Form 10-Q filings & Fitch / PitchBook LCD BDC Q3 earnings tracker"
+    },
+    {
+      "id": "C-20261029-02",
+      "topic": "T6",
+      "proposition": "JAAA outperforms LQD on a cumulative price-return basis between 29 October 2026 ($50.63 vs $104.07) and 30 November 2026 under post-FOMC curve bear-steepening.",
+      "p": 0.65,
+      "resolve_by": "2026-11-30",
+      "resolution_source": "FMP stable batch-quote closing prices for JAAA and LQD on 2026-11-30"
+    },
+    {
+      "id": "C-20261031-01",
+      "topic": "T3",
+      "proposition": "Thames Water Utilities Finance plc Class A EUR EMTNs (4-ISIN basket: XS2576550672, XS2576550326, XS2438026440, XS2438026366, currently 51.99 pts avg mid) remain below 60.00 pts average clean mid through 30 November 2026 following S&P's CCC- downgrade.",
+      "p": 0.72,
+      "resolve_by": "2026-11-30",
+      "resolution_source": "ops_chrizza_sweep_bond_isins.py sealed European exchange ISIN snapshot on 2026-11-30"
+    },
+    {
+      "id": "C-20261031-02",
+      "topic": "T5",
+      "proposition": "At least three of the seven SEC EDGAR XBRL-monitored US BDCs (ARCC, OBDC, BXSL, FSK, GBDC, OCSL, MAIN) report Q3 2026 total PIK income at or above 10.0% of Gross Investment Income across November Q3 2026 Form 10-Q filings.",
+      "p": 0.7,
+      "resolve_by": "2026-11-25",
+      "resolution_source": "ops_chrizza_sweep_nbfi_and_bdc.py sealed SEC EDGAR CompanyFacts XBRL extraction on 2026-11-25"
+    },
+    {
+      "id": "C-20261106-01",
+      "topic": "T6",
+      "proposition": "JAAA ($50.50) outperforms BKLN ($20.42) on a cumulative price-return basis between 6 November 2026 and 30 November 2026 as AI project-loan repricing (ING $500m auction due 19 Nov) and Single-B spread widening weigh on leveraged-loan beta.",
+      "p": 0.72,
+      "resolve_by": "2026-11-30",
+      "resolution_source": "ops_chrizza_sweep_quotes.py sealed FMP closing prices for JAAA and BKLN on 2026-11-30"
+    },
+    {
+      "id": "C-20261106-02",
+      "topic": "T4",
+      "proposition": "ICE BofA US High Yield Single-B Option-Adjusted Spread (FRED series BAMLH0A2HYB, currently 3.51%) remains at or above 3.25% on every FRED observation published through 30 November 2026 following the Q4 Fed SLOOS tightening flip (+1.7%).",
+      "p": 0.7,
+      "resolve_by": "2026-11-30",
+      "resolution_source": "ops_chrizza_sweep_nbfi_and_bdc.py sealed FRED BAMLH0A2HYB series through 2026-11-30"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "G1",
+      "label": "Private European MTF CLO trustee obligor-level pool files (US Form NPORT-P [[F116]] & Fitch EUR [[F18]] WAS cushions sealed via E06 & E07)",
+      "impact": "SEC Form NPORT-P seals [[F116]] deal-level US and Euro CLO tranches (`JBBB` and Euro tail discounts [[F117]]) alongside Fitch's [[F18]] European WAS cushion and [[F21]] triple-squeeze share, leaving only private Euronext Dublin GEM MTF deal-by-deal obligor weights behind trustee portals.",
+      "remedy": "Drop monthly Alter Domus or Creditflux CLO-i European deal CSV/JSON extracts into `roc/scripts/ops_chrizza/inbox/trustee/` for automatic SHA-256 ingestion."
+    },
+    {
+      "id": "G2",
+      "label": "CAPTCHA-gated NY State NYSCEF & US PACER petition PDFs (UK High Court Akoma Ntoso XML & SEC EFTS filings sealed via E12 & E16)",
+      "impact": "UK High Court Chancery XML judgments and SEC EFTS telecom/monoline filings (Liberty Global/VodafoneZiggo [[F104]], Assured Guaranty `AGO`) are sealed directly, leaving only unmirrored NYSCEF trial-court pleadings on Altice's [[F38]] lawsuit and SDNY dockets on Optimum's [[F31]] restructuring behind court paywalls.",
+      "remedy": "Drop downloaded NYSCEF or PACER petition PDFs into `roc/scripts/ops_chrizza/inbox/dockets/` for automatic SHA-256 sealing."
+    },
+    {
+      "id": "G4",
+      "label": "Confidential bilateral bank NDFI facility haircuts & ING [[F01]] data-centre loan auction bid sheets (Fed H.8 [[F106]], SLOOS [[F56]], all [[F107]] bank 10-Qs & [[F74]] BDC 10-Qs sealed via E01 & E05)",
+      "impact": "FRED's [[F106]] bank-to-NDFI loans ([[F108]] share), [[F56]] SLOOS tightening flip, all [[F107]] warehouse bank Q3 10-Qs (`JPM`, `BAC`, `C`, `GS`, `MS`), and [[F74]] BDC Q3 10-Q XBRL PIK (`FSK` [[F67]], `ARCC` [[F114]]) are sealed, leaving only confidential bilateral margin triggers and non-public 19 November bid sheets on ING's [[F01]] auction undisclosed.",
+      "remedy": "Track post-19 November clearing reports on ING's [[F01]] data-centre loan auction via PitchBook LCD / 9fin and cross-reference Q3 bank 10-Q NDFI footnotes."
+    },
+    {
+      "id": "G5",
+      "label": "Private OTC London institutional voice-desk block sizes on GBP WBS tranches (live European exchange EUR Class A ISIN quotes sealed via E03 & E04)",
+      "impact": "Live Frankfurt and Stuttgart order books seal Thames Water Class A EUR notes at [[F100]] average mid (with all four ISINs bidding sub-par-half at [[F101]]) and VMED O2 / Altice marks ([[F102]], [[F105]]), leaving only institutional London voice-broker GBP block depth off-exchange.",
+      "remedy": "Supplement live European exchange ISIN quotes with IBKR Gateway (`providers.ibkr`) or London voice runs during early-November Ofwat RP2 consultations."
+    }
+  ],
+  "bibliography": [
+    {
+      "source_id": "creditflux_clo_intel",
+      "used_for": "Early-Nov [[F11]] EUR AAA prints, [[F12]] open warehouses, [[F14]] Single-B dispersion, and asset-liability non-call decoupling (E06, E14)."
+    },
+    {
+      "source_id": "9fin_levfin_news",
+      "used_for": "Thames Water [[F53]] emergency funding request (toward [[F54]]), Ofwat early-Nov consultation deadlines, and VMO2 [[F42]] / [[F43]] restructuring (E02, E04, E09)."
+    },
+    {
+      "source_id": "octus_reorg_intel",
+      "used_for": "Optimum [[F31]] debt & [[F32]] maturity wall LME negotiations, Altice International [[F33]] / [[F38]] NY lawsuit, and Thames Water L&VW [[F55]] RP2 (E04, E09, E11)."
+    },
+    {
+      "source_id": "debtwire_restructuring",
+      "used_for": "Optimum [[F31]] non-pro-rata LME talks and Altice International [[F39]] cooperation agreement surveillance (E11)."
+    },
+    {
+      "source_id": "fitch_structured_credit",
+      "used_for": "European CLO [[F16]] WAS & [[F21]] triple squeeze, [[F61]] EUR loan default jump to [[F59]], [[F66]] hedge-fund de-grossing, and `BAC`/`FHN` [[F73]] divergence (E01, E06, E10, E15)."
+    },
+    {
+      "source_id": "sp_global_ratings_direct",
+      "used_for": "Thames Water CCC- rating, [[F57]] LME default share ([[F63]] US, [[F60]] EUR), [[F58]] post-LME recovery average, and [[F62]] true private-credit stress rate (E09, E10)."
+    },
+    {
+      "source_id": "moodys_clo_tracker",
+      "used_for": "AI infrastructure [[F75]] CapEx & SPV credit surveillance and private-credit PIK/default tracking (E02, E10)."
+    },
+    {
+      "source_id": "trepp_clo_analytics",
+      "used_for": "Global [[F13]] reset share, [[F22]] US & [[F07]] EUR YTD new-issue volumes, [[F24]] US BB DM widening to [[F25]], and [[F64]]/[[F65]] CCC buckets (E06, E14)."
+    },
+    {
+      "source_id": "pitchbook_lcd",
+      "used_for": "ING [[F01]] data-centre loan auction ([[F02]] Stargate slice), SoftBank [[F03]] 5Y CDS, IREN [[F04]] revenue deferral & upfront CapEx prepay (E01, E02, E14)."
+    },
+    {
+      "source_id": "euro_exchange_isin_quotes",
+      "used_for": "Sealed 6 Nov Eurobond ISIN order books: Thames Water Class A down to [[F100]] (all 4 bids sub-par-half, 2028 mid [[F101]]), VMED O2 [[F102]], Virgin Media [[F103]], Ziggo [[F104]], and Altice [[F105]] (E03, E04, E16)."
+    },
+    {
+      "source_id": "fred_credit_oas_h8",
+      "used_for": "Sealed 6 Nov FRED sweep: Q4 SLOOS [[F56]] tightening flip, US Single-B OAS [[F111]], US HY [[F109]], Euro HY [[F110]], CCC [[F112]], and [[F106]] ([[F108]]) bank-NDFI loans (E05)."
+    },
+    {
+      "source_id": "sec_edgar_xbrl_nport",
+      "used_for": "Sealed SEC Form 10-Q XBRL across [[F74]] (`FSK` [[F67]] & [[F68]], `ARCC` [[F114]], `OBDC` [[F69]], `BXSL` [[F72]], [[F113]] avg), all [[F107]] warehouse bank 10-Qs, and [[F116]] Form NPORT-P CLO tranches ([[F117]]) (E01, E05, E07, E16)."
+    },
+    {
+      "source_id": "uk_caselaw_and_efts_dockets",
+      "used_for": "Sealed UK High Court Part 26A Restructuring Plan XML precedents, Liberty Global Form 8-K/A, and Assured Guaranty (`AGO`) 5 Nov Form 8-K supplement (E03, E12, E16)."
+    },
+    {
+      "source_id": "lsta_market_intelligence",
+      "used_for": "Sealed 6 Nov FMP snapshot: `JAAA` [[F90]] ([[F91]]), `LQD` [[F94]], `JBBB` [[F92]] ([[F93]]), `BKLN`/`SRLN`/`HYG` [[F95]], `OBDC` [[F96]], `BXSL` [[F97]], and `ARCC` [[F98]] (E08)."
+    },
+    {
+      "source_id": "bank_of_england_financial_stability",
+      "used_for": "BoE FPC [[F76]] AI external debt gap and UK utility/systemic NBFI surveillance (E13)."
+    },
+    {
+      "source_id": "federal_reserve_financial_stability",
+      "used_for": "FMP US Treasury bull-steepener ([[F99]]) and upstream Thufir 20261106 SOD bridge (`THUFIR-20261106-SOD`, Risk Appetite [[F85]], [[F80]] AI crash, [[F86]]/[[F87]] Fed odds, [[F88]]/[[F89]] Iran/Brent) (E05, E08, E13, E15)."
+    },
+    {
+      "candidate": true,
+      "domain": "tetragoncreditpartners.com",
+      "used_for": "Supplementary analysis of six-month leveraged-loan soft-call repricings versus one-to-two-year CLO liability non-call stickiness (E06)."
+    }
+  ],
+  "heuristics": [
+    {
+      "id": "H1",
+      "text": "AI project-loan syndication canary: when commercial banks (ING [[F01]] auction including [[F02]] Stargate debt) begin auctioning data-centre construction loans while SoftBank's 5Y CDS hits [[F03]] and neoclouds delay [[F04]] of revenue (requiring upfront customer CapEx prepayments), greenfield AI project credit has entered active rationing."
+    },
+    {
+      "id": "H2",
+      "text": "Q3 Form 10-Q XBRL PIK validation: statutory SEC XBRL across [[F74]] proves that double-digit PIK (`ARCC` [[F114]], `FSK` [[F67]], five-BDC mean [[F113]]) precedes headline non-accrual spikes (`FSK` [[F68]], `GSBD` [[F70]]) and NII misses (`CGBD` [[F71]]) under [[F86]] zero-cut rate pressure."
+    },
+    {
+      "id": "H3",
+      "text": "Sub-par-half senior WBS priming physics: when Thames Water requests [[F53]] in additional super-senior rescue liquidity (expanding priming debt toward [[F54]] ahead of the [[F46]] WBS stack), live exchange bids break below 50.00 across all four Class A ISINs ([[F101]], [[F100]] avg mid) because priming debt deducts pound-for-pound from post-Ofwat RCV."
+    },
+    {
+      "id": "H4",
+      "text": "Asset-liability non-call asymmetry & SLOOS tightening: six-month loan soft-calls compressed European WAS to [[F16]] ([[F18]] cushion) against one-to-two-year sticky CLO liabilities ([[F11]] EUR, [[F23]] US), so when Fed SLOOS flips to [[F56]] tightening and Single-B OAS widens to [[F111]] (`BKLN`/`SRLN` [[F95]]), senior `JAAA` ([[F90]]) and secondary resets ([[F13]]) dominate primary equity and thin-OC post-RP mezz ([[F30]])."
+    }
+  ]
+}

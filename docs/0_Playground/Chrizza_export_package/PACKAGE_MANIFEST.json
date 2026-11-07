@@ -1,0 +1,485 @@
+{
+  "schema": "chrizza.export_package.v1",
+  "agent": "Chrizza (structured-credit-agent)",
+  "created_at_utc": "2026-11-07T13:14:38Z",
+  "relative_root_contract": "All paths are workspace-relative; no dependency on 'SGIP_Investing' folder name.",
+  "total_files": 79,
+  "total_bytes": 4977174,
+  "files": [
+    {
+      "path": ".agent/skills/character-substrate/SKILL.md",
+      "category": "character_substrate",
+      "size_bytes": 7371,
+      "sha256": "546c5cb56dfb6036a36feb88c79a5cce6eadc083a29d623b197a1075460854b7"
+    },
+    {
+      "path": ".agent/skills/structured-credit-agent/MEM-JOG-Chrizza-Structured-Credit-And-CLO-Forensics-Bible.md",
+      "category": "mem_jog",
+      "size_bytes": 20579,
+      "sha256": "49b0ea3243f6260aa1a4370237c9e58798776826b0947918e6fb835607c67472"
+    },
+    {
+      "path": ".agent/skills/structured-credit-agent/SKILL.md",
+      "category": "agent_genome",
+      "size_bytes": 19643,
+      "sha256": "52cc553a886dab29f251d2a6588c43c89d05db45292553b705922e0499b7e14d"
+    },
+    {
+      "path": ".agent/workflows/create-mem-jog.md",
+      "category": "workflow",
+      "size_bytes": 3017,
+      "sha256": "46936d24add272fdae43660f9d59fa261bec17c7641ec8bc1ee471f9434281b3"
+    },
+    {
+      "path": ".agent/workflows/operate-chrizza-structured-credit-dossier-report.md",
+      "category": "workflow",
+      "size_bytes": 51452,
+      "sha256": "8c060d838e4b476e24117ecaf0c28a65c55f442d98d0e50e77f445ea493533f3"
+    },
+    {
+      "path": "DOCS/4_operate/Ops_Structured_Credit_CLO_Horizon_Dossier_20261026.html",
+      "category": "reference_dossier_html",
+      "size_bytes": 161817,
+      "sha256": "09be9a0e18c9f772b59bbdc4a2d58661a922aa93a9422d400c1ea8e7a5dff2c6"
+    },
+    {
+      "path": "DOCS/4_operate/Ops_Structured_Credit_CLO_Horizon_Dossier_20261028.html",
+      "category": "reference_dossier_html",
+      "size_bytes": 313995,
+      "sha256": "330cfb68181b8a170bb5c8c82af45adef8091212341d1253250da9de5c082c57"
+    },
+    {
+      "path": "DOCS/4_operate/Ops_Structured_Credit_CLO_Horizon_Dossier_20261029.html",
+      "category": "reference_dossier_html",
+      "size_bytes": 426751,
+      "sha256": "eb8a54845c2937de734f4cc816a93bd4d09531f7dc5a28d507170c42fab1d551"
+    },
+    {
+      "path": "DOCS/4_operate/Ops_Structured_Credit_CLO_Horizon_Dossier_20261031.html",
+      "category": "reference_dossier_html",
+      "size_bytes": 443448,
+      "sha256": "ca229b2eae31bbc646cff9773e984016bdd8cbda8901eb8e915c3c3b8915d443"
+    },
+    {
+      "path": "DOCS/4_operate/Ops_Structured_Credit_CLO_Horizon_Dossier_20261106.html",
+      "category": "reference_dossier_html",
+      "size_bytes": 504572,
+      "sha256": "57fed85a7a53304104f2fbb40f7ed14c017fea67ae0618f4b6263c0cf5620c4f"
+    },
+    {
+      "path": "DOCS/4_operate/Ops_Structured_Credit_CLO_Horizon_Dossier_20261107.html",
+      "category": "reference_dossier_html",
+      "size_bytes": 385154,
+      "sha256": "69a107d07c0041a4d6c850031fc7f980514aff8207e759c32564b67f28784a65"
+    },
+    {
+      "path": "DOCS/4_operate/templates/Ops_Structured_Credit_CLO_Horizon_Dossier_Template.html",
+      "category": "template_canonical",
+      "size_bytes": 47753,
+      "sha256": "86bac0e7b623cd9fadc413790c21ff81c08599f0b822bb7ae76af6e84590a481"
+    },
+    {
+      "path": "roc/DOCS/assets/images/chrizza_motif_v1.png",
+      "category": "persona_asset",
+      "size_bytes": 521074,
+      "sha256": "82a7da8bb2eeb8e41853839588074b307cfdf65bf5eab44b299a6dff0fec2a99"
+    },
+    {
+      "path": "roc/DOCS/assets/images/chrizza_v1.png",
+      "category": "persona_asset",
+      "size_bytes": 730587,
+      "sha256": "238ca8a088110b3973ff14a731055582ba0e6c30b8e705efa465f1b5aa5c05fe"
+    },
+    {
+      "path": "roc/DOCS/comms/chrizza/1_inbox/.gitkeep",
+      "category": "directory_scaffold",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "roc/DOCS/comms/chrizza/2_in-progress/.gitkeep",
+      "category": "directory_scaffold",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "roc/DOCS/comms/chrizza/3_archive/.gitkeep",
+      "category": "directory_scaffold",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "roc/DOCS/reports/Chrizza_CLO_Mezzanine_BBB_and_BB_Signal_Triggers_20261026.html",
+      "category": "reference_report",
+      "size_bytes": 28065,
+      "sha256": "c413b9f8b5fbb38f51cd94b67c232145b2f4f3f7ed838d50a657a981cc1b9767"
+    },
+    {
+      "path": "roc/config/structured_credit_intelligence_sources.json",
+      "category": "config_registry",
+      "size_bytes": 16879,
+      "sha256": "33c090da1eab6069a2f4de174e12c89b3a5fb916f14fc6bfc98bd5b5f89735a7"
+    },
+    {
+      "path": "roc/config/structured_credit_isin_watchlist.json",
+      "category": "config_watchlist",
+      "size_bytes": 7626,
+      "sha256": "92f5c735929473617b951543a668a9b97ce71d4d3d530139d8ecb6e98df5fe1f"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/chrizza_call_ledger.json",
+      "category": "call_ledger",
+      "size_bytes": 11198,
+      "sha256": "75f8f37188a49e0b4f54368e771a6e0c885f887b42182cc1d7ff324bc96ffc34"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/content/credit_content_20261026.json",
+      "category": "dossier_content",
+      "size_bytes": 41936,
+      "sha256": "1bcd22c795978508fb637ce933e4a4d162146e08dbb7e06af36c8fdb454c613e"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/content/credit_content_20261028.json",
+      "category": "dossier_content",
+      "size_bytes": 80306,
+      "sha256": "0daf8a6f7ae32547f67f1054c7a57df3d23b943ccff1112d3cdf009e83bebbff"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/content/credit_content_20261029.json",
+      "category": "dossier_content",
+      "size_bytes": 101884,
+      "sha256": "d8ab315d4f403b0b107dbdec92ba79a18161ccfc1ab84b0f0ce26a1a053c2d31"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/content/credit_content_20261031.json",
+      "category": "dossier_content",
+      "size_bytes": 105318,
+      "sha256": "f8bcda3c7cac0cb3bdd33980f85dd4faba0782b852e1cc817012488dad527ade"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/content/credit_content_20261106.json",
+      "category": "dossier_content",
+      "size_bytes": 111524,
+      "sha256": "c35913bc374721a81d4600c15fc70778ee00ecd2076977d3135b1961326342c8"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/content/credit_content_20261107.json",
+      "category": "dossier_content",
+      "size_bytes": 87021,
+      "sha256": "8cb2ccdda3f7610d864f484fc39695b12a963bcdadbb3822962004ab985dc329"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/content/fragments/20261107/brief.json",
+      "category": "dossier_fragment",
+      "size_bytes": 9740,
+      "sha256": "75e87505e5a87247b0c0c98a2deda74a7ceeda55663a382530ae33824e4341fe"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/content/fragments/20261107/figures.json",
+      "category": "dossier_fragment",
+      "size_bytes": 29384,
+      "sha256": "9d37e77e9369fc6ceb688881becc4987113b76fdb2a08a11c61f0a5d2ebd5620"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/content/fragments/20261107/tail.json",
+      "category": "dossier_fragment",
+      "size_bytes": 16881,
+      "sha256": "a008b4721f2f7955bb5b5a3126467bef0348352158c116fc78e17b6fa4bfe261"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/content/fragments/20261107/topics.json",
+      "category": "dossier_fragment",
+      "size_bytes": 27765,
+      "sha256": "a98849464408833f279015ad3d3a3bcd75529b1655d7c5801ee09594fb7c3168"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_bond_isins_20261029.json",
+      "category": "sealed_evidence",
+      "size_bytes": 8712,
+      "sha256": "6e8123cb1bf305b3900dbf4dba9a0aed73a33bb9058bb8a4cb324ecaf5417d05"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_bond_isins_20261031.json",
+      "category": "sealed_evidence",
+      "size_bytes": 8732,
+      "sha256": "23ebabc06e18e2765d94448f220bce8920e48eff7efd876c5c22f096e9d1a34b"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_bond_isins_20261106.json",
+      "category": "sealed_evidence",
+      "size_bytes": 8710,
+      "sha256": "a1cf3533e347a57cb9f1bcebca3c24a022ef2c5f68ccf57d4a2a53ec082389c2"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_bond_isins_20261107.json",
+      "category": "sealed_evidence",
+      "size_bytes": 8714,
+      "sha256": "d269605b11d6a3058af5562efd6dff3b86cd3a809f895cc4daefcf0b01ad3ede"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_clo_tranches_20261029.json",
+      "category": "sealed_evidence",
+      "size_bytes": 12851,
+      "sha256": "055fbca2031806ef4fc53981324abd3dfa5be44d326741197789c48a23fec1b5"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_clo_tranches_20261031.json",
+      "category": "sealed_evidence",
+      "size_bytes": 12851,
+      "sha256": "19837f15b41b52ff3fed1fbbf1b31a46593381b780f7439195a0593dfb54e5e1"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_clo_tranches_20261106.json",
+      "category": "sealed_evidence",
+      "size_bytes": 12851,
+      "sha256": "04b66fb0cfd6470efa584deb1827615d7d4887dfde6ff4c6e21e3803dc0eb4f7"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_clo_tranches_20261107.json",
+      "category": "sealed_evidence",
+      "size_bytes": 12851,
+      "sha256": "e814ea62e40b8419c9f52f05ca08d8ba2dea8c6fd82dc2451cbceef34a539d15"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_court_dockets_20261029.json",
+      "category": "sealed_evidence",
+      "size_bytes": 10491,
+      "sha256": "ab3ac9bacb25cffb8c8fd267a300719e3c2603d89aad2093cc552f8692bc506f"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_court_dockets_20261031.json",
+      "category": "sealed_evidence",
+      "size_bytes": 10486,
+      "sha256": "de31451fcd0b2e2391779aa80cd90c97d97ff9188807ea98d3000db526dae0a4"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_court_dockets_20261106.json",
+      "category": "sealed_evidence",
+      "size_bytes": 10489,
+      "sha256": "f2377149cf4d2aa145f1922cc9893b6c8c3931b1d65239b47509108c8c8936a1"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_court_dockets_20261107.json",
+      "category": "sealed_evidence",
+      "size_bytes": 10501,
+      "sha256": "9bc0f54308479c559c068229a2e9782dacbb7c1a3d013f50d85c23ea728e0c69"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_evidence_20261026.json",
+      "category": "sealed_evidence",
+      "size_bytes": 10217,
+      "sha256": "3f19b6049a7536637d1e9dffe417ac1d4e0c74ed85b3f3da959ce51d1c287e73"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_evidence_20261028.json",
+      "category": "sealed_evidence",
+      "size_bytes": 18320,
+      "sha256": "74e78f6c17d0e165748e4632142a1f818d2ad5615ef24fd8fcf6ac975193922a"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_evidence_20261029.json",
+      "category": "sealed_evidence",
+      "size_bytes": 29923,
+      "sha256": "c12ee5474791570a51473282e4d138dcb7349b5d27bc59360ba2e857121e1dc1"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_evidence_20261031.json",
+      "category": "sealed_evidence",
+      "size_bytes": 26260,
+      "sha256": "d2fd2893824cd41ad0495a98b25bf5b952d792596d022de53b6b50613b995a06"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_evidence_20261106.json",
+      "category": "sealed_evidence",
+      "size_bytes": 26530,
+      "sha256": "57871ade8ffae843f2106a4ab588f5ebe2b783d6d8348adb22fb6736217cb335"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_evidence_20261107.json",
+      "category": "sealed_evidence",
+      "size_bytes": 39494,
+      "sha256": "dd7d0131a687500f9c04dc50fb24c391f0538c18a3a1e3b54633c8b6f770da68"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_nbfi_bdc_20261029.json",
+      "category": "sealed_evidence",
+      "size_bytes": 10018,
+      "sha256": "80e33a267601a5a6f5e177209bcbaded2eaa28b161870a8668e982726bfe6639"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_nbfi_bdc_20261031.json",
+      "category": "sealed_evidence",
+      "size_bytes": 10010,
+      "sha256": "3f90628584f13d7503b32de738a79b50cdeac60731489c70ee906b177be7d7fb"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_nbfi_bdc_20261106.json",
+      "category": "sealed_evidence",
+      "size_bytes": 10053,
+      "sha256": "ecbb5c0940f70c64191c2ae03d2eecd98cffee12e8663f3d4fb4a72a271607a9"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_nbfi_bdc_20261107.json",
+      "category": "sealed_evidence",
+      "size_bytes": 10060,
+      "sha256": "bf1aeb4030e50093bdb7df8bcb38f04b5a115d55a2f02eecd9f6687b40bbae0e"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_quotes_20261028.json",
+      "category": "sealed_evidence",
+      "size_bytes": 4299,
+      "sha256": "f6c92ab73fa3dbbdf7b0b37425dbc43a36d6b2e8f5d0e42dbec9e741753812f8"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_quotes_20261029.json",
+      "category": "sealed_evidence",
+      "size_bytes": 4301,
+      "sha256": "45eacaf0249f3ff49313740adc6f69d8d14b65aab9f711879f9cfa37a085e043"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_quotes_20261031.json",
+      "category": "sealed_evidence",
+      "size_bytes": 4307,
+      "sha256": "04a9b9a12490e1a1c791b11699e5f2b89f3c5cb726bcd5f0526c83d6aeff465d"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_quotes_20261106.json",
+      "category": "sealed_evidence",
+      "size_bytes": 4298,
+      "sha256": "40849147bfdc07e508f4982590dd073b5b5a40723be8d0ef89acd84d614b90f1"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/evidence/credit_quotes_20261107.json",
+      "category": "sealed_evidence",
+      "size_bytes": 4304,
+      "sha256": "817158f4c1cd530d67f4a9869900ea2af2a91152b5ea35a8d1f61d93678e0063"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/inbox/dockets/.gitkeep",
+      "category": "directory_scaffold",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/inbox/trustee/.gitkeep",
+      "category": "directory_scaffold",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/ops_chrizza_content_builder.py",
+      "category": "ops_script",
+      "size_bytes": 13331,
+      "sha256": "7f29a61a549ac5da7661d806ce41cd7d00e446481d07f3db237c504107b6ea3c"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/ops_chrizza_dossier_common.py",
+      "category": "ops_script",
+      "size_bytes": 11430,
+      "sha256": "427b1b0e3e74a1d8ca5e023d69caa2ab611ba6a289e606ec73c65a24bc99c412"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/ops_chrizza_generate_credit_dossier.py",
+      "category": "ops_script",
+      "size_bytes": 76808,
+      "sha256": "234dceb4da76431be9f6b9cda8e3d2b3ee4f1ac33fc4c637c175eed1326cb82a"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/ops_chrizza_learning_ledger.py",
+      "category": "ops_script",
+      "size_bytes": 6635,
+      "sha256": "fd3858aefc981bd0c4eeb84250ef4e59fdb118432a3194e260181e8809a4b30e"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/ops_chrizza_pre_publish_guard.py",
+      "category": "ops_script",
+      "size_bytes": 44533,
+      "sha256": "410809c6a1a01e7a4b849af327c033edeb88ef91bdbae84a9e5d4b4a5b3c6a8b"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/ops_chrizza_sweep_bond_isins.py",
+      "category": "ops_script",
+      "size_bytes": 8129,
+      "sha256": "a816f8b3fafd2b0b4eed7e755cb473917f3819843898cc8a11d8897cbbf41d91"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/ops_chrizza_sweep_clo_nport.py",
+      "category": "ops_script",
+      "size_bytes": 13120,
+      "sha256": "767f793e83cd0e3bdee3245080c2a89a68867fb7a6aacada3308a23099c601cc"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/ops_chrizza_sweep_court_dockets.py",
+      "category": "ops_script",
+      "size_bytes": 7992,
+      "sha256": "bfb7c4429a144c3a85636c5c40f8a7e1bc717a4d2586f3b0d29b9b6a9666a814"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/ops_chrizza_sweep_nbfi_and_bdc.py",
+      "category": "ops_script",
+      "size_bytes": 14079,
+      "sha256": "e74995d473dbb5399c89df65d48ca9f14ab17dc76c159ebdd7d7162d76665a2e"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/templates/Ops_Structured_Credit_CLO_Horizon_Dossier_Template.html",
+      "category": "template_mirror",
+      "size_bytes": 47753,
+      "sha256": "86bac0e7b623cd9fadc413790c21ff81c08599f0b822bb7ae76af6e84590a481"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/test_ops_chrizza_dossier.py",
+      "category": "ops_script",
+      "size_bytes": 33693,
+      "sha256": "cd34cbf5770f8f54a665c8d9b74ee2ef656dd146ba31670ec00a666ecf1938a1"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/vectors/credit_vectors_20261028.json",
+      "category": "emitted_vectors",
+      "size_bytes": 4026,
+      "sha256": "da69c84da2161a4331a477c4c1f4c6e9ee9a43b36e361b4dc7ddfcf90755bb42"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/vectors/credit_vectors_20261029.json",
+      "category": "emitted_vectors",
+      "size_bytes": 4027,
+      "sha256": "c5c669a0bbe84c90079f5aaffaf66419ff97d1b4f2ff5e850d956fc1f05229b1"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/vectors/credit_vectors_20261031.json",
+      "category": "emitted_vectors",
+      "size_bytes": 4036,
+      "sha256": "94366f59ff0cac4a98e49ca2fd3417f66e1bd48fc7b3ae413a9f3432ce472983"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/vectors/credit_vectors_20261106.json",
+      "category": "emitted_vectors",
+      "size_bytes": 4037,
+      "sha256": "f722d62943cab9d54573f379f61ea4fda29d358f94203b93da30f60a12d1c5d8"
+    },
+    {
+      "path": "roc/scripts/ops_chrizza/vectors/credit_vectors_20261107.json",
+      "category": "emitted_vectors",
+      "size_bytes": 4655,
+      "sha256": "9375deec343e9ac39374acdbe6b501e021a9754cd786b205ce6cb3d4ccd8ef45"
+    },
+    {
+      "path": "sgc/config/credentials.toml.example",
+      "category": "config_credentials_template",
+      "size_bytes": 473,
+      "sha256": "664d3463554d0bf6821fd138d467e073fc94fcf79490f23f8b481a0219dbf03a"
+    },
+    {
+      "path": "sgc/crates/sgc-app/ui/src/app/sgc-top-status-bar.ts",
+      "category": "brand_asset",
+      "size_bytes": 20405,
+      "sha256": "a371bd8b60e3195b36d4cda6efdf82bba0e435cb518918803e04193f1fb959f1"
+    },
+    {
+      "path": "sgc/crates/sgc-app/ui/src/assets/infinix-brand-logo.svg",
+      "category": "brand_asset",
+      "size_bytes": 4639,
+      "sha256": "d87ec339ad6ef7a6d0323eb5952987335fa73482c67045e2a1e196fe3c932b66"
+    }
+  ],
+  "package_sha256": "41a411b8df26878cec25820802a0f0c41e4675166b02c71e1d93d93e655e51e0"
+}
