@@ -1,5 +1,17 @@
+# Core & Agents
 requests
 beautifulsoup4
 pydantic
-pytest
 feedparser
+
+# Backend API
+fastapi
+uvicorn
+
+# Data Science & Risk Math
+pandas
+numpy
+scipy
+
+# Testing
+pytest

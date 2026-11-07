@@ -1,5 +1,4 @@
 ---
----
 name: CLO Analyst
 description: Analyzes CLO market signals and maps them to bond investment decisions. Activated when user provides CLO news data or asks to analyze CLO market impact on portfolio positioning, credit quality, or specific deals.
 version: 1.0.0

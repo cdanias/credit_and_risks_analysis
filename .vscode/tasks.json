@@ -4,7 +4,7 @@
         {
             "label": "Save to GitHub",
             "type": "shell",
-            "command": "./save-to-github.sh",
+            "command": "./scripts/save-to-github.sh",
             "presentation": {
                 "reveal": "always",
                 "panel": "new"

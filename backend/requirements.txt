@@ -1,8 +1,0 @@
-# API Framework
-fastapi
-uvicorn
-
-# Data Science & Risk Math
-pandas
-numpy
-scipy

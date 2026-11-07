@@ -246,11 +246,25 @@ from fastapi.responses import HTMLResponse
 
 @app.get("/", response_class=HTMLResponse)
 async def get_dashboard():
-    dashboard_path = os.path.join(project_path, "clo-analyst-dashboard.html")
-    if os.path.exists(dashboard_path):
-        with open(dashboard_path, "r") as f:
-            return f.read()
+    for candidate in (
+        os.path.join(project_path, "frontend", "clo-analyst-dashboard.html"),
+        os.path.join(project_path, "clo-analyst-dashboard.html"),
+    ):
+        if os.path.exists(candidate):
+            with open(candidate, "r") as f:
+                return f.read()
     return "<h3>Dashboard HTML file not found</h3>"
+
+@app.get("/surveillance", response_class=HTMLResponse)
+async def get_surveillance_dashboard():
+    for candidate in (
+        os.path.join(project_path, "frontend", "surveillance_dashboard.html"),
+        os.path.join(project_path, "surveillance_dashboard.html"),
+    ):
+        if os.path.exists(candidate):
+            with open(candidate, "r") as f:
+                return f.read()
+    return "<h3>Surveillance Dashboard HTML file not found</h3>"
 
 @app.get("/health")
 async def health_check():

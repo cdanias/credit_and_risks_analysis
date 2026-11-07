@@ -1,12 +1,6 @@
 ---
-description: 
----
-
----
-name: CLO Pipeline
+name: clo-pipeline
 description: Full CLO monitoring pipeline - searches news, analyzes impact, critiques reasoning, and loops until analysis is solid or max iterations reached.
-trigger: /clo-pipeline
-version: 1.0.0
 ---
 
 # CLO Market Intelligence Pipeline

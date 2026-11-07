@@ -1,14 +1,5 @@
 ---
 name: CLO Critic
-description: Provides a skeptical, "devil's advocate" perspective on CLO market news and analyst recommendations. Identifies hidden risks, structural flaws, and "groupthink" in market commentary.
-version: 1.0.0
----
-
-# CLO Critic Skill
-
-[Placeholder for CLO Critic instructions]
----
-name: CLO Critic
 description: Adversarial challenger that stress-tests CLO Analyst reasoning. Activated when user asks to critique, challenge, or validate CLO analysis. Forces deeper thinking by identifying logical gaps, untested assumptions, and alternative interpretations.
 version: 1.0.0
 ---

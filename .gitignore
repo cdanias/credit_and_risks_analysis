@@ -2,10 +2,18 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.egg-info/
 .venv/
 env/
 venv/
 .env
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+
+# Backups
+*.bak
 
 # OS
 .DS_Store

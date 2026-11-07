@@ -4,10 +4,13 @@ Autonomous system for monitoring, analyzing, and stress-testing the CLO (Collate
 
 ## Project Structure
 
-- `src/agents/`: Core logic for AI agents (News Reader, Analyst, Critic).
-- `.agent/`: High-level instructions and skills for AI agents.
-- `docs/`: Technical documentation and architecture.
-- `tests/`: Automated test suite.
+- `.agent/skills/`: Antigravity agent skills (`clo-news-reader`, `clo-analyst`, `clo-critic`, `clo-pipeline`).
+- `src/agents/`: Core Python logic for AI agents (`news_reader`, `analyst`, `critic`) and pipeline runners.
+- `backend/`: FastAPI server (`main.py`) and risk calculation engine (`risk_engine/`).
+- `frontend/`: Interactive HTML dashboards (`clo-analyst-dashboard.html`, `surveillance_dashboard.html`).
+- `docs/`: Architecture, credit risk research, and analysis reports.
+- `scripts/`: Utility scripts (`save-to-github.sh`).
+- `tests/`: Automated pytest suite.
 
 ## Getting Started
 
@@ -19,9 +22,16 @@ Autonomous system for monitoring, analyzing, and stress-testing the CLO (Collate
    ```bash
    pytest
    ```
+3. Start the Backend API & Dashboard Server:
+   ```bash
+   python backend/main.py
+   ```
+   - Analyst Dashboard: `http://localhost:8000/`
+   - Surveillance Dashboard: `http://localhost:8000/surveillance`
 
-## Agents
+## Agents & Skills
 
-- **News Reader**: Fetches and parses market news.
-- **Analyst**: Analyzes trends and pricing.
-- **Critic**: Provides skeptical risk analysis and identifies structural flaws.
+- **CLO News Reader**: Fetches and parses market news and structured credit signals.
+- **CLO Analyst**: Maps market signals to bond positioning and credit impact assessments.
+- **CLO Critic**: Adversarial challenger that stress-tests Analyst reasoning and flags structural flaws.
+- **CLO Pipeline (`/clo-pipeline`)**: End-to-end iterative workflow across Reader → Analyst → Critic.

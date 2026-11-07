@@ -13,8 +13,14 @@ dependencies = [
     "beautifulsoup4",
     "pydantic",
     "pytest",
+    "feedparser",
+    "fastapi",
+    "uvicorn",
+    "pandas",
+    "numpy",
+    "scipy",
 ]
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
-pythonpath = ["src"]
+testpaths = ["tests", "backend/tests"]
+pythonpath = [".", "src"]
